@@ -128,7 +128,6 @@ ggplot(data = df_wiki) +
     coord_sf(expand = FALSE)
 
 # Get lat-longs for city locations
-ggmap::register_google("AIzaSyA_KWTGsDPcY1lRI2fUKtUuwsACpkXnpjc")
 ggmap::ggmap_hide_api_key()
 
 locations <- df_wiki$headquarters_locationLabel
