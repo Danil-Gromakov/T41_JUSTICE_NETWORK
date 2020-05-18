@@ -21,7 +21,8 @@ library(magrittr)
 library(ggplot2)
 ```
 
-# Load Data
+# Base data
+## Load
 ```{r message = FALSE}
 df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                                     sheet = "initiallist")
@@ -29,18 +30,13 @@ df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hP
 df <- janitor::clean_names(df)
 ```
 
-# Summarize basic info
+## Summarize basic info
 ```{r, fig.width = 16, fig.height = 16, warning = FALSE}
 DT::datatable(df)
-
-dataMaid::check(df)
-
-naniar::gg_miss_var(df)
-ExPanDaR::prepare_missing_values_graph(df, ts_id = "date_of_appointment")
 ```
 
-# SPARQL query
-## Run query
+## SPARQL query
+### Run query
 We can add covariates of interest from the wikidata pages for each member. Info we can reliable get for each person includes sex, date of birth, place of birth, occupation, and educated at.
 
 The output from R causes a bunch of messy string parsing. So it was copy-pasted into the query website to get a clean csv
@@ -147,7 +143,7 @@ qd <- SPARQL(endpoint,query,curl_args=list(useragent=useragent))
 df <- qd$results
 ```
 
-# Summarize info
+### Summarize info
 ```{r, message = FALSE}
 df_wiki <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                                     sheet = "wikidata")
@@ -182,8 +178,8 @@ df_wiki <- df_wiki %>% dplyr::group_by(id) %>%
 DT::datatable(df_wiki)
 ```
 
-# Initial stats
-## Sex or gender
+## Initial stats
+### Sex or gender
 ```{r, fig.width=16, fig.height=10}
 ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) + 
   geom_bar() + 
@@ -193,7 +189,7 @@ ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) +
         text = element_text(size = 24))
 ```
 
-## Age
+### Age
 ```{r}
 ggplot(df_wiki, aes(age, ..count..)) + 
   geom_histogram() + 
@@ -202,26 +198,12 @@ ggplot(df_wiki, aes(age, ..count..)) +
         text = element_text(size = 24))
 ```
 
-## School
-```{r}
-# To get counts per school we have to re-gather the split columns
-tab <- df_wiki %>%
-    tidyr::gather("id", "educated", educated_atLabel1, educated_atLabel2, educated_atLabel3) %>% 
-    dplyr::group_by(educated) %>%
-    dplyr::summarise(n = dplyr::n())
-
-# Drop NA row
-tab <- tab[complete.cases(tab), ]
-
-DT::datatable(tab)
-```
-
-# Merge wikidata with primary
+## Merge wikidata with base
 ```{r, warning = FALSE}
 df_full <- dplyr::left_join(df, df_wiki, by = c('wikidata_id' = 'id'))
 
 # Only keep non-redundant rows
-df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appointment", "barr_appointment", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age", "educated_atLabel1", "educated_atLabel2", "educated_atLabel3"))
+df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appointment", "barr_appointment", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age"))
 
 # Quick checks
 naniar::gg_miss_var(df_full)
@@ -229,9 +211,110 @@ naniar::gg_miss_var(df_full)
 DT::datatable(df_full)
 ```
 
-# Save
+## Save
 Save this version of the data as a new sheet on the original googledoc
 ```{r, message = FALSE}
 googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "mergedcode_noedit")
+df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/", "wikidata_list.csv"))
+```
+
+# Employment
+## Load
+```{r}
+work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "employment_prosecutors")
+
+work <- janitor::clean_names(work)
+```
+
+## Clean
+```{r}
+# Check any notes
+unique(work$notes)
+work$notes <- NULL
+
+# Check employer strings
+sort(unique(work$employer))
+
+# Fix start and end date
+work$start_date[work$start_date == "Unknown"] <- NA
+work$end_date[work$end_date == "Unknown"] <- NA
+```
+
+## Prep for network
+```{r}
+# Places of employment with the most unique attorneys
+work_count <- work %>% dplyr::select(attorney, employer) %>%
+  dplyr::distinct() %>%
+  dplyr::group_by(employer) %>%
+  dplyr::summarise(count = dplyr::n()) %>%
+  dplyr::filter(count > 1)
+
+DT::datatable(work_count)
+```
+
+## Save
+````{r}
+work <- work %>% dplyr::select(attorney, employer)
+googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "employmentprosecutors_noedit")
+
+work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "employment_hist.csv"))
+```
+
+# School
+## Load
+```{r}
+edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "school_prosecutors")
+
+edu <- janitor::clean_names(edu)
+```
+
+## Clean
+```{r}
+## Collapse degrees
+sort(unique(edu$degree))
+
+edu$degree[edu$degree == "AA" |
+             edu$degree == "AB" |
+             edu$degree == "BA" |
+             edu$degree == "BBA" |
+             edu$degree == "BS"] <- "bachelors"
+ 
+edu$degree[edu$degree == "LLM" |
+             edu$degree == "MA" |
+             edu$degree == "MMgt" |
+             edu$degree == "MPA" |
+             edu$degree == "MPhil" |
+             edu$degree == "MS"] <- "masters"
+
+edu$degree[edu$degree == "JD"] <- "law"
+
+sort(unique(edu$degree))
+```
+
+## Prep for network
+```{r}
+# Make wide
+edu <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
+  tidyr::spread(degree, educated_at_label)
+
+edu$`<NA>` <- NULL
+
+# Clean each school col
+sort(unique(edu$bachelors))
+sort(unique(edu$masters))
+sort(unique(edu$law))
+
+DT::datatable(edu)
+```
+
+## Save
+```{r}
+googlesheets4::write_sheet(edu, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "schoolprosecutors_noedit")
+
+edu <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
 ```
