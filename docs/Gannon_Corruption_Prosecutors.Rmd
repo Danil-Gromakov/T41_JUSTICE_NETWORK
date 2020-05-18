@@ -267,7 +267,8 @@ work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "empl
 ## Load
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "school_prosecutors")
+                                    sheet = "school_prosecutors",
+                                    col_types = "cccccnnnc")
 
 edu <- janitor::clean_names(edu)
 ```
@@ -298,23 +299,33 @@ sort(unique(edu$degree))
 ## Prep for network
 ```{r}
 # Make wide
-edu <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
-  tidyr::spread(degree, educated_at_label)
+edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
+  tidyr::spread(degree, educated_at_label) %>%
+  dplyr::select(item_label, bachelors, masters, law)
 
-edu$`<NA>` <- NULL
+edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score)
+
+edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_at_label")) %>%
+  dplyr::distinct()
 
 # Clean each school col
-sort(unique(edu$bachelors))
-sort(unique(edu$masters))
-sort(unique(edu$law))
+sort(unique(edu_all$bachelors))
+sort(unique(edu_all$masters))
+sort(unique(edu_all$law))
+```
 
-DT::datatable(edu)
+## Results
+```{r}
+DT::datatable(edu_all)
+
+GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabels = c("Law School Rank", "Law School Conservatism"))
+ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsecutors_network'))
 ```
 
 ## Save
 ```{r}
-googlesheets4::write_sheet(edu, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "schoolprosecutors_noedit")
 
-edu <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
+edu <- write.csv(edu_all, paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
 ```
