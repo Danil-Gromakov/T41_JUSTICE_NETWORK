@@ -48,8 +48,8 @@ df_staffers <- janitor::clean_names(df_staffers)
 Save this version of the data as a new sheet on the original googledoc
 ```{r, message = FALSE}
 googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "mergedcode_noedit")
-df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/", "wikidata_list.csv"))
+                           sheet = "mergedcode_justicedept_noedit")
+df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_merged.csv"))
 ```
 
 # Employment
@@ -93,7 +93,7 @@ work <- work %>% dplyr::select(attorney, employer)
 googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "justicedepartmentprosecutors_noedit")
 
-work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_employment_hist.csv"))
+work <- write.csv(work, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_employment_hist.csv"))
 ```
 
 # School
@@ -103,6 +103,22 @@ edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1h
                                     sheet = "school_justicedepartment")
 
 edu <- janitor::clean_names(edu)
+```
+
+### Temp
+```{r}
+work <- work %>% dplyr::select(attorney) %>%
+  dplyr::distinct()
+work$existing <- 1
+
+edu <- edu %>% dplyr::select(item_label) %>%
+  dplyr::distinct()
+
+combo <- dplyr::left_join(edu, work, by = c("item_label" = "attorney"))
+
+combo <- combo[is.na(combo$existing), ]
+combo <- write.csv(combo, paste0(here::here(), "/TrumpProsecutors_network/", "combo.csv"))
+
 ```
 
 ## Clean
@@ -164,42 +180,5 @@ ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsec
 googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "schooljusticedepartment_noedit")
 
-edu <- write.csv(edu_all, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_edu_hist.csv"))
+edu <- write.csv(edu_all, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_edu_hist.csv"))
 ```
-
-# Memberships
-## Load
-```{r}
-memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "memberships_prosecutors")
-
-memb <- janitor::clean_names(memb)
-```
-
-## Prep for network
-```{r}
-# Make wide
-memb_clean <- memb %>% dplyr::select(district, attorney, political_affiliation, dplyr::ends_with("_tie"))
-```
-
-## Results
-```{r}
-DT::datatable(memb_clean)
-
-memb_upset <- memb %>% dplyr::select(dplyr::ends_with("_tie")) %>%
-  dplyr::rename("Federalist Society" = federalist_society_tie, "Heritage Foundation" = heritage_foundation_tie, "NRA" = national_rifle_association_tie, "American Center for Law and Justice" = american_center_for_law_and_justice_tie, "Republican National Lawyers Association" = republican_national_lawyers_association_tie, "Christian Legal Society" = christian_legal_society_bar_association_tie)
-
-memb_upset <- as.data.frame(sapply(memb_upset, as.numeric))
-memb_upset[is.na(memb_upset)] <- 0
-
-UpSetR::upset(memb_upset,
-      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
-      mainbar.y.label = "Number of Prosecutors", order.by = "freq")
-```
-
-## Save
-```{r}
-googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "membershipprosecutors_noedit")
-
-memb <- write.csv(membership_all, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
