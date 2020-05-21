@@ -24,191 +24,24 @@ library(ggplot2)
 # Base data
 ## Load
 ```{r message = FALSE}
-df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "initiallist")
+df_agencies <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/agencies.csv'))
+df_outside <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/outside_government_positions.csv'))
+df_staffers <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/staffers.csv'))
 
-df <- janitor::clean_names(df)
+
+df_agencies <- janitor::clean_names(df_agencies)
+df_outside <- janitor::clean_names(df_outside)
+df_staffers <- janitor::clean_names(df_staffers)
 ```
 
-## Summarize basic info
+## Merge
 ```{r, fig.width = 16, fig.height = 16, warning = FALSE}
-DT::datatable(df)
+
 ```
 
-## SPARQL query
-### Run query
-We can add covariates of interest from the wikidata pages for each member. Info we can reliable get for each person includes sex, date of birth, place of birth, occupation, and educated at.
-
-The output from R causes a bunch of messy string parsing. So it was copy-pasted into the query website to get a clean csv
-```{r, eval = FALSE}
-library(SPARQL)
-library(ggplot2)
-
-endpoint <- "https://query.wikidata.org/sparql"
-query <- 'SELECT ?item ?itemLabel ?class ?classLabel ?sex_or_gender ?sex_or_genderLabel ?date_of_birth ?place_of_birth ?place_of_birthLabel ?occupation ?occupationLabel ?educated_at ?educated_atLabel WHERE {\n  VALUES ?item {\nwd:Q30508807
-\nwd:Q32178229
-\nwd:Q32171993
-\nwd:Q38831261
-\nwd:Q61750281
-\nwd:Q39439933
-\nwd:Q45916875
-\nwd:Q48926431
-\nwd:Q47457151
-\nwd:Q16146008
-\nwd:Q55238022
-\nwd:Q55238023
-\nwd:Q6230524
-\nwd:Q45915219
-\nwd:Q32059635
-\nwd:Q53062078
-\nwd:Q56284262
-\nwd:Q54951622
-\nwd:Q38864225
-\nwd:Q28840361
-\nwd:Q42308027
-\nwd:Q48927544
-\nwd:Q4865059
-\nwd:Q56284266
-\nwd:Q44532195
-\nwd:Q41593180
-\nwd:Q39515420
-\nwd:Q40222043
-\nwd:Q40234869
-\nwd:Q48791963
-\nwd:Q42422254
-\nwd:Q40338033
-\nwd:Q48673968
-\nwd:Q48926975
-\nwd:Q55238029
-\nwd:Q39064553
-\nwd:Q48675953
-\nwd:Q42310535
-\nwd:Q55238025
-\nwd:Q16221406
-\nwd:Q51741273
-\nwd:Q39505579
-\nwd:Q48926405
-\nwd:Q40342099
-\nwd:Q48977188
-\nwd:Q55584805
-\nwd:Q45914636
-\nwd:Q48743453
-\nwd:Q41536729
-\nwd:Q43380464
-\nwd:Q42319382
-\nwd:Q5307301
-\nwd:Q30519351
-\nwd:Q66448890
-\nwd:Q32034550
-\nwd:Q40460795
-\nwd:Q61941673
-\nwd:Q48471887
-\nwd:Q5233835
-\nwd:Q48740794
-\nwd:Q48688244
-\nwd:Q64747678
-\nwd:Q58008030
-\nwd:Q51858469
-\nwd:Q87001091
-\nwd:Q33633456
-\nwd:Q5300793
-\nwd:Q38946601
-\nwd:Q30453230
-\nwd:Q47499109
-\nwd:Q45713701
-\nwd:Q46303027
-\nwd:Q42331379
-\nwd:Q30529752
-\nwd:Q45714460
-\nwd:Q55584793
-\nwd:Q48926392
-\nwd:Q63700125
-\nwd:Q53063726
-\nwd:Q43381318
-\nwd:Q42346740
-\nwd:Q47484556
-\nwd:Q42353365
-\nwd:Q42351529
-\n  }
-\n  ?item wdt:P31 ?class.\n  
-OPTIONAL { ?item wdt:P21 ?sex_or_gender. }\n 
-OPTIONAL { ?item wdt:P569 ?date_of_birth. }\n  
-OPTIONAL { ?item wdt:P19 ?place_of_birth. }\n  
-OPTIONAL { ?item wdt:P106 ?occupation. }\n  
-OPTIONAL { ?item wdt:P69 ?educated_at. }\n  
-SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }\n}'
-useragent <- paste("WDQS-Example", R.version.string)
-
-qd <- SPARQL(endpoint,query,curl_args=list(useragent=useragent))
-df <- qd$results
-```
-
-### Summarize info
-```{r, message = FALSE}
-df_wiki <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "wikidata")
-```
-
-Extract wikidata IDs from SPARQL query for easier merging
+## Clean
 ```{r}
-df_wiki$id <- sub(".*entity/", "", df_wiki$item)
-```
 
-Subset wiki query to qualities of interest and do minor cleaning
-```{r}
-# Subset
-df_wiki <- df_wiki %>% dplyr::select(c("id", "itemLabel", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "educated_atLabel"))
-df_wiki <- unique(df_wiki)
-
-# Fix DoB type
-df_wiki$date_of_birth <- as.Date(df_wiki$date_of_birth)
-
-# Add age var
-age <- eeptools::age_calc(na.omit(df_wiki$date_of_birth), units = "years")
-df_wiki$age <- NA
-df_wiki$age[!is.na(df_wiki$date_of_birth)] <- age
-df_wiki$age <- round(df_wiki$age)
-
-# educated_at var should be in multiple columns so there's one row per prosecutor
-df_wiki <- df_wiki %>% dplyr::group_by(id) %>%
-       dplyr::mutate(rn = paste0("educated_atLabel", dplyr::row_number())) %>%
-       tidyr::spread(rn, educated_atLabel)
-
-# Examine
-DT::datatable(df_wiki)
-```
-
-## Initial stats
-### Sex or gender
-```{r, fig.width=16, fig.height=10}
-ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) + 
-  geom_bar() + 
-  labs(title = "Trump Prosecutors", x = "Sex or Gender", y = "Count", fill = "") + 
-  geom_text(stat = 'count', aes(label = ..count..), vjust = -1, size = 6) +
-  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
-        text = element_text(size = 24))
-```
-
-### Age
-```{r}
-ggplot(df_wiki, aes(age, ..count..)) + 
-  geom_histogram() + 
-  labs(title = "Trump Prosecutors", x = "Age", y = "Count", fill = "") + 
-  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
-        text = element_text(size = 24))
-```
-
-## Merge wikidata with base
-```{r, warning = FALSE}
-df_full <- dplyr::left_join(df, df_wiki, by = c('wikidata_id' = 'id'))
-
-# Only keep non-redundant rows
-df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appointment", "barr_appointment", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age"))
-
-# Quick checks
-naniar::gg_miss_var(df_full)
-
-DT::datatable(df_full)
 ```
 
 ## Save
@@ -223,7 +56,7 @@ df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/",
 ## Load
 ```{r}
 work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "employment_prosecutors")
+                                    sheet = "employment_justicedepartment")
 
 work <- janitor::clean_names(work)
 ```
@@ -258,17 +91,16 @@ DT::datatable(work_count)
 ````{r}
 work <- work %>% dplyr::select(attorney, employer)
 googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "employmentprosecutors_noedit")
+                           sheet = "justicedepartmentprosecutors_noedit")
 
-work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "employment_hist.csv"))
+work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_employment_hist.csv"))
 ```
 
 # School
 ## Load
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "school_prosecutors",
-                                    col_types = "cccccnnnc")
+                                    sheet = "school_justicedepartment")
 
 edu <- janitor::clean_names(edu)
 ```
@@ -286,12 +118,17 @@ edu$degree[edu$degree == "AA" |
  
 edu$degree[edu$degree == "LLM" |
              edu$degree == "MA" |
+             edu$degree == "MBA" |
              edu$degree == "MMgt" |
              edu$degree == "MPA" |
              edu$degree == "MPhil" |
              edu$degree == "MS"] <- "masters"
 
-edu$degree[edu$degree == "JD"] <- "law"
+edu$degree[edu$degree == "PhD" |
+             edu$degree == "EdD"] <- "doctorate"
+
+edu$degree[edu$degree == "JD" |
+             edu$degree == "LLB"] <- "law"
 
 sort(unique(edu$degree))
 ```
@@ -301,7 +138,7 @@ sort(unique(edu$degree))
 # Make wide
 edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
   tidyr::spread(degree, educated_at_label) %>%
-  dplyr::select(item_label, bachelors, masters, law)
+  dplyr::select(item_label, bachelors, masters, law, doctorate)
 
 edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score)
 
@@ -325,9 +162,9 @@ ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsec
 ## Save
 ```{r}
 googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "schoolprosecutors_noedit")
+                           sheet = "schooljusticedepartment_noedit")
 
-edu <- write.csv(edu_all, paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
+edu <- write.csv(edu_all, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_edu_hist.csv"))
 ```
 
 # Memberships

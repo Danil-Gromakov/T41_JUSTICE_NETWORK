@@ -268,7 +268,7 @@ work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "empl
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                                     sheet = "school_prosecutors",
-                                    col_types = "cccccnnnc")
+                                    col_types = "cccccnnncc")
 
 edu <- janitor::clean_names(edu)
 ```
@@ -365,4 +365,4 @@ UpSetR::upset(memb_upset,
 googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "membershipprosecutors_noedit")
 
-memb <- write.csv(membership_all, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
