@@ -19,53 +19,28 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 library(magrittr)
 library(ggplot2)
-```
-
-# Base data
-## Load
-```{r message = FALSE}
-df_agencies <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/agencies.csv'))
-df_outside <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/outside_government_positions.csv'))
-df_staffers <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/staffers.csv'))
-
-
-df_agencies <- janitor::clean_names(df_agencies)
-df_outside <- janitor::clean_names(df_outside)
-df_staffers <- janitor::clean_names(df_staffers)
-```
-
-## Merge
-```{r, fig.width = 16, fig.height = 16, warning = FALSE}
-
-```
-
-## Clean
-```{r}
-
-```
-
-## Save
-Save this version of the data as a new sheet on the original googledoc
-```{r, message = FALSE}
-googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "mergedcode_justicedept_noedit")
-df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/", "justicedept_merged.csv"))
+library(reticulate)
+use_python("/home/andres/.local/share/r-miniconda/envs/r-reticulate/bin/python3.6.exe")
 ```
 
 # Employment
-## Load
+## Googlesheet
+### Load
+We have 2 datasets for justice department employment info. The first is the google doc we have been manually curating and the second is the trump town employment data
 ```{r}
 work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                                     sheet = "employment_justicedepartment")
-
 work <- janitor::clean_names(work)
 ```
 
-## Clean
+### Clean
 ```{r}
 # Check any notes
 unique(work$notes)
 work$notes <- NULL
+
+# Subset to only senate appointments
+work <- work %>% dplyr::filter(senate_appt == 1)
 
 # Check employer strings
 sort(unique(work$employer))
@@ -73,6 +48,60 @@ sort(unique(work$employer))
 # Fix start and end date
 work$start_date[work$start_date == "Unknown"] <- NA
 work$end_date[work$end_date == "Unknown"] <- NA
+```
+
+## Trump town
+### Load
+```{r}
+df_staff <- read.csv(file = paste0(here::here(), '/network_WH_outOrganisations/trumptown_data-store_1019/trumptown_staffer_organizations.csv'))
+df_staff <- janitor::clean_names(df_staff)
+```
+
+### Clean
+```{r}
+# Subset to only attorneys
+df_staff <- df_staff %>% dplyr::filter(stringr::str_detect(position_title_1, stringr::regex("attorney", ignore_case = TRUE)) | stringr::str_detect(position_title_1, stringr::regex("solicitor", ignore_case = TRUE)))
+
+df_staff <- df_staff %>% dplyr::select(agency_name, position_title_1, staffer_name, name_organization, start_date, end_date, role_description) %>%
+  dplyr::rename(position_title = position_title_1, attorney = staffer_name, employer = name_organization, title = role_description) %>%
+  dplyr::distinct()
+
+df_staff$start_date <- format(as.Date(df_staff$start_date, format = "%Y-%m-%d"), "%Y")
+df_staff$start_date <- as.numeric(df_staff$start_date)
+
+df_staff$end_date <- format(as.Date(df_staff$end_date, format = "%Y-%m-%d"), "%Y")
+df_staff$end_date <- as.numeric(df_staff$end_date)
+
+df_staff$notes <- NA
+```
+
+## Push to googlesheet to get list of senate appts
+```{r}
+df_staff <- df_staff %>% dplyr::select(agency_name, position_title, attorney) %>%
+  dplyr::distinct()
+
+df_staff$senateappt <- NA
+
+googlesheets4::write_sheet(df_staff, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "trumptown_names")
+```
+
+## Merge
+```{r}
+work_list <- as.data.frame(unique(work$attorney)) %>% dplyr::rename("attorney" = "unique(work$attorney)")
+work_list$gsheet <- 1
+
+staff_list <- as.data.frame(unique(df_staff$attorney)) %>% dplyr::rename("attorney" = "unique(df_staff$attorney)")
+
+names <- dplyr::left_join(work_list, df_staff)
+```
+
+Combine the googlesheet justice department employment and the trump tower employment csv
+```{r}
+work_all <- dplyr::bind_rows(work, df_staff)
+
+# Fix employer string mismatches
+sort(unique(work_all$employer))
 ```
 
 ## Prep for network
@@ -100,25 +129,10 @@ work <- write.csv(work, paste0(here::here(), "/network_WH_outOrganisations/", "j
 ## Load
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "school_justicedepartment")
+                                    sheet = "school_justicedepartment",
+                                 col_types = "ccccnnnnc")
 
 edu <- janitor::clean_names(edu)
-```
-
-### Temp
-```{r}
-work <- work %>% dplyr::select(attorney) %>%
-  dplyr::distinct()
-work$existing <- 1
-
-edu <- edu %>% dplyr::select(item_label) %>%
-  dplyr::distinct()
-
-combo <- dplyr::left_join(edu, work, by = c("item_label" = "attorney"))
-
-combo <- combo[is.na(combo$existing), ]
-combo <- write.csv(combo, paste0(here::here(), "/TrumpProsecutors_network/", "combo.csv"))
-
 ```
 
 ## Clean
