@@ -1,0 +1,104 @@
+---
+title: "03 Combination"
+author: "J Andres Gannon, Danil Gromakov, Katelyn Hess, and Yulia Krylova"
+date: "May 2020"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+    toc_float: yes
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(ggplot2)
+```
+
+This document produces some descriptive summary statistics of the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
+
+# Load data
+```{r}
+prosecutors <- read.csv(file = paste0(here::here(), '/data/prosecutors_final.csv'))
+justicedept <- read.csv(file = paste0(here::here(), '/data/justicedept_final.csv'))
+```
+
+Combine into a single df
+```{r}
+# Check column names and fix for merging
+sort(colnames(prosecutors))
+sort(colnames(justicedept))
+
+prosecutors <- prosecutors %>% dplyr::rename(american_center_for_law_and_justice = american_center_for_law_and_justice_tie,
+                                             christian_legal_society_bar_association = christian_legal_society_bar_association_tie,
+                                             position_current = district,
+                                             employer_past = employer,
+                                             federalist_society = federalist_society_tie,
+                                             heritage_foundation = heritage_foundation_tie) %>%
+  dplyr::select(-c("X"))
+prosecutors$source <- "prosecutor"
+
+justicedept <- justicedept %>% dplyr::rename(position_current = agency_title,
+                                             employer_past = employer) %>%
+  dplyr::select(-c("X", "title", "agency_name"))
+justicedept$source <- "justicedept"
+
+df <- dplyr::bind_rows(prosecutors, justicedept) %>%
+  dplyr::select("person", "position_current", "source",
+                "date_of_appointment",
+                "date_of_birth", "age", "birthplace", "sex",
+                "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
+                "barr_appointment", "political_affiliation", 
+                "employer_past", "start_date", "end_date",
+                "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
+
+df_noemploy <- df %>% dplyr::select(-c("employer_past", "start_date", "end_date")) %>%
+  dplyr::distinct()
+```
+
+# Save merged data
+We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.
+```{r}
+write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
+write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
+```
+
+# Analyze data quality
+## Data Explorer
+```{r, fig.width = 16, fig.height = 16}
+DataExplorer::plot_qq(df_noemploy)
+```
+
+## dlookr
+```{r, fig.width = 12, fig.height = 16, warning=FALSE, error=FALSE}
+dlookr::plot_normality(df_noemploy)
+DT::datatable(dlookr::diagnose(df_noemploy))
+```
+
+## funModeling
+```{r, fig.width = 16, fig.height = 16}
+DT::datatable(funModeling::df_status(df_noemploy))
+funModeling::plot_num(df_noemploy)
+```
+
+## naniar
+```{r, fig.width = 16, fig.height = 8}
+naniar::gg_miss_var(df_noemploy)
+```
+
+## smartEDA
+```{r, fig.width = 16, fig.height = 16}
+SmartEDA::ExpNumViz(df_noemploy)
+```
+
+## visdat
+```{r, fig.width = 16, fig.height = 16}
+visdat::vis_miss(df_noemploy, sort_miss = TRUE)
+visdat::vis_dat(df_noemploy)
+```

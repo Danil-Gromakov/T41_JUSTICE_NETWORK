@@ -1,6 +1,6 @@
 ---
-title: "Prosecutors"
-author: "J Andres Gannon, Katelyn Hess, and Yulia Krylova"
+title: "01 Prosecutors"
+author: "J Andres Gannon, Danil Gromakov, Katelyn Hess, and Yulia Krylova"
 date: "May 2020"
 output:
   html_document:
@@ -20,6 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(magrittr)
 library(ggplot2)
 ```
+
+This document loads, cleans, and processes newly collected data on prosecutor's appointment during the Trump administration. We collect data on their demographic information, employment history, education history, and membership in various organizations to identify patterns in how these prosecutors were chosen.
 
 # Base data
 ## Load
@@ -404,11 +406,13 @@ memb <- memb %>% dplyr::select(-c("X")) %>%
 Since the only one with more columns is employment, we merge everything into that
 ```{r}
 full <- dplyr::left_join(employ, base)
-full <- dplyr::left_join(employ, edu)
-full <- dplyr::left_join(employ, memb)
+full <- dplyr::left_join(full, edu)
+full <- dplyr::left_join(full, memb)
+
+full <- full %>% dplyr::distinct()
 ```
 
 ## Save
 ```{r}
-full <- write.csv(full, paste0(here::here(), "/data/", "prosecutors_final.csv"))
+write.csv(full, paste0(here::here(), "/data/", "prosecutors_final.csv"))
 ```

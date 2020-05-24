@@ -1,336 +1,330 @@
-"","person","employer","start_date","end_date","district","political_affiliation","federalist_society_tie","heritage_foundation_tie","national_rifle_association_tie","american_center_for_law_and_justice_tie","republican_national_lawyers_association_tie","christian_legal_society_bar_association_tie"
-"1","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",2001,2017,NA,NA,NA,NA,NA,NA,NA,NA
-"2","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",1998,2001,NA,NA,NA,NA,NA,NA,NA,NA
-"3","Louis V. Franklin Sr.","Sirote and Permutt",1996,1998,NA,NA,NA,NA,NA,NA,NA,NA
-"4","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",1990,1996,NA,NA,NA,NA,NA,NA,NA,NA
-"5","Louis V. Franklin Sr.","Legal Services Corporation",1987,1990,NA,NA,NA,NA,NA,NA,NA,NA
-"6","Jay Town","County of Madison AL",2005,2017,"U.S. Attorney for the N.D. of Alabama","Republican",NA,NA,NA,NA,NA,NA
-"7","Jay Town","McElroy, Deutsch, Mulvaney & Carpenter",2002,2005,"U.S. Attorney for the N.D. of Alabama","Republican",NA,NA,NA,NA,NA,NA
-"8","Jay Town","(US) Marine Corps",NA,NA,"U.S. Attorney for the N.D. of Alabama","Republican",NA,NA,NA,NA,NA,NA
-"9","Richard W. Moore","Tenessee Valley Authority",2003,2017,"U.S. Attorney for the S.D. of Alabama","None",NA,NA,NA,NA,NA,NA
-"10","Richard W. Moore","United States Attorney's Office for the Southern District of Alabama",1985,2003,"U.S. Attorney for the S.D. of Alabama","None",NA,NA,NA,NA,NA,NA
-"11","Richard W. Moore","Private Practice",NA,1985,"U.S. Attorney for the S.D. of Alabama","None",NA,NA,NA,NA,NA,NA
-"12","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,2017,"U.S. Attorney for the District of Alaska",NA,NA,NA,NA,NA,NA,NA
-"13","Bryan Schroder","(US) Coast Guard",1991,2005,"U.S. Attorney for the District of Alaska",NA,NA,NA,NA,NA,NA,NA
-"14","Bryan Schroder","United States Attorney's Office for the District of Alaska",2005,NA,"U.S. Attorney for the District of Alaska",NA,NA,NA,NA,NA,NA,NA
-"15","Michael G. Bailey","Arizona Office of the Attorney General",2015,2019,"U.S. Attorney for the District of Arizona","Republican",NA,NA,NA,NA,NA,NA
-"16","Michael G. Bailey","Private Practice",NA,NA,"U.S. Attorney for the District of Arizona","Republican",NA,NA,NA,NA,NA,NA
-"17","Michael G. Bailey","County of Maricopa AZ",1998,2004,"U.S. Attorney for the District of Arizona","Republican",NA,NA,NA,NA,NA,NA
-"18","J. Cody Hiland","20th Judicial District of Arkansas",2010,2017,"U.S. Attorney for the E.D. of Arkansas",NA,NA,NA,NA,NA,NA,NA
-"19","J. Cody Hiland","Hiland, Thomas & Cox PLLC",NA,NA,"U.S. Attorney for the E.D. of Arkansas",NA,NA,NA,NA,NA,NA,NA
-"20","J. Cody Hiland","Arkansas Public Service Commission",NA,NA,"U.S. Attorney for the E.D. of Arkansas",NA,NA,NA,NA,NA,NA,NA
-"21","J. Cody Hiland","Arkansas Transitional Employment Board",NA,NA,"U.S. Attorney for the E.D. of Arkansas",NA,NA,NA,NA,NA,NA,NA
-"22","J. Cody Hiland","State of Arkansas, Office of the Governor",NA,NA,"U.S. Attorney for the E.D. of Arkansas",NA,NA,NA,NA,NA,NA,NA
-"23","Duane Kees","Wal-Mart Stores Inc",NA,2017,"U.S. Attorney for the W.D. of Arkansas","Republican",1,NA,1,1,NA,NA
-"24","Duane Kees","US Army Judge Advocate General's Corp",2001,2008,"U.S. Attorney for the W.D. of Arkansas","Republican",1,NA,1,1,NA,NA
-"25","Duane Kees","Bell Law Firm",2000,2001,"U.S. Attorney for the W.D. of Arkansas","Republican",1,NA,1,1,NA,NA
-"26","Duane Kees","ASA Hutchinson Law Group PLC",NA,NA,"U.S. Attorney for the W.D. of Arkansas","Republican",1,NA,1,1,NA,NA
-"27","Nicola T. Hanna","Gibson Dunn & Crutcher LLP",NA,2017,"U.S. Attorney for the C.D. of California","Republican",NA,NA,NA,NA,NA,NA
-"28","Nicola T. Hanna","United States Attorney's Office for the Southern District of California",1995,1998,"U.S. Attorney for the C.D. of California","Republican",NA,NA,NA,NA,NA,NA
-"29","Nicola T. Hanna","United States Attorney's Office for the Central District of California",1990,1994,"U.S. Attorney for the C.D. of California","Republican",NA,NA,NA,NA,NA,NA
-"30","McGregor W. Scott","Orrick, Herrington & Sutcliffe LLP",2009,2017,"U.S. Attorney for the E.D. of California","Republcian",1,NA,NA,NA,NA,NA
-"31","McGregor W. Scott","United States Attorney's Office for the Eastern District of California",2003,2009,"U.S. Attorney for the E.D. of California","Republcian",1,NA,NA,NA,NA,NA
-"32","McGregor W. Scott","County of Shasta CA",1997,2003,"U.S. Attorney for the E.D. of California","Republcian",1,NA,NA,NA,NA,NA
-"33","McGregor W. Scott","County of Contra Costa CA",1989,1997,"U.S. Attorney for the E.D. of California","Republcian",1,NA,NA,NA,NA,NA
-"34","David L. Anderson","Sidley Austin LLP",2010,NA,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"35","David L. Anderson","United States Attorney's Office for the Northern District of California",2008,2010,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"36","David L. Anderson","Pillbury Winthrop Shaw Pittman LLP",2005,2008,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"37","David L. Anderson","Pillsburg Winshop LLP",2005,2005,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"38","David L. Anderson","United States Attorney's Office for the Northern District of California",1998,2002,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"39","David L. Anderson","Iran - US Claims Tribunal",1992,1993,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"40","David L. Anderson","United States Supreme Court",1991,1992,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"41","David L. Anderson","United States Court of Appeals for the Ninth Circuit",1990,1991,"U.S. Attorney for the N.D. of California",NA,1,NA,NA,NA,NA,NA
-"42","Robert S. Brewer Jr.","Seltzer Caplan McMahon Vitek ALC",NA,NA,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"43","Robert S. Brewer Jr.","Jones Day LLP",2009,2014,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"44","Robert S. Brewer Jr.","McKenna Long & Aldridge LLP",1991,2009,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"45","Robert S. Brewer Jr.","Private Practice",1982,1991,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"46","Robert S. Brewer Jr.","United States Attorney's Office for the Central District of California",1977,1982,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"47","Robert S. Brewer Jr.","County of Los Angeles CA",1975,1977,"U.S. Attorney for the S.D. of California",NA,1,NA,NA,NA,NA,NA
-"48","Jason R. Dunn","Brownstein Hyatt Farber Schreck LLP",NA,NA,"U.S. Attorney for the District of Colorado",NA,NA,NA,NA,NA,NA,NA
-"49","Jason R. Dunn","Colorado Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Colorado",NA,NA,NA,NA,NA,NA,NA
-"50","Jason R. Dunn","Colorado Supreme Court",NA,NA,"U.S. Attorney for the District of Colorado",NA,NA,NA,NA,NA,NA,NA
-"51","John Durham","United States Attorney's Office for the District of Connecticut",1998,2017,"U.S. Attorney for the District of Connecticut","None",NA,NA,NA,NA,NA,NA
-"52","John Durham","United States Attorney's Office for the District of Connecticut",1997,1998,"U.S. Attorney for the District of Connecticut","None",NA,NA,NA,NA,NA,NA
-"53","John Durham","United States Attorney's Office for the District of Connecticut",NA,1997,"U.S. Attorney for the District of Connecticut","None",NA,NA,NA,NA,NA,NA
-"54","David C. Weiss","United States Attorney's Office for the District of Delaware",2011,2017,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"55","David C. Weiss","United States Attorney's Office for the District of Delaware",2009,2011,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"56","David C. Weiss","United States Attorney's Office for the District of Delaware",2007,2009,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"57","David C. Weiss","Siegfried Group LLP",1999,2007,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"58","David C. Weiss","Duane Morris LLP",1989,1999,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"59","David C. Weiss","United States Attorney's Office for the District of Delaware",1986,1989,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"60","David C. Weiss","Delaware Supreme Court",1984,1986,"U.S. Attorney for the District of Delaware","None",NA,NA,NA,NA,NA,NA
-"61","Jessie K. Liu","United States Department of the Treasury",2017,2017,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"62","Jessie K. Liu","Jenner & Block LLP",2009,2016,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"63","Jessie K. Liu","United States Attorney's Office for the District of Columbia",2002,2006,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"64","Jessie K. Liu","Jenner & Block LLP",1999,2002,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"65","Jessie K. Liu","United States Court of Appeals for the Fifth Circuit",1998,1999,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"66","Jessie K. Liu","Morrison & Foerster LLP",2016,NA,"U.S. Attorney for the District of Columbia",NA,1,1,NA,NA,NA,NA
-"67","Maria Chapa Lopez","United States Department of Justice",2016,2018,"U.S. Attorney for the M.D. of Florida","Republican",NA,NA,NA,NA,NA,NA
-"68","Maria Chapa Lopez","United States Attorney's Office for the Middle District of Florida",2000,2016,"U.S. Attorney for the M.D. of Florida","Republican",NA,NA,NA,NA,NA,NA
-"69","Maria Chapa Lopez","US Army Judge Advocate General's Corp",NA,2000,"U.S. Attorney for the M.D. of Florida","Republican",NA,NA,NA,NA,NA,NA
-"70","Larry Keefe","Keefe, Anchors & Gordon PA",NA,NA,"U.S. Attorney for the N.D. of Florida","Democrat",NA,NA,NA,NA,NA,NA
-"71","Ariana Fajardo Orshan","Eleventh Circuit Court of Florida",2012,2018,"U.S. Attorney for the S.D. of Florida",NA,1,NA,NA,NA,NA,NA
-"72","Ariana Fajardo Orshan","Wilson Elser Moskowitz Edelman & Dicker LLP",NA,NA,"U.S. Attorney for the S.D. of Florida",NA,1,NA,NA,NA,NA,NA
-"73","Ariana Fajardo Orshan","County of Miami-Dade FL",NA,NA,"U.S. Attorney for the S.D. of Florida",NA,1,NA,NA,NA,NA,NA
-"74","Charles Peeler","Flynn, Peeler & Phillips LLP",NA,NA,"U.S. Attorney for the M.D. of Georgia",NA,NA,NA,NA,NA,NA,NA
-"75","Charles Peeler","King & Spalding LLP",NA,2005,"U.S. Attorney for the M.D. of Georgia",NA,NA,NA,NA,NA,NA,NA
-"76","B.J. Pak","Georgia House of Representatives",2010,2017,"U.S. Attorney for the N.D. of Georgia","Republican",NA,NA,NA,NA,NA,NA
-"77","B.J. Pak","Private Practice",2008,2017,"U.S. Attorney for the N.D. of Georgia","Republican",NA,NA,NA,NA,NA,NA
-"78","B.J. Pak","United States Attorney's Office for the Northern District of Georgia",2002,2008,"U.S. Attorney for the N.D. of Georgia","Republican",NA,NA,NA,NA,NA,NA
-"79","B.J. Pak","United States District Court for the Central District of Illinois",1998,2000,"U.S. Attorney for the N.D. of Georgia","Republican",NA,NA,NA,NA,NA,NA
-"80","Bobby Christine","County of Columbia SC",NA,NA,"U.S. Attorney for the S.D. of Georgia",NA,1,NA,NA,NA,NA,NA
-"81","Bobby Christine","Christine and Evans LLC",NA,NA,"U.S. Attorney for the S.D. of Georgia",NA,1,NA,NA,NA,NA,NA
-"82","Bobby Christine","City of Augusta GA",NA,NA,"U.S. Attorney for the S.D. of Georgia",NA,1,NA,NA,NA,NA,NA
-"83","Bobby Christine","US Army Judge Advocate General's Corp",NA,NA,"U.S. Attorney for the S.D. of Georgia",NA,1,NA,NA,NA,NA,NA
-"84","Kenji M. Price","Alston Hunt Floyd & Ing",NA,2018,"U.S. Attorney for the District of Hawaii","Republican",1,NA,NA,NA,NA,NA
-"85","Kenji M. Price","Carlsmith Ball LLP",NA,NA,"U.S. Attorney for the District of Hawaii","Republican",1,NA,NA,NA,NA,NA
-"86","Kenji M. Price","Carlsmith Ball LLP",NA,NA,"U.S. Attorney for the District of Hawaii","Republican",1,NA,NA,NA,NA,NA
-"87","Bart Davis","Idaho State Senate",1998,2017,"U.S. Attorney for the District of Idaho","Republican",1,NA,NA,NA,NA,NA
-"88","Bart Davis","Private Practice",NA,NA,"U.S. Attorney for the District of Idaho","Republican",1,NA,NA,NA,NA,NA
-"89","John C. Milhiser","County of Sangamon IL",2010,2018,"U.S. Attorney for the C.D. of Illinois","Republican",NA,NA,NA,NA,NA,NA
-"90","John C. Milhiser","County of Sangamon IL",2008,2010,"U.S. Attorney for the C.D. of Illinois","Republican",NA,NA,NA,NA,NA,NA
-"91","John C. Milhiser","Private Practice",2003,2008,"U.S. Attorney for the C.D. of Illinois","Republican",NA,NA,NA,NA,NA,NA
-"92","John C. Milhiser","County of Sangamon IL",1997,2003,"U.S. Attorney for the C.D. of Illinois","Republican",NA,NA,NA,NA,NA,NA
-"93","John R. Lausch Jr.","Kirkland & Ellis LLP",2010,2017,"U.S. Attorney for the N.D. of Illinois","None",NA,NA,NA,NA,NA,NA
-"94","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",2005,2010,"U.S. Attorney for the N.D. of Illinois","None",NA,NA,NA,NA,NA,NA
-"95","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",1999,2005,"U.S. Attorney for the N.D. of Illinois","None",NA,NA,NA,NA,NA,NA
-"96","John R. Lausch Jr.","Kirkland & Ellis LLP",1997,1999,"U.S. Attorney for the N.D. of Illinois","None",NA,NA,NA,NA,NA,NA
-"97","John R. Lausch Jr.","United States Court of Appeals for the Seventh Circuit",1996,1997,"U.S. Attorney for the N.D. of Illinois","None",NA,NA,NA,NA,NA,NA
-"98","Thomas Kirsch","Winston & Strawn LLP",2008,2017,"U.S. Attorney for the N.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"99","Thomas Kirsch","United States Attorney's Office for the Northern District of Indiana",2001,2008,"U.S. Attorney for the N.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"100","Thomas Kirsch","United States Department of Justice",2006,2007,"U.S. Attorney for the N.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"101","Thomas Kirsch","United States District Court for the Southern District of Indiana",2000,2001,"U.S. Attorney for the N.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"102","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",2015,2017,"U.S. Attorney for the S.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"103","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",2014,2015,"U.S. Attorney for the S.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"104","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2014,"U.S. Attorney for the S.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"105","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",1994,NA,"U.S. Attorney for the S.D. of Indiana",NA,NA,NA,NA,NA,NA,NA
-"106","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",2015,2017,"U.S. Attorney for the N.D. of Iowa","Republican",NA,NA,NA,NA,NA,NA
-"107","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",2006,2015,"U.S. Attorney for the N.D. of Iowa","Republican",NA,NA,NA,NA,NA,NA
-"108","Peter Deegan","United States Attorney's Office for the Eastern District of Michigan",2004,2006,"U.S. Attorney for the N.D. of Iowa","Republican",NA,NA,NA,NA,NA,NA
-"109","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",1998,2004,"U.S. Attorney for the N.D. of Iowa","Republican",NA,NA,NA,NA,NA,NA
-"110","Marc Krickbaum","United States Attorney's Office for the Northern District of Illinois",NA,2017,"U.S. Attorney for the S.D. of Iowa","None",NA,NA,NA,NA,NA,NA
-"111","Marc Krickbaum","United States Department of Justice",NA,2008,"U.S. Attorney for the S.D. of Iowa","None",NA,NA,NA,NA,NA,NA
-"112","Marc Krickbaum","United States Attorney's Office for the Southern District of Iowa",2009,NA,"U.S. Attorney for the S.D. of Iowa","None",NA,NA,NA,NA,NA,NA
-"113","Stephen McAllister","University of Kansas School of Law",NA,NA,"U.S. Attorney for the District of Kansas",NA,1,NA,NA,NA,NA,NA
-"114","Stephen McAllister","Kansas Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Kansas",NA,1,NA,NA,NA,NA,NA
-"115","Stephen McAllister","United States Supreme Court",NA,NA,"U.S. Attorney for the District of Kansas",NA,1,NA,NA,NA,NA,NA
-"116","Stephen McAllister","United States Appeals Court for the Seventh Circuit",NA,NA,"U.S. Attorney for the District of Kansas",NA,1,NA,NA,NA,NA,NA
-"117","Robert M. Duncan Jr.","United States Attorney's Office for the Eastern District of Kentucky",2005,2017,"U.S. Attorney for the E.D. of Kentucky","Republcian",1,NA,NA,NA,NA,NA
-"118","Robert M. Duncan Jr.","United States District Court for the Eastern District of Michigan",NA,NA,"U.S. Attorney for the E.D. of Kentucky","Republcian",1,NA,NA,NA,NA,NA
-"119","Russell Coleman","Frost Brown Todd LLC",2015,2017,"U.S. Attorney for the W.D. of Kentucky","Republican",NA,NA,NA,NA,NA,NA
-"120","Russell Coleman","US Senate",2010,2015,"U.S. Attorney for the W.D. of Kentucky","Republican",NA,NA,NA,NA,NA,NA
-"121","Russell Coleman","(US) Federal Bureau of Investigation",NA,NA,"U.S. Attorney for the W.D. of Kentucky","Republican",NA,NA,NA,NA,NA,NA
-"122","Brandon Fremin","Louisiana Office of the Attorney General",NA,2018,"U.S. Attorney for the M.D. of Louisiana","None",NA,NA,NA,NA,NA,NA
-"123","Brandon Fremin","United States Attorney's Office for the Middle District of Louisiana",NA,NA,"U.S. Attorney for the M.D. of Louisiana","None",NA,NA,NA,NA,NA,NA
-"124","Brandon Fremin","19th Judicial District LA",NA,NA,"U.S. Attorney for the M.D. of Louisiana","None",NA,NA,NA,NA,NA,NA
-"125","Brandon Fremin","(US) Marine Corps",1994,2002,"U.S. Attorney for the M.D. of Louisiana","None",NA,NA,NA,NA,NA,NA
-"126","David C. Joseph","United States Attorney's Office for the Western District of Louisiana",NA,2018,"U.S. Attorney for the W.D. of Louisiana","Republican",NA,NA,NA,NA,NA,NA
-"127","David C. Joseph","Kane Russell Coleman Logan PC",NA,NA,"U.S. Attorney for the W.D. of Louisiana","Republican",NA,NA,NA,NA,NA,NA
-"128","Peter G. Strasser","Chaffe McCall LLP",NA,2018,"U.S. Attorney for the E.D. of Louisiana",NA,NA,NA,NA,NA,NA,NA
-"129","Peter G. Strasser","United States Attorney's Office for the Eastern District of Louisiana",NA,NA,"U.S. Attorney for the E.D. of Louisiana",NA,NA,NA,NA,NA,NA,NA
-"130","Peter G. Strasser","United States Department of Justice",NA,NA,"U.S. Attorney for the E.D. of Louisiana",NA,NA,NA,NA,NA,NA,NA
-"131","Peter G. Strasser","(US) Department of the Navy",NA,NA,"U.S. Attorney for the E.D. of Louisiana",NA,NA,NA,NA,NA,NA,NA
-"132","Halsey Frank","United States Attorney's Office for the District of Maine",1999,2017,"U.S. Attorney for the District of Maine",NA,NA,NA,NA,NA,NA,NA
-"133","Halsey Frank","United States Attorney's Office for the District of Columbia",1990,1999,"U.S. Attorney for the District of Maine",NA,NA,NA,NA,NA,NA,NA
-"134","Halsey Frank","United States Department of Justice",1987,1990,"U.S. Attorney for the District of Maine",NA,NA,NA,NA,NA,NA,NA
-"135","Robert K. Hur","United States Department of Justice",2017,2018,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"136","Robert K. Hur","King & Spalding LLP",2014,2017,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"137","Robert K. Hur","United States Attorney's Office for the District of Maryland",2007,2014,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"138","Robert K. Hur","United States Supreme Court",NA,NA,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"139","Robert K. Hur","United States Department of Justice",NA,NA,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"140","Robert K. Hur","United States Court of Appeals for the Ninth Circuit",NA,NA,"U.S. Attorney for the District of Maryland",NA,1,NA,NA,NA,NA,NA
-"141","Andrew Lelling","United States Attorney's Office for the District of Massachusetts",NA,2017,"U.S. Attorney for the District of Massachusetts","Republican",1,NA,NA,NA,NA,NA
-"142","Andrew Lelling","United States District Court for the Southern District of Georgia",1994,1995,"U.S. Attorney for the District of Massachusetts","Republican",1,NA,NA,NA,NA,NA
-"143","Andrew Lelling","Goodwin Procter LLP",NA,NA,"U.S. Attorney for the District of Massachusetts","Republican",1,NA,NA,NA,NA,NA
-"144","Andrew Lelling","LeBoeuf Lamb Greene & MacRae LLP",NA,NA,"U.S. Attorney for the District of Massachusetts","Republican",1,NA,NA,NA,NA,NA
-"145","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"146","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"147","Matthew J. Schneider","Michigan Supreme Court",NA,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"148","Matthew J. Schneider","Michigan State University Law School",2012,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"149","Matthew J. Schneider","United States Attorney's Office for the Eastern District of Michigan",2003,2011,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"150","Matthew J. Schneider","White House Office of Management and Budget",NA,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"151","Matthew J. Schneider","Wiley Rein",NA,NA,"U.S. Attorney for the E.D. of Michigan",NA,1,NA,NA,NA,NA,NA
-"152","Thomas L. Leonard III","MiStrategies",2018,NA,"U.S. Attorney for the W.D. of Michigan","Republican",NA,NA,NA,NA,NA,NA
-"153","Thomas L. Leonard III","Michigan House of Representatives",2012,2018,"U.S. Attorney for the W.D. of Michigan","Republican",NA,NA,NA,NA,NA,NA
-"154","Thomas L. Leonard III","Michigan Office of the Attorney General",NA,NA,"U.S. Attorney for the W.D. of Michigan","Republican",NA,NA,NA,NA,NA,NA
-"155","Thomas L. Leonard III","County of Genesee MI",NA,NA,"U.S. Attorney for the W.D. of Michigan","Republican",NA,NA,NA,NA,NA,NA
-"156","Erica MacDonald","Minnesota First Judicial District",2009,2018,"U.S. Attorney for the District of Minnesota","Republican",NA,NA,NA,NA,NA,NA
-"157","Erica MacDonald","United States Attorney's Office for the Northern District of Illinois",2000,2009,"U.S. Attorney for the District of Minnesota","Republican",NA,NA,NA,NA,NA,NA
-"158","Erica MacDonald","Kirkland & Ellis LLP",1999,2000,"U.S. Attorney for the District of Minnesota","Republican",NA,NA,NA,NA,NA,NA
-"159","Erica MacDonald","United States District Court for the Northern District of Illinois",1997,1999,"U.S. Attorney for the District of Minnesota","Republican",NA,NA,NA,NA,NA,NA
-"160","Jeffrey Jensen","Husch Blackwell LLP",2013,2017,"U.S. Attorney for the E.D. of Missouri",NA,NA,NA,NA,NA,NA,NA
-"161","Jeffrey Jensen","Private Practice",2010,2013,"U.S. Attorney for the E.D. of Missouri",NA,NA,NA,NA,NA,NA,NA
-"162","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",2006,2009,"U.S. Attorney for the E.D. of Missouri",NA,NA,NA,NA,NA,NA,NA
-"163","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",1999,2006,"U.S. Attorney for the E.D. of Missouri",NA,NA,NA,NA,NA,NA,NA
-"164","Jeffrey Jensen","Pricewaterhousecoopers LLP",1988,NA,"U.S. Attorney for the E.D. of Missouri",NA,NA,NA,NA,NA,NA,NA
-"165","Timothy A. Garrison","United States Attorney's Office for the Western District of Missouri",2007,2018,"U.S. Attorney for the W.D. of Missouri","Republican",1,NA,NA,NA,1,NA
-"166","Timothy A. Garrison","United State Department of Defense",NA,NA,"U.S. Attorney for the W.D. of Missouri","Republican",1,NA,NA,NA,1,NA
-"167","Timothy A. Garrison","(US) Marine Corps",NA,NA,"U.S. Attorney for the W.D. of Missouri","Republican",1,NA,NA,NA,1,NA
-"168","Kurt Alme","Yellowstone Boys & Girls Ranch",2013,2017,"U.S. Attorney for the District of Montana","Republican",NA,NA,NA,NA,NA,NA
-"169","Kurt Alme","Yellowstone Boys & Girls Ranch",2010,2013,"U.S. Attorney for the District of Montana","Republican",NA,NA,NA,NA,NA,NA
-"170","Kurt Alme","United States Attorney's Office for the District of Montana",2006,2010,"U.S. Attorney for the District of Montana","Republican",NA,NA,NA,NA,NA,NA
-"171","Kurt Alme","United States Attorney's Office for the District of Montana",2001,2006,"U.S. Attorney for the District of Montana","Republican",NA,NA,NA,NA,NA,NA
-"172","Joseph P. Kelly","County of Lancaster NE",2011,2018,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"173","Joseph P. Kelly","County of Lancaster NE",2011,2018,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"174","Joseph P. Kelly","County of Lancaster NE",2010,2011,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"175","Joseph P. Kelly","County of Lancaster NE",1990,2000,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"176","Joseph P. Kelly","Berniger, Berg and Diver PC",1987,1990,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"177","Joseph P. Kelly","County of Lancaster NE",1981,1986,"U.S. Attorney for the District of Nebraska","Republican",NA,NA,NA,NA,NA,NA
-"178","Nicholas A. Trutanich","Nevada Office of the Attorney General",NA,2019,"U.S. Attorney for the District of Nevada","Democrat",NA,NA,NA,NA,NA,NA
-"179","Nicholas A. Trutanich","United States Department of Justice",NA,NA,"U.S. Attorney for the District of Nevada","Democrat",NA,NA,NA,NA,NA,NA
-"180","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,"U.S. Attorney for the District of Nevada","Democrat",NA,NA,NA,NA,NA,NA
-"181","Nicholas A. Trutanich","Private Practice",NA,NA,"U.S. Attorney for the District of Nevada","Democrat",NA,NA,NA,NA,NA,NA
-"182","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,"U.S. Attorney for the District of Nevada","Democrat",NA,NA,NA,NA,NA,NA
-"183","Scott W. Murray","County of Merrimack NH",2010,2018,"U.S. Attorney for the District of New Hampshire","Republican",NA,NA,NA,NA,NA,NA
-"184","Scott W. Murray","City of Concord NH",1983,2011,"U.S. Attorney for the District of New Hampshire","Republican",NA,NA,NA,NA,NA,NA
-"185","John C. Anderson","Holland & Hart LLP",2013,2018,"U.S. Attorney for the District of New Mexico","Republican",NA,NA,NA,NA,NA,NA
-"186","John C. Anderson","United States Attorney's Office for the District of New Mexico",2008,2013,"U.S. Attorney for the District of New Mexico","Republican",NA,NA,NA,NA,NA,NA
-"187","John C. Anderson","Simpson Thacher & Bartlett LLP",2004,2008,"U.S. Attorney for the District of New Mexico","Republican",NA,NA,NA,NA,NA,NA
-"188","John C. Anderson","United States Court of Appeals for the Tenth Circuit",2003,2004,"U.S. Attorney for the District of New Mexico","Republican",NA,NA,NA,NA,NA,NA
-"189","Robert Higdon Jr.","Williams Mullen",2015,2017,"U.S. Attorney for the E.D. of North Carolina",NA,NA,NA,NA,NA,NA,NA
-"190","Robert Higdon Jr.","United States Department of Justice",2014,2015,"U.S. Attorney for the E.D. of North Carolina",NA,NA,NA,NA,NA,NA,NA
-"191","Robert Higdon Jr.","United States Attorney's Office for the Eastern District of North Carolina",2002,2013,"U.S. Attorney for the E.D. of North Carolina",NA,NA,NA,NA,NA,NA,NA
-"192","Matthew Martin","Duke Energy Corp",2013,2018,"U.S. Attorney for the M.D. of North Carolina","Republican",NA,NA,NA,NA,NA,NA
-"193","Matthew Martin","Smith Anderson Blount Dorsett Mitchell & Jernigan LLP",2006,2013,"U.S. Attorney for the M.D. of North Carolina","Republican",NA,NA,NA,NA,NA,NA
-"194","Matthew Martin","Covington & Burling LLP",2004,2006,"U.S. Attorney for the M.D. of North Carolina","Republican",NA,NA,NA,NA,NA,NA
-"195","R. Andrew Murray","County of Mecklenburg NC",NA,NA,"U.S. Attorney for the W.D. of North Carolina","Republican",NA,NA,NA,NA,NA,NA
-"196","R. Andrew Murray","Private Practice",1992,2017,"U.S. Attorney for the W.D. of North Carolina","Republican",NA,NA,NA,NA,NA,NA
-"197","Drew Wrigley","State of North Dakota",2010,2016,"U.S. Attorney for the District of North Dakota","Republican",NA,NA,1,NA,NA,NA
-"198","Drew Wrigley","Noridian Administrative Services",2009,2010,"U.S. Attorney for the District of North Dakota","Republican",NA,NA,1,NA,NA,NA
-"199","Drew Wrigley","United States Attorney's Office for the District of North Dakota",2001,2009,"U.S. Attorney for the District of North Dakota","Republican",NA,NA,1,NA,NA,NA
-"200","Drew Wrigley","State of North Dakota, Office of the Governor",2000,2001,"U.S. Attorney for the District of North Dakota","Republican",NA,NA,1,NA,NA,NA
-"201","Drew Wrigley","City of Philadelphia",NA,NA,"U.S. Attorney for the District of North Dakota","Republican",NA,NA,1,NA,NA,NA
-"202","Justin Herdman","Jones Day LLP",2013,2017,"U.S. Attorney for the N.D. of Ohio",NA,1,NA,NA,NA,NA,NA
-"203","Justin Herdman","United States Attorney's Office for the Northern District of Ohio",2010,2013,"U.S. Attorney for the N.D. of Ohio",NA,1,NA,NA,NA,NA,NA
-"204","Justin Herdman","United States Attorney's Office for the Southern District of Ohio",2006,2010,"U.S. Attorney for the N.D. of Ohio",NA,1,NA,NA,NA,NA,NA
-"205","Justin Herdman","County of New York NY",2001,2005,"U.S. Attorney for the N.D. of Ohio",NA,1,NA,NA,NA,NA,NA
-"206","David M. DeVillers","United States Attorney's Office for the Southern District of Ohio",NA,NA,"U.S. Attorney for the S.D. Ohio","Republican",NA,NA,NA,NA,NA,NA
-"207","David M. DeVillers","United States Department of Justice",2010,2018,"U.S. Attorney for the S.D. Ohio","Republican",NA,NA,NA,NA,NA,NA
-"208","Brian Kuester","District 27 OK",2010,2017,"U.S. Attorney for the E.D. of Oklahoma","Republican",NA,NA,NA,NA,NA,NA
-"209","Brian Kuester","Allstate Insurance Co",2008,2010,"U.S. Attorney for the E.D. of Oklahoma","Republican",NA,NA,NA,NA,NA,NA
-"210","Brian Kuester","County of Tulsa County OK",2003,2008,"U.S. Attorney for the E.D. of Oklahoma","Republican",NA,NA,NA,NA,NA,NA
-"211","Brian Kuester","Robinette & Osmond",2000,2003,"U.S. Attorney for the E.D. of Oklahoma","Republican",NA,NA,NA,NA,NA,NA
-"212","R. Trent Shores","United States Attorney's Office for the Northern District of Oklahoma",2007,2017,"U.S. Attorney for the N.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"213","R. Trent Shores","Oklahoma Office of the Attorney General",2015,2015,"U.S. Attorney for the N.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"214","R. Trent Shores","United States Department of Justice",NA,NA,"U.S. Attorney for the N.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"215","Timothy J. Downing","Oklahoma House of Representatives",2016,2018,"U.S. Attorney for the W.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"216","Timothy J. Downing","United States Attorney's Office for the Western District of Texas",2011,2016,"U.S. Attorney for the W.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"217","Timothy J. Downing","US Army Judge Advocate General's Corp",2011,NA,"U.S. Attorney for the W.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"218","Timothy J. Downing","Oklahoma Office of the Attorney General",2011,2016,"U.S. Attorney for the W.D. of Oklahoma","Republican",1,NA,NA,NA,NA,NA
-"219","Billy J. Williams","United States Attorney's Office for the District of Oregon",2015,NA,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"220","Billy J. Williams","United States Attorney's Office for the District of Oregon",2015,2015,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"221","Billy J. Williams","United States Attorney's Office for the District of Oregon",2015,2015,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"222","Billy J. Williams","United States Attorney's Office for the District of Oregon",2010,2015,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"223","Billy J. Williams","United States Attorney's Office for the District of Oregon",2007,2010,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"224","Billy J. Williams","United States Attorney's Office for the District of Oregon",2000,2007,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"225","Billy J. Williams","County of Multnomah OR",1999,2000,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"226","Billy J. Williams","County of Multnomah OR",1990,1999,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"227","Billy J. Williams","County of Multnomah OR",1989,1990,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"228","Billy J. Williams","United States Attorney's Office for the District of Oregon",1988,1989,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"229","Billy J. Williams","United States Attorney's Office for the District of Oregon",1987,1988,"U.S. Attorney for the District of Oregon","Republican",NA,NA,NA,NA,NA,NA
-"230","David Freed","County of Cumberland PA",2006,2017,"U.S. Attorney for the M.D. of Pennsylvania","Republican",NA,NA,NA,NA,NA,NA
-"231","David Freed","County of Cumberland PA",2001,2006,"U.S. Attorney for the M.D. of Pennsylvania","Republican",NA,NA,NA,NA,NA,NA
-"232","David Freed","County of Cumberland PA",1998,2001,"U.S. Attorney for the M.D. of Pennsylvania","Republican",NA,NA,NA,NA,NA,NA
-"233","David Freed","County of York PA",1997,1998,"U.S. Attorney for the M.D. of Pennsylvania","Republican",NA,NA,NA,NA,NA,NA
-"234","David Freed","Private Practice",NA,NA,"U.S. Attorney for the M.D. of Pennsylvania","Republican",NA,NA,NA,NA,NA,NA
-"235","Scott Brady","Federated Investors Inc",NA,2017,"U.S. Attorney for the W.D. of Pennsylvania",NA,NA,NA,NA,NA,NA,NA
-"236","Scott Brady","United States Attorney's Office for the Western District of Pennsylvania",2004,2010,"U.S. Attorney for the W.D. of Pennsylvania",NA,NA,NA,NA,NA,NA,NA
-"237","Scott Brady","Jones Day LLP",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania",NA,NA,NA,NA,NA,NA,NA
-"238","Scott Brady","University of Pittsburgh School of Law",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania",NA,NA,NA,NA,NA,NA,NA
-"239","Scott Brady","Reed Smith LLP",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania",NA,NA,NA,NA,NA,NA,NA
-"240","William M. McSwain","Drinker Biddle & Reath LLP",NA,2018,"U.S. Attorney for the E.D. of Pennsylvania","Republican",1,NA,NA,NA,NA,NA
-"241","William M. McSwain","United States Attorney's Office for the Eastern District of Pennsylvania",2003,2006,"U.S. Attorney for the E.D. of Pennsylvania","Republican",1,NA,NA,NA,NA,NA
-"242","William M. McSwain","United States Court of Appeals for the Third Circuit",NA,NA,"U.S. Attorney for the E.D. of Pennsylvania","Republican",1,NA,NA,NA,NA,NA
-"243","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2018,2019,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"244","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2017,2018,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"245","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2013,2017,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"246","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2001,2013,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"247","W. Stephen Muldrow","United States Attorney's Office for the District of Puerto Rico",1995,2001,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"248","W. Stephen Muldrow","United States Department of Justice",1989,1995,"U.S. Attorney for the District of Puerto Rico",NA,NA,NA,NA,NA,NA,NA
-"249","Aaron L. Weisman","Rhode Island Office of the Attorney General",1993,2019,"U.S. Attorney for the District of Rhode Island","Republican",NA,NA,NA,NA,NA,NA
-"250","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Rhode Island","Republican",NA,NA,NA,NA,NA,NA
-"251","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Rhode Island","Republican",NA,NA,NA,NA,NA,NA
-"252","Aaron L. Weisman","Jones Associates",NA,NA,"U.S. Attorney for the District of Rhode Island","Republican",NA,NA,NA,NA,NA,NA
-"253","Sherri Lydon","United States Attorney's Office for the District of South Carolina",2018,2019,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"254","Sherri Lydon","Private Practice",2005,2018,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"255","Sherri Lydon","South Carolina Office of the Attorney General",2003,2004,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"256","Sherri Lydon","Private Practice",1995,2003,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"257","Sherri Lydon","Private Practice",1993,1995,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"258","Sherri Lydon","United States Attorney's Office for the District of South Carolina",1990,1993,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"259","Sherri Lydon","Private Practice",1987,1990,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"260","Sherri Lydon","Nexsen Pruet LLC",NA,1990,"U.S. Attorney for the District of South Carolina","None",NA,NA,NA,NA,NA,NA
-"261","Peter M. McCoy Jr.","South Carolina House of Represenatives",2011,2020,"U.S. Attorney for the District of South Carolina","Republican",NA,NA,1,NA,NA,NA
-"262","Peter M. McCoy Jr.","McCoy & Stokes",NA,NA,"U.S. Attorney for the District of South Carolina","Republican",NA,NA,1,NA,NA,NA
-"263","Peter M. McCoy Jr.","South Carolina Office of the Solictor for the Ninth Judicial Circuit",NA,NA,"U.S. Attorney for the District of South Carolina","Republican",NA,NA,1,NA,NA,NA
-"264","Ron A. Parsons Jr.","Johnson Heidepriem & Abdallah LLP",NA,2017,"U.S. Attorney for the District of South Dakota","Republican",NA,NA,NA,NA,NA,NA
-"265","Ron A. Parsons Jr.","United States Court of Appeals for the Eighth Circuit",NA,NA,"U.S. Attorney for the District of South Dakota","Republican",NA,NA,NA,NA,NA,NA
-"266","Doug Overbey","Tennessee State Senate",2009,2017,"U.S. Attorney for the E.D. of Tennessee","Republican",NA,NA,NA,NA,NA,NA
-"267","Doug Overbey","Tennessee House of Represenatives",2008,2009,"U.S. Attorney for the E.D. of Tennessee","Republican",NA,NA,NA,NA,NA,NA
-"268","Doug Overbey","Robertson Overbey",1982,2017,"U.S. Attorney for the E.D. of Tennessee","Republican",NA,NA,NA,NA,NA,NA
-"269","Donald Q. Cochran","Belmont Law School",2012,2017,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"270","Donald Q. Cochran","Cumberland School of Law",2002,2012,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"271","Donald Q. Cochran","United States Attorney's Office for the Northern District of Alabama",1998,2002,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"272","Donald Q. Cochran","County of Jefferson AL",NA,NA,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"273","Donald Q. Cochran","United States District Court for the Northern District of Georgia",NA,NA,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"274","Donald Q. Cochran","(US) Army",NA,NA,"U.S. Attorney for the M.D. of Tennessee",NA,1,NA,NA,NA,NA,NA
-"275","D. Michael Dunavant","25th Judicial District TN",2006,2017,"U.S. Attorney for the W.D. of Tennessee","None",NA,NA,NA,NA,NA,NA
-"276","D. Michael Dunavant","Carney, Wilder & Dunavant",1995,2006,"U.S. Attorney for the W.D. of Tennessee","None",NA,NA,NA,NA,NA,NA
-"277","Joseph D. Brown","County of Grayson TX",2018,2018,"U.S. Attorney for the E.D. of Texas","Republican",NA,NA,1,NA,NA,NA
-"278","Joseph D. Brown","Texas Juvenile Justice Department",2009,2014,"U.S. Attorney for the E.D. of Texas","Republican",NA,NA,1,NA,NA,NA
-"279","Joseph D. Brown","Cowles and Thompson",NA,NA,"U.S. Attorney for the E.D. of Texas","Republican",NA,NA,1,NA,NA,NA
-"280","Erin Nealy Cox","McKinsey & Company",NA,2017,"U.S. Attorney for the N.D. of Texas","None",1,NA,NA,NA,NA,NA
-"281","Erin Nealy Cox","Stroz Friedberg LLC",2008,2016,"U.S. Attorney for the N.D. of Texas","None",1,NA,NA,NA,NA,NA
-"282","Erin Nealy Cox","United States Attorney's Office for the Northern District of Texas",1999,2008,"U.S. Attorney for the N.D. of Texas","None",1,NA,NA,NA,NA,NA
-"283","Erin Nealy Cox","United States Court of Appeals for the Fifth Circuit",NA,NA,"U.S. Attorney for the N.D. of Texas","None",1,NA,NA,NA,NA,NA
-"284","Erin Nealy Cox","United States District Court for the Northern District of Texas",NA,NA,"U.S. Attorney for the N.D. of Texas","None",1,NA,NA,NA,NA,NA
-"285","Ryan Patrick","Hoover Slovacek LLP",2017,2017,"U.S. Attorney for the S.D. of Texas","Republican",1,NA,NA,NA,NA,1
-"286","Ryan Patrick","Private Practice",2017,2017,"U.S. Attorney for the S.D. of Texas","Republican",1,NA,NA,NA,NA,1
-"287","Ryan Patrick","Texas 177th District Court",2012,2016,"U.S. Attorney for the S.D. of Texas","Republican",1,NA,NA,NA,NA,1
-"288","Ryan Patrick","County of Harris TX",2005,2012,"U.S. Attorney for the S.D. of Texas","Republican",1,NA,NA,NA,NA,1
-"289","Ryan Patrick","Harris County Republican Party",2002,2004,"U.S. Attorney for the S.D. of Texas","Republican",1,NA,NA,NA,NA,1
-"290","John Bash","(US) Office of President",2017,2017,"U.S. Attorney for the W.D. of Texas",NA,1,NA,NA,NA,NA,NA
-"291","John Bash","United States Department of Justice",2012,2017,"U.S. Attorney for the W.D. of Texas",NA,1,NA,NA,NA,NA,NA
-"292","John Bash","Gibson Dunn & Crutcher LLP",NA,2012,"U.S. Attorney for the W.D. of Texas",NA,1,NA,NA,NA,NA,NA
-"293","John Bash","United States Court of Appeals for the District of Columbia Circuit",2006,2007,"U.S. Attorney for the W.D. of Texas",NA,1,NA,NA,NA,NA,NA
-"294","John Bash","United States Supreme Court",NA,NA,"U.S. Attorney for the W.D. of Texas",NA,1,NA,NA,NA,NA,NA
-"295","John W. Huber","United States Attorney's Office for the District of Utah",2012,2015,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"296","John W. Huber","United States Attorney's Office for the District of Utah",2005,2012,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"297","John W. Huber","United States Attorney's Office for the District of Utah",2002,2005,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"298","John W. Huber","City of West Valley City UT",1999,2004,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"299","John W. Huber","City of West Valley City UT",1996,1999,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"300","John W. Huber","County of Weber UT",1995,1996,"U.S. Attorney for the District of Utah",NA,NA,NA,NA,NA,NA,NA
-"301","Christina E. Nolan","United States Attorney's Office for the District of Vermont",2010,2017,"U.S. Attorney for the District of Vermont","None",NA,NA,NA,NA,NA,NA
-"302","Christina E. Nolan","Goodwin Procter LLP",2005,2009,"U.S. Attorney for the District of Vermont","None",NA,NA,NA,NA,NA,NA
-"303","Christina E. Nolan","County of Middlesex MA",NA,NA,"U.S. Attorney for the District of Vermont","None",NA,NA,NA,NA,NA,NA
-"304","Christina E. Nolan","United States District Court of Massachusetts",NA,NA,"U.S. Attorney for the District of Vermont","None",NA,NA,NA,NA,NA,NA
-"305","G. Zachary Terwilliger","United States Attorney's Office for the Eastern District of Virginia",2010,NA,"U.S. Attorney for the E.D. of Virginia",NA,1,NA,NA,NA,NA,NA
-"306","G. Zachary Terwilliger","United States District Court for the Southern District of Florida",NA,2008,"U.S. Attorney for the E.D. of Virginia",NA,1,NA,NA,NA,NA,NA
-"307","Thomas T. Cullen","Woods Rogers PLC",NA,2018,"U.S. Attorney for the W.D. of Virginia","None",1,NA,NA,NA,1,NA
-"308","Thomas T. Cullen","United States Attorney's Office for the Western District of Virginia",NA,NA,"U.S. Attorney for the W.D. of Virginia","None",1,NA,NA,NA,1,NA
-"309","Thomas T. Cullen","United States Attorney's Office for the Western District of North Carolina",NA,NA,"U.S. Attorney for the W.D. of Virginia","None",1,NA,NA,NA,1,NA
-"310","Thomas T. Cullen","United States Court of Appeals for the Fourth Circuit",NA,NA,"U.S. Attorney for the W.D. of Virginia","None",1,NA,NA,NA,1,NA
-"311","Thomas T. Cullen","United States District Court for the Eastern District of Michigan",NA,NA,"U.S. Attorney for the W.D. of Virginia","None",1,NA,NA,NA,1,NA
-"312","William D. Hyslop","Lukins & Annis PS",1993,2019,"U.S. Attorney for the E.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"313","William D. Hyslop","United States Attorney's Office for the Eastern District of Washington",1991,1993,"U.S. Attorney for the E.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"314","William D. Hyslop","Lukins & Annis PS",1984,1991,"U.S. Attorney for the E.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"315","William D. Hyslop","Lukins & Annis PS",1980,1983,"U.S. Attorney for the E.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"316","Brian T. Moran","Orrick, Herrington & Sutcliffe LLP",2013,2018,"U.S. Attorney for the W.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"317","Brian T. Moran","Washington Office of the Attorney General",2006,2013,"U.S. Attorney for the W.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"318","Brian T. Moran","Washington Office of the Attorney General",1998,2006,"U.S. Attorney for the W.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"319","Brian T. Moran","County of Kitsap WA",1989,1998,"U.S. Attorney for the W.D. of Washington",NA,NA,NA,NA,NA,NA,NA
-"320","William Powell","County of Jefferson WV",NA,2017,"U.S. Attorney for the N.D. of West Virginia","None",NA,NA,1,NA,NA,NA
-"321","William Powell","United States Attorney's Office for the Southern District of West Virginia",NA,NA,"U.S. Attorney for the N.D. of West Virginia","None",NA,NA,1,NA,NA,NA
-"322","William Powell","Jackson Kelly PLLC",NA,NA,"U.S. Attorney for the N.D. of West Virginia","None",NA,NA,1,NA,NA,NA
-"323","Michael B. Stuart","Steptoe & Johnson PLLC",NA,2018,"U.S. Attorney for the S.D. of West Virginia","Republican",NA,NA,NA,NA,NA,NA
-"324","Michael B. Stuart","Republican Party of West Virginia",2010,2012,"U.S. Attorney for the S.D. of West Virginia","Republican",NA,NA,NA,NA,NA,NA
-"325","Matthew Krueger","Steptoe & Johnson PLLC",2013,2018,"U.S. Attorney for the E.D. of Wisconsin","Republican",1,NA,NA,NA,NA,NA
-"326","Matthew Krueger","Sidley Austin LLP",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","Republican",1,NA,NA,NA,NA,NA
-"327","Matthew Krueger","United States Department of Justice",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","Republican",1,NA,NA,NA,NA,NA
-"328","Matthew Krueger","United States Court of Appeals for the Fourth Circuit",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","Republican",1,NA,NA,NA,NA,NA
-"329","Scott Blader","County of Waushara WI",2007,2017,"U.S. Attorney for the W.D. of Wisconsin","Republican",NA,NA,NA,NA,NA,NA
-"330","Scott Blader","Private Practice",1999,2007,"U.S. Attorney for the W.D. of Wisconsin","Republican",NA,NA,NA,NA,NA,NA
-"331","Mark Klassen","United States Attorney's Office for the District of Wyoming",NA,2017,NA,NA,NA,NA,NA,NA,NA,NA
-"332","Mark Klassen","United States Department of Homeland Security",2007,2009,NA,NA,NA,NA,NA,NA,NA,NA
-"333","Mark Klassen","US House of Representatives",2003,2007,NA,NA,NA,NA,NA,NA,NA,NA
-"334","Mark Klassen","Latham & Watkins",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"335","Mark Klassen","United States Court of Appeals for the Tenth Circuit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"","person","employer","start_date","end_date","district","date_of_appointment","barr_appointment","sex","date_of_birth","birthplace","age","bachelors","masters","law","law_rank","law_conservative_score","political_affiliation","federalist_society_tie","heritage_foundation_tie","national_rifle_association_tie","american_center_for_law_and_justice_tie","republican_national_lawyers_association_tie","christian_legal_society_bar_association_tie"
+"1","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",2001,2017,"U.S. Attorney for the M.D. of Alabama","2017-09-21",0,"male","1958-01-01","Montgomery",62,"University of Alabama","Auburn University at Montgomery","Howard University School of Law",148,NA,NA,NA,NA,NA,NA,NA,NA
+"2","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",1998,2001,"U.S. Attorney for the M.D. of Alabama","2017-09-21",0,"male","1958-01-01","Montgomery",62,"University of Alabama","Auburn University at Montgomery","Howard University School of Law",148,NA,NA,NA,NA,NA,NA,NA,NA
+"3","Louis V. Franklin Sr.","Sirote and Permutt",1996,1998,"U.S. Attorney for the M.D. of Alabama","2017-09-21",0,"male","1958-01-01","Montgomery",62,"University of Alabama","Auburn University at Montgomery","Howard University School of Law",148,NA,NA,NA,NA,NA,NA,NA,NA
+"4","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",1990,1996,"U.S. Attorney for the M.D. of Alabama","2017-09-21",0,"male","1958-01-01","Montgomery",62,"University of Alabama","Auburn University at Montgomery","Howard University School of Law",148,NA,NA,NA,NA,NA,NA,NA,NA
+"5","Louis V. Franklin Sr.","Legal Services Corporation",1987,1990,"U.S. Attorney for the M.D. of Alabama","2017-09-21",0,"male","1958-01-01","Montgomery",62,"University of Alabama","Auburn University at Montgomery","Howard University School of Law",148,NA,NA,NA,NA,NA,NA,NA,NA
+"6","Jay Town","County of Madison AL",2005,2017,"U.S. Attorney for the N.D. of Alabama","2017-08-11",0,"male","1973-08-26",NA,47,"University of Notre Dame",NA,"Seton Hall University",64,91,"Republican",NA,NA,NA,NA,NA,NA
+"7","Jay Town","McElroy, Deutsch, Mulvaney & Carpenter",2002,2005,"U.S. Attorney for the N.D. of Alabama","2017-08-11",0,"male","1973-08-26",NA,47,"University of Notre Dame",NA,"Seton Hall University",64,91,"Republican",NA,NA,NA,NA,NA,NA
+"8","Jay Town","(US) Marine Corps",NA,NA,"U.S. Attorney for the N.D. of Alabama","2017-08-11",0,"male","1973-08-26",NA,47,"University of Notre Dame",NA,"Seton Hall University",64,91,"Republican",NA,NA,NA,NA,NA,NA
+"9","Richard W. Moore","Tenessee Valley Authority",2003,2017,"U.S. Attorney for the S.D. of Alabama","2017-09-22",0,"male","1952-01-01","Bartow",68,"Spring Hill College",NA,"Cumberland School of Law",148,160,"None",NA,NA,NA,NA,NA,NA
+"10","Richard W. Moore","United States Attorney's Office for the Southern District of Alabama",1985,2003,"U.S. Attorney for the S.D. of Alabama","2017-09-22",0,"male","1952-01-01","Bartow",68,"Spring Hill College",NA,"Cumberland School of Law",148,160,"None",NA,NA,NA,NA,NA,NA
+"11","Richard W. Moore","Private Practice",NA,1985,"U.S. Attorney for the S.D. of Alabama","2017-09-22",0,"male","1952-01-01","Bartow",68,"Spring Hill College",NA,"Cumberland School of Law",148,160,"None",NA,NA,NA,NA,NA,NA
+"12","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,2017,"U.S. Attorney for the District of Alaska","2017-11-21",0,"male","1959-02-03",NA,61,"United States Coast Guard Academy",NA,"University of Washington School of Law",29,59,NA,NA,NA,NA,NA,NA,NA
+"13","Bryan Schroder","(US) Coast Guard",1991,2005,"U.S. Attorney for the District of Alaska","2017-11-21",0,"male","1959-02-03",NA,61,"United States Coast Guard Academy",NA,"University of Washington School of Law",29,59,NA,NA,NA,NA,NA,NA,NA
+"14","Bryan Schroder","United States Attorney's Office for the District of Alaska",2005,NA,"U.S. Attorney for the District of Alaska","2017-11-21",0,"male","1959-02-03",NA,61,"United States Coast Guard Academy",NA,"University of Washington School of Law",29,59,NA,NA,NA,NA,NA,NA,NA
+"15","Michael G. Bailey","Arizona Office of the Attorney General",2015,2019,"U.S. Attorney for the District of Arizona",NA,1,"male",NA,NA,NA,"Westmont College",NA,"Sandra Day O'Connor College of Law",29,110,"Republican",NA,NA,NA,NA,NA,NA
+"16","Michael G. Bailey","Private Practice",NA,NA,"U.S. Attorney for the District of Arizona",NA,1,"male",NA,NA,NA,"Westmont College",NA,"Sandra Day O'Connor College of Law",29,110,"Republican",NA,NA,NA,NA,NA,NA
+"17","Michael G. Bailey","County of Maricopa AZ",1998,2004,"U.S. Attorney for the District of Arizona",NA,1,"male",NA,NA,NA,"Westmont College",NA,"Sandra Day O'Connor College of Law",29,110,"Republican",NA,NA,NA,NA,NA,NA
+"18","J. Cody Hiland","20th Judicial District of Arkansas",2010,2017,"U.S. Attorney for the E.D. of Arkansas","2017-10-10",0,"male","1975-01-01",NA,45,"University of Central Arkansas",NA,"William H. Bowen School of Law",148,128,NA,NA,NA,NA,NA,NA,NA
+"19","J. Cody Hiland","Hiland, Thomas & Cox PLLC",NA,NA,"U.S. Attorney for the E.D. of Arkansas","2017-10-10",0,"male","1975-01-01",NA,45,"University of Central Arkansas",NA,"William H. Bowen School of Law",148,128,NA,NA,NA,NA,NA,NA,NA
+"20","J. Cody Hiland","Arkansas Public Service Commission",NA,NA,"U.S. Attorney for the E.D. of Arkansas","2017-10-10",0,"male","1975-01-01",NA,45,"University of Central Arkansas",NA,"William H. Bowen School of Law",148,128,NA,NA,NA,NA,NA,NA,NA
+"21","J. Cody Hiland","Arkansas Transitional Employment Board",NA,NA,"U.S. Attorney for the E.D. of Arkansas","2017-10-10",0,"male","1975-01-01",NA,45,"University of Central Arkansas",NA,"William H. Bowen School of Law",148,128,NA,NA,NA,NA,NA,NA,NA
+"22","J. Cody Hiland","State of Arkansas, Office of the Governor",NA,NA,"U.S. Attorney for the E.D. of Arkansas","2017-10-10",0,"male","1975-01-01",NA,45,"University of Central Arkansas",NA,"William H. Bowen School of Law",148,128,NA,NA,NA,NA,NA,NA,NA
+"23","Duane Kees","Wal-Mart Stores Inc",NA,2017,"U.S. Attorney for the W.D. of Arkansas","2018-01-05",0,"male","1975-01-01","Little Rock",45,"University of Arkansas",NA,"University of Arkansas School of Law",102,137,"Republican",1,NA,1,1,NA,NA
+"24","Duane Kees","US Army Judge Advocate General's Corp",2001,2008,"U.S. Attorney for the W.D. of Arkansas","2018-01-05",0,"male","1975-01-01","Little Rock",45,"University of Arkansas",NA,"University of Arkansas School of Law",102,137,"Republican",1,NA,1,1,NA,NA
+"25","Duane Kees","Bell Law Firm",2000,2001,"U.S. Attorney for the W.D. of Arkansas","2018-01-05",0,"male","1975-01-01","Little Rock",45,"University of Arkansas",NA,"University of Arkansas School of Law",102,137,"Republican",1,NA,1,1,NA,NA
+"26","Duane Kees","ASA Hutchinson Law Group PLC",NA,NA,"U.S. Attorney for the W.D. of Arkansas","2018-01-05",0,"male","1975-01-01","Little Rock",45,"University of Arkansas",NA,"University of Arkansas School of Law",102,137,"Republican",1,NA,1,1,NA,NA
+"27","Nicola T. Hanna","Gibson Dunn & Crutcher LLP",NA,2017,"U.S. Attorney for the C.D. of California","2018-01-05",0,"male","1961-09-19",NA,59,"University of California, San Diego",NA,"Georgetown University Law Center",15,38,"Republican",NA,NA,NA,NA,NA,NA
+"28","Nicola T. Hanna","United States Attorney's Office for the Southern District of California",1995,1998,"U.S. Attorney for the C.D. of California","2018-01-05",0,"male","1961-09-19",NA,59,"University of California, San Diego",NA,"Georgetown University Law Center",15,38,"Republican",NA,NA,NA,NA,NA,NA
+"29","Nicola T. Hanna","United States Attorney's Office for the Central District of California",1990,1994,"U.S. Attorney for the C.D. of California","2018-01-05",0,"male","1961-09-19",NA,59,"University of California, San Diego",NA,"Georgetown University Law Center",15,38,"Republican",NA,NA,NA,NA,NA,NA
+"30","McGregor W. Scott","Orrick, Herrington & Sutcliffe LLP",2009,2017,"U.S. Attorney for the E.D. of California","2017-12-29",0,"male","1962-01-01","Mountain View",58,"Santa Clara University",NA,"University of California, Hastings College of the Law",64,27,"Republcian",1,NA,NA,NA,NA,NA
+"31","McGregor W. Scott","United States Attorney's Office for the Eastern District of California",2003,2009,"U.S. Attorney for the E.D. of California","2017-12-29",0,"male","1962-01-01","Mountain View",58,"Santa Clara University",NA,"University of California, Hastings College of the Law",64,27,"Republcian",1,NA,NA,NA,NA,NA
+"32","McGregor W. Scott","County of Shasta CA",1997,2003,"U.S. Attorney for the E.D. of California","2017-12-29",0,"male","1962-01-01","Mountain View",58,"Santa Clara University",NA,"University of California, Hastings College of the Law",64,27,"Republcian",1,NA,NA,NA,NA,NA
+"33","McGregor W. Scott","County of Contra Costa CA",1989,1997,"U.S. Attorney for the E.D. of California","2017-12-29",0,"male","1962-01-01","Mountain View",58,"Santa Clara University",NA,"University of California, Hastings College of the Law",64,27,"Republcian",1,NA,NA,NA,NA,NA
+"34","David L. Anderson","Sidley Austin LLP",2010,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","David L. Anderson","United States Attorney's Office for the Northern District of California",2008,2010,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36","David L. Anderson","Pillbury Winthrop Shaw Pittman LLP",2005,2008,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","David L. Anderson","Pillsburg Winshop LLP",2005,2005,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","David L. Anderson","United States Attorney's Office for the Northern District of California",1998,2002,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","David L. Anderson","Iran - US Claims Tribunal",1992,1993,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","David L. Anderson","United States Supreme Court",1991,1992,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","David L. Anderson","United States Court of Appeals for the Ninth Circuit",1990,1991,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","Robert S. Brewer Jr.","Seltzer Caplan McMahon Vitek ALC",NA,NA,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"43","Robert S. Brewer Jr.","Jones Day LLP",2009,2014,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"44","Robert S. Brewer Jr.","McKenna Long & Aldridge LLP",1991,2009,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"45","Robert S. Brewer Jr.","Private Practice",1982,1991,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"46","Robert S. Brewer Jr.","United States Attorney's Office for the Central District of California",1977,1982,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"47","Robert S. Brewer Jr.","County of Los Angeles CA",1975,1977,"U.S. Attorney for the S.D. of California","2019-01-16",0,"male","1946-01-01","Hartford",74,"St. Lawrence University",NA,"University of San Diego School of Law",58,105,NA,1,NA,NA,NA,NA,NA
+"48","Jason R. Dunn","Brownstein Hyatt Farber Schreck LLP",NA,NA,"U.S. Attorney for the District of Colorado","2018-10-26",0,"male",NA,NA,NA,"University of Colorado","University of Colorado","University of Colorado Law School",36,26,NA,NA,NA,NA,NA,NA,NA
+"49","Jason R. Dunn","Colorado Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Colorado","2018-10-26",0,"male",NA,NA,NA,"University of Colorado","University of Colorado","University of Colorado Law School",36,26,NA,NA,NA,NA,NA,NA,NA
+"50","Jason R. Dunn","Colorado Supreme Court",NA,NA,"U.S. Attorney for the District of Colorado","2018-10-26",0,"male",NA,NA,NA,"University of Colorado","University of Colorado","University of Colorado Law School",36,26,NA,NA,NA,NA,NA,NA,NA
+"51","John Durham","United States Attorney's Office for the District of Connecticut",1998,2017,"U.S. Attorney for the District of Connecticut","2018-02-22",0,"male","1950-01-01","Boston",70,"Colgate University",NA,"University of Connecticut School of Law",64,16,"None",NA,NA,NA,NA,NA,NA
+"52","John Durham","United States Attorney's Office for the District of Connecticut",1997,1998,"U.S. Attorney for the District of Connecticut","2018-02-22",0,"male","1950-01-01","Boston",70,"Colgate University",NA,"University of Connecticut School of Law",64,16,"None",NA,NA,NA,NA,NA,NA
+"53","John Durham","United States Attorney's Office for the District of Connecticut",NA,1997,"U.S. Attorney for the District of Connecticut","2018-02-22",0,"male","1950-01-01","Boston",70,"Colgate University",NA,"University of Connecticut School of Law",64,16,"None",NA,NA,NA,NA,NA,NA
+"54","David C. Weiss","United States Attorney's Office for the District of Delaware",2011,2017,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"55","David C. Weiss","United States Attorney's Office for the District of Delaware",2009,2011,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"56","David C. Weiss","United States Attorney's Office for the District of Delaware",2007,2009,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"57","David C. Weiss","Siegfried Group LLP",1999,2007,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"58","David C. Weiss","Duane Morris LLP",1989,1999,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"59","David C. Weiss","United States Attorney's Office for the District of Delaware",1986,1989,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"60","David C. Weiss","Delaware Supreme Court",1984,1986,"U.S. Attorney for the District of Delaware","2018-02-22",0,"male","1956-01-01","Philadelphia",64,"Washington University in St. Louis",NA,"Widener University School of Law",173,96,"None",NA,NA,NA,NA,NA,NA
+"61","Jessie K. Liu","United States Department of the Treasury",2017,2017,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"62","Jessie K. Liu","Jenner & Block LLP",2009,2016,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"63","Jessie K. Liu","United States Attorney's Office for the District of Columbia",2002,2006,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"64","Jessie K. Liu","Jenner & Block LLP",1999,2002,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"65","Jessie K. Liu","United States Court of Appeals for the Fifth Circuit",1998,1999,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"66","Jessie K. Liu","Morrison & Foerster LLP",2016,NA,"U.S. Attorney for the District of Columbia","2017-09-24",0,"female","1973-01-02","Kingsville",47,"Harvard University",NA,"Yale Law School",1,33,NA,1,1,NA,NA,NA,NA
+"67","Maria Chapa Lopez","United States Department of Justice",2016,2018,"U.S. Attorney for the M.D. of Florida","2018-01-05",0,"female",NA,NA,NA,"University of Texas","The Judge Advocate General's Legal Center and School","South Texas College of Law",148,176,"Republican",NA,NA,NA,NA,NA,NA
+"68","Maria Chapa Lopez","United States Attorney's Office for the Middle District of Florida",2000,2016,"U.S. Attorney for the M.D. of Florida","2018-01-05",0,"female",NA,NA,NA,"University of Texas","The Judge Advocate General's Legal Center and School","South Texas College of Law",148,176,"Republican",NA,NA,NA,NA,NA,NA
+"69","Maria Chapa Lopez","US Army Judge Advocate General's Corp",NA,2000,"U.S. Attorney for the M.D. of Florida","2018-01-05",0,"female",NA,NA,NA,"University of Texas","The Judge Advocate General's Legal Center and School","South Texas College of Law",148,176,"Republican",NA,NA,NA,NA,NA,NA
+"70","Larry Keefe","Keefe, Anchors & Gordon PA",NA,NA,"U.S. Attorney for the N.D. of Florida","2019-01-09",0,"male","1961-12-30","Fort Dix",58,"University of Florida",NA,"Fredric G. Levin College of Law",29,104,"Democrat",NA,NA,NA,NA,NA,NA
+"71","Ariana Fajardo Orshan","Eleventh Circuit Court of Florida",2012,2018,"U.S. Attorney for the S.D. of Florida","2018-09-18",0,"female",NA,NA,NA,"Florida International University",NA,"Nova Southeastern University",157,103,NA,1,NA,NA,NA,NA,NA
+"72","Ariana Fajardo Orshan","Wilson Elser Moskowitz Edelman & Dicker LLP",NA,NA,"U.S. Attorney for the S.D. of Florida","2018-09-18",0,"female",NA,NA,NA,"Florida International University",NA,"Nova Southeastern University",157,103,NA,1,NA,NA,NA,NA,NA
+"73","Ariana Fajardo Orshan","County of Miami-Dade FL",NA,NA,"U.S. Attorney for the S.D. of Florida","2018-09-18",0,"female",NA,NA,NA,"Florida International University",NA,"Nova Southeastern University",157,103,NA,1,NA,NA,NA,NA,NA
+"74","Charles Peeler","Flynn, Peeler & Phillips LLP",NA,NA,"U.S. Attorney for the M.D. of Georgia","2017-11-22",0,"male","1973-01-01","Augusta",47,"University of Georgia",NA,"University of Georgia School of Law",29,150,NA,NA,NA,NA,NA,NA,NA
+"75","Charles Peeler","King & Spalding LLP",NA,2005,"U.S. Attorney for the M.D. of Georgia","2017-11-22",0,"male","1973-01-01","Augusta",47,"University of Georgia",NA,"University of Georgia School of Law",29,150,NA,NA,NA,NA,NA,NA,NA
+"76","B.J. Pak","Georgia House of Representatives",2010,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","B.J. Pak","Private Practice",2008,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","B.J. Pak","United States Attorney's Office for the Northern District of Georgia",2002,2008,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","B.J. Pak","United States District Court for the Central District of Illinois",1998,2000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","Bobby Christine","County of Columbia SC",NA,NA,"U.S. Attorney for the S.D. of Georgia","2017-11-22",0,"male","1969-01-01",NA,51,"University of Georgia",NA,"Cumberland School of Law",148,160,NA,1,NA,NA,NA,NA,NA
+"81","Bobby Christine","Christine and Evans LLC",NA,NA,"U.S. Attorney for the S.D. of Georgia","2017-11-22",0,"male","1969-01-01",NA,51,"University of Georgia",NA,"Cumberland School of Law",148,160,NA,1,NA,NA,NA,NA,NA
+"82","Bobby Christine","City of Augusta GA",NA,NA,"U.S. Attorney for the S.D. of Georgia","2017-11-22",0,"male","1969-01-01",NA,51,"University of Georgia",NA,"Cumberland School of Law",148,160,NA,1,NA,NA,NA,NA,NA
+"83","Bobby Christine","US Army Judge Advocate General's Corp",NA,NA,"U.S. Attorney for the S.D. of Georgia","2017-11-22",0,"male","1969-01-01",NA,51,"University of Georgia",NA,"Cumberland School of Law",148,160,NA,1,NA,NA,NA,NA,NA
+"84","Kenji M. Price","Alston Hunt Floyd & Ing",NA,2018,"U.S. Attorney for the District of Hawaii","2018-01-05",0,"male","1980-01-01","Port Jervis",40,"Gonzaga University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"85","Kenji M. Price","Carlsmith Ball LLP",NA,NA,"U.S. Attorney for the District of Hawaii","2018-01-05",0,"male","1980-01-01","Port Jervis",40,"Gonzaga University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"86","Bart Davis","Idaho State Senate",1998,2017,"U.S. Attorney for the District of Idaho","2017-09-21",0,"male","1955-03-07","Rapid City",65,"Brigham Young University",NA,"University of Idaho College of Law",115,127,"Republican",1,NA,NA,NA,NA,NA
+"87","Bart Davis","Private Practice",NA,NA,"U.S. Attorney for the District of Idaho","2017-09-21",0,"male","1955-03-07","Rapid City",65,"Brigham Young University",NA,"University of Idaho College of Law",115,127,"Republican",1,NA,NA,NA,NA,NA
+"88","John C. Milhiser","County of Sangamon IL",2010,2018,"U.S. Attorney for the C.D. of Illinois","2018-10-31",0,"male",NA,"United States of America",NA,"James Madison University",NA,"University of Illinois College of Law",36,29,"Republican",NA,NA,NA,NA,NA,NA
+"89","John C. Milhiser","County of Sangamon IL",2008,2010,"U.S. Attorney for the C.D. of Illinois","2018-10-31",0,"male",NA,"United States of America",NA,"James Madison University",NA,"University of Illinois College of Law",36,29,"Republican",NA,NA,NA,NA,NA,NA
+"90","John C. Milhiser","Private Practice",2003,2008,"U.S. Attorney for the C.D. of Illinois","2018-10-31",0,"male",NA,"United States of America",NA,"James Madison University",NA,"University of Illinois College of Law",36,29,"Republican",NA,NA,NA,NA,NA,NA
+"91","John C. Milhiser","County of Sangamon IL",1997,2003,"U.S. Attorney for the C.D. of Illinois","2018-10-31",0,"male",NA,"United States of America",NA,"James Madison University",NA,"University of Illinois College of Law",36,29,"Republican",NA,NA,NA,NA,NA,NA
+"92","John R. Lausch Jr.","Kirkland & Ellis LLP",2010,2017,"U.S. Attorney for the N.D. of Illinois","2017-11-22",0,"male","1970-01-01","Joliet",50,"Harvard University",NA,"Northwestern University School of Law",8,56,"None",NA,NA,NA,NA,NA,NA
+"93","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",2005,2010,"U.S. Attorney for the N.D. of Illinois","2017-11-22",0,"male","1970-01-01","Joliet",50,"Harvard University",NA,"Northwestern University School of Law",8,56,"None",NA,NA,NA,NA,NA,NA
+"94","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",1999,2005,"U.S. Attorney for the N.D. of Illinois","2017-11-22",0,"male","1970-01-01","Joliet",50,"Harvard University",NA,"Northwestern University School of Law",8,56,"None",NA,NA,NA,NA,NA,NA
+"95","John R. Lausch Jr.","Kirkland & Ellis LLP",1997,1999,"U.S. Attorney for the N.D. of Illinois","2017-11-22",0,"male","1970-01-01","Joliet",50,"Harvard University",NA,"Northwestern University School of Law",8,56,"None",NA,NA,NA,NA,NA,NA
+"96","John R. Lausch Jr.","United States Court of Appeals for the Seventh Circuit",1996,1997,"U.S. Attorney for the N.D. of Illinois","2017-11-22",0,"male","1970-01-01","Joliet",50,"Harvard University",NA,"Northwestern University School of Law",8,56,"None",NA,NA,NA,NA,NA,NA
+"97","Thomas Kirsch","Winston & Strawn LLP",2008,2017,"U.S. Attorney for the N.D. of Indiana","2017-10-10",0,"male","1974-01-25",NA,46,"Indiana University",NA,"Harvard Law School",1,25,NA,NA,NA,NA,NA,NA,NA
+"98","Thomas Kirsch","United States Attorney's Office for the Northern District of Indiana",2001,2008,"U.S. Attorney for the N.D. of Indiana","2017-10-10",0,"male","1974-01-25",NA,46,"Indiana University",NA,"Harvard Law School",1,25,NA,NA,NA,NA,NA,NA,NA
+"99","Thomas Kirsch","United States Department of Justice",2006,2007,"U.S. Attorney for the N.D. of Indiana","2017-10-10",0,"male","1974-01-25",NA,46,"Indiana University",NA,"Harvard Law School",1,25,NA,NA,NA,NA,NA,NA,NA
+"100","Thomas Kirsch","United States District Court for the Southern District of Indiana",2000,2001,"U.S. Attorney for the N.D. of Indiana","2017-10-10",0,"male","1974-01-25",NA,46,"Indiana University",NA,"Harvard Law School",1,25,NA,NA,NA,NA,NA,NA,NA
+"101","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",2015,2017,"U.S. Attorney for the S.D. of Indiana","2017-10-10",0,"male","1963-03-14",NA,57,"Wabash College",NA,"Indiana University Maurer School of Law",115,82,NA,NA,NA,NA,NA,NA,NA
+"102","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",2014,2015,"U.S. Attorney for the S.D. of Indiana","2017-10-10",0,"male","1963-03-14",NA,57,"Wabash College",NA,"Indiana University Maurer School of Law",115,82,NA,NA,NA,NA,NA,NA,NA
+"103","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2014,"U.S. Attorney for the S.D. of Indiana","2017-10-10",0,"male","1963-03-14",NA,57,"Wabash College",NA,"Indiana University Maurer School of Law",115,82,NA,NA,NA,NA,NA,NA,NA
+"104","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",1994,NA,"U.S. Attorney for the S.D. of Indiana","2017-10-10",0,"male","1963-03-14",NA,57,"Wabash College",NA,"Indiana University Maurer School of Law",115,82,NA,NA,NA,NA,NA,NA,NA
+"105","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",2015,2017,"U.S. Attorney for the N.D. of Iowa","2017-09-21",0,"male","1970-01-01","Port Huron",50,"University of Notre Dame",NA,"Wayne State University Law School",64,94,"Republican",NA,NA,NA,NA,NA,NA
+"106","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",2006,2015,"U.S. Attorney for the N.D. of Iowa","2017-09-21",0,"male","1970-01-01","Port Huron",50,"University of Notre Dame",NA,"Wayne State University Law School",64,94,"Republican",NA,NA,NA,NA,NA,NA
+"107","Peter Deegan","United States Attorney's Office for the Eastern District of Michigan",2004,2006,"U.S. Attorney for the N.D. of Iowa","2017-09-21",0,"male","1970-01-01","Port Huron",50,"University of Notre Dame",NA,"Wayne State University Law School",64,94,"Republican",NA,NA,NA,NA,NA,NA
+"108","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",1998,2004,"U.S. Attorney for the N.D. of Iowa","2017-09-21",0,"male","1970-01-01","Port Huron",50,"University of Notre Dame",NA,"Wayne State University Law School",64,94,"Republican",NA,NA,NA,NA,NA,NA
+"109","Marc Krickbaum","United States Attorney's Office for the Northern District of Illinois",NA,2017,"U.S. Attorney for the S.D. of Iowa","2017-10-02",0,"male","1979-01-01","Waco",41,"University of Iowa",NA,"Harvard Law School",1,25,"None",NA,NA,NA,NA,NA,NA
+"110","Marc Krickbaum","United States Department of Justice",NA,2008,"U.S. Attorney for the S.D. of Iowa","2017-10-02",0,"male","1979-01-01","Waco",41,"University of Iowa",NA,"Harvard Law School",1,25,"None",NA,NA,NA,NA,NA,NA
+"111","Marc Krickbaum","United States Attorney's Office for the Southern District of Iowa",2009,NA,"U.S. Attorney for the S.D. of Iowa","2017-10-02",0,"male","1979-01-01","Waco",41,"University of Iowa",NA,"Harvard Law School",1,25,"None",NA,NA,NA,NA,NA,NA
+"112","Stephen McAllister","University of Kansas School of Law",NA,NA,"U.S. Attorney for the District of Kansas","2018-01-25",0,"male",NA,NA,NA,"University of Kansas",NA,"University of Kansas School of Law",77,141,NA,1,NA,NA,NA,NA,NA
+"113","Stephen McAllister","Kansas Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Kansas","2018-01-25",0,"male",NA,NA,NA,"University of Kansas",NA,"University of Kansas School of Law",77,141,NA,1,NA,NA,NA,NA,NA
+"114","Stephen McAllister","United States Supreme Court",NA,NA,"U.S. Attorney for the District of Kansas","2018-01-25",0,"male",NA,NA,NA,"University of Kansas",NA,"University of Kansas School of Law",77,141,NA,1,NA,NA,NA,NA,NA
+"115","Stephen McAllister","United States Appeals Court for the Seventh Circuit",NA,NA,"U.S. Attorney for the District of Kansas","2018-01-25",0,"male",NA,NA,NA,"University of Kansas",NA,"University of Kansas School of Law",77,141,NA,1,NA,NA,NA,NA,NA
+"116","Robert M. Duncan Jr.","United States Attorney's Office for the Eastern District of Kentucky",2005,2017,"U.S. Attorney for the E.D. of Kentucky","2017-11-21",0,"male","1978-01-01","Ashland",42,"Centre College",NA,"University of Kentucky College of Law",92,167,"Republcian",1,NA,NA,NA,NA,NA
+"117","Robert M. Duncan Jr.","United States District Court for the Eastern District of Michigan",NA,NA,"U.S. Attorney for the E.D. of Kentucky","2017-11-21",0,"male","1978-01-01","Ashland",42,"Centre College",NA,"University of Kentucky College of Law",92,167,"Republcian",1,NA,NA,NA,NA,NA
+"118","Russell Coleman","Frost Brown Todd LLC",2015,2017,"U.S. Attorney for the W.D. of Kentucky","2017-09-22",0,"male",NA,NA,NA,"University of Kentucky",NA,"University of Kentucky College of Law",92,167,"Republican",NA,NA,NA,NA,NA,NA
+"119","Russell Coleman","US Senate",2010,2015,"U.S. Attorney for the W.D. of Kentucky","2017-09-22",0,"male",NA,NA,NA,"University of Kentucky",NA,"University of Kentucky College of Law",92,167,"Republican",NA,NA,NA,NA,NA,NA
+"120","Russell Coleman","(US) Federal Bureau of Investigation",NA,NA,"U.S. Attorney for the W.D. of Kentucky","2017-09-22",0,"male",NA,NA,NA,"University of Kentucky",NA,"University of Kentucky College of Law",92,167,"Republican",NA,NA,NA,NA,NA,NA
+"121","Brandon Fremin","Louisiana Office of the Attorney General",NA,2018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","Brandon Fremin","United States Attorney's Office for the Middle District of Louisiana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","Brandon Fremin","19th Judicial District LA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","Brandon Fremin","(US) Marine Corps",1994,2002,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","David C. Joseph","United States Attorney's Office for the Western District of Louisiana",NA,2018,"U.S. Attorney for the W.D. of Louisiana","2018-04-03",0,"male","1977-05-06","Dallas",43,"University of Oklahoma",NA,"Paul M. Hebert Law Center",102,171,"Republican",NA,NA,NA,NA,NA,NA
+"126","David C. Joseph","Kane Russell Coleman Logan PC",NA,NA,"U.S. Attorney for the W.D. of Louisiana","2018-04-03",0,"male","1977-05-06","Dallas",43,"University of Oklahoma",NA,"Paul M. Hebert Law Center",102,171,"Republican",NA,NA,NA,NA,NA,NA
+"127","Peter G. Strasser","Chaffe McCall LLP",NA,2018,"U.S. Attorney for the E.D. of Louisiana","2018-09-10",0,"male",NA,NA,NA,"University of Virginia",NA,"Washington and Lee University School of Law",29,12,NA,NA,NA,NA,NA,NA,NA
+"128","Peter G. Strasser","United States Attorney's Office for the Eastern District of Louisiana",NA,NA,"U.S. Attorney for the E.D. of Louisiana","2018-09-10",0,"male",NA,NA,NA,"University of Virginia",NA,"Washington and Lee University School of Law",29,12,NA,NA,NA,NA,NA,NA,NA
+"129","Peter G. Strasser","United States Department of Justice",NA,NA,"U.S. Attorney for the E.D. of Louisiana","2018-09-10",0,"male",NA,NA,NA,"University of Virginia",NA,"Washington and Lee University School of Law",29,12,NA,NA,NA,NA,NA,NA,NA
+"130","Peter G. Strasser","(US) Department of the Navy",NA,NA,"U.S. Attorney for the E.D. of Louisiana","2018-09-10",0,"male",NA,NA,NA,"University of Virginia",NA,"Washington and Lee University School of Law",29,12,NA,NA,NA,NA,NA,NA,NA
+"131","Halsey Frank","United States Attorney's Office for the District of Maine",1999,2017,"U.S. Attorney for the District of Maine","2017-10-10",0,"male",NA,NA,NA,"Wesleyan University",NA,"Boston University School of Law",19,21,NA,NA,NA,NA,NA,NA,NA
+"132","Halsey Frank","United States Attorney's Office for the District of Columbia",1990,1999,"U.S. Attorney for the District of Maine","2017-10-10",0,"male",NA,NA,NA,"Wesleyan University",NA,"Boston University School of Law",19,21,NA,NA,NA,NA,NA,NA,NA
+"133","Halsey Frank","United States Department of Justice",1987,1990,"U.S. Attorney for the District of Maine","2017-10-10",0,"male",NA,NA,NA,"Wesleyan University",NA,"Boston University School of Law",19,21,NA,NA,NA,NA,NA,NA,NA
+"134","Robert K. Hur","United States Department of Justice",2017,2018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","Robert K. Hur","King & Spalding LLP",2014,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","Robert K. Hur","United States Attorney's Office for the District of Maryland",2007,2014,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","Robert K. Hur","United States Supreme Court",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","Robert K. Hur","United States Department of Justice",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","Robert K. Hur","United States Court of Appeals for the Ninth Circuit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","Andrew Lelling","United States Attorney's Office for the District of Massachusetts",NA,2017,"U.S. Attorney for the District of Massachusetts","2017-12-21",0,"male","1970-01-01",NA,50,"Binghamton University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"141","Andrew Lelling","United States District Court for the Southern District of Georgia",1994,1995,"U.S. Attorney for the District of Massachusetts","2017-12-21",0,"male","1970-01-01",NA,50,"Binghamton University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"142","Andrew Lelling","Goodwin Procter LLP",NA,NA,"U.S. Attorney for the District of Massachusetts","2017-12-21",0,"male","1970-01-01",NA,50,"Binghamton University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"143","Andrew Lelling","LeBoeuf Lamb Greene & MacRae LLP",NA,NA,"U.S. Attorney for the District of Massachusetts","2017-12-21",0,"male","1970-01-01",NA,50,"Binghamton University",NA,"University of Pennsylvania Law School",6,66,"Republican",1,NA,NA,NA,NA,NA
+"144","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"145","Matthew J. Schneider","Michigan Supreme Court",NA,NA,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"146","Matthew J. Schneider","Michigan State University Law School",2012,NA,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"147","Matthew J. Schneider","United States Attorney's Office for the Eastern District of Michigan",2003,2011,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"148","Matthew J. Schneider","White House Office of Management and Budget",NA,NA,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"149","Matthew J. Schneider","Wiley Rein",NA,NA,"U.S. Attorney for the E.D. of Michigan","2018-01-05",0,"male",NA,NA,NA,"Michigan State University",NA,"University of Michigan Law School",8,36,NA,1,NA,NA,NA,NA,NA
+"150","Thomas L. Leonard III","MiStrategies",2018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","Thomas L. Leonard III","Michigan House of Representatives",2012,2018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","Thomas L. Leonard III","Michigan Office of the Attorney General",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","Thomas L. Leonard III","County of Genesee MI",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","Erica MacDonald","Minnesota First Judicial District",2009,2018,"U.S. Attorney for the District of Minnesota","2018-06-11",0,"female",NA,"DeSoto",NA,"University of Notre Dame",NA,"DePaul University College of Law",115,63,"Republican",NA,NA,NA,NA,NA,NA
+"155","Erica MacDonald","United States Attorney's Office for the Northern District of Illinois",2000,2009,"U.S. Attorney for the District of Minnesota","2018-06-11",0,"female",NA,"DeSoto",NA,"University of Notre Dame",NA,"DePaul University College of Law",115,63,"Republican",NA,NA,NA,NA,NA,NA
+"156","Erica MacDonald","Kirkland & Ellis LLP",1999,2000,"U.S. Attorney for the District of Minnesota","2018-06-11",0,"female",NA,"DeSoto",NA,"University of Notre Dame",NA,"DePaul University College of Law",115,63,"Republican",NA,NA,NA,NA,NA,NA
+"157","Erica MacDonald","United States District Court for the Northern District of Illinois",1997,1999,"U.S. Attorney for the District of Minnesota","2018-06-11",0,"female",NA,"DeSoto",NA,"University of Notre Dame",NA,"DePaul University College of Law",115,63,"Republican",NA,NA,NA,NA,NA,NA
+"158","Jeffrey Jensen","Husch Blackwell LLP",2013,2017,"U.S. Attorney for the E.D. of Missouri","2017-10-06",0,"male",NA,NA,NA,"Indiana University",NA,"Saint Louis University School of Law",92,138,NA,NA,NA,NA,NA,NA,NA
+"159","Jeffrey Jensen","Private Practice",2010,2013,"U.S. Attorney for the E.D. of Missouri","2017-10-06",0,"male",NA,NA,NA,"Indiana University",NA,"Saint Louis University School of Law",92,138,NA,NA,NA,NA,NA,NA,NA
+"160","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",2006,2009,"U.S. Attorney for the E.D. of Missouri","2017-10-06",0,"male",NA,NA,NA,"Indiana University",NA,"Saint Louis University School of Law",92,138,NA,NA,NA,NA,NA,NA,NA
+"161","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",1999,2006,"U.S. Attorney for the E.D. of Missouri","2017-10-06",0,"male",NA,NA,NA,"Indiana University",NA,"Saint Louis University School of Law",92,138,NA,NA,NA,NA,NA,NA,NA
+"162","Jeffrey Jensen","Pricewaterhousecoopers LLP",1988,NA,"U.S. Attorney for the E.D. of Missouri","2017-10-06",0,"male",NA,NA,NA,"Indiana University",NA,"Saint Louis University School of Law",92,138,NA,NA,NA,NA,NA,NA,NA
+"163","Timothy A. Garrison","United States Attorney's Office for the Western District of Missouri",2007,2018,"U.S. Attorney for the W.D. of Missouri","2018-01-05",0,"male","1976-01-01","Urbana",44,"Drury University","University of Missouri","University of Missouri School of Law",77,98,"Republican",1,NA,NA,NA,1,NA
+"164","Timothy A. Garrison","United State Department of Defense",NA,NA,"U.S. Attorney for the W.D. of Missouri","2018-01-05",0,"male","1976-01-01","Urbana",44,"Drury University","University of Missouri","University of Missouri School of Law",77,98,"Republican",1,NA,NA,NA,1,NA
+"165","Timothy A. Garrison","(US) Marine Corps",NA,NA,"U.S. Attorney for the W.D. of Missouri","2018-01-05",0,"male","1976-01-01","Urbana",44,"Drury University","University of Missouri","University of Missouri School of Law",77,98,"Republican",1,NA,NA,NA,1,NA
+"166","Kurt Alme","Yellowstone Boys & Girls Ranch",2013,2017,"U.S. Attorney for the District of Montana","2017-09-21",0,"male",NA,"Miles City",NA,"University of Colorado",NA,"Harvard Law School",1,25,"Republican",NA,NA,NA,NA,NA,NA
+"167","Kurt Alme","Yellowstone Boys & Girls Ranch",2010,2013,"U.S. Attorney for the District of Montana","2017-09-21",0,"male",NA,"Miles City",NA,"University of Colorado",NA,"Harvard Law School",1,25,"Republican",NA,NA,NA,NA,NA,NA
+"168","Kurt Alme","United States Attorney's Office for the District of Montana",2006,2010,"U.S. Attorney for the District of Montana","2017-09-21",0,"male",NA,"Miles City",NA,"University of Colorado",NA,"Harvard Law School",1,25,"Republican",NA,NA,NA,NA,NA,NA
+"169","Kurt Alme","United States Attorney's Office for the District of Montana",2001,2006,"U.S. Attorney for the District of Montana","2017-09-21",0,"male",NA,"Miles City",NA,"University of Colorado",NA,"Harvard Law School",1,25,"Republican",NA,NA,NA,NA,NA,NA
+"170","Joseph P. Kelly","County of Lancaster NE",2011,2018,"U.S. Attorney for the District of Nebraska","2018-02-23",0,"male","1956-01-01","Lexington",64,"University of Nebraska",NA,"University of Nebraska College of Law",88,132,"Republican",NA,NA,NA,NA,NA,NA
+"171","Joseph P. Kelly","County of Lancaster NE",2010,2011,"U.S. Attorney for the District of Nebraska","2018-02-23",0,"male","1956-01-01","Lexington",64,"University of Nebraska",NA,"University of Nebraska College of Law",88,132,"Republican",NA,NA,NA,NA,NA,NA
+"172","Joseph P. Kelly","County of Lancaster NE",1990,2000,"U.S. Attorney for the District of Nebraska","2018-02-23",0,"male","1956-01-01","Lexington",64,"University of Nebraska",NA,"University of Nebraska College of Law",88,132,"Republican",NA,NA,NA,NA,NA,NA
+"173","Joseph P. Kelly","Berniger, Berg and Diver PC",1987,1990,"U.S. Attorney for the District of Nebraska","2018-02-23",0,"male","1956-01-01","Lexington",64,"University of Nebraska",NA,"University of Nebraska College of Law",88,132,"Republican",NA,NA,NA,NA,NA,NA
+"174","Joseph P. Kelly","County of Lancaster NE",1981,1986,"U.S. Attorney for the District of Nebraska","2018-02-23",0,"male","1956-01-01","Lexington",64,"University of Nebraska",NA,"University of Nebraska College of Law",88,132,"Republican",NA,NA,NA,NA,NA,NA
+"175","Nicholas A. Trutanich","Nevada Office of the Attorney General",NA,2019,"U.S. Attorney for the District of Nevada","2019-01-16",0,"male",NA,NA,NA,"University of California, Davis",NA,"Georgetown University Law Center",15,38,"Democrat",NA,NA,NA,NA,NA,NA
+"176","Nicholas A. Trutanich","United States Department of Justice",NA,NA,"U.S. Attorney for the District of Nevada","2019-01-16",0,"male",NA,NA,NA,"University of California, Davis",NA,"Georgetown University Law Center",15,38,"Democrat",NA,NA,NA,NA,NA,NA
+"177","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,"U.S. Attorney for the District of Nevada","2019-01-16",0,"male",NA,NA,NA,"University of California, Davis",NA,"Georgetown University Law Center",15,38,"Democrat",NA,NA,NA,NA,NA,NA
+"178","Nicholas A. Trutanich","Private Practice",NA,NA,"U.S. Attorney for the District of Nevada","2019-01-16",0,"male",NA,NA,NA,"University of California, Davis",NA,"Georgetown University Law Center",15,38,"Democrat",NA,NA,NA,NA,NA,NA
+"179","Scott W. Murray","County of Merrimack NH",2010,2018,"U.S. Attorney for the District of New Hampshire","2018-03-05",0,"male","1954-01-01","Rochester",66,"University of New Hampshire","University of New Hampshire","University of New Hampshire School of Law",88,9,"Republican",NA,NA,NA,NA,NA,NA
+"180","Scott W. Murray","City of Concord NH",1983,2011,"U.S. Attorney for the District of New Hampshire","2018-03-05",0,"male","1954-01-01","Rochester",66,"University of New Hampshire","University of New Hampshire","University of New Hampshire School of Law",88,9,"Republican",NA,NA,NA,NA,NA,NA
+"181","John C. Anderson","Holland & Hart LLP",2013,2018,"U.S. Attorney for the District of New Mexico","2018-02-23",0,"male","1975-01-01","Smithtown",45,"Bowdoin College",NA,"Fordham University School of Law",24,63,"Republican",NA,NA,NA,NA,NA,NA
+"182","John C. Anderson","United States Attorney's Office for the District of New Mexico",2008,2013,"U.S. Attorney for the District of New Mexico","2018-02-23",0,"male","1975-01-01","Smithtown",45,"Bowdoin College",NA,"Fordham University School of Law",24,63,"Republican",NA,NA,NA,NA,NA,NA
+"183","John C. Anderson","Simpson Thacher & Bartlett LLP",2004,2008,"U.S. Attorney for the District of New Mexico","2018-02-23",0,"male","1975-01-01","Smithtown",45,"Bowdoin College",NA,"Fordham University School of Law",24,63,"Republican",NA,NA,NA,NA,NA,NA
+"184","John C. Anderson","United States Court of Appeals for the Tenth Circuit",2003,2004,"U.S. Attorney for the District of New Mexico","2018-02-23",0,"male","1975-01-01","Smithtown",45,"Bowdoin College",NA,"Fordham University School of Law",24,63,"Republican",NA,NA,NA,NA,NA,NA
+"185","Robert Higdon Jr.","Williams Mullen",2015,2017,"U.S. Attorney for the E.D. of North Carolina","2017-10-10",0,"male",NA,NA,NA,"Wake Forest University",NA,"Wake Forest University School of Law",36,51,NA,NA,NA,NA,NA,NA,NA
+"186","Robert Higdon Jr.","United States Department of Justice",2014,2015,"U.S. Attorney for the E.D. of North Carolina","2017-10-10",0,"male",NA,NA,NA,"Wake Forest University",NA,"Wake Forest University School of Law",36,51,NA,NA,NA,NA,NA,NA,NA
+"187","Robert Higdon Jr.","United States Attorney's Office for the Eastern District of North Carolina",2002,2013,"U.S. Attorney for the E.D. of North Carolina","2017-10-10",0,"male",NA,NA,NA,"Wake Forest University",NA,"Wake Forest University School of Law",36,51,NA,NA,NA,NA,NA,NA,NA
+"188","Matthew Martin","Duke Energy Corp",2013,2018,"U.S. Attorney for the M.D. of North Carolina","2017-11-09",0,"male","1979-01-01","Wright-Patterson Air Force Base",41,"University of North Carolina",NA,"University of North Carolina School of Law",43,58,"Republican",NA,NA,NA,NA,NA,NA
+"189","Matthew Martin","Smith Anderson Blount Dorsett Mitchell & Jernigan LLP",2006,2013,"U.S. Attorney for the M.D. of North Carolina","2017-11-09",0,"male","1979-01-01","Wright-Patterson Air Force Base",41,"University of North Carolina",NA,"University of North Carolina School of Law",43,58,"Republican",NA,NA,NA,NA,NA,NA
+"190","Matthew Martin","Covington & Burling LLP",2004,2006,"U.S. Attorney for the M.D. of North Carolina","2017-11-09",0,"male","1979-01-01","Wright-Patterson Air Force Base",41,"University of North Carolina",NA,"University of North Carolina School of Law",43,58,"Republican",NA,NA,NA,NA,NA,NA
+"191","R. Andrew Murray","County of Mecklenburg NC",NA,NA,"U.S. Attorney for the W.D. of North Carolina","2017-11-27",0,"male",NA,NA,NA,"University of North Carolina at Charlotte",NA,"University of North Carolina School of Law",43,58,"Republican",NA,NA,NA,NA,NA,NA
+"192","R. Andrew Murray","Private Practice",1992,2017,"U.S. Attorney for the W.D. of North Carolina","2017-11-27",0,"male",NA,NA,NA,"University of North Carolina at Charlotte",NA,"University of North Carolina School of Law",43,58,"Republican",NA,NA,NA,NA,NA,NA
+"193","Drew Wrigley","State of North Dakota",2010,2016,"U.S. Attorney for the District of North Dakota","2019-04-17",1,"male","1965-10-10","Bismarck",55,"University of North Dakota",NA,"Washington College of Law",64,61,"Republican",NA,NA,1,NA,NA,NA
+"194","Drew Wrigley","Noridian Administrative Services",2009,2010,"U.S. Attorney for the District of North Dakota","2019-04-17",1,"male","1965-10-10","Bismarck",55,"University of North Dakota",NA,"Washington College of Law",64,61,"Republican",NA,NA,1,NA,NA,NA
+"195","Drew Wrigley","United States Attorney's Office for the District of North Dakota",2001,2009,"U.S. Attorney for the District of North Dakota","2019-04-17",1,"male","1965-10-10","Bismarck",55,"University of North Dakota",NA,"Washington College of Law",64,61,"Republican",NA,NA,1,NA,NA,NA
+"196","Drew Wrigley","State of North Dakota, Office of the Governor",2000,2001,"U.S. Attorney for the District of North Dakota","2019-04-17",1,"male","1965-10-10","Bismarck",55,"University of North Dakota",NA,"Washington College of Law",64,61,"Republican",NA,NA,1,NA,NA,NA
+"197","Drew Wrigley","City of Philadelphia",NA,NA,"U.S. Attorney for the District of North Dakota","2019-04-17",1,"male","1965-10-10","Bismarck",55,"University of North Dakota",NA,"Washington College of Law",64,61,"Republican",NA,NA,1,NA,NA,NA
+"198","Justin Herdman","Jones Day LLP",2013,2017,"U.S. Attorney for the N.D. of Ohio","2017-08-21",0,"male",NA,NA,NA,"Ohio University","University of Glasgow","Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"199","Justin Herdman","United States Attorney's Office for the Northern District of Ohio",2010,2013,"U.S. Attorney for the N.D. of Ohio","2017-08-21",0,"male",NA,NA,NA,"Ohio University","University of Glasgow","Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"200","Justin Herdman","United States Attorney's Office for the Southern District of Ohio",2006,2010,"U.S. Attorney for the N.D. of Ohio","2017-08-21",0,"male",NA,NA,NA,"Ohio University","University of Glasgow","Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"201","Justin Herdman","County of New York NY",2001,2005,"U.S. Attorney for the N.D. of Ohio","2017-08-21",0,"male",NA,NA,NA,"Ohio University","University of Glasgow","Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"202","David M. DeVillers","United States Attorney's Office for the Southern District of Ohio",NA,NA,"U.S. Attorney for the S.D. Ohio","2019-10-28",1,"male",NA,NA,NA,"State University of New York at Oswego",NA,"Capital University Law School",166,161,"Republican",NA,NA,NA,NA,NA,NA
+"203","David M. DeVillers","United States Department of Justice",2010,2018,"U.S. Attorney for the S.D. Ohio","2019-10-28",1,"male",NA,NA,NA,"State University of New York at Oswego",NA,"Capital University Law School",166,161,"Republican",NA,NA,NA,NA,NA,NA
+"204","Brian Kuester","District 27 OK",2010,2017,"U.S. Attorney for the E.D. of Oklahoma","2017-10-25",0,"male",NA,NA,NA,"University of Central Missouri",NA,"University of Tulsa College of Law",102,109,"Republican",NA,NA,NA,NA,NA,NA
+"205","Brian Kuester","Allstate Insurance Co",2008,2010,"U.S. Attorney for the E.D. of Oklahoma","2017-10-25",0,"male",NA,NA,NA,"University of Central Missouri",NA,"University of Tulsa College of Law",102,109,"Republican",NA,NA,NA,NA,NA,NA
+"206","Brian Kuester","County of Tulsa County OK",2003,2008,"U.S. Attorney for the E.D. of Oklahoma","2017-10-25",0,"male",NA,NA,NA,"University of Central Missouri",NA,"University of Tulsa College of Law",102,109,"Republican",NA,NA,NA,NA,NA,NA
+"207","Brian Kuester","Robinette & Osmond",2000,2003,"U.S. Attorney for the E.D. of Oklahoma","2017-10-25",0,"male",NA,NA,NA,"University of Central Missouri",NA,"University of Tulsa College of Law",102,109,"Republican",NA,NA,NA,NA,NA,NA
+"208","R. Trent Shores","United States Attorney's Office for the Northern District of Oklahoma",2007,2017,"U.S. Attorney for the N.D. of Oklahoma","2017-10-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"University of Oklahoma College of Law",77,159,"Republican",1,NA,NA,NA,NA,NA
+"209","R. Trent Shores","Oklahoma Office of the Attorney General",2015,2015,"U.S. Attorney for the N.D. of Oklahoma","2017-10-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"University of Oklahoma College of Law",77,159,"Republican",1,NA,NA,NA,NA,NA
+"210","R. Trent Shores","United States Department of Justice",NA,NA,"U.S. Attorney for the N.D. of Oklahoma","2017-10-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"University of Oklahoma College of Law",77,159,"Republican",1,NA,NA,NA,NA,NA
+"211","Timothy J. Downing","Oklahoma House of Representatives",2016,2018,"U.S. Attorney for the W.D. of Oklahoma","2019-06-05",1,"male",NA,NA,NA,"University of Oklahoma","Oral Roberts University","Regent University School of Law",102,184,"Republican",1,NA,NA,NA,NA,NA
+"212","Timothy J. Downing","United States Attorney's Office for the Western District of Texas",2011,2016,"U.S. Attorney for the W.D. of Oklahoma","2019-06-05",1,"male",NA,NA,NA,"University of Oklahoma","Oral Roberts University","Regent University School of Law",102,184,"Republican",1,NA,NA,NA,NA,NA
+"213","Timothy J. Downing","US Army Judge Advocate General's Corp",2011,NA,"U.S. Attorney for the W.D. of Oklahoma","2019-06-05",1,"male",NA,NA,NA,"University of Oklahoma","Oral Roberts University","Regent University School of Law",102,184,"Republican",1,NA,NA,NA,NA,NA
+"214","Timothy J. Downing","Oklahoma Office of the Attorney General",2011,2016,"U.S. Attorney for the W.D. of Oklahoma","2019-06-05",1,"male",NA,NA,NA,"University of Oklahoma","Oral Roberts University","Regent University School of Law",102,184,"Republican",1,NA,NA,NA,NA,NA
+"215","Billy J. Williams","United States Attorney's Office for the District of Oregon",2015,NA,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"216","Billy J. Williams","United States Attorney's Office for the District of Oregon",2015,2015,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"217","Billy J. Williams","United States Attorney's Office for the District of Oregon",2010,2015,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"218","Billy J. Williams","United States Attorney's Office for the District of Oregon",2007,2010,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"219","Billy J. Williams","United States Attorney's Office for the District of Oregon",2000,2007,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"220","Billy J. Williams","County of Multnomah OR",1999,2000,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"221","Billy J. Williams","County of Multnomah OR",1990,1999,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"222","Billy J. Williams","County of Multnomah OR",1989,1990,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"223","Billy J. Williams","United States Attorney's Office for the District of Oregon",1988,1989,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"224","Billy J. Williams","United States Attorney's Office for the District of Oregon",1987,1988,"U.S. Attorney for the District of Oregon","2018-02-23",0,"male","1956-01-01","Toppenish",64,"Washington State University",NA,"Willamette University College of Law",136,43,"Republican",NA,NA,NA,NA,NA,NA
+"225","David Freed","County of Cumberland PA",2006,2017,"U.S. Attorney for the M.D. of Pennsylvania","2017-11-27",0,"male",NA,NA,NA,"Washington and Lee University",NA,"Dickinson School of Law",52,88,"Republican",NA,NA,NA,NA,NA,NA
+"226","David Freed","County of Cumberland PA",2001,2006,"U.S. Attorney for the M.D. of Pennsylvania","2017-11-27",0,"male",NA,NA,NA,"Washington and Lee University",NA,"Dickinson School of Law",52,88,"Republican",NA,NA,NA,NA,NA,NA
+"227","David Freed","County of Cumberland PA",1998,2001,"U.S. Attorney for the M.D. of Pennsylvania","2017-11-27",0,"male",NA,NA,NA,"Washington and Lee University",NA,"Dickinson School of Law",52,88,"Republican",NA,NA,NA,NA,NA,NA
+"228","David Freed","County of York PA",1997,1998,"U.S. Attorney for the M.D. of Pennsylvania","2017-11-27",0,"male",NA,NA,NA,"Washington and Lee University",NA,"Dickinson School of Law",52,88,"Republican",NA,NA,NA,NA,NA,NA
+"229","David Freed","Private Practice",NA,NA,"U.S. Attorney for the M.D. of Pennsylvania","2017-11-27",0,"male",NA,NA,NA,"Washington and Lee University",NA,"Dickinson School of Law",52,88,"Republican",NA,NA,NA,NA,NA,NA
+"230","Scott Brady","Federated Investors Inc",NA,2017,"U.S. Attorney for the W.D. of Pennsylvania","2017-12-22",0,"male",NA,NA,NA,"Harvard University",NA,"Dickinson School of Law",52,88,NA,NA,NA,NA,NA,NA,NA
+"231","Scott Brady","United States Attorney's Office for the Western District of Pennsylvania",2004,2010,"U.S. Attorney for the W.D. of Pennsylvania","2017-12-22",0,"male",NA,NA,NA,"Harvard University",NA,"Dickinson School of Law",52,88,NA,NA,NA,NA,NA,NA,NA
+"232","Scott Brady","Jones Day LLP",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania","2017-12-22",0,"male",NA,NA,NA,"Harvard University",NA,"Dickinson School of Law",52,88,NA,NA,NA,NA,NA,NA,NA
+"233","Scott Brady","University of Pittsburgh School of Law",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania","2017-12-22",0,"male",NA,NA,NA,"Harvard University",NA,"Dickinson School of Law",52,88,NA,NA,NA,NA,NA,NA,NA
+"234","Scott Brady","Reed Smith LLP",NA,NA,"U.S. Attorney for the W.D. of Pennsylvania","2017-12-22",0,"male",NA,NA,NA,"Harvard University",NA,"Dickinson School of Law",52,88,NA,NA,NA,NA,NA,NA,NA
+"235","William M. McSwain","Drinker Biddle & Reath LLP",NA,2018,"U.S. Attorney for the E.D. of Pennsylvania","2018-04-06",0,"male","1969-01-01","Philadelphia",51,"Yale University",NA,"Harvard Law School",1,25,"Republican",1,NA,NA,NA,NA,NA
+"236","William M. McSwain","United States Attorney's Office for the Eastern District of Pennsylvania",2003,2006,"U.S. Attorney for the E.D. of Pennsylvania","2018-04-06",0,"male","1969-01-01","Philadelphia",51,"Yale University",NA,"Harvard Law School",1,25,"Republican",1,NA,NA,NA,NA,NA
+"237","William M. McSwain","United States Court of Appeals for the Third Circuit",NA,NA,"U.S. Attorney for the E.D. of Pennsylvania","2018-04-06",0,"male","1969-01-01","Philadelphia",51,"Yale University",NA,"Harvard Law School",1,25,"Republican",1,NA,NA,NA,NA,NA
+"238","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2018,2019,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"239","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2017,2018,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"240","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2013,2017,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"241","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",2001,2013,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"242","W. Stephen Muldrow","United States Attorney's Office for the District of Puerto Rico",1995,2001,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"243","W. Stephen Muldrow","United States Department of Justice",1989,1995,"U.S. Attorney for the District of Puerto Rico","2019-10-04",1,"male","1964-06-15",NA,56,"Bucknell University","American University School of International Service","Washington College of Law",64,61,NA,NA,NA,NA,NA,NA,NA
+"244","Aaron L. Weisman","Rhode Island Office of the Attorney General",1993,2019,"U.S. Attorney for the District of Rhode Island","2019-01-14",0,"male","1965-01-01",NA,55,"Brandeis University",NA,"Benjamin N. Cardozo School of Law",43,78,"Republican",NA,NA,NA,NA,NA,NA
+"245","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,"U.S. Attorney for the District of Rhode Island","2019-01-14",0,"male","1965-01-01",NA,55,"Brandeis University",NA,"Benjamin N. Cardozo School of Law",43,78,"Republican",NA,NA,NA,NA,NA,NA
+"246","Aaron L. Weisman","Jones Associates",NA,NA,"U.S. Attorney for the District of Rhode Island","2019-01-14",0,"male","1965-01-01",NA,55,"Brandeis University",NA,"Benjamin N. Cardozo School of Law",43,78,"Republican",NA,NA,NA,NA,NA,NA
+"247","Sherri Lydon","United States Attorney's Office for the District of South Carolina",2018,2019,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"248","Sherri Lydon","Private Practice",2005,2018,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"249","Sherri Lydon","South Carolina Office of the Attorney General",2003,2004,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"250","Sherri Lydon","Private Practice",1995,2003,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"251","Sherri Lydon","Private Practice",1993,1995,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"252","Sherri Lydon","United States Attorney's Office for the District of South Carolina",1990,1993,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"253","Sherri Lydon","Private Practice",1987,1990,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"254","Sherri Lydon","Nexsen Pruet LLC",NA,1990,"U.S. Attorney for the District of South Carolina","2018-05-24",0,"female","1962-02-21","Myrtle Beach Air Force Base",58,"Clemson University",NA,"University of South Carolina School of Law",92,164,"None",NA,NA,NA,NA,NA,NA
+"255","Peter M. McCoy Jr.","South Carolina House of Represenatives",2011,2020,"U.S. Attorney for the District of South Carolina","2020-03-30",NA,"male","1978-08-20","Charleston",42,"Hampden-Sydney College",NA,"Regent University School of Law",102,184,"Republican",NA,NA,1,NA,NA,NA
+"256","Peter M. McCoy Jr.","McCoy & Stokes",NA,NA,"U.S. Attorney for the District of South Carolina","2020-03-30",NA,"male","1978-08-20","Charleston",42,"Hampden-Sydney College",NA,"Regent University School of Law",102,184,"Republican",NA,NA,1,NA,NA,NA
+"257","Peter M. McCoy Jr.","South Carolina Office of the Solictor for the Ninth Judicial Circuit",NA,NA,"U.S. Attorney for the District of South Carolina","2020-03-30",NA,"male","1978-08-20","Charleston",42,"Hampden-Sydney College",NA,"Regent University School of Law",102,184,"Republican",NA,NA,1,NA,NA,NA
+"258","Ron A. Parsons Jr.","Johnson Heidepriem & Abdallah LLP",NA,2017,"U.S. Attorney for the District of South Dakota","2018-01-05",0,"male",NA,NA,NA,"University of Minnesota",NA,"University of South Dakota School of Law",157,173,"Republican",NA,NA,NA,NA,NA,NA
+"259","Ron A. Parsons Jr.","United States Court of Appeals for the Eighth Circuit",NA,NA,"U.S. Attorney for the District of South Dakota","2018-01-05",0,"male",NA,NA,NA,"University of Minnesota",NA,"University of South Dakota School of Law",157,173,"Republican",NA,NA,NA,NA,NA,NA
+"260","Doug Overbey","Tennessee State Senate",2009,2017,"U.S. Attorney for the E.D. of Tennessee","2017-11-21",0,"male","1954-12-11",NA,65,"Carson Newman University",NA,"University of Tennessee College of Law",64,111,"Republican",NA,NA,NA,NA,NA,NA
+"261","Doug Overbey","Tennessee House of Represenatives",2008,2009,"U.S. Attorney for the E.D. of Tennessee","2017-11-21",0,"male","1954-12-11",NA,65,"Carson Newman University",NA,"University of Tennessee College of Law",64,111,"Republican",NA,NA,NA,NA,NA,NA
+"262","Doug Overbey","Robertson Overbey",1982,2017,"U.S. Attorney for the E.D. of Tennessee","2017-11-21",0,"male","1954-12-11",NA,65,"Carson Newman University",NA,"University of Tennessee College of Law",64,111,"Republican",NA,NA,NA,NA,NA,NA
+"263","Donald Q. Cochran","Belmont Law School",2012,2017,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"264","Donald Q. Cochran","Cumberland School of Law",2002,2012,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"265","Donald Q. Cochran","United States Attorney's Office for the Northern District of Alabama",1998,2002,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"266","Donald Q. Cochran","County of Jefferson AL",NA,NA,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"267","Donald Q. Cochran","United States District Court for the Northern District of Georgia",NA,NA,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"268","Donald Q. Cochran","(US) Army",NA,NA,"U.S. Attorney for the M.D. of Tennessee","2017-09-21",0,"male",NA,NA,NA,"Vanderbilt University",NA,"Vanderbilt University Law School",15,140,NA,1,NA,NA,NA,NA,NA
+"269","D. Michael Dunavant","25th Judicial District TN",2006,2017,"U.S. Attorney for the W.D. of Tennessee","2017-09-21",0,"male","1970-01-01","Millington",50,"University of Tennessee",NA,"University of Mississippi School of Law",92,143,"None",NA,NA,NA,NA,NA,NA
+"270","D. Michael Dunavant","Carney, Wilder & Dunavant",1995,2006,"U.S. Attorney for the W.D. of Tennessee","2017-09-21",0,"male","1970-01-01","Millington",50,"University of Tennessee",NA,"University of Mississippi School of Law",92,143,"None",NA,NA,NA,NA,NA,NA
+"271","Joseph D. Brown","County of Grayson TX",2018,2018,"U.S. Attorney for the E.D. of Texas","2018-02-26",0,"male","1970-01-01","Sherman",50,"University of Texas at Austin",NA,"Dedman School of Law",43,149,"Republican",NA,NA,1,NA,NA,NA
+"272","Joseph D. Brown","Texas Juvenile Justice Department",2009,2014,"U.S. Attorney for the E.D. of Texas","2018-02-26",0,"male","1970-01-01","Sherman",50,"University of Texas at Austin",NA,"Dedman School of Law",43,149,"Republican",NA,NA,1,NA,NA,NA
+"273","Joseph D. Brown","Cowles and Thompson",NA,NA,"U.S. Attorney for the E.D. of Texas","2018-02-26",0,"male","1970-01-01","Sherman",50,"University of Texas at Austin",NA,"Dedman School of Law",43,149,"Republican",NA,NA,1,NA,NA,NA
+"274","Erin Nealy Cox","McKinsey & Company",NA,2017,"U.S. Attorney for the N.D. of Texas","2017-11-17",0,"female","1970-01-01","Pascagoula",50,NA,NA,"University of Texas School of Law",15,120,"None",1,NA,NA,NA,NA,NA
+"275","Erin Nealy Cox","Stroz Friedberg LLC",2008,2016,"U.S. Attorney for the N.D. of Texas","2017-11-17",0,"female","1970-01-01","Pascagoula",50,NA,NA,"University of Texas School of Law",15,120,"None",1,NA,NA,NA,NA,NA
+"276","Erin Nealy Cox","United States Attorney's Office for the Northern District of Texas",1999,2008,"U.S. Attorney for the N.D. of Texas","2017-11-17",0,"female","1970-01-01","Pascagoula",50,NA,NA,"University of Texas School of Law",15,120,"None",1,NA,NA,NA,NA,NA
+"277","Erin Nealy Cox","United States Court of Appeals for the Fifth Circuit",NA,NA,"U.S. Attorney for the N.D. of Texas","2017-11-17",0,"female","1970-01-01","Pascagoula",50,NA,NA,"University of Texas School of Law",15,120,"None",1,NA,NA,NA,NA,NA
+"278","Erin Nealy Cox","United States District Court for the Northern District of Texas",NA,NA,"U.S. Attorney for the N.D. of Texas","2017-11-17",0,"female","1970-01-01","Pascagoula",50,NA,NA,"University of Texas School of Law",15,120,"None",1,NA,NA,NA,NA,NA
+"279","Ryan Patrick","Hoover Slovacek LLP",2017,2017,"U.S. Attorney for the S.D. of Texas","2018-01-08",0,"male","1979-01-01","Washington, D.C.",41,"Baylor University",NA,"South Texas College of Law",148,176,"Republican",1,NA,NA,NA,NA,1
+"280","Ryan Patrick","Private Practice",2017,2017,"U.S. Attorney for the S.D. of Texas","2018-01-08",0,"male","1979-01-01","Washington, D.C.",41,"Baylor University",NA,"South Texas College of Law",148,176,"Republican",1,NA,NA,NA,NA,1
+"281","Ryan Patrick","Texas 177th District Court",2012,2016,"U.S. Attorney for the S.D. of Texas","2018-01-08",0,"male","1979-01-01","Washington, D.C.",41,"Baylor University",NA,"South Texas College of Law",148,176,"Republican",1,NA,NA,NA,NA,1
+"282","Ryan Patrick","County of Harris TX",2005,2012,"U.S. Attorney for the S.D. of Texas","2018-01-08",0,"male","1979-01-01","Washington, D.C.",41,"Baylor University",NA,"South Texas College of Law",148,176,"Republican",1,NA,NA,NA,NA,1
+"283","Ryan Patrick","Harris County Republican Party",2002,2004,"U.S. Attorney for the S.D. of Texas","2018-01-08",0,"male","1979-01-01","Washington, D.C.",41,"Baylor University",NA,"South Texas College of Law",148,176,"Republican",1,NA,NA,NA,NA,1
+"284","John Bash","(US) Office of President",2017,2017,"U.S. Attorney for the W.D. of Texas","2017-12-11",0,"male",NA,NA,NA,"Harvard University",NA,"Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"285","John Bash","United States Department of Justice",2012,2017,"U.S. Attorney for the W.D. of Texas","2017-12-11",0,"male",NA,NA,NA,"Harvard University",NA,"Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"286","John Bash","Gibson Dunn & Crutcher LLP",NA,2012,"U.S. Attorney for the W.D. of Texas","2017-12-11",0,"male",NA,NA,NA,"Harvard University",NA,"Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"287","John Bash","United States Court of Appeals for the District of Columbia Circuit",2006,2007,"U.S. Attorney for the W.D. of Texas","2017-12-11",0,"male",NA,NA,NA,"Harvard University",NA,"Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"288","John Bash","United States Supreme Court",NA,NA,"U.S. Attorney for the W.D. of Texas","2017-12-11",0,"male",NA,NA,NA,"Harvard University",NA,"Harvard Law School",1,25,NA,1,NA,NA,NA,NA,NA
+"289","John W. Huber","United States Attorney's Office for the District of Utah",2012,2015,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"290","John W. Huber","United States Attorney's Office for the District of Utah",2005,2012,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"291","John W. Huber","United States Attorney's Office for the District of Utah",2002,2005,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"292","John W. Huber","City of West Valley City UT",1999,2004,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"293","John W. Huber","City of West Valley City UT",1996,1999,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"294","John W. Huber","County of Weber UT",1995,1996,"U.S. Attorney for the District of Utah","2015-06-01",0,"male","1967-01-01","Salt Lake City",53,"University of Utah",NA,"University of Utah College of Law",58,81,NA,NA,NA,NA,NA,NA,NA
+"295","Christina E. Nolan","United States Attorney's Office for the District of Vermont",2010,2017,"U.S. Attorney for the District of Vermont","2017-11-27",0,"female","1979-01-01","Burlington",41,"University of Vermont",NA,"Boston College Law School",24,57,"None",NA,NA,NA,NA,NA,NA
+"296","Christina E. Nolan","Goodwin Procter LLP",2005,2009,"U.S. Attorney for the District of Vermont","2017-11-27",0,"female","1979-01-01","Burlington",41,"University of Vermont",NA,"Boston College Law School",24,57,"None",NA,NA,NA,NA,NA,NA
+"297","Christina E. Nolan","County of Middlesex MA",NA,NA,"U.S. Attorney for the District of Vermont","2017-11-27",0,"female","1979-01-01","Burlington",41,"University of Vermont",NA,"Boston College Law School",24,57,"None",NA,NA,NA,NA,NA,NA
+"298","Christina E. Nolan","United States District Court of Massachusetts",NA,NA,"U.S. Attorney for the District of Vermont","2017-11-27",0,"female","1979-01-01","Burlington",41,"University of Vermont",NA,"Boston College Law School",24,57,"None",NA,NA,NA,NA,NA,NA
+"299","G. Zachary Terwilliger","United States Attorney's Office for the Eastern District of Virginia",2010,NA,"U.S. Attorney for the E.D. of Virginia","2018-05-25",0,"male","1985-01-01","Washington, D.C.",35,"University of Virginia",NA,"William & Mary School of Law",36,146,NA,1,NA,NA,NA,NA,NA
+"300","G. Zachary Terwilliger","United States District Court for the Southern District of Florida",NA,2008,"U.S. Attorney for the E.D. of Virginia","2018-05-25",0,"male","1985-01-01","Washington, D.C.",35,"University of Virginia",NA,"William & Mary School of Law",36,146,NA,1,NA,NA,NA,NA,NA
+"301","Thomas T. Cullen","Woods Rogers PLC",NA,2018,"U.S. Attorney for the W.D. of Virginia","2018-03-30",0,"male","1977-01-01","Richmond",43,"Furman University",NA,"William & Mary School of Law",36,146,"None",1,NA,NA,NA,1,NA
+"302","Thomas T. Cullen","United States Attorney's Office for the Western District of Virginia",NA,NA,"U.S. Attorney for the W.D. of Virginia","2018-03-30",0,"male","1977-01-01","Richmond",43,"Furman University",NA,"William & Mary School of Law",36,146,"None",1,NA,NA,NA,1,NA
+"303","Thomas T. Cullen","United States Attorney's Office for the Western District of North Carolina",NA,NA,"U.S. Attorney for the W.D. of Virginia","2018-03-30",0,"male","1977-01-01","Richmond",43,"Furman University",NA,"William & Mary School of Law",36,146,"None",1,NA,NA,NA,1,NA
+"304","Thomas T. Cullen","United States Court of Appeals for the Fourth Circuit",NA,NA,"U.S. Attorney for the W.D. of Virginia","2018-03-30",0,"male","1977-01-01","Richmond",43,"Furman University",NA,"William & Mary School of Law",36,146,"None",1,NA,NA,NA,1,NA
+"305","Thomas T. Cullen","United States District Court for the Eastern District of Michigan",NA,NA,"U.S. Attorney for the W.D. of Virginia","2018-03-30",0,"male","1977-01-01","Richmond",43,"Furman University",NA,"William & Mary School of Law",36,146,"None",1,NA,NA,NA,1,NA
+"306","William D. Hyslop","Lukins & Annis PS",1993,2019,"U.S. Attorney for the E.D. of Washington","2019-07-18",1,"male","1951-01-01","Spokane",69,"Washington State University","University of Washington","Gonzaga University School of Law",102,107,NA,NA,NA,NA,NA,NA,NA
+"307","William D. Hyslop","United States Attorney's Office for the Eastern District of Washington",1991,1993,"U.S. Attorney for the E.D. of Washington","2019-07-18",1,"male","1951-01-01","Spokane",69,"Washington State University","University of Washington","Gonzaga University School of Law",102,107,NA,NA,NA,NA,NA,NA,NA
+"308","William D. Hyslop","Lukins & Annis PS",1984,1991,"U.S. Attorney for the E.D. of Washington","2019-07-18",1,"male","1951-01-01","Spokane",69,"Washington State University","University of Washington","Gonzaga University School of Law",102,107,NA,NA,NA,NA,NA,NA,NA
+"309","William D. Hyslop","Lukins & Annis PS",1980,1983,"U.S. Attorney for the E.D. of Washington","2019-07-18",1,"male","1951-01-01","Spokane",69,"Washington State University","University of Washington","Gonzaga University School of Law",102,107,NA,NA,NA,NA,NA,NA,NA
+"310","Brian T. Moran","Orrick, Herrington & Sutcliffe LLP",2013,2018,"U.S. Attorney for the W.D. of Washington","2019-01-17",0,"male",NA,NA,NA,"Middlebury College",NA,"Seattle University School of Law",102,14,NA,NA,NA,NA,NA,NA,NA
+"311","Brian T. Moran","Washington Office of the Attorney General",2006,2013,"U.S. Attorney for the W.D. of Washington","2019-01-17",0,"male",NA,NA,NA,"Middlebury College",NA,"Seattle University School of Law",102,14,NA,NA,NA,NA,NA,NA,NA
+"312","Brian T. Moran","Washington Office of the Attorney General",1998,2006,"U.S. Attorney for the W.D. of Washington","2019-01-17",0,"male",NA,NA,NA,"Middlebury College",NA,"Seattle University School of Law",102,14,NA,NA,NA,NA,NA,NA,NA
+"313","Brian T. Moran","County of Kitsap WA",1989,1998,"U.S. Attorney for the W.D. of Washington","2019-01-17",0,"male",NA,NA,NA,"Middlebury College",NA,"Seattle University School of Law",102,14,NA,NA,NA,NA,NA,NA,NA
+"314","William Powell","County of Jefferson WV",NA,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","William Powell","United States Attorney's Office for the Southern District of West Virginia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316","William Powell","Jackson Kelly PLLC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317","Michael B. Stuart","Steptoe & Johnson PLLC",NA,2018,"U.S. Attorney for the S.D. of West Virginia","2018-01-09",0,"male","1967-01-06","Philippi",53,"West Virginia University",NA,"Boston University School of Law",19,21,"Republican",NA,NA,NA,NA,NA,NA
+"318","Michael B. Stuart","Republican Party of West Virginia",2010,2012,"U.S. Attorney for the S.D. of West Virginia","2018-01-09",0,"male","1967-01-06","Philippi",53,"West Virginia University",NA,"Boston University School of Law",19,21,"Republican",NA,NA,NA,NA,NA,NA
+"319","Matthew Krueger","Steptoe & Johnson PLLC",2013,2018,"U.S. Attorney for the E.D. of Wisconsin","2018-02-23",0,"male","1978-01-01","Milwaukee",42,"University of Wisconsin–Madison",NA,"University of Minnesota Law School",24,44,"Republican",1,NA,NA,NA,NA,NA
+"320","Matthew Krueger","Sidley Austin LLP",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","2018-02-23",0,"male","1978-01-01","Milwaukee",42,"University of Wisconsin–Madison",NA,"University of Minnesota Law School",24,44,"Republican",1,NA,NA,NA,NA,NA
+"321","Matthew Krueger","United States Department of Justice",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","2018-02-23",0,"male","1978-01-01","Milwaukee",42,"University of Wisconsin–Madison",NA,"University of Minnesota Law School",24,44,"Republican",1,NA,NA,NA,NA,NA
+"322","Matthew Krueger","United States Court of Appeals for the Fourth Circuit",NA,NA,"U.S. Attorney for the E.D. of Wisconsin","2018-02-23",0,"male","1978-01-01","Milwaukee",42,"University of Wisconsin–Madison",NA,"University of Minnesota Law School",24,44,"Republican",1,NA,NA,NA,NA,NA
+"323","Scott Blader","County of Waushara WI",2007,2017,"U.S. Attorney for the W.D. of Wisconsin","2017-11-22",0,"male","1974-01-01","Wild Rose",46,"University of Wisconsin-Oshkosh",NA,"Marquette University Law School",102,126,"Republican",NA,NA,NA,NA,NA,NA
+"324","Scott Blader","Private Practice",1999,2007,"U.S. Attorney for the W.D. of Wisconsin","2017-11-22",0,"male","1974-01-01","Wild Rose",46,"University of Wisconsin-Oshkosh",NA,"Marquette University Law School",102,126,"Republican",NA,NA,NA,NA,NA,NA
+"325","Mark Klassen","United States Attorney's Office for the District of Wyoming",NA,2017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326","Mark Klassen","United States Department of Homeland Security",2007,2009,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327","Mark Klassen","US House of Representatives",2003,2007,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328","Mark Klassen","Latham & Watkins",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329","Mark Klassen","United States Court of Appeals for the Tenth Circuit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

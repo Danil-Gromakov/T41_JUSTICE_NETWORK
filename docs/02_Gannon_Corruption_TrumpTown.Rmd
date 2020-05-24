@@ -1,6 +1,6 @@
 ---
-title: "Prosecutors"
-author: "J Andres Gannon, Katelyn Hess, and Yulia Krylova"
+title: "02 Justice Department"
+author: "J Andres Gannon, Danil Gromakov, Katelyn Hess, and Yulia Krylova"
 date: "May 2020"
 output:
   html_document:
@@ -20,6 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(magrittr)
 library(ggplot2)
 ```
+
+This document loads, cleans, and processes data from ProPublica's Trump Tower's archives concerning Department of Justice appointments during the Trump administration. We collect data on their employment history, education history, and membership in various organizations to identify patterns in how these Justice Department officials were chosen.
 
 # Employment
 ## Googlesheet
@@ -180,7 +182,7 @@ work <- df_full
 googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "justicedepartmentemployment_noedit")
 
-work <- write.csv(work, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_employment_hist.csv"))
+work <- write.csv(work, paste0(here::here(), "/data/", "justicedept_employment.csv"))
 ```
 
 # School
@@ -244,7 +246,6 @@ sort(unique(edu_all$law))
 DT::datatable(edu_all)
 
 GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabels = c("Law School Rank", "Law School Conservatism"))
-ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsecutors_network'))
 ```
 
 ## Save
@@ -252,7 +253,7 @@ ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsec
 googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "schooljusticedepartment_noedit")
 
-edu <- write.csv(edu_all, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_edu_hist.csv"))
+edu <- write.csv(edu_all, paste0(here::here(), "/data/", "justicedept_edu.csv"))
 ```
 
 # Memberships
@@ -276,7 +277,7 @@ memb_clean <- memb %>% dplyr::filter(senate_appt == 1) %>%
 ```{r}
 DT::datatable(memb_clean)
 
-memb_upset <- memb %>% dplyr::select(dplyr::ends_with("_tie")) %>%
+memb_upset <- memb_clean %>%
   dplyr::rename("Federalist Society" = federalist_society, "Heritage Foundation" = heritage_foundation)
 
 memb_upset <- as.data.frame(sapply(memb_upset, as.numeric))
@@ -292,47 +293,43 @@ UpSetR::upset(memb_upset,
 googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "membershipprosecutors_noedit")
 
-memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+memb <- write.csv(memb_clean, paste0(here::here(), "/data/", "justicedept_membership.csv"))
 ```
 
 # Final
 ## Load all cleaned
 ```{r}
 # Load
-base <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "wikidata_list.csv"))
-employ <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "employment_hist.csv"))
-edu <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
-memb <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+employ <- read.csv(paste0(here::here(), "/data/", "justicedept_employment.csv"))
+edu <- read.csv(paste0(here::here(), "/data/", "justicedept_edu.csv"))
+memb <- read.csv(paste0(here::here(), "/data/", "justicedept_membership.csv"))
 ```
 
 ## Clean
 ```{r}
-colnames(base)
-base <- base %>% dplyr::select(-c("X")) %>%
-  dplyr::rename(person = itemLabel, sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
-
 colnames(employ)
 employ <- employ %>% dplyr::select(-c("X")) %>%
-  dplyr::rename(person = attorney)
+  dplyr::rename(person = attorney, agency_title = position_title)
 
 colnames(edu)
 edu <- edu %>% dplyr::select(-c("X")) %>%
   dplyr::rename(person = item_label)
 
 colnames(memb)
-memb <- memb %>% dplyr::select(-c("X")) %>%
-  dplyr::rename(person = attorney)
+memb <- memb %>% dplyr::select(-c("X", "senate_appt")) %>%
+  dplyr::rename(person = item_label)
 ```
 
 ## Merge
 Since the only one with more columns is employment, we merge everything into that
 ```{r}
-full <- dplyr::left_join(employ, base)
 full <- dplyr::left_join(employ, edu)
-full <- dplyr::left_join(employ, memb)
+full <- dplyr::left_join(full, memb)
+
+full <- full %>% dplyr::distinct()
 ```
 
 ## Save
 ```{r}
-full <- write.csv(full, paste0(here::here(), "/TrumpProsecutors_network/", "final_prosecutors.csv"))
+write.csv(full, paste0(here::here(), "/data/", "justicedept_final.csv"))
 ```
