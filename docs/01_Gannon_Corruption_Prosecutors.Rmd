@@ -131,6 +131,12 @@ query <- 'SELECT ?item ?itemLabel ?class ?classLabel ?sex_or_gender ?sex_or_gend
 \nwd:Q47484556
 \nwd:Q42353365
 \nwd:Q42351529
+\nwd:Q66819535
+\nwd:Q47037424
+\nwd:Q58972555
+\nwd:Q42417575
+\nwd:Q38929933
+\nwd:Q5607717
 \n  }
 \n  ?item wdt:P31 ?class.\n  
 OPTIONAL { ?item wdt:P21 ?sex_or_gender. }\n 
@@ -147,8 +153,7 @@ df <- qd$results
 
 ### Summarize info
 ```{r, message = FALSE}
-df_wiki <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "wikidata")
+df_wiki <- read.csv(file = paste0(here::here(), '/data/query.csv'))
 ```
 
 Extract wikidata IDs from SPARQL query for easier merging
