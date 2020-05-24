@@ -216,14 +216,15 @@ Save this version of the data as a new sheet on the original googledoc
 ```{r, message = FALSE}
 googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "mergedcode_noedit")
-df_full <- write.csv(df_full, paste0(here::here(), "/TrumpProsecutors_network/", "wikidata_list.csv"))
+df_full <- write.csv(df_full, paste0(here::here(), "/data/", "prosecutors_base.csv"))
 ```
 
 # Employment
 ## Load
 ```{r}
 work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "employment_prosecutors")
+                                    sheet = "employment_prosecutors",
+                                  col_types = "cccccnncc")
 
 work <- janitor::clean_names(work)
 ```
@@ -256,11 +257,11 @@ DT::datatable(work_count)
 
 ## Save
 ````{r}
-work <- work %>% dplyr::select(attorney, employer)
+work <- work %>% dplyr::select(attorney, employer, start_date, end_date)
 googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "employmentprosecutors_noedit")
 
-work <- write.csv(work, paste0(here::here(), "/TrumpProsecutors_network/", "employment_hist.csv"))
+work <- write.csv(work, paste0(here::here(), "/data/", "prosecutors_employment.csv"))
 ```
 
 # School
@@ -294,6 +295,9 @@ edu$degree[edu$degree == "LLM" |
 edu$degree[edu$degree == "JD"] <- "law"
 
 sort(unique(edu$degree))
+
+# Accept undergrad LAC rankings as normal, since we're not using them for conservative rankings anyway
+edu$undergrad_rank <- stringr::str_replace(edu$undergrad_rank, '\\*', '')
 ```
 
 ## Prep for network
@@ -319,7 +323,6 @@ sort(unique(edu_all$law))
 DT::datatable(edu_all)
 
 GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabels = c("Law School Rank", "Law School Conservatism"))
-ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsecutors_network'))
 ```
 
 ## Save
@@ -327,7 +330,7 @@ ggplot2::ggsave("law_school_corr.png", path = paste0(here::here(), '/TrumpProsec
 googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "schoolprosecutors_noedit")
 
-edu <- write.csv(edu_all, paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
+edu <- write.csv(edu_all, paste0(here::here(), "/data/", "prosecutors_edu.csv"))
 ```
 
 # Memberships
@@ -365,4 +368,47 @@ UpSetR::upset(memb_upset,
 googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                            sheet = "membershipprosecutors_noedit")
 
-memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+memb <- write.csv(memb_clean, paste0(here::here(), "/data/", "prosecutors_membership.csv"))
+```
+
+# Final
+## Load all cleaned
+```{r}
+# Load
+base <- read.csv(paste0(here::here(), "/data/", "prosecutors_base.csv"))
+employ <- read.csv(paste0(here::here(), "/data/", "prosecutors_employment.csv"))
+edu <- read.csv(paste0(here::here(), "/data/", "prosecutors_edu.csv"))
+memb <- read.csv(paste0(here::here(), "/data/", "prosecutors_membership.csv"))
+```
+
+## Clean
+```{r}
+colnames(base)
+base <- base %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = itemLabel, sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
+
+colnames(employ)
+employ <- employ %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = attorney)
+
+colnames(edu)
+edu <- edu %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = item_label)
+
+colnames(memb)
+memb <- memb %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = attorney)
+```
+
+## Merge
+Since the only one with more columns is employment, we merge everything into that
+```{r}
+full <- dplyr::left_join(employ, base)
+full <- dplyr::left_join(employ, edu)
+full <- dplyr::left_join(employ, memb)
+```
+
+## Save
+```{r}
+full <- write.csv(full, paste0(here::here(), "/data/", "prosecutors_final.csv"))
+```

@@ -19,8 +19,6 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 library(magrittr)
 library(ggplot2)
-library(reticulate)
-use_python("/home/andres/.local/share/r-miniconda/envs/r-reticulate/bin/python3.6.exe")
 ```
 
 # Employment
@@ -278,7 +276,7 @@ memb_clean <- memb %>% dplyr::filter(senate_appt == 1) %>%
 ```{r}
 DT::datatable(memb_clean)
 
-memb_upset <- memb %>% dplyr::select(federalist_society, heritage_foundation) %>%
+memb_upset <- memb %>% dplyr::select(dplyr::ends_with("_tie")) %>%
   dplyr::rename("Federalist Society" = federalist_society, "Heritage Foundation" = heritage_foundation)
 
 memb_upset <- as.data.frame(sapply(memb_upset, as.numeric))
@@ -286,12 +284,55 @@ memb_upset[is.na(memb_upset)] <- 0
 
 UpSetR::upset(memb_upset,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
-      mainbar.y.label = "Number of Prosecutors", order.by = "freq", empty.intersections = "on")
+      mainbar.y.label = "Number of Prosecutors", order.by = "freq")
 ```
 
 ## Save
 ```{r}
 googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "membershipjusticedepartment_noedit")
+                           sheet = "membershipprosecutors_noedit")
 
-memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "justicedepartment_membership_hist.csv"))
+memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+```
+
+# Final
+## Load all cleaned
+```{r}
+# Load
+base <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "wikidata_list.csv"))
+employ <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "employment_hist.csv"))
+edu <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "edu_hist.csv"))
+memb <- read.csv(paste0(here::here(), "/TrumpProsecutors_network/", "membership_hist.csv"))
+```
+
+## Clean
+```{r}
+colnames(base)
+base <- base %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = itemLabel, sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
+
+colnames(employ)
+employ <- employ %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = attorney)
+
+colnames(edu)
+edu <- edu %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = item_label)
+
+colnames(memb)
+memb <- memb %>% dplyr::select(-c("X")) %>%
+  dplyr::rename(person = attorney)
+```
+
+## Merge
+Since the only one with more columns is employment, we merge everything into that
+```{r}
+full <- dplyr::left_join(employ, base)
+full <- dplyr::left_join(employ, edu)
+full <- dplyr::left_join(employ, memb)
+```
+
+## Save
+```{r}
+full <- write.csv(full, paste0(here::here(), "/TrumpProsecutors_network/", "final_prosecutors.csv"))
+```
