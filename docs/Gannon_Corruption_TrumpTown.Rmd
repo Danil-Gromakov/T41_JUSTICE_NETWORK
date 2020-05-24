@@ -75,52 +75,112 @@ df_staff$end_date <- as.numeric(df_staff$end_date)
 df_staff$notes <- NA
 ```
 
-## Push to googlesheet to get list of senate appts
+### Get list of senate appts
 ```{r}
-df_staff <- df_staff %>% dplyr::select(agency_name, position_title, attorney) %>%
+df_merge <- df_staff %>% dplyr::select(agency_name, position_title, attorney) %>%
   dplyr::distinct()
 
-df_staff$senateappt <- NA
+df_merge$senate_appt <- NA
 
-googlesheets4::write_sheet(df_staff, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "trumptown_names")
+df_merge$senate_appt[df_merge$attorney == "Beth Ann Williams" |
+                      df_merge$attorney == "Brian Allen Benczkowski" |
+                      df_merge$attorney == "Eric S. Dreiband" |
+                      df_merge$attorney == "Jefferson B. Sessions" |
+                      df_merge$attorney == "Jeffrey Bossert Clark" |
+                      df_merge$attorney == "John C. Demers" |
+                      df_merge$attorney == "Joseph H. Hunt" |
+                      df_merge$attorney == "Noel Francisco" |
+                      df_merge$attorney == "Rachel L. Brand" |
+                      df_merge$attorney == "Rod J. Rosenstein" |
+                      df_merge$attorney == "Steven A. Engel" |
+                      df_merge$attorney == "William P. Barr"] <- 1
+
+df_merge <- df_merge %>% dplyr::filter(senate_appt == 1)
+
+df_merge$senate_appt <- NULL
 ```
 
 ## Merge
+Get a single list of all attorneys
 ```{r}
-work_list <- as.data.frame(unique(work$attorney)) %>% dplyr::rename("attorney" = "unique(work$attorney)")
-work_list$gsheet <- 1
+# Master list of attorneys
+attorneys <- as.data.frame(unique(df_merge$attorney)) %>%
+  dplyr::rename(attorney = "unique(df_merge$attorney)")
+attorneys2 <- as.data.frame(unique(work$attorney)) %>%
+  dplyr::rename(attorney = "unique(work$attorney)")
 
-staff_list <- as.data.frame(unique(df_staff$attorney)) %>% dplyr::rename("attorney" = "unique(df_staff$attorney)")
+attorney_list <- dplyr::full_join(attorneys, attorneys2) %>%
+  dplyr::distinct()
+attorney_list$keep <- 1
 
-names <- dplyr::left_join(work_list, df_staff)
+# Merge into each original df
+df_pen <- dplyr::left_join(df_staff, attorney_list) %>%
+  dplyr::filter(keep == 1) %>%
+  dplyr::select(-c("keep", "notes"))
+
+work_pen <- dplyr::left_join(work, attorney_list) %>%
+  dplyr::filter(keep == 1) %>%
+  dplyr::select(-c("keep", "senate_appt"))
+
+df_full <- dplyr::bind_rows(df_pen, work_pen) %>%
+  dplyr::distinct()
+
+# Fix string matches
+sort(unique(df_full$employer))
+
+df_full$employer[agrep("Kirkland & Ellis", df_full$employer)] <- "Kirkland & Ellis"
+df_full$employer[df_full$employer == "A. S. and J.S. Irrevocable Trust"] <- "A. S. Trust"
+df_full$employer[df_full$employer == "BP America (client of Kirkland & Ellis LLP)"] <- "BP America"
+df_full$employer[df_full$employer == "Brownstein Hyatt Farber Schreck, LLP"] <- "Brownstein Hyatt Farber Schreck LLP"
+df_full$employer[df_full$employer == "Caesars Entertainment Operating Company (client of Kirkland & Ellis LLP)"] <- "Caesars Interactive Entertainment, Inc."
+df_full$employer[df_full$employer == "Federalist Society for Law & Policy"] <- "Federalist Society"
+df_full$employer[df_full$employer == "Georgetown Law Center"] <- "Georgetown University Law Center"
+df_full$employer[df_full$employer == "Jones Day"] <- "Jones Day LLP"
+df_full$employer[df_full$employer == "Pepperdine University"] <- "Pepperdine University School of Law"
+df_full$employer[df_full$employer == "The Boeing Company"] <- "Boeing Company"
+df_full$employer[df_full$employer == "University of North Carolina, Board of Trustees of UNC, W. Louis Bissette, Jr., Margaret Spellings"] <- "University of North Carolina"
+df_full$employer[df_full$employer == "Verizon Communication Inc"] <- "Verizon Communications"
+df_full$employer[df_full$employer == "Volkswagen Group of America (client of Kirkland & Ellis LLP)"] <- "Volkswagen Group of America"
+
+sort(unique(df_full$employer))
+
+df_full <- df_full %>% dplyr::distinct()
 ```
 
-Combine the googlesheet justice department employment and the trump tower employment csv
-```{r}
-work_all <- dplyr::bind_rows(work, df_staff)
+### Push to google doc
+Manually fill the remaining employment histories
+```{r, eval = FALSE}
+googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "employment_justicedepartment_merged")
+```
 
-# Fix employer string mismatches
-sort(unique(work_all$employer))
+### Pull new google doc
+This is the same as before but we've manually inputed the missing employment histories
+```{r}
+df_full <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "employment_justicedepartment_merged")
+
+df_full <- df_full %>% dplyr::distinct()
 ```
 
 ## Prep for network
 ```{r}
 # Places of employment with the most unique attorneys
-work_count <- work %>% dplyr::select(attorney, employer) %>%
+df_count <- df_full %>% dplyr::select(attorney, employer) %>%
   dplyr::distinct() %>%
   dplyr::group_by(employer) %>%
   dplyr::summarise(count = dplyr::n()) %>%
   dplyr::filter(count > 1)
 
-DT::datatable(work_count)
+DT::datatable(df_count)
 ```
 
 ## Save
 ````{r}
-work <- work %>% dplyr::select(attorney, employer)
+work <- df_full
+
 googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "justicedepartmentprosecutors_noedit")
+                           sheet = "justicedepartmentemployment_noedit")
 
 work <- write.csv(work, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_employment_hist.csv"))
 ```
@@ -196,3 +256,42 @@ googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d
 
 edu <- write.csv(edu_all, paste0(here::here(), "/network_WH_outOrganisations/", "justicedept_edu_hist.csv"))
 ```
+
+# Memberships
+## Load
+```{r}
+memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "memberships_justicedepartment",
+                                  col_types = "nccnnc")
+
+memb <- janitor::clean_names(memb)
+```
+
+## Prep for network
+```{r}
+# Make wide
+memb_clean <- memb %>% dplyr::filter(senate_appt == 1) %>%
+  dplyr::select(-c("political_affiliation", "notes"))
+```
+
+## Results
+```{r}
+DT::datatable(memb_clean)
+
+memb_upset <- memb %>% dplyr::select(federalist_society, heritage_foundation) %>%
+  dplyr::rename("Federalist Society" = federalist_society, "Heritage Foundation" = heritage_foundation)
+
+memb_upset <- as.data.frame(sapply(memb_upset, as.numeric))
+memb_upset[is.na(memb_upset)] <- 0
+
+UpSetR::upset(memb_upset,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Number of Prosecutors", order.by = "freq", empty.intersections = "on")
+```
+
+## Save
+```{r}
+googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "membershipjusticedepartment_noedit")
+
+memb <- write.csv(memb_clean, paste0(here::here(), "/TrumpProsecutors_network/", "justicedepartment_membership_hist.csv"))
