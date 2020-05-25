@@ -27,7 +27,7 @@ This document loads, cleans, and processes newly collected data on prosecutor's 
 ## Load
 ```{r message = FALSE}
 df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "initiallist")
+                                    sheet = "prosecutors_list")
 
 df <- janitor::clean_names(df)
 ```
@@ -210,19 +210,13 @@ ggplot(df_wiki, aes(age, ..count..)) +
 df_full <- dplyr::left_join(df, df_wiki, by = c('wikidata_id' = 'id'))
 
 # Only keep non-redundant rows
-df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appointment", "barr_appointment", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age"))
-
-# Quick checks
-naniar::gg_miss_var(df_full)
-
-DT::datatable(df_full)
+df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appointment", "barr_appointment", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age")) %>%
+  dplyr::rename(sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
 ```
 
 ## Save
 Save this version of the data as a new sheet on the original googledoc
 ```{r, message = FALSE}
-googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "mergedcode_noedit")
 df_full <- write.csv(df_full, paste0(here::here(), "/data/", "prosecutors_base.csv"))
 ```
 
@@ -230,8 +224,8 @@ df_full <- write.csv(df_full, paste0(here::here(), "/data/", "prosecutors_base.c
 ## Load
 ```{r}
 work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "employment_prosecutors",
-                                  col_types = "cccccnncc")
+                                    sheet = "prosecutors_employ",
+                                  col_types = "cccccnnnc")
 
 work <- janitor::clean_names(work)
 ```
@@ -264,9 +258,7 @@ DT::datatable(work_count)
 
 ## Save
 ````{r}
-work <- work %>% dplyr::select(attorney, employer, start_date, end_date)
-googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "employmentprosecutors_noedit")
+work <- work %>% dplyr::select(attorney, employer, firm_conservative_score, start_date, end_date)
 
 work <- write.csv(work, paste0(here::here(), "/data/", "prosecutors_employment.csv"))
 ```
@@ -275,7 +267,7 @@ work <- write.csv(work, paste0(here::here(), "/data/", "prosecutors_employment.c
 ## Load
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "school_prosecutors",
+                                    sheet = "prosecutors_edu",
                                     col_types = "cccccnnncc")
 
 edu <- janitor::clean_names(edu)
@@ -314,7 +306,8 @@ edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
   tidyr::spread(degree, educated_at_label) %>%
   dplyr::select(item_label, bachelors, masters, law)
 
-edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score)
+edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score) %>%
+  dplyr::distinct()
 
 edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_at_label")) %>%
   dplyr::distinct()
@@ -334,9 +327,6 @@ GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabel
 
 ## Save
 ```{r}
-googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "schoolprosecutors_noedit")
-
 edu <- write.csv(edu_all, paste0(here::here(), "/data/", "prosecutors_edu.csv"))
 ```
 
@@ -344,7 +334,7 @@ edu <- write.csv(edu_all, paste0(here::here(), "/data/", "prosecutors_edu.csv"))
 ## Load
 ```{r}
 memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "memberships_prosecutors")
+                                    sheet = "prosecutors_memb")
 
 memb <- janitor::clean_names(memb)
 ```
@@ -370,14 +360,6 @@ UpSetR::upset(memb_upset,
       mainbar.y.label = "Number of Prosecutors", order.by = "freq")
 ```
 
-## Save
-```{r}
-googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "membershipprosecutors_noedit")
-
-memb <- write.csv(memb_clean, paste0(here::here(), "/data/", "prosecutors_membership.csv"))
-```
-
 # Final
 ## Load all cleaned
 ```{r}
@@ -392,7 +374,7 @@ memb <- read.csv(paste0(here::here(), "/data/", "prosecutors_membership.csv"))
 ```{r}
 colnames(base)
 base <- base %>% dplyr::select(-c("X")) %>%
-  dplyr::rename(person = itemLabel, sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
+  dplyr::rename(person = itemLabel)
 
 colnames(employ)
 employ <- employ %>% dplyr::select(-c("X")) %>%

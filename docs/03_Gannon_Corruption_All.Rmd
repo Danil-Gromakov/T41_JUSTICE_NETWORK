@@ -66,6 +66,9 @@ df_noemploy <- df %>% dplyr::select(-c("employer_past", "start_date", "end_date"
 We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.
 ```{r}
 write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
+googlesheets4::write_sheet(df, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                           sheet = "all")
+
 write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
 ```
 
