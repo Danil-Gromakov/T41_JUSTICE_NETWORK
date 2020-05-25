@@ -153,7 +153,7 @@ df <- qd$results
 
 ### Summarize info
 ```{r, message = FALSE}
-df_wiki <- read.csv(file = paste0(here::here(), '/data/query.csv'))
+df_wiki <- read.csv(file = paste0(here::here(), '/data/query_prosecutors.csv'))
 ```
 
 Extract wikidata IDs from SPARQL query for easier merging
@@ -305,12 +305,17 @@ edu$undergrad_rank <- stringr::str_replace(edu$undergrad_rank, '\\*', '')
 edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
   tidyr::spread(degree, educated_at_label) %>%
   dplyr::select(item_label, bachelors, masters, law)
+edu_clean$law <- paste(edu_clean$law, "law", sep = "_")
 
-edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score) %>%
+# Merge, but careful to split undergrad and law
+edu_merge <- edu %>% tidyr::unite(educated_combo, educated_at_label, degree, sep = "_", remove = TRUE) %>%
+  dplyr::select(educated_combo, law_rank, law_conservative_score) %>%
   dplyr::distinct()
 
-edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_at_label")) %>%
+edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_combo")) %>%
   dplyr::distinct()
+edu_all$law <- gsub("_law", "", paste(edu_all$law))
+edu_all$law[edu_all$law == "NA"] <- NA
 
 # Clean each school col
 sort(unique(edu_all$bachelors))

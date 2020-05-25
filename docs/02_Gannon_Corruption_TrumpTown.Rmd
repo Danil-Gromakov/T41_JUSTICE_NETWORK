@@ -23,6 +23,87 @@ library(ggplot2)
 
 This document loads, cleans, and processes data from ProPublica's Trump Tower's archives concerning Department of Justice appointments during the Trump administration. We collect data on their employment history, education history, and membership in various organizations to identify patterns in how these Justice Department officials were chosen.
 
+# Base data
+## Load
+```{r message = FALSE}
+df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "doj_list")
+
+df <- janitor::clean_names(df)
+```
+
+## Summarize basic info
+```{r, fig.width = 16, fig.height = 16, warning = FALSE}
+DT::datatable(df)
+```
+
+### Wikidata SPARQL query
+```{r, message = FALSE}
+df_wiki <- read.csv(file = paste0(here::here(), '/data/query_doj.csv'))
+```
+
+Extract wikidata IDs from SPARQL query for easier merging
+```{r}
+df_wiki$id <- sub(".*entity/", "", df_wiki$item)
+```
+
+Subset wiki query to qualities of interest and do minor cleaning
+```{r}
+# Subset
+df_wiki <- df_wiki %>% dplyr::select(c("id", "itemLabel", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "educated_atLabel"))
+df_wiki <- unique(df_wiki)
+
+# Fix DoB type
+df_wiki$date_of_birth <- as.Date(df_wiki$date_of_birth)
+
+# Add age var
+age <- eeptools::age_calc(na.omit(df_wiki$date_of_birth), units = "years")
+df_wiki$age <- NA
+df_wiki$age[!is.na(df_wiki$date_of_birth)] <- age
+df_wiki$age <- round(df_wiki$age)
+
+# Fix Sessions errors. 2 birthplaces with differing primary education
+df_wiki <- df_wiki[- grep("Hybart, Alabama", df_wiki$place_of_birthLabel), ]
+df_wiki <- df_wiki[- grep("primary school", df_wiki$educated_atLabel), ]
+
+# educated_at var should be in multiple columns so there's one row per prosecutor
+df_wiki <- df_wiki %>% dplyr::group_by(id) %>%
+       dplyr::mutate(rn = paste0("educated_atLabel", dplyr::row_number())) %>%
+       tidyr::spread(rn, educated_atLabel)
+
+# Examine
+DT::datatable(df_wiki)
+```
+
+## Initial stats
+### Sex or gender
+```{r, fig.width=16, fig.height=10}
+ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) + 
+  geom_bar() + 
+  labs(title = "Department of Justice Official", x = "Sex", y = "Count", fill = "") + 
+  geom_text(stat = 'count', aes(label = ..count..), vjust = -1, size = 6) +
+  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
+        text = element_text(size = 24))
+```
+
+### Age
+```{r}
+ggplot(df_wiki, aes(age, ..count..)) + 
+  geom_histogram() + 
+  labs(title = "Department of Justice officials", x = "Age", y = "Count", fill = "") + 
+  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
+        text = element_text(size = 24))
+```
+
+## Merge wikidata with base
+```{r, warning = FALSE}
+df_full <- dplyr::left_join(df, df_wiki, by = c('wikidata_id' = 'id'))
+
+# Only keep non-redundant rows
+df_full <- df_full %>% dplyr::select(c("attorney", "sex_or_genderLabel", "date_of_birth", "place_of_birthLabel", "age")) %>%
+  dplyr::rename(sex = sex_or_genderLabel, birthplace = place_of_birthLabel)
+```
+
 # Employment
 ## Googlesheet
 ### Load
@@ -206,11 +287,17 @@ sort(unique(edu$degree))
 edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
   tidyr::spread(degree, educated_at_label) %>%
   dplyr::select(item_label, bachelors, masters, law, doctorate)
+edu_clean$law <- paste(edu_clean$law, "law", sep = "_")
 
-edu_merge <- edu %>% dplyr::select(educated_at_label, law_rank, law_conservative_score)
-
-edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_at_label")) %>%
+# Merge, but careful to split undergrad and law
+edu_merge <- edu %>% tidyr::unite(educated_combo, educated_at_label, degree, sep = "_", remove = TRUE) %>%
+  dplyr::select(educated_combo, law_rank, law_conservative_score) %>%
   dplyr::distinct()
+
+edu_all <- dplyr::left_join(edu_clean, edu_merge, by = c("law" = "educated_combo")) %>%
+  dplyr::distinct()
+edu_all$law <- gsub("_law", "", paste(edu_all$law))
+edu_all$law[edu_all$law == "NA"] <- NA
 
 # Clean each school col
 sort(unique(edu_all$bachelors))

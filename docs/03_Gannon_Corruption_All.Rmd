@@ -55,17 +55,11 @@ df <- dplyr::bind_rows(prosecutors, justicedept) %>%
                 "date_of_birth", "age", "birthplace", "sex",
                 "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
                 "barr_appointment", "political_affiliation", 
-                "employer_past", "start_date", "end_date",
+                "employer_past", "firm_conservative_score", "start_date", "end_date",
                 "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
 
-df_noemploy <- df %>% dplyr::select(-c("employer_past", "start_date", "end_date")) %>%
+df_noemploy <- df %>% dplyr::select(-c("employer_past", "firm_conservative_score", "start_date", "end_date")) %>%
   dplyr::distinct()
-```
-
-We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.
-```{r}
-write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
-write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
 ```
 
 # Aggregate
@@ -81,18 +75,138 @@ core <- janitor::clean_names(core)
 ```
 
 ## Conservative agenda
-We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to the federalist society or heritage foundation, or are a conservative/Republican elected politician (state senator or state representative)
-```{r}
+We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to conservative organizations, or are a conservative/Republican elected politician (state senator or state representative)
 
+### Law school
+```{r}
+# Calculate average law school conservatism
+school <- read.csv(file = paste0(here::here(), '/data/ideology_lawschool.csv'))
+school$score_scaled <- scale(school$conservatism)
+
+# Merge scaled score into a temp df
+school_temp <- df_noemploy %>% dplyr::select(person, law, law_conservative_score) %>%
+  dplyr::rename(school = law) %>%
+  dplyr::distinct()
+
+school_temp <- dplyr::left_join(school_temp, school)
+
+# Create new column for worked at a more conservative than average firm
+school_temp <- school_temp %>% dplyr::mutate(conservative = dplyr::if_else(score_scaled > 0, 1, 0)) %>%
+  dplyr::select(person, conservative) %>%
+  dplyr::rename(conservative_lawschool = conservative)
+
+# Merge that into core
+tomerge <- school_temp
 ```
 
-## Career professional
-We code whether someone is a career professional based on whether they worked in the DOJ for at least 4 years
+### Law firm
+```{r}
+# Calculate average law firm conservatism
+firm <- read.csv(file = paste0(here::here(), '/data/ideology_lawfirm.csv'))
+firm$score_scaled <- scale(firm$conservatism)
+
+# Merge scaled score into a temp df
+firm_temp <- df %>% dplyr::select(person, employer_past, firm_conservative_score) %>%
+  dplyr::rename(firm = employer_past) %>%
+  dplyr::distinct()
+
+# Fix names for string matching
+firm_temp$firm <- gsub(" LLP", "", firm_temp$firm)
+
+firm_temp <- dplyr::left_join(firm_temp, firm)
+
+# Create new column for worked at a more conservative than average firm
+firm_temp <- firm_temp %>% dplyr::mutate(conservative = dplyr::if_else(score_scaled > 0, 1, 0)) %>%
+  dplyr::select(person, conservative) %>%
+  dplyr::rename(conservative_firm = conservative)
+
+# Merge that into core
+tomerge <- dplyr::left_join(tomerge, firm_temp)
+```
+
+### Conservative membership
+```{r}
+# Calculate who has a 1 for either
+memb_temp <- df_noemploy %>% dplyr::select(person, american_center_for_law_and_justice, 
+                                           christian_legal_society_bar_association, 
+                                           federalist_society, 
+                                           heritage_foundation, 
+                                           national_rifle_association_tie, 
+                                           republican_national_lawyers_association_tie) %>%
+                            dplyr::mutate(conservative_group = ifelse(american_center_for_law_and_justice == 1 | 
+                                            christian_legal_society_bar_association == 1 |
+                                            federalist_society == 1 |
+                                            heritage_foundation == 1 |
+                                            national_rifle_association_tie == 1 |
+                                            republican_national_lawyers_association_tie == 1,
+                                            "1", "")) %>%
+                           dplyr::select(person, conservative_group)
+
+tomerge <- dplyr::left_join(tomerge, memb_temp) %>%
+  dplyr::distinct()
+```
+
+### State senator/representative
+```{r}
+employ_temp <- df %>% dplyr::select(person, employer_past) %>%
+  dplyr::distinct() %>%
+  dplyr::mutate(conservative_gov = ifelse(employer_past == "Idaho State Senate" |
+                                          employer_past == "Tennessee State Senate" |
+                                          employer_past == "Georgia House of Representatives" |
+                                          employer_past == "Oklahoma House of Representatives",
+                                          "1", "")) %>%
+  dplyr::select(person, conservative_gov)
+
+tomerge <- dplyr::left_join(tomerge, employ_temp) %>%
+  dplyr::distinct()
+```
+
+### Merge
+```{r}
+# Combine tomerge into a single column called conservative_agenda_connections
+tomerge <- tomerge %>% dplyr::mutate(connection_conservativeagenda = ifelse(conservative_lawschool == 1 |
+                                                                                conservative_firm == 1 |
+                                                                                conservative_group == 1 |
+                                                                                conservative_gov == 1,
+                                                                              "1", "0")) %>%
+  dplyr::select(person, connection_conservativeagenda) %>%
+  dplyr::distinct()
+
+tomerge$connection_conservativeagenda <- as.numeric(tomerge$connection_conservativeagenda)
+tomerge$connection_conservativeagenda[is.na(tomerge$connection_conservativeagenda)] <- 0
+
+# Merge duplicates
+tomerge <- aggregate(tomerge$connection_conservativeagenda, by = list(tomerge$person), sum) %>% 
+  dplyr::rename(person = Group.1, connection_conservativeagenda = x)
+
+# Merge into master list
+final <- dplyr::left_join(core, tomerge)
+
+# Merge everything else into that now
+df_noemploy <- dplyr::left_join(df_noemploy, final)
+
+# Reorder columns
+df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "source",
+                "date_of_appointment",
+                "date_of_birth", "age", "birthplace", "sex",
+                "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
+                "barr_appointment", "political_affiliation", 
+                "connection_trump", "connection_trumpally", "connection_conservativeagenda", "connection_careerprofessional", "connection_other",
+                "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
+
+# Fix NAs that should be 0's
+df_noemploy$connection_trump[is.na(df_noemploy$connection_trump)] <- 0
+df_noemploy$connection_trumpally[is.na(df_noemploy$connection_trumpally)] <- 0
+df_noemploy$connection_conservativeagenda[is.na(df_noemploy$connection_conservativeagenda)] <- 0
+df_noemploy$connection_careerprofessional[is.na(df_noemploy$connection_careerprofessional)] <- 0
+df_noemploy$connection_other[is.na(df_noemploy$connection_other)] <- 0
+```
 
 # Save
-```{r, eval = FALSE}
-# googlesheets4::write_sheet(all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-#                                    sheet = "all_noedit")
+We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.
+```{r}
+write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
+write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
 ```
 
 # Analyze data quality

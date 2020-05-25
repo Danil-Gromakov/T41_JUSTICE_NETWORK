@@ -1,171 +1,160 @@
 "","item_label","bachelors","masters","law","doctorate","law_rank","law_conservative_score"
-"1","Adam W. Cohen","Clark University",NA,"Benjamin N. Cardozo School of Law",NA,43,78
-"2","Alan Hanson","Vanderbilt University",NA,"Georgetown University Law Center",NA,15,38
+"1","Adam W. Cohen","Clark University",NA,"Benjamin N. Cardozo",NA,43,-0.839
+"2","Alan Hanson","Vanderbilt University",NA,"Georgetown University",NA,15,-0.821
 "3","Amelia Medina",NA,NA,NA,NA,NA,NA
-"4","Andrew Finch","University of California Berkeley","University of California Los Angeles","University of Chicago Law School",NA,4,108
-"5","Andrew Hudson","Yale University",NA,"Yale Law School",NA,1,33
+"4","Andrew Finch","University of California Berkeley","University of California Los Angeles","University of Chicago",NA,4,-0.833
+"5","Andrew Hudson","Yale University",NA,"Yale University",NA,1,-0.913
 "6","Andrew Peterson",NA,NA,NA,NA,NA,NA
 "7","Annie Hsiao","University of California Los Angeles","Harvard University",NA,NA,NA,NA
-"8","Aram A. Gavoor","University of Michigan","Georgetown University","George Washington University School of Law",NA,21,112
-"9","Bernard Nigro","Georgetown University",NA,"George Washington University School of Law",NA,21,112
-"10","Beth Ann Williams","Harvard University",NA,"Harvard Law School",NA,1,25
-"11","Bethany Pickett","The King's College",NA,"Northwestern University School of Law",NA,8,56
-"12","Bobak Talebian",NA,NA,"University of Tennessee College of Law",NA,64,111
-"13","Brandon Middleton","St. Louis University",NA,"The Ohio State University Moritz College of Law",NA,43,115
-"14","Brett Shumate","Furman University",NA,"Wake Forest University",NA,36,51
-"15","Brett Shumate","Furman University",NA,"Wake Forest University",NA,NA,NA
-"16","Brett Talley","University of Alabama",NA,"Harvard Law School",NA,1,25
-"17","Brian Benczkowski","University of Virginia",NA,"Washington University School of Law",NA,12,52
-"18","Brian Morrissey",NA,NA,NA,NA,NA,NA
-"19","Brian Murray","University of Notre Dame",NA,"Notre Dame Law School",NA,21,163
-"20","Brian Pandya","Pennsylvania State University",NA,"University of Michigan Law School",NA,8,36
-"21","Brittian Featherston",NA,NA,"Baylor University School of Law",NA,52,181
-"22","Caren Harp","University of Arkansas","University of Arkansas","University of Arkansas School of Law",NA,102,137
-"23","Carlton J. Davis",NA,NA,NA,NA,NA,NA
-"24","Chad Mizelle","University of Florida",NA,"Cornell Law School",NA,15,41
-"25","Chad Readler","University of Michigan",NA,"University of Michigan Law School",NA,8,36
-"26","Christopher A. Wray","Yale University",NA,"Yale Law School",NA,1,33
-"27","Christopher J. Constantini",NA,NA,NA,NA,NA,NA
-"28","Christopher K. Grieco","Dartmouth College",NA,"Stanford University Law School",NA,4,37
-"29","Claire Murray","Harvard University","University of Cambridge","Yale Law School",NA,1,33
-"30","Clifford J. White","George Washington University",NA,"George Washington University School of Law",NA,21,112
-"31","Corinne Snow","Vanderbilt University",NA,"Harvard Law School",NA,1,25
-"32","Curtis E. Gannon","Harvard University","University of London","University of Chicago Law School",NA,4,108
-"33","Daniel Loveland","University of Maryland College Park",NA,"Harvard Law School",NA,1,25
-"34","Danielle Cutrona",NA,NA,NA,NA,NA,NA
-"35","Danielle Douglas","University of Alabama",NA,"University of Alabama School of Law",NA,24,172
-"36","Darlene Hutchinson Biehl","Troy University",NA,NA,NA,NA,NA
-"37","David B. Muhlhausen","Frostburg State University",NA,NA,"University of Maryland, Baltimore County",NA,NA
-"38","David Burns","Boston College",NA,"Columbia University School of Law",NA,3,48
-"39","David Lasseter","University of Georgia",NA,"University of Alabama School of Law",NA,24,172
-"40","David M. Morrell","Hillsdale College",NA,"Yale Law School",NA,1,33
-"41","David Palmer","Columbia University",NA,"Case Western Reserve University School of Law",NA,58,123
-"42","David Rybicki","Yale University","University of Cambridge","Stanford University Law School",NA,4,37
-"43","Deline R. Reardon","Colorado State University","Hawaii Pacific University",NA,NA,NA,NA
-"44","Donald Kempf","Villanova University","The University of Chicago - Booth School of Business","Harvard Law School",NA,1,25
-"45","Donald R. Livingston",NA,NA,"University of Georgia School of Law",NA,29,150
-"46","Dorothy Williams","Grove City College",NA,"University of Alabama School of Law",NA,24,172
-"47","Elizabeth Escolona",NA,NA,NA,NA,NA,NA
-"48","Eric Dreiband","Princeton University","Harvard University","Northwestern University School of Law",NA,8,56
-"49","Eric Grant","University of California Berkeley",NA,"University of California Berkeley",NA,NA,NA
-"50","Eric Grant","University of California Berkeley",NA,"University of California Berkeley",NA,12,18
-"51","Eric MacArthur","Brigham Young University",NA,"University of Chicago Law School",NA,4,108
-"52","Ethan B. Kanter",NA,NA,NA,NA,NA,NA
-"53","Ethan Davis","Amherst College",NA,"Yale Law School",NA,1,33
-"54","Gary Barnett",NA,NA,NA,NA,NA,NA
-"55","Gene P. Hamilton",NA,NA,NA,NA,NA,NA
-"56","George Terwilliger","Seton Hall University",NA,"Antioch School of Law",NA,NA,NA
-"57","Gerald Lucas",NA,NA,NA,NA,NA,NA
-"58","Gerri Ratliff","University of North Carolina Chapel Hill","Harvard University","American University Washington College of Law",NA,64,61
-"59","Guice Slawson",NA,NA,"Samford University Cumberland School of Law",NA,148,160
-"60","Guy F. Burnett",NA,NA,NA,NA,NA,NA
-"61","Hashim Mooppan","Harvard University",NA,"Harvard Law School",NA,1,25
-"62","Henry Whitaker","Yale University",NA,"Harvard Law School",NA,1,25
-"63","Ian Prior","Boston University",NA,"Boston University",NA,NA,NA
-"64","Ian Prior","Boston University",NA,"Boston University",NA,19,21
-"65","James Crowell",NA,NA,"Yale Law School",NA,1,33
-"66","James M. Burnham","University of Texas at Austin",NA,"University of Chicago Law School",NA,4,108
-"67","James Percival",NA,NA,NA,NA,NA,NA
-"68","James Swanson","University of Chicago",NA,"University of California Los Angeles",NA,NA,NA
-"69","James Swanson","University of Chicago",NA,"University of California Los Angeles",NA,12,72
-"70","Jeff Sessions","Huntingdon College",NA,"University of Alabama School of Law",NA,24,172
-"71","Jeffrey A. Rosen","Northwestern University",NA,"Harvard Law School",NA,1,25
-"72","Jeffrey Bossert Clark","Harvard University","University of Delaware","Georgetown University Law Center",NA,15,38
-"73","Jeffrey H. Anderson","University of Washington","Claremont Graduate University",NA,"Claremont Graduate University",NA,NA
-"74","Jeffrey R. Ragsdale",NA,NA,"University of Cincinnati College of Law",NA,77,116
-"75","Jeffrey Wall","Georgetown University",NA,"University of Chicago Law School",NA,4,108
-"76","Jeffrey Wood","Florida State University",NA,"Florida State University College of Law",NA,52,136
-"77","Jennifer B. Lichter","University of Notre Dame","University of Cambridge","Harvard Law School",NA,1,25
-"78","Jennifer Dickey","Dartmouth College",NA,"Duke University School of Law",NA,8,68
-"79","Jeremy M. Bylund",NA,NA,"Harvard Law School",NA,1,25
-"80","Jessica Hart","University of Texas at Austin",NA,"Baylor University School of Law",NA,52,181
-"81","Jessica Vu","University of California Berkeley",NA,"Harvard Law School",NA,1,25
-"82","Jessie Panuccio","Duke University",NA,"Harvard Law School",NA,1,25
-"83","John Cronan","Georgetown University",NA,NA,NA,NA,NA
-"84","John Demers","College of the Holy Cross",NA,"Harvard Law School",NA,1,25
-"85","John Gore","The University of Colorado at Boulder",NA,"University of Texas at Austin",NA,NA,NA
-"86","John Gore","The University of Colorado at Boulder",NA,"University of Texas at Austin",NA,15,125
-"87","John S. Moran","University of Virginia",NA,"University of Virginia School of Law",NA,8,142
-"88","Jon Adler",NA,"Seton Hall University",NA,NA,NA,NA
-"89","Jonathan Berry","Yale University",NA,"Columbia University School of Law",NA,3,48
-"90","Jonathan Brightbill","University of Pennsylvania",NA,"Georgetown University Law Center",NA,15,38
-"91","Jordan Von Borkern","Colorado State University",NA,"University of Chicago Law School",NA,4,108
-"92","Jorge Aguinaga","Baylor University",NA,"Louisiana State University",NA,102,171
-"93","Joseph A. Hunt","Samford University","The Florida State University","Columbia University School of Law",NA,3,48
-"94","Joseph Edlow","Brandeis University",NA,"Case Western Reserve University School of Law",NA,58,123
-"95","Joseph Mott","George Mason University",NA,"University of Richmond School of Law",NA,43,139
-"96","Joshua Gardner","University of Central Florida",NA,"George Washington University School of Law",NA,21,112
-"97","Julia A. Schiller","Princeton University",NA,"New York University School of Law",NA,6,22
-"98","Katherine Crytzer","Middle Tennessee State University",NA,"George Mason University's Antonin Scalia School of Law",NA,29,185
-"99","Kelli Andrews","Bucknell University",NA,"Cornell Law School",NA,15,41
-"100","Kenneth Harris",NA,NA,NA,NA,NA,NA
-"101","Kerri Kupec","City University of New York Queens College",NA,"Liberty University School of Law",NA,136,NA
-"102","Krystle Mitchell","McDaniel College","Trinity University-Washington",NA,"Agrosy University",NA,NA
-"103","Lathika Mary Thomas",NA,NA,"Florida State University College of Law",NA,52,136
-"104","Laura Rogers","Santa Clara University",NA,"California Western School of Law",NA,157,35
-"105","Lauren Goldschmidt","University of Michigan",NA,"Benjamin N. Cardozo School of Law",NA,43,78
-"106","Lee J. Lofthus",NA,"American University",NA,NA,NA,NA
-"107","Liam Hardy","Princeton University","Stanford University","Georgetown University Law Center",NA,15,38
-"108","Lindsay Pickell","Wake Forest University",NA,"University of Alabama School of Law",NA,24,172
-"109","Lindsey A. Freeman","Harvard University",NA,"University of Pennsylvania",NA,NA,NA
-"110","Lindsey A. Freeman","Harvard University",NA,"University of Pennsylvania",NA,6,66
-"111","Lindsey De La Torre",NA,NA,NA,NA,NA,NA
-"112","Makan Delrahim","University of California Los Angeles","John Hopkins University","George Washington University School of Law",NA,21,112
-"113","Mark Champoux","Brigham Young University",NA,"Harvard Law School",NA,1,25
-"114","Mary Blanche N. Hankey","University of Alabama",NA,"Samford University Cumberland School of Law",NA,148,160
-"115","Matt M. Dummermuth","Iowa State University",NA,"Harvard Law School",NA,1,25
-"116","Matthew Baughman","Furman University",NA,"Harvard Law School",NA,1,25
-"117","Matthew G. Whitaker","University of Iowa","University of Iowa","University of Iowa",NA,43,113
-"118","Matthew G. Whitaker","University of Iowa","University of Iowa","University of Iowa",NA,NA,NA
-"119","Matthew Glover","University of Notre Dame","University of Toronto","University of Virginia School of Law",NA,8,142
-"120","Matthew Miner","University of Cincinnati",NA,"University of Michigan Law School",NA,8,36
-"121","Matthew Sheehan","Dickinson College",NA,"Pennsylvania State University School of Law",NA,58,88
-"122","Michael Costigan","University of California, Santa Barbara",NA,NA,NA,NA,NA
-"123","Michael Fragoso",NA,NA,NA,NA,NA,NA
-"124","Michael Murray",NA,NA,NA,NA,NA,NA
-"125","Noel Francisco","University of Chicago",NA,"University of Chicago Law School",NA,4,108
-"126","Omeed Assefi",NA,NA,NA,NA,NA,NA
-"127","Patricia K. Cushwa","Hood College","Hood College",NA,NA,NA,NA
-"128","Patricia M. Nation",NA,NA,NA,NA,NA,NA
-"129","Patrick Hovakimian","Occidental College","University of Oxford","Stanford University Law School",NA,4,37
-"130","Paul Moore",NA,NA,"University of Missouri-Kansas City School of Law",NA,115,122
-"131","Philip Keith","East Tennessee State University","University of Tennessee",NA,NA,NA,NA
-"132","Rachael Tucker","Auburn University",NA,"University of Alabama School of Law",NA,24,172
-"133","Rachel L. Brand","University of Minnesota - Morris",NA,"Harvard Law School",NA,1,25
-"134","Rachel Parker-Bissex","University of Alabama",NA,"George Mason University's Antonin Scalia School of Law",NA,29,185
-"135","Reed Rubinstein","University of Michigan","University of Michigan","University of Michigan Law School",NA,8,36
-"136","Rene Augustine","Duke University",NA,"Vanderbilt University Law School",NA,15,140
-"137","Richard E. Zuckerman","Harvard University",NA,"Yale Law School",NA,1,33
-"138","Robert K. Hur","Harvard University","University of Cambridge","Stanford University Law School",NA,4,37
-"139","Rod J. Rosenstein","University of Pennsylvania",NA,"Harvard Law School",NA,1,25
-"140","Rosalind Burns","Bradley University",NA,"Drake University Law School",NA,115,50
-"141","Ryan Newman","United States Military Academy at West Point",NA,"University of Texas at Austin",NA,NA,NA
-"142","Ryan Newman","United States Military Academy at West Point",NA,"University of Texas at Austin",NA,15,125
-"143","Sam G. Nazzaro","Cornell University","University of Pittsburgh","University of Pittsburgh",NA,NA,NA
-"144","Sam G. Nazzaro","Cornell University","University of Pittsburgh","University of Pittsburgh",NA,77,102
-"145","Samuel Ramer","Brandeis University",NA,"Boston University School of Law",NA,19,21
-"146","Sarah Harris","Princeton University","University of Cambridge","Harvard Law School","University of Cambridge",1,25
-"147","Sarah Isgur","Northwestern University",NA,"Harvard Law School",NA,1,25
-"148","Scott Stewart","Princeton University",NA,"Stanford University Law School",NA,4,37
-"149","Sonya K. Chavez","New Mexico State University","University of New Mexico",NA,NA,NA,NA
-"150","Spencer Bassett",NA,NA,NA,NA,NA,NA
-"151","Stacy Ludwig","University of Wisconsin",NA,"University of Wisconsin",NA,36,4
-"152","Stacy Ludwig","University of Wisconsin",NA,"University of Wisconsin",NA,NA,NA
-"153","Stephen Boyd","University of Alabama",NA,"University of Alabama School of Law",NA,24,172
-"154","Stephen Cox","Texas A&M University",NA,"University of Houston Law School",NA,52,155
-"155","Steven A. Engel","Harvard University","University of Cambridge","Yale Law School",NA,1,33
-"156","Steven H. Cook",NA,NA,NA,NA,NA,NA
-"157","Sylvia M. Becker","Georgetown University",NA,"Georgetown University Law Center",NA,15,38
-"158","Tara Helfman","City University of New York Queens College","University of Cambridge","Yale Law School",NA,1,33
-"159","Taylor Owings","Harvard University","London School of Economics","Vanderbilt University Law School",NA,15,140
-"160","Thomas Ward","Drew University",NA,"Columbia University School of Law",NA,3,48
-"161","Thomas Wheeler","Indiana University",NA,"Indiana University Maurer School of Law",NA,36,82
-"162","Timothy J. Shea","Boston College",NA,"Georgetown University Law Center",NA,15,38
-"163","Tracy Toulou",NA,NA,"University of New Mexico",NA,NA,NA
-"164","Tracy Toulou",NA,NA,"University of New Mexico",NA,115,28
-"165","Travis Greaves","University of Tennessee","Georgetown University","South Texas College of Law",NA,148,176
-"166","Trevor McFadden","Wheaton College",NA,"University of Virginia School of Law",NA,8,142
-"167","William Barr","Columbia University","Columbia University","George Washington University School of Law",NA,21,112
-"168","William Levi","Stanford University",NA,"Yale Law School",NA,1,33
-"169","William Rinner","University of Notre Dame",NA,"Yale Law School",NA,1,33
-"170","Zachary Bolitho","Mount Union College",NA,"The Ohio State University Moritz College of Law",NA,43,115
+"8","Aram A. Gavoor","University of Michigan","Georgetown University","George Washington University",NA,21,-0.841
+"9","Bernard Nigro","Georgetown University",NA,"George Washington University",NA,21,-0.841
+"10","Beth Ann Williams","Harvard University",NA,"Harvard University",NA,1,-0.816
+"11","Bethany Pickett","The King's College",NA,"Northwestern University",NA,8,-0.839
+"12","Bobak Talebian",NA,NA,"University of Tennessee, Knoxville",NA,64,-0.267
+"13","Brandon Middleton","St. Louis University",NA,"Ohio State University",NA,43,-0.222
+"14","Brett Shumate","Furman University",NA,"Wake Forest University",NA,36,-0.349
+"15","Brett Talley","University of Alabama",NA,"Harvard University",NA,1,-0.816
+"16","Brian Benczkowski","University of Virginia",NA,"Washington University in St. Louis",NA,12,-0.738
+"17","Brian Morrissey",NA,NA,NA,NA,NA,NA
+"18","Brian Murray","University of Notre Dame",NA,"University of Notre Dame",NA,21,-0.196
+"19","Brian Pandya","Pennsylvania State University",NA,"University of Michigan",NA,8,-0.776
+"20","Brittian Featherston",NA,NA,"Baylor University",NA,52,0.04
+"21","Caren Harp","University of Arkansas","University of Arkansas","University of Arkansas",NA,102,-0.29
+"22","Carlton J. Davis",NA,NA,NA,NA,NA,NA
+"23","Chad Mizelle","University of Florida",NA,"Cornell University",NA,15,-0.785
+"24","Chad Readler","University of Michigan",NA,"University of Michigan",NA,8,-0.776
+"25","Christopher A. Wray","Yale University",NA,"Yale University",NA,1,-0.913
+"26","Christopher J. Constantini",NA,NA,NA,NA,NA,NA
+"27","Christopher K. Grieco","Dartmouth College",NA,"Stanford University",NA,4,-0.878
+"28","Claire Murray","Harvard University","University of Cambridge","Yale University",NA,1,-0.913
+"29","Clifford J. White","George Washington University",NA,"George Washington University",NA,21,-0.841
+"30","Corinne Snow","Vanderbilt University",NA,"Harvard University",NA,1,-0.816
+"31","Curtis E. Gannon","Harvard University","University of London","University of Chicago",NA,4,-0.833
+"32","Daniel Loveland","University of Maryland College Park",NA,"Harvard University",NA,1,-0.816
+"33","Danielle Cutrona",NA,NA,NA,NA,NA,NA
+"34","Danielle Douglas","University of Alabama",NA,"University of Alabama",NA,24,0.066
+"35","Darlene Hutchinson Biehl","Troy University",NA,NA,NA,NA,NA
+"36","David B. Muhlhausen","Frostburg State University",NA,NA,"University of Maryland, Baltimore County",NA,NA
+"37","David Burns","Boston College",NA,"Columbia University",NA,3,-0.882
+"38","David Lasseter","University of Georgia",NA,"University of Alabama",NA,24,0.066
+"39","David M. Morrell","Hillsdale College",NA,"Yale University",NA,1,-0.913
+"40","David Palmer","Columbia University",NA,"Case Western Reserve University",NA,58,-0.521
+"41","David Rybicki","Yale University","University of Cambridge","Stanford University",NA,4,-0.878
+"42","Deline R. Reardon","Colorado State University","Hawaii Pacific University",NA,NA,NA,NA
+"43","Donald Kempf","Villanova University","The University of Chicago - Booth School of Business","Harvard University",NA,1,-0.816
+"44","Donald R. Livingston",NA,NA,"University of Georgia",NA,29,-0.185
+"45","Dorothy Williams","Grove City College",NA,"University of Alabama",NA,24,0.066
+"46","Elizabeth Escolona",NA,NA,NA,NA,NA,NA
+"47","Eric Dreiband","Princeton University","Harvard University","Northwestern University",NA,8,-0.839
+"48","Eric Grant","University of California Berkeley",NA,"University of California, Berkeley",NA,12,-1.155
+"49","Eric MacArthur","Brigham Young University",NA,"University of Chicago",NA,4,-0.833
+"50","Ethan B. Kanter",NA,NA,NA,NA,NA,NA
+"51","Ethan Davis","Amherst College",NA,"Yale University",NA,1,-0.913
+"52","Gary Barnett",NA,NA,NA,NA,NA,NA
+"53","Gene P. Hamilton",NA,NA,NA,NA,NA,NA
+"54","George Terwilliger","Seton Hall University",NA,"Antioch School of Law",NA,NA,NA
+"55","Gerald Lucas",NA,NA,NA,NA,NA,NA
+"56","Gerri Ratliff","University of North Carolina Chapel Hill","Harvard University","American University",NA,64,-0.834
+"57","Guice Slawson",NA,NA,"Cumberland University",NA,148,0.382
+"58","Guy F. Burnett",NA,NA,NA,NA,NA,NA
+"59","Hashim Mooppan","Harvard University",NA,"Harvard University",NA,1,-0.816
+"60","Henry Whitaker","Yale University",NA,"Harvard University",NA,1,-0.816
+"61","Ian Prior","Boston University",NA,"Boston University",NA,19,-0.93
+"62","James Crowell",NA,NA,"Yale University",NA,1,-0.913
+"63","James M. Burnham","University of Texas at Austin",NA,"University of Chicago",NA,4,-0.833
+"64","James Percival",NA,NA,NA,NA,NA,NA
+"65","James Swanson","University of Chicago",NA,"University of California, Los Angeles",NA,12,-0.941
+"66","Jeff Sessions","Huntingdon College",NA,"University of Alabama",NA,24,0.066
+"67","Jeffrey A. Rosen","Northwestern University",NA,"Harvard University",NA,1,-0.816
+"68","Jeffrey Bossert Clark","Harvard University","University of Delaware","Georgetown University",NA,15,-0.821
+"69","Jeffrey H. Anderson","University of Washington","Claremont Graduate University",NA,"Claremont Graduate University",NA,NA
+"70","Jeffrey R. Ragsdale",NA,NA,"University of Cincinnati",NA,77,-0.226
+"71","Jeffrey Wall","Georgetown University",NA,"University of Chicago",NA,4,-0.833
+"72","Jeffrey Wood","Florida State University",NA,"Florida State University",NA,52,-0.207
+"73","Jennifer B. Lichter","University of Notre Dame","University of Cambridge","Harvard University",NA,1,-0.816
+"74","Jennifer Dickey","Dartmouth College",NA,"Duke University",NA,8,-0.605
+"75","Jeremy M. Bylund",NA,NA,"Harvard University",NA,1,-0.816
+"76","Jessica Hart","University of Texas at Austin",NA,"Baylor University",NA,52,0.04
+"77","Jessica Vu","University of California Berkeley",NA,"Harvard University",NA,1,-0.816
+"78","Jessie Panuccio","Duke University",NA,"Harvard University",NA,1,-0.816
+"79","John Cronan","Georgetown University",NA,NA,NA,NA,NA
+"80","John Demers","College of the Holy Cross",NA,"Harvard University",NA,1,-0.816
+"81","John Gore","The University of Colorado at Boulder",NA,"University of Texas, Austin",NA,15,-0.165
+"82","John S. Moran","University of Virginia",NA,"University of Virginia",NA,8,-0.719
+"83","Jon Adler",NA,"Seton Hall University",NA,NA,NA,NA
+"84","Jonathan Berry","Yale University",NA,"Columbia University",NA,3,-0.882
+"85","Jonathan Brightbill","University of Pennsylvania",NA,"Georgetown University",NA,15,-0.821
+"86","Jordan Von Borkern","Colorado State University",NA,"University of Chicago",NA,4,-0.833
+"87","Jorge Aguinaga","Baylor University",NA,"Louisiana State University",NA,102,0.278
+"88","Joseph A. Hunt","Samford University","The Florida State University","Columbia University",NA,3,-0.882
+"89","Joseph Edlow","Brandeis University",NA,"Case Western Reserve University",NA,58,-0.521
+"90","Joseph Mott","George Mason University",NA,"University of Richmond",NA,43,-0.482
+"91","Joshua Gardner","University of Central Florida",NA,"George Washington University",NA,21,-0.841
+"92","Julia A. Schiller","Princeton University",NA,"New York University Law School",NA,6,-0.95
+"93","Katherine Crytzer","Middle Tennessee State University",NA,"George Mason University",NA,29,-0.253
+"94","Kelli Andrews","Bucknell University",NA,"Cornell University",NA,15,-0.785
+"95","Kenneth Harris",NA,NA,NA,NA,NA,NA
+"96","Kerri Kupec","City University of New York Queens College",NA,"Liberty University School of Law",NA,136,NA
+"97","Krystle Mitchell","McDaniel College","Trinity University-Washington",NA,"Agrosy University",NA,NA
+"98","Lathika Mary Thomas",NA,NA,"Florida State University",NA,52,-0.207
+"99","Laura Rogers","Santa Clara University",NA,"California Western School of Law",NA,157,-0.445
+"100","Lauren Goldschmidt","University of Michigan",NA,"Benjamin N. Cardozo",NA,43,-0.839
+"101","Lee J. Lofthus",NA,"American University",NA,NA,NA,NA
+"102","Liam Hardy","Princeton University","Stanford University","Georgetown University",NA,15,-0.821
+"103","Lindsay Pickell","Wake Forest University",NA,"University of Alabama",NA,24,0.066
+"104","Lindsey A. Freeman","Harvard University",NA,"University of Pennsylvania",NA,6,-0.865
+"105","Lindsey De La Torre",NA,NA,NA,NA,NA,NA
+"106","Makan Delrahim","University of California Los Angeles","John Hopkins University","George Washington University",NA,21,-0.841
+"107","Mark Champoux","Brigham Young University",NA,"Harvard University",NA,1,-0.816
+"108","Mary Blanche N. Hankey","University of Alabama",NA,"Cumberland University",NA,148,0.382
+"109","Matt M. Dummermuth","Iowa State University",NA,"Harvard University",NA,1,-0.816
+"110","Matthew Baughman","Furman University",NA,"Harvard University",NA,1,-0.816
+"111","Matthew G. Whitaker","University of Iowa","University of Iowa","University of Iowa",NA,43,-0.688
+"112","Matthew Glover","University of Notre Dame","University of Toronto","University of Virginia",NA,8,-0.719
+"113","Matthew Miner","University of Cincinnati",NA,"University of Michigan",NA,8,-0.776
+"114","Matthew Sheehan","Dickinson College",NA,"Pennsylvania State University",NA,58,-0.154
+"115","Michael Costigan","University of California, Santa Barbara",NA,NA,NA,NA,NA
+"116","Michael Fragoso",NA,NA,NA,NA,NA,NA
+"117","Michael Murray",NA,NA,NA,NA,NA,NA
+"118","Noel Francisco","University of Chicago",NA,"University of Chicago",NA,4,-0.833
+"119","Omeed Assefi",NA,NA,NA,NA,NA,NA
+"120","Patricia K. Cushwa","Hood College","Hood College",NA,NA,NA,NA
+"121","Patricia M. Nation",NA,NA,NA,NA,NA,NA
+"122","Patrick Hovakimian","Occidental College","University of Oxford","Stanford University",NA,4,-0.878
+"123","Paul Moore",NA,NA,"University of Missouri, Kansas City",NA,115,-0.45
+"124","Philip Keith","East Tennessee State University","University of Tennessee",NA,NA,NA,NA
+"125","Rachael Tucker","Auburn University",NA,"University of Alabama",NA,24,0.066
+"126","Rachel L. Brand","University of Minnesota - Morris",NA,"Harvard University",NA,1,-0.816
+"127","Rachel Parker-Bissex","University of Alabama",NA,"George Mason University",NA,29,-0.253
+"128","Reed Rubinstein","University of Michigan","University of Michigan","University of Michigan",NA,8,-0.776
+"129","Rene Augustine","Duke University",NA,"Vanderbilt University Law School",NA,15,-0.556
+"130","Richard E. Zuckerman","Harvard University",NA,"Yale University",NA,1,-0.913
+"131","Robert K. Hur","Harvard University","University of Cambridge","Stanford University",NA,4,-0.878
+"132","Rod J. Rosenstein","University of Pennsylvania",NA,"Harvard University",NA,1,-0.816
+"133","Rosalind Burns","Bradley University",NA,"Drake University",NA,115,-0.259
+"134","Ryan Newman","United States Military Academy at West Point",NA,"University of Texas, Austin",NA,15,-0.165
+"135","Sam G. Nazzaro","Cornell University","University of Pittsburgh","University of Pittsburgh",NA,77,-0.386
+"136","Samuel Ramer","Brandeis University",NA,"Boston University",NA,19,-0.93
+"137","Sarah Harris","Princeton University","University of Cambridge","Harvard University","University of Cambridge",1,-0.816
+"138","Sarah Isgur","Northwestern University",NA,"Harvard University",NA,1,-0.816
+"139","Scott Stewart","Princeton University",NA,"Stanford University",NA,4,-0.878
+"140","Sonya K. Chavez","New Mexico State University","University of New Mexico",NA,NA,NA,NA
+"141","Spencer Bassett",NA,NA,NA,NA,NA,NA
+"142","Stacy Ludwig","University of Wisconsin",NA,"University of Wisconsin",NA,36,-0.843
+"143","Stephen Boyd","University of Alabama",NA,"University of Alabama",NA,24,0.066
+"144","Stephen Cox","Texas A&M University",NA,"University of Houston",NA,52,-0.149
+"145","Steven A. Engel","Harvard University","University of Cambridge","Yale University",NA,1,-0.913
+"146","Steven H. Cook",NA,NA,NA,NA,NA,NA
+"147","Sylvia M. Becker","Georgetown University",NA,"Georgetown University",NA,15,-0.821
+"148","Tara Helfman","City University of New York Queens College","University of Cambridge","Yale University",NA,1,-0.913
+"149","Taylor Owings","Harvard University","London School of Economics","Vanderbilt University Law School",NA,15,-0.556
+"150","Thomas Ward","Drew University",NA,"Columbia University",NA,3,-0.882
+"151","Thomas Wheeler","Indiana University",NA,"Indiana University Bloomington",NA,36,-0.713
+"152","Timothy J. Shea","Boston College",NA,"Georgetown University",NA,15,-0.821
+"153","Tracy Toulou",NA,NA,"University of New Mexico",NA,115,-0.853
+"154","Travis Greaves","University of Tennessee","Georgetown University","South Texas College of Law",NA,148,-0.08
+"155","Trevor McFadden","Wheaton College",NA,"University of Virginia",NA,8,-0.719
+"156","William Barr","Columbia University","Columbia University","George Washington University",NA,21,-0.841
+"157","William Levi","Stanford University",NA,"Yale University",NA,1,-0.913
+"158","William Rinner","University of Notre Dame",NA,"Yale University",NA,1,-0.913
+"159","Zachary Bolitho","Mount Union College",NA,"Ohio State University",NA,43,-0.222
