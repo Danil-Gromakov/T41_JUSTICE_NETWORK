@@ -27,21 +27,17 @@ This document loads, cleans, and processes data from ProPublica's Trump Tower's 
 ## Googlesheet
 ### Load
 We have 2 datasets for justice department employment info. The first is the google doc we have been manually curating and the second is the trump town employment data
+
 ```{r}
 work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "employment_justicedepartment")
+                                    sheet = "doj_employ")
+
+work <- work %>% dplyr::distinct()
 work <- janitor::clean_names(work)
 ```
 
 ### Clean
 ```{r}
-# Check any notes
-unique(work$notes)
-work$notes <- NULL
-
-# Subset to only senate appointments
-work <- work %>% dplyr::filter(senate_appt == 1)
-
 # Check employer strings
 sort(unique(work$employer))
 
@@ -120,7 +116,7 @@ df_pen <- dplyr::left_join(df_staff, attorney_list) %>%
 
 work_pen <- dplyr::left_join(work, attorney_list) %>%
   dplyr::filter(keep == 1) %>%
-  dplyr::select(-c("keep", "senate_appt"))
+  dplyr::select(-c("keep"))
 
 df_full <- dplyr::bind_rows(df_pen, work_pen) %>%
   dplyr::distinct()
@@ -147,22 +143,6 @@ sort(unique(df_full$employer))
 df_full <- df_full %>% dplyr::distinct()
 ```
 
-### Push to google doc
-Manually fill the remaining employment histories
-```{r, eval = FALSE}
-googlesheets4::write_sheet(df_full, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "employment_justicedepartment_merged")
-```
-
-### Pull new google doc
-This is the same as before but we've manually inputed the missing employment histories
-```{r}
-df_full <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "employment_justicedepartment_merged")
-
-df_full <- df_full %>% dplyr::distinct()
-```
-
 ## Prep for network
 ```{r}
 # Places of employment with the most unique attorneys
@@ -179,9 +159,6 @@ DT::datatable(df_count)
 ````{r}
 work <- df_full
 
-googlesheets4::write_sheet(work, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "justicedepartmentemployment_noedit")
-
 work <- write.csv(work, paste0(here::here(), "/data/", "justicedept_employment.csv"))
 ```
 
@@ -189,7 +166,7 @@ work <- write.csv(work, paste0(here::here(), "/data/", "justicedept_employment.c
 ## Load
 ```{r}
 edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "school_justicedepartment",
+                                    sheet = "doj_edu",
                                  col_types = "ccccnnnnc")
 
 edu <- janitor::clean_names(edu)
@@ -250,9 +227,6 @@ GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabel
 
 ## Save
 ```{r}
-googlesheets4::write_sheet(edu_all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "schooljusticedepartment_noedit")
-
 edu <- write.csv(edu_all, paste0(here::here(), "/data/", "justicedept_edu.csv"))
 ```
 
@@ -260,7 +234,7 @@ edu <- write.csv(edu_all, paste0(here::here(), "/data/", "justicedept_edu.csv"))
 ## Load
 ```{r}
 memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "memberships_justicedepartment",
+                                    sheet = "doj_memb",
                                   col_types = "nccnnc")
 
 memb <- janitor::clean_names(memb)
@@ -290,9 +264,6 @@ UpSetR::upset(memb_upset,
 
 ## Save
 ```{r}
-googlesheets4::write_sheet(memb_clean, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                           sheet = "membershipprosecutors_noedit")
-
 memb <- write.csv(memb_clean, paste0(here::here(), "/data/", "justicedept_membership.csv"))
 ```
 
@@ -332,4 +303,17 @@ full <- full %>% dplyr::distinct()
 ## Save
 ```{r}
 write.csv(full, paste0(here::here(), "/data/", "justicedept_final.csv"))
+```
+
+# Temp code
+```{r}
+df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "all")
+
+df <- df %>% dplyr::select(person, position_current, employer_trump_tie, employer_ally_tie) %>%
+  dplyr::distinct() %>%
+  dplyr::rename(trump_employment = employer_trump_tie, trump_personal = employer_ally_tie)
+
+df$trump_past_employ
+
 ```

@@ -1,229 +1,247 @@
-"","agency_name","position_title","attorney","employer","start_date","end_date","title"
-"1","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","A. S. Trust",2017,NA,"Trustee"
-"2","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Accenture PLC",2017,NA,"Legal services"
-"3","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Avanade Inc.",2017,NA,"Legal services"
-"4","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Avison Young",2017,NA,"Legal services"
-"5","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Chipotle, Inc.",2017,NA,"Legal services"
-"6","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Commonwealth of Puerto Rico",2017,NA,"Legal services"
-"7","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Confidential Client",2017,NA,"Legal services"
-"8","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Facebook, Inc.",2017,NA,"Legal services"
-"9","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Henkel Corporation",2017,NA,"Legal services"
-"10","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Karma Automotive LLC",2017,NA,"Legal services"
-"11","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Legal services"
-"12","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Partner"
-"13","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2010,2017,"Partner"
-"14","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2006,2010,"Associate"
-"15","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","POET LLC",2017,NA,"Legal services"
-"16","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Questar Corporation",2017,NA,"Legal services"
-"17","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","SAIC, Inc.",2017,NA,"Legal services"
-"18","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","UBS Securities LLC",2017,NA,"Legal services"
-"19","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Court of Appeals for the Second Circuit",2004,2005,"Law Clerk"
-"20","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Senate",2005,2006,"Special Counsel"
-"21","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","AbbVie, Inc.",NA,NA,"Legal services"
-"22","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Blue Cross Blue Shield",NA,NA,"Legal services"
-"23","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","BP America",NA,NA,"Legal services"
-"24","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Charter Communications, Inc.",NA,NA,"Legal services"
-"25","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Citibank, N.A.",NA,NA,"Legal services"
-"26","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Commonwealth of Puerto Rico",NA,NA,"Legal services"
-"27","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Covanta Holding Corporation",NA,NA,"Legal services"
-"28","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Elect Blake Farenthold Committee",NA,NA,"Legal services"
-"29","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Fortinet",NA,NA,"Legal services"
-"30","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Greenbriar Equity Group",NA,NA,"Legal services"
-"31","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","HSBC Holdings PLC",NA,NA,"Legal services"
-"32","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Kirkland & Ellis",NA,NA,"Partner"
-"33","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Legacy Cabinets, Inc.",NA,NA,"Legal services"
-"34","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Two confidential clients",NA,NA,"Legal services"
-"35","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Valeant Pharmaceuticals and Valeant Indepdendent Directors",NA,NA,"Legal services"
-"36","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Viking Global Investors",NA,NA,"Legal services"
-"37","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Volkswagen Group of America",NA,NA,"Legal services"
-"38","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Abbott Laboratories",NA,NA,"Legal Services (client of Jones Day)"
-"39","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Abercrombie & Fitch Stores, Inc.",NA,NA,"Legal Services (client of Jones Day)"
-"40","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Americold Logistics",NA,NA,"Legal Services (client of Jones Day)"
-"41","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Bloomberg, L.P.",NA,NA,"Legal Services (client of Jones Day)"
-"42","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","BNSF Railway Company",NA,NA,"Legal Services (client of Jones Day)"
-"43","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Bridgewater Associates",NA,NA,"Legal Services (client of Jones Day)"
-"44","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Career Builder",NA,NA,"Legal Services (client of Jones Day)"
-"45","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Citgo Petroleum",NA,NA,"Legal Services (client of Jones Day)"
-"46","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cleveland Clinic",NA,NA,"Legal Services (client of Jones Day)"
-"47","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cornfields, Inc.",NA,NA,"Legal Services (client of Jones Day)"
-"48","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","CSX Corporation",NA,NA,"Legal Services (client of Jones Day)"
-"49","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","CVS Health Corporation",NA,NA,"Legal Services (client of Jones Day)"
-"50","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cytec Industries",NA,NA,"Legal Services (client of Jones Day)"
-"51","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Donald J. Trump for President, Inc.",NA,NA,"Legal Services (client of Jones Day)"
-"52","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","EcoLab",NA,NA,"Legal Services (client of Jones Day)"
-"53","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Enrollforce, LLC",NA,NA,"Legal Services (client of Jones Day)"
-"54","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Legal Services (client of Jones Day)"
-"55","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Chair - regulatory reform project"
-"56","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Chair Regulatory Reform Project"
-"57","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Follett Corporation",NA,NA,"Legal Services (client of Jones Day)"
-"58","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Franciscan Alliance",NA,NA,"Legal Services (client of Jones Day)"
-"59","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Groupon",NA,NA,"Legal Services (client of Jones Day)"
-"60","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","ICON Health & Fitness, Inc.",NA,NA,"Legal Services (client of Jones Day)"
-"61","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner at Jones Day"
-"62","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner"
-"63","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Koninklijke Ahold",NA,NA,"Legal Services (client of Jones Day)"
-"64","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","McDonald's Corporation",NA,NA,"Legal Services (client of Jones Day)"
-"65","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","National Railway Labor Conference",NA,NA,"Legal Services (client of Jones Day)"
-"66","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Publix Supermarkets",NA,NA,"Legal Services (client of Jones Day)"
-"67","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","R.J. Reynolds Tobacco Company",NA,NA,"Legal Services (client of Jones Day)"
-"68","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Republican National Committee",NA,NA,"Legal Services (client of Jones Day)"
-"69","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Retail Litigation Center",NA,NA,"Legal Services (client of Jones Day)"
-"70","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Reynolds American, Inc.",NA,NA,"Legal Services (client of Jones Day)"
-"71","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Texas Roadhouse",NA,NA,"Legal Services (client of Jones Day)"
-"72","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","U.S. Chamber of Commerce",NA,NA,"Legal Services (client of Jones Day)"
-"73","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","U.S. Steel Corporation",NA,NA,"Legal Services (client of Jones Day)"
-"74","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","University of North Carolina",NA,NA,"Legal Services (client of Jones Day)"
-"75","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Verizon Communications",NA,NA,"Legal Services (client of Jones Day)"
-"76","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Washington Post",NA,NA,"Legal Services (client of Jones Day)"
-"77","Justice","Attorney General","Jefferson B. Sessions","Samford University",NA,NA,"Member of Board of Overseers"
-"78","Justice","Attorney General","Jefferson B. Sessions","United States Senate",1997,2017,"Senator Alabama"
-"79","Justice","Attorney General","Jefferson B. Sessions","State of Alabama",1995,1997,"Attorney General"
-"80","Justice","Attorney General","Jefferson B. Sessions","United States Attorney's Office for the Southern District of Alabama",1981,1993,"US Attorney"
-"81","Justice","Attorney General","Jefferson B. Sessions","United States Army Reserve",1973,1986,"Captain"
-"82","Justice","Attorney General","Jefferson B. Sessions","United States Attorney's Office for the Southern District of Alabama",1975,1977,"Assistant Attorney"
-"83","Justice","Attorney General","Jefferson B. Sessions","Guin Bouldin & Porch",NA,NA,"Attorney"
-"84","Justice","Attorney General","Jefferson B. Sessions","Stockman & Bedsole",NA,NA,"Attorney"
-"85",NA,NA,"Jeffrey A. Rosen","Georgetown University Law Center",1996,2003,"Adjunct Professor"
-"86",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",2009,2017,"Senior Partner"
-"87",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",1982,2003,"Attorney"
-"88",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",NA,NA,"Partner"
-"89",NA,NA,"Jeffrey A. Rosen","The White House",2006,2009,"General Counsel"
-"90",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",NA,2019,"Deputy Secretary"
-"91",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",2003,2006,"General Counsel"
-"92","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Federalist Society",NA,NA,"Chair of Environment and Property Rights Practice Group"
-"93","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"I am a law firm partner at Kirkland & Ellis LLP."
-"94","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"legal services"
-"95","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"Partner"
-"96","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Boeing Company",2018,NA,"Vice President & Asst General Counsel"
-"97","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Boeing Company",NA,NA,"Vice President and Assistant General Counsel"
-"98","Justice","Assistant Attorney General for the National Security Division","John C. Demers","F. & G. Family Irrevocable Trust",2018,NA,"Trustee"
-"99","Justice","Assistant Attorney General for the National Security Division","John C. Demers","F. & G. Family Irrevocable Trust",NA,NA,"Trustee"
-"100","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Family Revocable Trust 1",2018,NA,"Trustee"
-"101","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Family Revocable Trust 1",NA,NA,"Trustee"
-"102","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Georgetown University Law Center",2018,NA,"Adjunct Professor"
-"103","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Georgetown University Law Center",NA,NA,"Adjunt Professor"
-"104","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Paulding LLC",2018,NA,"Agent"
-"105","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Paulding LLC",NA,NA,"Agent"
-"106","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","White & Case",NA,NA,"Attorney"
-"107","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","King & Spaulding",NA,1999,"Partner"
-"108","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Department of Justice",1999,2001,"Trial attorney"
-"109","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2001,2002,NA
-"110","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2002,NA,"Director Federal Programs Branch"
-"111","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Attorney General",2017,2017,"Chief of Staff"
-"112","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of Legal Policy",2017,2018,"Senior Advisor"
-"113","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Anthem, Inc.",2017,NA,"Legal Services"
-"114","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ardent Health Services",2017,NA,"Legal Services"
-"115","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ares Management LP",2017,NA,"Legal Services"
-"116","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Baxter Healthcare",2017,NA,"Legal Services"
-"117","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brentwood School",2017,NA,"Legal Services"
-"118","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner in Law Firm"
-"119","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner/Shareh older"
-"120","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2005,NA,"Shareholder"
-"121","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Caesars Interactive Entertainment, Inc.",2017,NA,"Legal Services"
-"122","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Complete Control Management",2017,NA,"Legal Services"
-"123","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Flexjet, LLC",2017,NA,"Legal Services"
-"124","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Jacob Khobian",2017,NA,"Legal Services"
-"125","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Medical Device Manufacturers Association",2017,NA,"Legal Services"
-"126","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Mentor Network",2017,NA,"Legal Services"
-"127","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Papersource Manufacturing & Converting",2017,NA,"Legal Services"
-"128","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Patton Boggs LLP",1995,1998,"Associate"
-"129","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Pepperdine University School of Law",2017,NA,"Adjunct Professsor of Law"
-"130","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Pepperdine University School of Law",2011,NA,"Adjunct Professor"
-"131","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Preconcile, LLC",2017,NA,"Co-Founder"
-"132","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Qualcomm Inc.",2017,NA,"Legal Services"
-"133","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Trump for America, Inc.",2017,NA,"Attorney"
-"134","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ultimate Fighting Championship",2017,NA,"Legal Services"
-"135","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General"
-"136","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Senate",2000,2003,"Chief of Staff"
-"137","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","World Poker Tour Foundation, Inc.",2017,NA,"Board Member"
-"138","Justice","Principal Deputy Solicitor General","Noel Francisco","Boeing Company",2017,NA,"legal services"
-"139","Justice","Principal Deputy Solicitor General","Noel Francisco","Christian Educators Association",2017,NA,"legal services"
-"140","Justice","Principal Deputy Solicitor General","Noel Francisco","Community Financial Services Association of America",2017,NA,"legal services"
-"141","Justice","Principal Deputy Solicitor General","Noel Francisco","Cooper, Carvin & Rosenthal PLLC",1998,2001,"Associate"
-"142","Justice","Principal Deputy Solicitor General","Noel Francisco","Expedia",2017,NA,"legal services"
-"143","Justice","Principal Deputy Solicitor General","Noel Francisco","HCA, Inc",2017,NA,"legal services"
-"144","Justice","Principal Deputy Solicitor General","Noel Francisco","Herbert Vederman",2017,NA,"legal services"
-"145","Justice","Principal Deputy Solicitor General","Noel Francisco","Historical Society of the District of Columbia",2017,NA,"Member of the Board of Directors"
-"146","Justice","Principal Deputy Solicitor General","Noel Francisco","International Business Machines Corporation",2017,NA,"legal services"
-"147","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"legal services to firm clients, management of Government Regulations Group"
-"148","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"Partner"
-"149","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2008,2017,"Partner"
-"150","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2005,2008,"Of Counsel"
-"151","Justice","Principal Deputy Solicitor General","Noel Francisco","Loma Linda University Adventist Health Sciences",2017,NA,"legal services"
-"152","Justice","Principal Deputy Solicitor General","Noel Francisco","R.J. Reynolds Tobacco Company",2017,NA,"legal services"
-"153","Justice","Principal Deputy Solicitor General","Noel Francisco","Reynolds American, Inc.",2017,NA,"legal services"
-"154","Justice","Principal Deputy Solicitor General","Noel Francisco","Robert F. McDonnell",2017,NA,"legal services"
-"155","Justice","Principal Deputy Solicitor General","Noel Francisco","The Internet Corporation for Assigned Names and Numbers",2017,NA,"legal services"
-"156","Justice","Principal Deputy Solicitor General","Noel Francisco","The Museum of the Bible",2017,NA,"legal services"
-"157","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2003,"Associate Counsel to the President"
-"158","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2001,"Assistant Counsel to the President"
-"159","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Court of Appeal for the Fourth Circuit",1996,1997,"Law Clerk"
-"160","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,NA,"Senior Advisor"
-"161","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,2017,"Acting / Principal Deputy Solicitor General"
-"162","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General"
-"163","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Supreme Court",1997,1998,"Law Clerk"
-"164","Justice","Principal Deputy Solicitor General","Noel Francisco","UnityPoint Health",2017,NA,"legal services"
-"165","Justice","Principal Deputy Solicitor General","Noel Francisco","University of North Carolina",2017,NA,"legal services"
-"166","Justice","Associate Attorney General","Rachel L. Brand","Brand Consulting, LLC",2017,2018,"Owner"
-"167","Justice","Associate Attorney General","Rachel L. Brand","Doorways for Women and Families",2017,2018,"Member, Board of Directors"
-"168","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Previously consultant; now Professor"
-"169","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Consultant"
-"170","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Associate Professor of Law"
-"171","Justice","Associate Attorney General","Rachel L. Brand","Little Falls Presbyterian Foundation",2017,2018,"Member, Board of Directors"
-"172","Justice","Associate Attorney General","Rachel L. Brand","U.S. Chamber Litigation Center",2017,2018,"Consulting services related to policy advice or fundraising"
-"173","Justice","Associate Attorney General","Rachel L. Brand","U.S. Chamber Litigation Center",2017,2018,"Senior Advisor"
-"174","Justice","Deputy Attorney General","Rod J. Rosenstein","King & Spalding LLP",2020,NA,"Partner"
-"175","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",2017,2019,"Deputy Attorney General"
-"176","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Attorney's Office for the District of Maryland",2005,2017,"Attorney"
-"177","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",2001,2005,"Principal Deputy Assistant Attorney General"
-"178","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Attorney's Office for the District of Maryland",1997,2001,"Assistant US Attorney"
-"179","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1994,1995,"Special Assistant"
-"180","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1993,1994,"Counsel"
-"181","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1990,1993,"Honors Attorney"
-"182","Justice","Deputy Attorney General","Rod J. Rosenstein","University of Baltimore School of Law",NA,NA,"Adjunct Professor"
-"183","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Court of Appeals for the District of Columbia Circuit",NA,NA,"Law Clerk"
-"184",NA,NA,"Stephen Boyd","United States Department of Justice",NA,NA,"Chief of Staff"
-"185",NA,NA,"Stephen Boyd","United States Senate",NA,NA,"Chief of Staff"
-"186","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Abby Modell",2017,NA,"Legal Services"
-"187","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","AFGS LLC",2017,NA,"Legal Services"
-"188","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Afilias USA, Inc.",2017,NA,"Legal Services"
-"189","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Cammeby's International",2017,NA,"Legal Services"
-"190","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Legal Services"
-"191","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Partner"
-"192","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Elliott Associates",2017,NA,"Legal Services"
-"193","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Family Trust 2",2017,NA,"Co-trustee"
-"194","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","General Electric Company",2017,NA,"Legal Services"
-"195","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Harborview Capital Partners LLC",2017,NA,"Legal Services"
-"196","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Huntington Acquisition 1 LLC",2017,NA,"Legal Services"
-"197","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","J. Jay Lobell",2017,NA,"Legal Services"
-"198","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Lindsay Rosenwald",2017,NA,"Legal Services"
-"199","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Meridian Capital Group",2017,NA,"Legal Services"
-"200","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Mustang Therapeutics",2017,NA,"Legal Services"
-"201","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","NDG Financial",2017,NA,"Legal Services"
-"202","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","New York City Patrolmen's Benevolent Association",2017,NA,"Legal Services"
-"203","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Nord Capital Advisors",2017,NA,"Legal Services"
-"204","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","QVT Financial",2017,NA,"Legal Services"
-"205","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","S.E. 2012 Family Trust 1",2017,NA,"Co-Trustee"
-"206","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","State Policy Network",2017,NA,"Legal Services"
-"207","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Sullivan Farms II, Inc.",2017,NA,"Legal Services"
-"208","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Takata Corporation",2017,NA,"Legal Services"
-"209","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Thru, Inc.",2017,NA,"Legal Services"
-"210","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Zohar Cohen",2017,NA,"Legal Services"
-"211","Justice","Attorney General","William P. Barr","Aggregate Industries Mgmt Inc",2018,2013,"Board Member"
-"212","Justice","Attorney General","William P. Barr","Dominion Energy Inc",2009,2019,"Board Member"
-"213","Justice","Attorney General","William P. Barr","Dominion Resources Inc",2009,2017,"Board Member"
-"214","Justice","Attorney General","William P. Barr","Gte Corp",1997,2000,"Exec VP / General Counsel"
-"215","Justice","Attorney General","William P. Barr","Gte Corp",1994,1997,"Senior VP / General Counsel"
-"216","Justice","Attorney General","William P. Barr","Holcim US Inc",2008,2013,"Board Member"
-"217","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2017,2019,"Of Counsel"
-"218","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2009,2009,"Of Counsel"
-"219","Justice","Attorney General","William P. Barr","Och-Ziff Capital Management Group LLC",2016,2018,"Board Member"
-"220","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1993,1994,"Partner"
-"221","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1984,1989,"Partner"
-"222","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1978,1982,"Associate"
-"223","Justice","Attorney General","William P. Barr","The White House",1982,1983,"Staff"
-"224","Justice","Attorney General","William P. Barr","Time Warner Inc",2009,2018,"Board Member"
-"225","Justice","Attorney General","William P. Barr","United States Department of Justice",1991,1993,"Attorney General"
-"226","Justice","Attorney General","William P. Barr","United States Department of Justice",1989,1991,"Deputy Attorney General"
-"227","Justice","Attorney General","William P. Barr","United States of America",1973,1977,"Assistant Legal Counsel"
-"228","Justice","Attorney General","William P. Barr","Verizon Communications",2000,2008,"Exec VP / General Counsel"
+"","agency_name","position_title","attorney","employer","start_date","end_date","title","firm_conservatism"
+"1","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner in Law Firm",NA
+"2","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Qualcomm Inc.",2017,NA,"Legal Services",NA
+"3","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ares Management LP",2017,NA,"Legal Services",NA
+"4","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Baxter Healthcare",2017,NA,"Legal Services",NA
+"5","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Anthem, Inc.",2017,NA,"Legal Services",NA
+"6","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Papersource Manufacturing & Converting",2017,NA,"Legal Services",NA
+"7","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Complete Control Management",2017,NA,"Legal Services",NA
+"8","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ultimate Fighting Championship",2017,NA,"Legal Services",NA
+"9","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Ardent Health Services",2017,NA,"Legal Services",NA
+"10","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Medical Device Manufacturers Association",2017,NA,"Legal Services",NA
+"11","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brentwood School",2017,NA,"Legal Services",NA
+"12","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Flexjet, LLC",2017,NA,"Legal Services",NA
+"13","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Mentor Network",2017,NA,"Legal Services",NA
+"14","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Jacob Khobian",2017,NA,"Legal Services",NA
+"15","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Caesars Interactive Entertainment, Inc.",2017,NA,"Legal Services",NA
+"16","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner/Shareh older",NA
+"17","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Pepperdine University School of Law",2017,NA,"Adjunct Professsor of Law",NA
+"18","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Trump for America, Inc.",2017,NA,"Attorney",NA
+"19","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","World Poker Tour Foundation, Inc.",2017,NA,"Board Member",NA
+"20","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Preconcile, LLC",2017,NA,"Co-Founder",NA
+"21","Justice","Attorney General","Jefferson B. Sessions","Samford University",NA,NA,"Member of Board of Overseers",NA
+"22","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"legal services to firm clients, management of Government Regulations Group",NA
+"23","Justice","Principal Deputy Solicitor General","Noel Francisco","Boeing Company",2017,NA,"legal services",NA
+"24","Justice","Principal Deputy Solicitor General","Noel Francisco","Christian Educators Association",2017,NA,"legal services",NA
+"25","Justice","Principal Deputy Solicitor General","Noel Francisco","Community Financial Services Association of America",2017,NA,"legal services",NA
+"26","Justice","Principal Deputy Solicitor General","Noel Francisco","HCA, Inc",2017,NA,"legal services",NA
+"27","Justice","Principal Deputy Solicitor General","Noel Francisco","International Business Machines Corporation",2017,NA,"legal services",NA
+"28","Justice","Principal Deputy Solicitor General","Noel Francisco","The Internet Corporation for Assigned Names and Numbers",2017,NA,"legal services",NA
+"29","Justice","Principal Deputy Solicitor General","Noel Francisco","Loma Linda University Adventist Health Sciences",2017,NA,"legal services",NA
+"30","Justice","Principal Deputy Solicitor General","Noel Francisco","Reynolds American, Inc.",2017,NA,"legal services",NA
+"31","Justice","Principal Deputy Solicitor General","Noel Francisco","R.J. Reynolds Tobacco Company",2017,NA,"legal services",NA
+"32","Justice","Principal Deputy Solicitor General","Noel Francisco","The Museum of the Bible",2017,NA,"legal services",NA
+"33","Justice","Principal Deputy Solicitor General","Noel Francisco","UnityPoint Health",2017,NA,"legal services",NA
+"34","Justice","Principal Deputy Solicitor General","Noel Francisco","University of North Carolina",2017,NA,"legal services",NA
+"35","Justice","Principal Deputy Solicitor General","Noel Francisco","Herbert Vederman",2017,NA,"legal services",NA
+"36","Justice","Principal Deputy Solicitor General","Noel Francisco","Expedia",2017,NA,"legal services",NA
+"37","Justice","Principal Deputy Solicitor General","Noel Francisco","Robert F. McDonnell",2017,NA,"legal services",NA
+"38","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"Partner",NA
+"39","Justice","Principal Deputy Solicitor General","Noel Francisco","Historical Society of the District of Columbia",2017,NA,"Member of the Board of Directors",NA
+"40","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"I am a law firm partner at Kirkland & Ellis LLP.",NA
+"41","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"legal services",NA
+"42","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"Partner",NA
+"43","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Federalist Society",NA,NA,"Chair of the Environment and Property Rights Practice Group",NA
+"44","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Legal services",NA
+"45","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Facebook, Inc.",2017,NA,"Legal services",NA
+"46","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Avison Young",2017,NA,"Legal services",NA
+"47","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","UBS Securities LLC",2017,NA,"Legal services",NA
+"48","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","SAIC, Inc.",2017,NA,"Legal services",NA
+"49","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Chipotle, Inc.",2017,NA,"Legal services",NA
+"50","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Questar Corporation",2017,NA,"Legal services",NA
+"51","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Avanade Inc.",2017,NA,"Legal services",NA
+"52","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Accenture PLC",2017,NA,"Legal services",NA
+"53","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Karma Automotive LLC",2017,NA,"Legal services",NA
+"54","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Commonwealth of Puerto Rico",2017,NA,"Legal services",NA
+"55","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Henkel Corporation",2017,NA,"Legal services",NA
+"56","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","POET LLC",2017,NA,"Legal services",NA
+"57","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Confidential Client",2017,NA,"Legal services",NA
+"58","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Partner",NA
+"59","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","A. S. Trust",2017,NA,"Trustee",NA
+"60","Justice","Deputy Attorney General","Rod J. Rosenstein","",2017,NA,"",NA
+"61","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Kirkland & Ellis",NA,NA,"Partner",NA
+"62","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","AbbVie, Inc.",NA,NA,"Legal services",NA
+"63","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Blue Cross Blue Shield",NA,NA,"Legal services",NA
+"64","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","BP America",NA,NA,"Legal services",NA
+"65","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Charter Communications, Inc.",NA,NA,"Legal services",NA
+"66","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Citibank, N.A.",NA,NA,"Legal services",NA
+"67","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Commonwealth of Puerto Rico",NA,NA,"Legal services",NA
+"68","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Fortinet",NA,NA,"Legal services",NA
+"69","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Greenbriar Equity Group",NA,NA,"Legal services",NA
+"70","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","HSBC Holdings PLC",NA,NA,"Legal services",NA
+"71","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Valeant Pharmaceuticals and Valeant Indepdendent Directors",NA,NA,"Legal services",NA
+"72","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Viking Global Investors",NA,NA,"Legal services",NA
+"73","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Volkswagen Group of America",NA,NA,"Legal services",NA
+"74","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Covanta Holding Corporation",NA,NA,"Legal services",NA
+"75","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Elect Blake Farenthold Committee",NA,NA,"Legal services",NA
+"76","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Legacy Cabinets, Inc.",NA,NA,"Legal services",NA
+"77","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Two confidential clients",NA,NA,"Legal services",NA
+"78","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Previously consultant; now Professor",NA
+"79","Justice","Associate Attorney General","Rachel L. Brand","U.S. Chamber Litigation Center",2017,2018,"Consulting services related to policy advice or fundraising",NA
+"80","Justice","Associate Attorney General","Rachel L. Brand","Doorways for Women and Families",2017,2018,"Member, Board of Directors",NA
+"81","Justice","Associate Attorney General","Rachel L. Brand","Little Falls Presbyterian Foundation",2017,2018,"Member, Board of Directors",NA
+"82","Justice","Associate Attorney General","Rachel L. Brand","U.S. Chamber Litigation Center",2017,2018,"Senior Advisor",NA
+"83","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Consultant",NA
+"84","Justice","Associate Attorney General","Rachel L. Brand","George Mason University",2017,2018,"Associate Professor of Law",NA
+"85","Justice","Associate Attorney General","Rachel L. Brand","Brand Consulting, LLC",2017,2018,"Owner",NA
+"86","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner at Jones Day",NA
+"87","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Abercrombie & Fitch Stores, Inc.",NA,NA,"Legal Services (client of Jones Day)",NA
+"88","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Americold Logistics",NA,NA,"Legal Services (client of Jones Day)",NA
+"89","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Bloomberg, L.P.",NA,NA,"Legal Services (client of Jones Day)",NA
+"90","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Bridgewater Associates",NA,NA,"Legal Services (client of Jones Day)",NA
+"91","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Career Builder",NA,NA,"Legal Services (client of Jones Day)",NA
+"92","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Citgo Petroleum",NA,NA,"Legal Services (client of Jones Day)",NA
+"93","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cleveland Clinic",NA,NA,"Legal Services (client of Jones Day)",NA
+"94","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","CVS Health Corporation",NA,NA,"Legal Services (client of Jones Day)",NA
+"95","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cytec Industries",NA,NA,"Legal Services (client of Jones Day)",NA
+"96","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","EcoLab",NA,NA,"Legal Services (client of Jones Day)",NA
+"97","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Enrollforce, LLC",NA,NA,"Legal Services (client of Jones Day)",NA
+"98","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Follett Corporation",NA,NA,"Legal Services (client of Jones Day)",NA
+"99","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Franciscan Alliance",NA,NA,"Legal Services (client of Jones Day)",NA
+"100","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","ICON Health & Fitness, Inc.",NA,NA,"Legal Services (client of Jones Day)",NA
+"101","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","McDonald's Corporation",NA,NA,"Legal Services (client of Jones Day)",NA
+"102","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","National Railway Labor Conference",NA,NA,"Legal Services (client of Jones Day)",NA
+"103","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Publix Supermarkets",NA,NA,"Legal Services (client of Jones Day)",NA
+"104","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","R.J. Reynolds Tobacco Company",NA,NA,"Legal Services (client of Jones Day)",NA
+"105","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Retail Litigation Center",NA,NA,"Legal Services (client of Jones Day)",NA
+"106","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","U.S. Chamber of Commerce",NA,NA,"Legal Services (client of Jones Day)",NA
+"107","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Verizon Communications",NA,NA,"Legal Services (client of Jones Day)",NA
+"108","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Washington Post",NA,NA,"Legal Services (client of Jones Day)",NA
+"109","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Abbott Laboratories",NA,NA,"Legal Services (client of Jones Day)",NA
+"110","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","BNSF Railway Company",NA,NA,"Legal Services (client of Jones Day)",NA
+"111","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Cornfields, Inc.",NA,NA,"Legal Services (client of Jones Day)",NA
+"112","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","CSX Corporation",NA,NA,"Legal Services (client of Jones Day)",NA
+"113","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Donald J. Trump for President, Inc.",NA,NA,"Legal Services (client of Jones Day)",NA
+"114","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Groupon",NA,NA,"Legal Services (client of Jones Day)",NA
+"115","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Koninklijke Ahold",NA,NA,"Legal Services (client of Jones Day)",NA
+"116","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Republican National Committee",NA,NA,"Legal Services (client of Jones Day)",NA
+"117","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Reynolds American, Inc.",NA,NA,"Legal Services (client of Jones Day)",NA
+"118","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Texas Roadhouse",NA,NA,"Legal Services (client of Jones Day)",NA
+"119","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","U.S. Steel Corporation",NA,NA,"Legal Services (client of Jones Day)",NA
+"120","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","University of North Carolina",NA,NA,"Legal Services (client of Jones Day)",NA
+"121","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Legal Services (client of Jones Day)",NA
+"122","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner",NA
+"123","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Chair - regulatory reform project",NA
+"124","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Boeing Company",2018,NA,"Vice President & Asst General Counsel",NA
+"125","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Georgetown University Law Center",2018,NA,"Adjunct Professor",NA
+"126","Justice","Assistant Attorney General for the National Security Division","John C. Demers","F. & G. Family Irrevocable Trust",2018,NA,"Trustee",NA
+"127","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Family Revocable Trust 1",2018,NA,"Trustee",NA
+"128","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Paulding LLC",2018,NA,"Agent",NA
+"129","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Legal Services",NA
+"130","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","AFGS LLC",2017,NA,"Legal Services",NA
+"131","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Afilias USA, Inc.",2017,NA,"Legal Services",NA
+"132","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Elliott Associates",2017,NA,"Legal Services",NA
+"133","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Huntington Acquisition 1 LLC",2017,NA,"Legal Services",NA
+"134","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Harborview Capital Partners LLC",2017,NA,"Legal Services",NA
+"135","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Abby Modell",2017,NA,"Legal Services",NA
+"136","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","NDG Financial",2017,NA,"Legal Services",NA
+"137","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","QVT Financial",2017,NA,"Legal Services",NA
+"138","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Mustang Therapeutics",2017,NA,"Legal Services",NA
+"139","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Lindsay Rosenwald",2017,NA,"Legal Services",NA
+"140","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Cammeby's International",2017,NA,"Legal Services",NA
+"141","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","State Policy Network",2017,NA,"Legal Services",NA
+"142","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Sullivan Farms II, Inc.",2017,NA,"Legal Services",NA
+"143","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Zohar Cohen",2017,NA,"Legal Services",NA
+"144","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","General Electric Company",2017,NA,"Legal Services",NA
+"145","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","J. Jay Lobell",2017,NA,"Legal Services",NA
+"146","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Meridian Capital Group",2017,NA,"Legal Services",NA
+"147","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","New York City Patrolmen's Benevolent Association",2017,NA,"Legal Services",NA
+"148","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Nord Capital Advisors",2017,NA,"Legal Services",NA
+"149","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Takata Corporation",2017,NA,"Legal Services",NA
+"150","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Thru, Inc.",2017,NA,"Legal Services",NA
+"151","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Partner",NA
+"152","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","S.E. 2012 Family Trust 1",2017,NA,"Co-Trustee",NA
+"153","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Family Trust 2",2017,NA,"Co-trustee",NA
+"154","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","",NA,NA,"",NA
+"155","Justice","Attorney General","William P. Barr","",2019,NA,"",NA
+"156","Justice","Attorney General","William P. Barr","Aggregate Industries Mgmt Inc",2018,2013,"Board Member",NA
+"157","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Boeing Company",NA,NA,"Vice President and Assistant General Counsel",NA
+"158","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner in Law Firm",-0.44
+"159","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2017,NA,"Partner/Shareh older",-0.44
+"160","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Brownstein Hyatt Farber Schreck LLP",2005,NA,"Shareholder",-0.44
+"161","Justice","Principal Deputy Solicitor General","Noel Francisco","Cooper, Carvin & Rosenthal PLLC",1998,2001,"Associate",NA
+"162","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Legal Services",-0.455
+"163","Justice","Assistant Attorney General for the Office of the Legal Counsel","Steven A. Engel","Dechert LLP",2017,NA,"Partner",-0.455
+"164","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Department of Justice",1999,2001,"Trial attorney",NA
+"165","Justice","Attorney General","William P. Barr","Dominion Energy Inc",2009,2019,"Board Member",NA
+"166","Justice","Attorney General","William P. Barr","Dominion Resources Inc",2009,2017,"Board Member",NA
+"167","Justice","Assistant Attorney General for the National Security Division","John C. Demers","F. & G. Family Irrevocable Trust",NA,NA,"Trustee",NA
+"168","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Family Revocable Trust 1",NA,NA,"Trustee",NA
+"169","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Federalist Society",NA,NA,"Chair of Environment and Property Rights Practice Group",NA
+"170","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Chair Regulatory Reform Project",NA
+"171",NA,NA,"Jeffrey A. Rosen","Georgetown University Law Center",1996,2003,"Adjunct Professor",NA
+"172","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Georgetown University Law Center",NA,NA,"Adjunt Professor",NA
+"173","Justice","Attorney General","William P. Barr","Gte Corp",1997,2000,"Exec VP / General Counsel",NA
+"174","Justice","Attorney General","William P. Barr","Gte Corp",1994,1997,"Senior VP / General Counsel",NA
+"175","Justice","Attorney General","Jefferson B. Sessions","Guin Bouldin & Porch",NA,NA,"Attorney",NA
+"176","Justice","Attorney General","William P. Barr","Holcim US Inc",2008,2013,"Board Member",NA
+"177","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"legal services to firm clients, management of Government Regulations Group",-0.213
+"178","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2005,2008,"Of Counsel",-0.213
+"179","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner",-0.213
+"180","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2017,NA,"Partner",-0.213
+"181","Justice","Principal Deputy Solicitor General","Noel Francisco","Jones Day LLP",2008,2017,"Partner",-0.213
+"182","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Jones Day LLP",NA,NA,"Partner at Jones Day",-0.213
+"183","Justice","Deputy Attorney General","Rod J. Rosenstein","King & Spalding LLP",2020,NA,"Partner",-0.097
+"184","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","King & Spalding LLP",NA,1999,"Partner",-0.097
+"185","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2006,2010,"Associate",NA
+"186",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",1982,2003,"Attorney",-0.363
+"187","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"I am a law firm partner at Kirkland & Ellis LLP LLP.",-0.363
+"188","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Legal services",-0.363
+"189","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"legal services",-0.363
+"190","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Partner",-0.363
+"191","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2010,2017,"Partner",-0.363
+"192","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Kirkland & Ellis",NA,NA,"Partner",-0.363
+"193",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",NA,NA,"Partner",-0.363
+"194","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"Partner",-0.363
+"195",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",2009,2017,"Senior Partner",-0.363
+"196","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2017,2019,"Of Counsel",-0.363
+"197","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2009,2009,"Of Counsel",-0.363
+"198","Justice","Attorney General","William P. Barr","Och-Ziff Capital Management Group LLC",2016,2018,"Board Member",NA
+"199","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of Legal Policy",2017,2018,"Senior Advisor",NA
+"200","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Attorney General",2017,2017,"Chief of Staff",NA
+"201","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2002,NA,"Director Federal Programs Branch",NA
+"202","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2001,2002,NA,NA
+"203","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Patton Boggs LLP",1995,1998,"Associate",-0.279
+"204","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Paulding LLC",NA,NA,"Agent",NA
+"205","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Pepperdine University School of Law",2011,NA,"Adjunct Professor",NA
+"206","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1978,1982,"Associate",NA
+"207","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1993,1994,"Partner",NA
+"208","Justice","Attorney General","William P. Barr","Shaw Pittman LLP",1984,1989,"Partner",NA
+"209","Justice","Attorney General","Jefferson B. Sessions","State of Alabama",1995,1997,"Attorney General",NA
+"210","Justice","Attorney General","Jefferson B. Sessions","Stockman & Bedsole",NA,NA,"Attorney",NA
+"211","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2001,"Assistant Counsel to the President",NA
+"212","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2003,"Associate Counsel to the President",NA
+"213",NA,NA,"Jeffrey A. Rosen","The White House",2006,2009,"General Counsel",NA
+"214","Justice","Attorney General","William P. Barr","The White House",1982,1983,"Staff",NA
+"215","Justice","Attorney General","William P. Barr","Time Warner Inc",2009,2018,"Board Member",NA
+"216","Justice","Attorney General","Jefferson B. Sessions","United States Army Reserve",1973,1986,"Captain",NA
+"217","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Attorney's Office for the District of Maryland",1997,2001,"Assistant US Attorney",NA
+"218","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Attorney's Office for the District of Maryland",2005,2017,"Attorney",NA
+"219","Justice","Attorney General","Jefferson B. Sessions","United States Attorney's Office for the Southern District of Alabama",1975,1977,"Assistant Attorney",NA
+"220","Justice","Attorney General","Jefferson B. Sessions","United States Attorney's Office for the Southern District of Alabama",1981,1993,"US Attorney",NA
+"221","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Court of Appeal for the Fourth Circuit",1996,1997,"Law Clerk",NA
+"222","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Court of Appeals for the District of Columbia Circuit",NA,NA,"Law Clerk",NA
+"223","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Court of Appeals for the Second Circuit",2004,2005,"Law Clerk",NA
+"224","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,2017,"Acting / Principal Deputy Solicitor General",NA
+"225","Justice","Attorney General","William P. Barr","United States Department of Justice",1991,1993,"Attorney General",NA
+"226",NA,NA,"Stephen Boyd","United States Department of Justice",NA,NA,"Chief of Staff",NA
+"227","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1993,1994,"Counsel",NA
+"228","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General",NA
+"229","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General",NA
+"230","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",2017,2019,"Deputy Attorney General",NA
+"231","Justice","Attorney General","William P. Barr","United States Department of Justice",1989,1991,"Deputy Attorney General",NA
+"232","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1990,1993,"Honors Attorney",NA
+"233","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",2001,2005,"Principal Deputy Assistant Attorney General",NA
+"234","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,NA,"Senior Advisor",NA
+"235","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1994,1995,"Special Assistant",NA
+"236",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",NA,2019,"Deputy Secretary",NA
+"237",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",2003,2006,"General Counsel",NA
+"238","Justice","Attorney General","William P. Barr","United States of America",1973,1977,"Assistant Legal Counsel",NA
+"239","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Senate",2000,2003,"Chief of Staff",NA
+"240",NA,NA,"Stephen Boyd","United States Senate",NA,NA,"Chief of Staff",NA
+"241","Justice","Attorney General","Jefferson B. Sessions","United States Senate",1997,2017,"Senator Alabama",NA
+"242","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Senate",2005,2006,"Special Counsel",NA
+"243","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Supreme Court",1997,1998,"Law Clerk",NA
+"244","Justice","Deputy Attorney General","Rod J. Rosenstein","University of Baltimore School of Law",NA,NA,"Adjunct Professor",NA
+"245","Justice","Attorney General","William P. Barr","Verizon Communications",2000,2008,"Exec VP / General Counsel",NA
+"246","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","White & Case",NA,NA,"Attorney",-0.494
