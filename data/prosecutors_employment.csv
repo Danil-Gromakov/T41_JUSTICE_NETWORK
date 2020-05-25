@@ -41,337 +41,333 @@
 "40","David Freed","County of Cumberland PA",NA,2006,2017
 "41","David Freed","County of Cumberland PA",NA,2001,2006
 "42","David Freed","County of Cumberland PA",NA,1998,2001
-"43","Thomas L. Leonard III","County of Genesee MI",NA,NA,NA
-"44","Joseph D. Brown","County of Grayson TX",NA,2018,2018
-"45","Ryan Patrick","County of Harris TX",NA,2005,2012
-"46","Donald Q. Cochran","County of Jefferson AL",NA,NA,NA
-"47","William Powell","County of Jefferson WV",NA,NA,2017
-"48","Brian T. Moran","County of Kitsap WA",NA,1989,1998
+"43","Joseph D. Brown","County of Grayson TX",NA,2018,2018
+"44","Ryan Patrick","County of Harris TX",NA,2005,2012
+"45","Donald Q. Cochran","County of Jefferson AL",NA,NA,NA
+"46","William Powell","County of Jefferson WV",NA,NA,2017
+"47","Brian T. Moran","County of Kitsap WA",NA,1989,1998
+"48","Joseph P. Kelly","County of Lancaster NE",NA,2011,2018
 "49","Joseph P. Kelly","County of Lancaster NE",NA,2011,2018
-"50","Joseph P. Kelly","County of Lancaster NE",NA,2011,2018
-"51","Joseph P. Kelly","County of Lancaster NE",NA,2010,2011
-"52","Joseph P. Kelly","County of Lancaster NE",NA,1990,2000
-"53","Joseph P. Kelly","County of Lancaster NE",NA,1981,1986
-"54","Robert S. Brewer Jr.","County of Los Angeles CA",NA,1975,1977
-"55","Jay Town","County of Madison AL",NA,2005,2017
-"56","Michael G. Bailey","County of Maricopa AZ",NA,1998,2004
-"57","R. Andrew Murray","County of Mecklenburg NC",NA,NA,NA
-"58","Scott W. Murray","County of Merrimack NH",NA,2010,2018
-"59","Ariana Fajardo Orshan","County of Miami-Dade FL",NA,NA,NA
-"60","Christina E. Nolan","County of Middlesex MA",NA,NA,NA
-"61","Billy J. Williams","County of Multnomah OR",NA,1999,2000
-"62","Billy J. Williams","County of Multnomah OR",NA,1990,1999
-"63","Billy J. Williams","County of Multnomah OR",NA,1989,1990
-"64","Justin Herdman","County of New York NY",NA,2001,2005
-"65","John C. Milhiser","County of Sangamon IL",NA,2010,2018
-"66","John C. Milhiser","County of Sangamon IL",NA,2008,2010
-"67","John C. Milhiser","County of Sangamon IL",NA,1997,2003
-"68","McGregor W. Scott","County of Shasta CA",NA,1997,2003
-"69","Brian Kuester","County of Tulsa County OK",NA,2003,2008
-"70","Scott Blader","County of Waushara WI",NA,2007,2017
-"71","John W. Huber","County of Weber UT",NA,1995,1996
-"72","David Freed","County of York PA",NA,1997,1998
-"73","Matthew Martin","Covington & Burling LLP",-0.612,2004,2006
-"74","Joseph D. Brown","Cowles and Thompson",NA,NA,NA
-"75","Donald Q. Cochran","Cumberland School of Law",NA,2002,2012
-"76","David C. Weiss","Delaware Supreme Court",NA,1984,1986
-"77","Brian Kuester","District 27 OK",NA,2010,2017
-"78","William M. McSwain","Drinker Biddle & Reath LLP",-0.41,NA,2018
-"79","David C. Weiss","Duane Morris LLP",-0.326,1989,1999
-"80","Matthew Martin","Duke Energy Corp",NA,2013,2018
-"81","Ariana Fajardo Orshan","Eleventh Circuit Court of Florida",NA,2012,2018
-"82","Gretchen C.F. Shappert","Executive Office for United States Attorneys",NA,2010,2018
-"83","Scott Brady","Federated Investors Inc",NA,NA,2017
-"84","Charles Peeler","Flynn, Peeler & Phillips LLP",NA,NA,NA
-"85","Russell Coleman","Frost Brown Todd LLC",0.225,2015,2017
-"86","B.J. Pak","Georgia House of Representatives",NA,2010,2017
-"87","Nicola T. Hanna","Gibson Dunn & Crutcher LLP",-0.297,NA,2017
-"88","John Bash","Gibson Dunn & Crutcher LLP",-0.297,NA,2012
-"89","Andrew Lelling","Goodwin Procter LLP",-0.747,NA,NA
-"90","Christina E. Nolan","Goodwin Procter LLP",-0.747,2005,2009
-"91","Geoffrey Berman","Greenberg Traurig LLP",-0.426,NA,NA
-"92","Ryan Patrick","Harris County Republican Party",NA,2002,2004
-"93","J. Cody Hiland","Hiland, Thomas & Cox PLLC",NA,NA,NA
-"94","John C. Anderson","Holland & Hart LLP",-0.596,2013,2018
-"95","Ryan Patrick","Hoover Slovacek LLP",NA,2017,2017
-"96","Jeffrey Jensen","Husch Blackwell LLP",-0.319,2013,2017
-"97","Bart Davis","Idaho State Senate",NA,1998,2017
-"98","David L. Anderson","Iran - US Claims Tribunal",NA,1992,1993
-"99","Geoffrey Berman","Iran - US Claims Tribunal",NA,NA,NA
-"100","William Powell","Jackson Kelly LLC",0.195,NA,NA
-"101","Jessie K. Liu","Jenner & Block LLP",-0.785,2009,2016
-"102","Jessie K. Liu","Jenner & Block LLP",-0.785,1999,2002
-"103","Andrew B. Birge","Jenner & Block LLP",-0.785,NA,NA
-"104","Ron A. Parsons Jr.","Johnson Heidepriem & Abdallah LLP",NA,NA,2017
-"105","Aaron L. Weisman","Jones Associates",NA,NA,NA
-"106","Robert S. Brewer Jr.","Jones Day LLP",-0.213,2009,2014
-"107","Justin Herdman","Jones Day LLP",-0.213,2013,2017
-"108","Scott Brady","Jones Day LLP",-0.213,NA,NA
-"109","David C. Joseph","Kane Russell Coleman Logan PC",NA,NA,NA
-"110","Stephen McAllister","Kansas Office of the Attorney General",NA,NA,NA
-"111","Larry Keefe","Keefe, Anchors & Gordon PA",NA,NA,NA
-"112","Charles Peeler","King & Spalding LLP",-0.097,NA,2005
-"113","Robert K. Hur","King & Spalding LLP",-0.097,2014,2017
-"114","John R. Lausch Jr.","Kirkland & Ellis LLP",-0.363,2010,2017
-"115","John R. Lausch Jr.","Kirkland & Ellis LLP",-0.363,1997,1999
-"116","Erica MacDonald","Kirkland & Ellis LLP",-0.363,1999,2000
-"117","Mark Klassen","Latham & Watkins",-0.561,NA,NA
-"118","Andrew Lelling","LeBoeuf Lamb Greene & MacRae LLP",NA,NA,NA
-"119","Louis V. Franklin Sr.","Legal Services Corporation",NA,1987,1990
-"120","Brandon Fremin","Louisiana Office of the Attorney General",NA,NA,2018
-"121","William D. Hyslop","Lukins & Annis PS",NA,1993,2019
-"122","William D. Hyslop","Lukins & Annis PS",NA,1984,1991
-"123","William D. Hyslop","Lukins & Annis PS",NA,1980,1983
-"124","Peter M. McCoy Jr.","McCoy & Stokes",NA,NA,NA
-"125","Jay Town","McElroy, Deutsch, Mulvaney & Carpenter",-0.169,2002,2005
-"126","Robert S. Brewer Jr.","McKenna Long & Aldridge LLP",-0.17,1991,2009
-"127","Erin Nealy Cox","McKinsey & Company",NA,NA,2017
-"128","Andrew B. Birge","Michigan 8th District Court",NA,NA,NA
-"129","Thomas L. Leonard III","Michigan House of Representatives",NA,2012,2018
-"130","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,NA
-"131","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,NA
-"132","Thomas L. Leonard III","Michigan Office of the Attorney General",NA,NA,NA
-"133","Matthew J. Schneider","Michigan State University Law School",NA,2012,NA
-"134","Matthew J. Schneider","Michigan Supreme Court",NA,NA,NA
-"135","Erica MacDonald","Minnesota First Judicial District",NA,2009,2018
-"136","Thomas L. Leonard III","MiStrategies",NA,2018,NA
-"137","Jessie K. Liu","Morrison & Foerster LLP",-0.943,2016,NA
-"138","Nicholas A. Trutanich","Nevada Office of the Attorney General",NA,NA,2019
-"139","Sherri Lydon","Nexsen Pruet LLC",NA,NA,1990
-"140","Drew Wrigley","Noridian Administrative Services",NA,2009,2010
-"141","Timothy J. Downing","Oklahoma House of Representatives",NA,2016,2018
-"142","R. Trent Shores","Oklahoma Office of the Attorney General",NA,2015,2015
-"143","Timothy J. Downing","Oklahoma Office of the Attorney General",NA,2011,2016
-"144","McGregor W. Scott","Orrick, Herrington & Sutcliffe LLP",-0.853,2009,2017
-"145","Brian T. Moran","Orrick, Herrington & Sutcliffe LLP",-0.853,2013,2018
-"146","David L. Anderson","Pillsbury Winthrop Shaw Pittman LLP",-0.532,2005,2008
-"147","David L. Anderson","Pillsburg Winshop LLP",NA,2005,2005
-"148","Jeffrey Jensen","Pricewaterhousecoopers LLP",NA,1988,NA
-"149","Richard W. Moore","Private Practice",NA,NA,1985
-"150","Michael G. Bailey","Private Practice",NA,NA,NA
-"151","Robert S. Brewer Jr.","Private Practice",NA,1982,1991
-"152","B.J. Pak","Private Practice",NA,2008,2017
-"153","Bart Davis","Private Practice",NA,NA,NA
-"154","John C. Milhiser","Private Practice",NA,2003,2008
-"155","Jeffrey Jensen","Private Practice",NA,2010,2013
-"156","Nicholas A. Trutanich","Private Practice",NA,NA,NA
-"157","R. Andrew Murray","Private Practice",NA,1992,2017
-"158","David Freed","Private Practice",NA,NA,NA
-"159","Sherri Lydon","Private Practice",NA,2005,2018
-"160","Sherri Lydon","Private Practice",NA,1995,2003
-"161","Sherri Lydon","Private Practice",NA,1993,1995
-"162","Sherri Lydon","Private Practice",NA,1987,1990
-"163","Ryan Patrick","Private Practice",NA,2017,2017
-"164","Scott Blader","Private Practice",NA,1999,2007
-"165","Grant C. Jaquith","Private Practice",NA,1988,1989
-"166","Scott Brady","Reed Smith LLP",-0.443,NA,NA
-"167","Michael B. Stuart","Republican Party of West Virginia",NA,2010,2012
-"168","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,1993,2019
-"169","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,NA
-"170","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,NA
-"171","Doug Overbey","Robertson Overbey",NA,1982,2017
-"172","Brian Kuester","Robinette & Osmond",NA,2000,2003
-"173","Robert S. Brewer Jr.","Seltzer Caplan McMahon Vitek ALC",NA,NA,NA
-"174","David L. Anderson","Sidley Austin LLP",-0.608,2010,NA
-"175","Matthew Krueger","Sidley Austin LLP",-0.608,NA,NA
-"176","David C. Weiss","Siegfried Group LLP",NA,1999,2007
-"177","John C. Anderson","Simpson Thacher & Bartlett LLP",-0.719,2004,2008
-"178","Louis V. Franklin Sr.","Sirote and Permutt",NA,1996,1998
-"179","Matthew Martin","Smith Anderson Blount Dorsett Mitchell & Jernigan LLP",NA,2006,2013
-"180","Peter M. McCoy Jr.","South Carolina House of Represenatives",NA,2011,2020
-"181","Sherri Lydon","South Carolina Office of the Attorney General",NA,2003,2004
-"182","Peter M. McCoy Jr.","South Carolina Office of the Solictor for the Ninth Judicial Circuit",NA,NA,NA
-"183","J. Cody Hiland","State of Arkansas, Office of the Governor",NA,NA,NA
-"184","Drew Wrigley","State of North Dakota",NA,2010,2016
-"185","Drew Wrigley","State of North Dakota, Office of the Governor",NA,2000,2001
-"186","Michael B. Stuart","Steptoe & Johnson PLLC",-0.29,NA,2018
-"187","Matthew Krueger","Steptoe & Johnson PLLC",-0.29,2013,2018
-"188","Erin Nealy Cox","Stroz Friedberg LLC",NA,2008,2016
-"189","Richard W. Moore","Tenessee Valley Authority",NA,2003,2017
-"190","Doug Overbey","Tennessee House of Represenatives",NA,2008,2009
-"191","Doug Overbey","Tennessee State Senate",NA,2009,2017
-"192","Ryan Patrick","Texas 177th District Court",NA,2012,2016
-"193","Joseph D. Brown","Texas Juvenile Justice Department",NA,2009,2014
-"194","D. Michael Hurst Jr.","Troutman Sanders LLP",NA,NA,NA
-"195","Timothy A. Garrison","United State Department of Defense",NA,NA,NA
-"196","Stephen McAllister","United States Appeals Court for the Seventh Circuit",NA,NA,NA
-"197","Nicola T. Hanna","United States Attorney's Office for the Central District of California",NA,1990,1994
-"198","Robert S. Brewer Jr.","United States Attorney's Office for the Central District of California",NA,1977,1982
-"199","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,NA,2017
-"200","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,2005,NA
-"201","Jessie K. Liu","United States Attorney's Office for the District of Columbia",NA,2002,2006
-"202","Halsey Frank","United States Attorney's Office for the District of Columbia",NA,1990,1999
-"203","John Durham","United States Attorney's Office for the District of Connecticut",NA,1998,2017
-"204","John Durham","United States Attorney's Office for the District of Connecticut",NA,1997,1998
-"205","John Durham","United States Attorney's Office for the District of Connecticut",NA,NA,1997
-"206","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2011,2017
-"207","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2009,2011
-"208","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2007,2009
-"209","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,1986,1989
-"210","Shawn N. Anderson","United States Attorney's Office for the District of Guam & Northern Mariana Islands",NA,NA,2017
-"211","Halsey Frank","United States Attorney's Office for the District of Maine",NA,1999,2017
-"212","Robert K. Hur","United States Attorney's Office for the District of Maryland",NA,2007,2014
-"213","Andrew Lelling","United States Attorney's Office for the District of Massachusetts",NA,NA,2017
-"214","Kurt Alme","United States Attorney's Office for the District of Montana",NA,2006,2010
-"215","Kurt Alme","United States Attorney's Office for the District of Montana",NA,2001,2006
-"216","Craig Carpenito","United States Attorney's Office for the District of New Jersey",NA,2005,2008
-"217","John C. Anderson","United States Attorney's Office for the District of New Mexico",NA,2008,2013
-"218","Drew Wrigley","United States Attorney's Office for the District of North Dakota",NA,2001,2009
-"219","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,NA
-"220","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,2015
-"221","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,2015
-"222","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2010,2015
-"223","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2007,2010
-"224","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2000,2007
-"225","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,1988,1989
-"226","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,1987,1988
-"227","W. Stephen Muldrow","United States Attorney's Office for the District of Puerto Rico",NA,1995,2001
-"228","Sherri Lydon","United States Attorney's Office for the District of South Carolina",NA,2018,2019
-"229","Sherri Lydon","United States Attorney's Office for the District of South Carolina",NA,1990,1993
-"230","John W. Huber","United States Attorney's Office for the District of Utah",NA,2012,2015
-"231","John W. Huber","United States Attorney's Office for the District of Utah",NA,2005,2012
-"232","John W. Huber","United States Attorney's Office for the District of Utah",NA,2002,2005
-"233","Christina E. Nolan","United States Attorney's Office for the District of Vermont",NA,2010,2017
-"234","Mark Klassen","United States Attorney's Office for the District of Wyoming",NA,NA,2017
-"235","McGregor W. Scott","United States Attorney's Office for the Eastern District of California",NA,2003,2009
-"236","Robert M. Duncan Jr.","United States Attorney's Office for the Eastern District of Kentucky",NA,2005,2017
-"237","Peter G. Strasser","United States Attorney's Office for the Eastern District of Louisiana",NA,NA,NA
-"238","Peter Deegan","United States Attorney's Office for the Eastern District of Michigan",NA,2004,2006
-"239","Matthew J. Schneider","United States Attorney's Office for the Eastern District of Michigan",NA,2003,2011
-"240","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",NA,2006,2009
-"241","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",NA,1999,2006
-"242","Richard Donoghue","United States Attorney's Office for the Eastern District of New York",NA,2000,2011
-"243","Robert Higdon Jr.","United States Attorney's Office for the Eastern District of North Carolina",NA,2002,2013
-"244","William M. McSwain","United States Attorney's Office for the Eastern District of Pennsylvania",NA,2003,2006
-"245","G. Zachary Terwilliger","United States Attorney's Office for the Eastern District of Virginia",NA,2010,NA
-"246","William D. Hyslop","United States Attorney's Office for the Eastern District of Washington",NA,1991,1993
-"247","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,2001,2017
-"248","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,1998,2001
-"249","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,1990,1996
-"250","Maria Chapa Lopez","United States Attorney's Office for the Middle District of Florida",NA,2000,2016
-"251","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2018,2019
-"252","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2017,2018
-"253","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2013,2017
-"254","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2001,2013
-"255","Brandon Fremin","United States Attorney's Office for the Middle District of Louisiana",NA,NA,NA
-"256","Donald Q. Cochran","United States Attorney's Office for the Northern District of Alabama",NA,1998,2002
-"257","David L. Anderson","United States Attorney's Office for the Northern District of California",NA,2008,2010
-"258","David L. Anderson","United States Attorney's Office for the Northern District of California",NA,1998,2002
-"259","B.J. Pak","United States Attorney's Office for the Northern District of Georgia",NA,2002,2008
-"260","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",NA,2005,2010
-"261","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",NA,1999,2005
-"262","Marc Krickbaum","United States Attorney's Office for the Northern District of Illinois",NA,NA,2017
-"263","Erica MacDonald","United States Attorney's Office for the Northern District of Illinois",NA,2000,2009
-"264","Thomas Kirsch","United States Attorney's Office for the Northern District of Indiana",NA,2001,2008
-"265","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,2015,2017
-"266","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,2006,2015
-"267","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,1998,2004
-"268","William C. Lamar","United States Attorney's Office for the Northern District of Mississippi",NA,NA,2017
-"269","William C. Lamar","United States Attorney's Office for the Northern District of Mississippi",NA,1991,NA
-"270","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,2010,2017
-"271","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,1998,2006
-"272","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,1989,1998
-"273","Justin Herdman","United States Attorney's Office for the Northern District of Ohio",NA,2010,2013
-"274","R. Trent Shores","United States Attorney's Office for the Northern District of Oklahoma",NA,2007,2017
-"275","Erin Nealy Cox","United States Attorney's Office for the Northern District of Texas",NA,1999,2008
-"276","Richard W. Moore","United States Attorney's Office for the Southern District of Alabama",NA,1985,2003
-"277","Nicola T. Hanna","United States Attorney's Office for the Southern District of California",NA,1995,1998
-"278","Michael Sherwin","United States Attorney's Office for the Southern District of Florida",NA,NA,NA
-"279","Steven D. Weinhoeft","United States Attorney's Office for the Southern District of Illinois",NA,2016,2018
-"280","Steven D. Weinhoeft","United States Attorney's Office for the Southern District of Illinois",NA,2006,2016
-"281","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2015,2017
-"282","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2014,2015
-"283","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,NA,2014
-"284","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,1994,NA
-"285","Marc Krickbaum","United States Attorney's Office for the Southern District of Iowa",NA,2009,NA
-"286","D. Michael Hurst Jr.","United States Attorney's Office for the Southern District of Mississippi",NA,2006,2015
-"287","Geoffrey Berman","United States Attorney's Office for the Southern District of New York",NA,1990,1994
-"288","Justin Herdman","United States Attorney's Office for the Southern District of Ohio",NA,2006,2010
-"289","David M. DeVillers","United States Attorney's Office for the Southern District of Ohio",NA,NA,NA
-"290","William Powell","United States Attorney's Office for the Southern District of West Virginia",NA,NA,NA
-"291","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
-"292","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
-"293","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
-"294","David C. Joseph","United States Attorney's Office for the Western District of Louisiana",NA,NA,2018
-"295","Andrew B. Birge","United States Attorney's Office for the Western District of Michigan",NA,2007,2017
-"296","Andrew B. Birge","United States Attorney's Office for the Western District of Michigan",NA,2007,2017
-"297","Timothy A. Garrison","United States Attorney's Office for the Western District of Missouri",NA,2007,2018
-"298","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2010,2016
-"299","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2007,2010
-"300","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2006,2007
-"301","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,1992,2006
-"302","Thomas T. Cullen","United States Attorney's Office for the Western District of North Carolina",NA,NA,NA
-"303","Gretchen C.F. Shappert","United States Attorney's Office for the Western District of North Carolinia",NA,2004,2009
-"304","Gretchen C.F. Shappert","United States Attorney's Office for the Western District of North Carolinia",NA,1990,2004
-"305","Scott Brady","United States Attorney's Office for the Western District of Pennsylvania",NA,2004,2010
-"306","Timothy J. Downing","United States Attorney's Office for the Western District of Texas",NA,2011,2016
-"307","Thomas T. Cullen","United States Attorney's Office for the Western District of Virginia",NA,NA,NA
-"308","John Bash","United States Court of Appeals for the District of Columbia Circuit",NA,2006,2007
-"309","Ron A. Parsons Jr.","United States Court of Appeals for the Eighth Circuit",NA,NA,NA
-"310","Jessie K. Liu","United States Court of Appeals for the Fifth Circuit",NA,1998,1999
-"311","Erin Nealy Cox","United States Court of Appeals for the Fifth Circuit",NA,NA,NA
-"312","Thomas T. Cullen","United States Court of Appeals for the Fourth Circuit",NA,NA,NA
-"313","Matthew Krueger","United States Court of Appeals for the Fourth Circuit",NA,NA,NA
-"314","David L. Anderson","United States Court of Appeals for the Ninth Circuit",NA,1990,1991
-"315","Robert K. Hur","United States Court of Appeals for the Ninth Circuit",NA,NA,NA
-"316","John R. Lausch Jr.","United States Court of Appeals for the Seventh Circuit",NA,1996,1997
-"317","John C. Anderson","United States Court of Appeals for the Tenth Circuit",NA,2003,2004
-"318","Mark Klassen","United States Court of Appeals for the Tenth Circuit",NA,NA,NA
-"319","William M. McSwain","United States Court of Appeals for the Third Circuit",NA,NA,NA
-"320","Geoffrey Berman","United States Court of Appeals for the Third Circuit",NA,NA,NA
-"321","Mark Klassen","United States Department of Homeland Security",NA,2007,2009
-"322","Maria Chapa Lopez","United States Department of Justice",NA,2016,2018
-"323","Thomas Kirsch","United States Department of Justice",NA,2006,2007
-"324","Marc Krickbaum","United States Department of Justice",NA,NA,2008
-"325","Peter G. Strasser","United States Department of Justice",NA,NA,NA
-"326","Halsey Frank","United States Department of Justice",NA,1987,1990
-"327","Robert K. Hur","United States Department of Justice",NA,2017,2018
-"328","Robert K. Hur","United States Department of Justice",NA,NA,NA
-"329","Nicholas A. Trutanich","United States Department of Justice",NA,NA,NA
-"330","Robert Higdon Jr.","United States Department of Justice",NA,2014,2015
-"331","David M. DeVillers","United States Department of Justice",NA,2010,2018
-"332","R. Trent Shores","United States Department of Justice",NA,NA,NA
-"333","W. Stephen Muldrow","United States Department of Justice",NA,1989,1995
-"334","John Bash","United States Department of Justice",NA,2012,2017
-"335","Matthew Krueger","United States Department of Justice",NA,NA,NA
-"336","Michael Sherwin","United States Department of Justice",NA,NA,NA
-"337","Michael Sherwin","United States Department of Justice",NA,NA,NA
-"338","Jessie K. Liu","United States Department of the Treasury",NA,2017,2017
-"339","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,NA
-"340","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,NA
-"341","B.J. Pak","United States District Court for the Central District of Illinois",NA,1998,2000
-"342","Robert M. Duncan Jr.","United States District Court for the Eastern District of Michigan",NA,NA,NA
-"343","Thomas T. Cullen","United States District Court for the Eastern District of Michigan",NA,NA,NA
-"344","Donald Q. Cochran","United States District Court for the Northern District of Georgia",NA,NA,NA
-"345","Erica MacDonald","United States District Court for the Northern District of Illinois",NA,1997,1999
-"346","Erin Nealy Cox","United States District Court for the Northern District of Texas",NA,NA,NA
-"347","G. Zachary Terwilliger","United States District Court for the Southern District of Florida",NA,NA,2008
-"348","Andrew Lelling","United States District Court for the Southern District of Georgia",NA,1994,1995
-"349","Thomas Kirsch","United States District Court for the Southern District of Indiana",NA,2000,2001
-"350","Christina E. Nolan","United States District Court of Massachusetts",NA,NA,NA
-"351","Russell Coleman","United States Senate",NA,2010,2015
-"352","David L. Anderson","United States Supreme Court",NA,1991,1992
-"353","Stephen McAllister","United States Supreme Court",NA,NA,NA
-"354","Robert K. Hur","United States Supreme Court",NA,NA,NA
-"355","John Bash","United States Supreme Court",NA,NA,NA
-"356","Stephen McAllister","University of Kansas School of Law",NA,NA,NA
-"357","Scott Brady","University of Pittsburgh School of Law",NA,NA,NA
-"358","Duane Kees","US Army Judge Advocate General's Corp",NA,2001,2008
-"359","Maria Chapa Lopez","US Army Judge Advocate General's Corp",NA,NA,2000
-"360","Bobby Christine","US Army Judge Advocate General's Corp",NA,NA,NA
-"361","Timothy J. Downing","US Army Judge Advocate General's Corp",NA,2011,NA
-"362","Richard Donoghue","US Army Judge Advocate General's Corp",NA,1993,2000
-"363","Grant C. Jaquith","US Army Judge Advocate General's Corp",NA,1982,1988
-"364","Grant C. Jaquith","US Attorney's Office for the Northern District of New York",NA,2006,2010
-"365","Mark Klassen","US House of Representatives",NA,2003,2007
-"366","Duane Kees","Wal-Mart Stores Inc",NA,NA,2017
-"367","Brian T. Moran","Washington Office of the Attorney General",NA,2006,2013
-"368","Brian T. Moran","Washington Office of the Attorney General",NA,1998,2006
-"369","Matthew J. Schneider","White House Office of Management and Budget",NA,NA,NA
-"370","Matthew J. Schneider","Wiley Rein",-0.027,NA,NA
-"371","Robert Higdon Jr.","Williams Mullen",0.082,2015,2017
-"372","Ariana Fajardo Orshan","Wilson Elser Moskowitz Edelman & Dicker LLP",-0.406,NA,NA
-"373","Thomas Kirsch","Winston & Strawn LLP",-0.382,2008,2017
-"374","Thomas T. Cullen","Woods Rogers PLC",NA,NA,2018
-"375","Kurt Alme","Yellowstone Boys & Girls Ranch",NA,2013,2017
-"376","Kurt Alme","Yellowstone Boys & Girls Ranch",NA,2010,2013
+"50","Joseph P. Kelly","County of Lancaster NE",NA,2010,2011
+"51","Joseph P. Kelly","County of Lancaster NE",NA,1990,2000
+"52","Joseph P. Kelly","County of Lancaster NE",NA,1981,1986
+"53","Robert S. Brewer Jr.","County of Los Angeles CA",NA,1975,1977
+"54","Jay Town","County of Madison AL",NA,2005,2017
+"55","Michael G. Bailey","County of Maricopa AZ",NA,1998,2004
+"56","R. Andrew Murray","County of Mecklenburg NC",NA,NA,NA
+"57","Scott W. Murray","County of Merrimack NH",NA,2010,2018
+"58","Ariana Fajardo Orshan","County of Miami-Dade FL",NA,NA,NA
+"59","Christina E. Nolan","County of Middlesex MA",NA,NA,NA
+"60","Billy J. Williams","County of Multnomah OR",NA,1999,2000
+"61","Billy J. Williams","County of Multnomah OR",NA,1990,1999
+"62","Billy J. Williams","County of Multnomah OR",NA,1989,1990
+"63","Justin Herdman","County of New York NY",NA,2001,2005
+"64","John C. Milhiser","County of Sangamon IL",NA,2010,2018
+"65","John C. Milhiser","County of Sangamon IL",NA,2008,2010
+"66","John C. Milhiser","County of Sangamon IL",NA,1997,2003
+"67","McGregor W. Scott","County of Shasta CA",NA,1997,2003
+"68","Brian Kuester","County of Tulsa County OK",NA,2003,2008
+"69","Scott Blader","County of Waushara WI",NA,2007,2017
+"70","John W. Huber","County of Weber UT",NA,1995,1996
+"71","David Freed","County of York PA",NA,1997,1998
+"72","Matthew Martin","Covington & Burling LLP",-0.612,2004,2006
+"73","Joseph D. Brown","Cowles and Thompson",NA,NA,NA
+"74","Donald Q. Cochran","Cumberland School of Law",NA,2002,2012
+"75","David C. Weiss","Delaware Supreme Court",NA,1984,1986
+"76","Brian Kuester","District 27 OK",NA,2010,2017
+"77","William M. McSwain","Drinker Biddle & Reath LLP",-0.41,NA,2018
+"78","David C. Weiss","Duane Morris LLP",-0.326,1989,1999
+"79","Matthew Martin","Duke Energy Corp",NA,2013,2018
+"80","Ariana Fajardo Orshan","Eleventh Circuit Court of Florida",NA,2012,2018
+"81","Gretchen C.F. Shappert","Executive Office for United States Attorneys",NA,2010,2018
+"82","Scott Brady","Federated Investors Inc",NA,NA,2017
+"83","Charles Peeler","Flynn, Peeler & Phillips LLP",NA,NA,NA
+"84","Russell Coleman","Frost Brown Todd LLC",0.225,2015,2017
+"85","B.J. Pak","Georgia House of Representatives",NA,2010,2017
+"86","Nicola T. Hanna","Gibson Dunn & Crutcher LLP",-0.297,NA,2017
+"87","John Bash","Gibson Dunn & Crutcher LLP",-0.297,NA,2012
+"88","Andrew Lelling","Goodwin Procter LLP",-0.747,NA,NA
+"89","Christina E. Nolan","Goodwin Procter LLP",-0.747,2005,2009
+"90","Geoffrey Berman","Greenberg Traurig LLP",-0.426,NA,NA
+"91","Ryan Patrick","Harris County Republican Party",NA,2002,2004
+"92","J. Cody Hiland","Hiland, Thomas & Cox PLLC",NA,NA,NA
+"93","John C. Anderson","Holland & Hart LLP",-0.596,2013,2018
+"94","Ryan Patrick","Hoover Slovacek LLP",NA,2017,2017
+"95","Jeffrey Jensen","Husch Blackwell LLP",-0.319,2013,2017
+"96","Bart Davis","Idaho State Senate",NA,1998,2017
+"97","David L. Anderson","Iran - US Claims Tribunal",NA,1992,1993
+"98","Geoffrey Berman","Iran - US Claims Tribunal",NA,NA,NA
+"99","William Powell","Jackson Kelly LLC",0.195,NA,NA
+"100","Jessie K. Liu","Jenner & Block LLP",-0.785,2009,2016
+"101","Jessie K. Liu","Jenner & Block LLP",-0.785,1999,2002
+"102","Andrew B. Birge","Jenner & Block LLP",-0.785,NA,NA
+"103","Ron A. Parsons Jr.","Johnson Heidepriem & Abdallah LLP",NA,NA,2017
+"104","Aaron L. Weisman","Jones Associates",NA,NA,NA
+"105","Robert S. Brewer Jr.","Jones Day LLP",-0.213,2009,2014
+"106","Justin Herdman","Jones Day LLP",-0.213,2013,2017
+"107","Scott Brady","Jones Day LLP",-0.213,NA,NA
+"108","David C. Joseph","Kane Russell Coleman Logan PC",NA,NA,NA
+"109","Stephen McAllister","Kansas Office of the Attorney General",NA,NA,NA
+"110","Larry Keefe","Keefe, Anchors & Gordon PA",NA,NA,NA
+"111","Charles Peeler","King & Spalding LLP",-0.097,NA,2005
+"112","Robert K. Hur","King & Spalding LLP",-0.097,2014,2017
+"113","John R. Lausch Jr.","Kirkland & Ellis LLP",-0.363,2010,2017
+"114","John R. Lausch Jr.","Kirkland & Ellis LLP",-0.363,1997,1999
+"115","Erica MacDonald","Kirkland & Ellis LLP",-0.363,1999,2000
+"116","Mark Klassen","Latham & Watkins",-0.561,NA,NA
+"117","Andrew Lelling","LeBoeuf Lamb Greene & MacRae LLP",NA,NA,NA
+"118","Louis V. Franklin Sr.","Legal Services Corporation",NA,1987,1990
+"119","Brandon Fremin","Louisiana Office of the Attorney General",NA,NA,2018
+"120","William D. Hyslop","Lukins & Annis PS",NA,1993,2019
+"121","William D. Hyslop","Lukins & Annis PS",NA,1984,1991
+"122","William D. Hyslop","Lukins & Annis PS",NA,1980,1983
+"123","Peter M. McCoy Jr.","McCoy & Stokes",NA,NA,NA
+"124","Jay Town","McElroy, Deutsch, Mulvaney & Carpenter",-0.169,2002,2005
+"125","Robert S. Brewer Jr.","McKenna Long & Aldridge LLP",-0.17,1991,2009
+"126","Erin Nealy Cox","McKinsey & Company",NA,NA,2017
+"127","Andrew B. Birge","Michigan 8th District Court",NA,NA,NA
+"128","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,NA
+"129","Matthew J. Schneider","Michigan Office of the Attorney General",NA,NA,NA
+"130","Matthew J. Schneider","Michigan State University Law School",NA,2012,NA
+"131","Matthew J. Schneider","Michigan Supreme Court",NA,NA,NA
+"132","Erica MacDonald","Minnesota First Judicial District",NA,2009,2018
+"133","Jessie K. Liu","Morrison & Foerster LLP",-0.943,2016,NA
+"134","Nicholas A. Trutanich","Nevada Office of the Attorney General",NA,NA,2019
+"135","Sherri Lydon","Nexsen Pruet LLC",NA,NA,1990
+"136","Drew Wrigley","Noridian Administrative Services",NA,2009,2010
+"137","Timothy J. Downing","Oklahoma House of Representatives",NA,2016,2018
+"138","R. Trent Shores","Oklahoma Office of the Attorney General",NA,2015,2015
+"139","Timothy J. Downing","Oklahoma Office of the Attorney General",NA,2011,2016
+"140","McGregor W. Scott","Orrick, Herrington & Sutcliffe LLP",-0.853,2009,2017
+"141","Brian T. Moran","Orrick, Herrington & Sutcliffe LLP",-0.853,2013,2018
+"142","David L. Anderson","Pillsbury Winthrop Shaw Pittman LLP",-0.532,2005,2008
+"143","David L. Anderson","Pillsburg Winshop LLP",NA,2005,2005
+"144","Jeffrey Jensen","Pricewaterhousecoopers LLP",NA,1988,NA
+"145","Richard W. Moore","Private Practice",NA,NA,1985
+"146","Michael G. Bailey","Private Practice",NA,NA,NA
+"147","Robert S. Brewer Jr.","Private Practice",NA,1982,1991
+"148","B.J. Pak","Private Practice",NA,2008,2017
+"149","Bart Davis","Private Practice",NA,NA,NA
+"150","John C. Milhiser","Private Practice",NA,2003,2008
+"151","Jeffrey Jensen","Private Practice",NA,2010,2013
+"152","Nicholas A. Trutanich","Private Practice",NA,NA,NA
+"153","R. Andrew Murray","Private Practice",NA,1992,2017
+"154","David Freed","Private Practice",NA,NA,NA
+"155","Sherri Lydon","Private Practice",NA,2005,2018
+"156","Sherri Lydon","Private Practice",NA,1995,2003
+"157","Sherri Lydon","Private Practice",NA,1993,1995
+"158","Sherri Lydon","Private Practice",NA,1987,1990
+"159","Ryan Patrick","Private Practice",NA,2017,2017
+"160","Scott Blader","Private Practice",NA,1999,2007
+"161","Grant C. Jaquith","Private Practice",NA,1988,1989
+"162","Scott Brady","Reed Smith LLP",-0.443,NA,NA
+"163","Michael B. Stuart","Republican Party of West Virginia",NA,2010,2012
+"164","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,1993,2019
+"165","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,NA
+"166","Aaron L. Weisman","Rhode Island Office of the Attorney General",NA,NA,NA
+"167","Doug Overbey","Robertson Overbey",NA,1982,2017
+"168","Brian Kuester","Robinette & Osmond",NA,2000,2003
+"169","Robert S. Brewer Jr.","Seltzer Caplan McMahon Vitek ALC",NA,NA,NA
+"170","David L. Anderson","Sidley Austin LLP",-0.608,2010,NA
+"171","Matthew Krueger","Sidley Austin LLP",-0.608,NA,NA
+"172","David C. Weiss","Siegfried Group LLP",NA,1999,2007
+"173","John C. Anderson","Simpson Thacher & Bartlett LLP",-0.719,2004,2008
+"174","Louis V. Franklin Sr.","Sirote and Permutt",NA,1996,1998
+"175","Matthew Martin","Smith Anderson Blount Dorsett Mitchell & Jernigan LLP",NA,2006,2013
+"176","Peter M. McCoy Jr.","South Carolina House of Represenatives",NA,2011,2020
+"177","Sherri Lydon","South Carolina Office of the Attorney General",NA,2003,2004
+"178","Peter M. McCoy Jr.","South Carolina Office of the Solictor for the Ninth Judicial Circuit",NA,NA,NA
+"179","J. Cody Hiland","State of Arkansas, Office of the Governor",NA,NA,NA
+"180","Drew Wrigley","State of North Dakota",NA,2010,2016
+"181","Drew Wrigley","State of North Dakota, Office of the Governor",NA,2000,2001
+"182","Michael B. Stuart","Steptoe & Johnson PLLC",-0.29,NA,2018
+"183","Matthew Krueger","Steptoe & Johnson PLLC",-0.29,2013,2018
+"184","Erin Nealy Cox","Stroz Friedberg LLC",NA,2008,2016
+"185","Richard W. Moore","Tenessee Valley Authority",NA,2003,2017
+"186","Doug Overbey","Tennessee House of Represenatives",NA,2008,2009
+"187","Doug Overbey","Tennessee State Senate",NA,2009,2017
+"188","Ryan Patrick","Texas 177th District Court",NA,2012,2016
+"189","Joseph D. Brown","Texas Juvenile Justice Department",NA,2009,2014
+"190","D. Michael Hurst Jr.","Troutman Sanders LLP",NA,NA,NA
+"191","Timothy A. Garrison","United State Department of Defense",NA,NA,NA
+"192","Stephen McAllister","United States Appeals Court for the Seventh Circuit",NA,NA,NA
+"193","Nicola T. Hanna","United States Attorney's Office for the Central District of California",NA,1990,1994
+"194","Robert S. Brewer Jr.","United States Attorney's Office for the Central District of California",NA,1977,1982
+"195","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,NA,2017
+"196","Bryan Schroder","United States Attorney's Office for the District of Alaska",NA,2005,NA
+"197","Jessie K. Liu","United States Attorney's Office for the District of Columbia",NA,2002,2006
+"198","Halsey Frank","United States Attorney's Office for the District of Columbia",NA,1990,1999
+"199","John Durham","United States Attorney's Office for the District of Connecticut",NA,1998,2017
+"200","John Durham","United States Attorney's Office for the District of Connecticut",NA,1997,1998
+"201","John Durham","United States Attorney's Office for the District of Connecticut",NA,NA,1997
+"202","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2011,2017
+"203","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2009,2011
+"204","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,2007,2009
+"205","David C. Weiss","United States Attorney's Office for the District of Delaware",NA,1986,1989
+"206","Shawn N. Anderson","United States Attorney's Office for the District of Guam & Northern Mariana Islands",NA,NA,2017
+"207","Halsey Frank","United States Attorney's Office for the District of Maine",NA,1999,2017
+"208","Robert K. Hur","United States Attorney's Office for the District of Maryland",NA,2007,2014
+"209","Andrew Lelling","United States Attorney's Office for the District of Massachusetts",NA,NA,2017
+"210","Kurt Alme","United States Attorney's Office for the District of Montana",NA,2006,2010
+"211","Kurt Alme","United States Attorney's Office for the District of Montana",NA,2001,2006
+"212","Craig Carpenito","United States Attorney's Office for the District of New Jersey",NA,2005,2008
+"213","John C. Anderson","United States Attorney's Office for the District of New Mexico",NA,2008,2013
+"214","Drew Wrigley","United States Attorney's Office for the District of North Dakota",NA,2001,2009
+"215","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,NA
+"216","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,2015
+"217","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2015,2015
+"218","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2010,2015
+"219","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2007,2010
+"220","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,2000,2007
+"221","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,1988,1989
+"222","Billy J. Williams","United States Attorney's Office for the District of Oregon",NA,1987,1988
+"223","W. Stephen Muldrow","United States Attorney's Office for the District of Puerto Rico",NA,1995,2001
+"224","Sherri Lydon","United States Attorney's Office for the District of South Carolina",NA,2018,2019
+"225","Sherri Lydon","United States Attorney's Office for the District of South Carolina",NA,1990,1993
+"226","John W. Huber","United States Attorney's Office for the District of Utah",NA,2012,2015
+"227","John W. Huber","United States Attorney's Office for the District of Utah",NA,2005,2012
+"228","John W. Huber","United States Attorney's Office for the District of Utah",NA,2002,2005
+"229","Christina E. Nolan","United States Attorney's Office for the District of Vermont",NA,2010,2017
+"230","Mark Klassen","United States Attorney's Office for the District of Wyoming",NA,NA,2017
+"231","McGregor W. Scott","United States Attorney's Office for the Eastern District of California",NA,2003,2009
+"232","Robert M. Duncan Jr.","United States Attorney's Office for the Eastern District of Kentucky",NA,2005,2017
+"233","Peter G. Strasser","United States Attorney's Office for the Eastern District of Louisiana",NA,NA,NA
+"234","Peter Deegan","United States Attorney's Office for the Eastern District of Michigan",NA,2004,2006
+"235","Matthew J. Schneider","United States Attorney's Office for the Eastern District of Michigan",NA,2003,2011
+"236","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",NA,2006,2009
+"237","Jeffrey Jensen","United States Attorney's Office for the Eastern District of Missouri",NA,1999,2006
+"238","Richard Donoghue","United States Attorney's Office for the Eastern District of New York",NA,2000,2011
+"239","Robert Higdon Jr.","United States Attorney's Office for the Eastern District of North Carolina",NA,2002,2013
+"240","William M. McSwain","United States Attorney's Office for the Eastern District of Pennsylvania",NA,2003,2006
+"241","G. Zachary Terwilliger","United States Attorney's Office for the Eastern District of Virginia",NA,2010,NA
+"242","William D. Hyslop","United States Attorney's Office for the Eastern District of Washington",NA,1991,1993
+"243","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,2001,2017
+"244","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,1998,2001
+"245","Louis V. Franklin Sr.","United States Attorney's Office for the Middle District of Alabama",NA,1990,1996
+"246","Maria Chapa Lopez","United States Attorney's Office for the Middle District of Florida",NA,2000,2016
+"247","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2018,2019
+"248","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2017,2018
+"249","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2013,2017
+"250","W. Stephen Muldrow","United States Attorney's Office for the Middle District of Florida",NA,2001,2013
+"251","Brandon Fremin","United States Attorney's Office for the Middle District of Louisiana",NA,NA,NA
+"252","Donald Q. Cochran","United States Attorney's Office for the Northern District of Alabama",NA,1998,2002
+"253","David L. Anderson","United States Attorney's Office for the Northern District of California",NA,2008,2010
+"254","David L. Anderson","United States Attorney's Office for the Northern District of California",NA,1998,2002
+"255","B.J. Pak","United States Attorney's Office for the Northern District of Georgia",NA,2002,2008
+"256","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",NA,2005,2010
+"257","John R. Lausch Jr.","United States Attorney's Office for the Northern District of Illinois",NA,1999,2005
+"258","Marc Krickbaum","United States Attorney's Office for the Northern District of Illinois",NA,NA,2017
+"259","Erica MacDonald","United States Attorney's Office for the Northern District of Illinois",NA,2000,2009
+"260","Thomas Kirsch","United States Attorney's Office for the Northern District of Indiana",NA,2001,2008
+"261","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,2015,2017
+"262","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,2006,2015
+"263","Peter Deegan","United States Attorney's Office for the Northern District of Iowa",NA,1998,2004
+"264","William C. Lamar","United States Attorney's Office for the Northern District of Mississippi",NA,NA,2017
+"265","William C. Lamar","United States Attorney's Office for the Northern District of Mississippi",NA,1991,NA
+"266","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,2010,2017
+"267","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,1998,2006
+"268","Grant C. Jaquith","United States Attorney's Office for the Northern District of New York",NA,1989,1998
+"269","Justin Herdman","United States Attorney's Office for the Northern District of Ohio",NA,2010,2013
+"270","R. Trent Shores","United States Attorney's Office for the Northern District of Oklahoma",NA,2007,2017
+"271","Erin Nealy Cox","United States Attorney's Office for the Northern District of Texas",NA,1999,2008
+"272","Richard W. Moore","United States Attorney's Office for the Southern District of Alabama",NA,1985,2003
+"273","Nicola T. Hanna","United States Attorney's Office for the Southern District of California",NA,1995,1998
+"274","Michael Sherwin","United States Attorney's Office for the Southern District of Florida",NA,NA,NA
+"275","Steven D. Weinhoeft","United States Attorney's Office for the Southern District of Illinois",NA,2016,2018
+"276","Steven D. Weinhoeft","United States Attorney's Office for the Southern District of Illinois",NA,2006,2016
+"277","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2015,2017
+"278","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,2014,2015
+"279","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,NA,2014
+"280","Joshua Minkler","United States Attorney's Office for the Southern District of Indiana",NA,1994,NA
+"281","Marc Krickbaum","United States Attorney's Office for the Southern District of Iowa",NA,2009,NA
+"282","D. Michael Hurst Jr.","United States Attorney's Office for the Southern District of Mississippi",NA,2006,2015
+"283","Geoffrey Berman","United States Attorney's Office for the Southern District of New York",NA,1990,1994
+"284","Justin Herdman","United States Attorney's Office for the Southern District of Ohio",NA,2006,2010
+"285","David M. DeVillers","United States Attorney's Office for the Southern District of Ohio",NA,NA,NA
+"286","William Powell","United States Attorney's Office for the Southern District of West Virginia",NA,NA,NA
+"287","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
+"288","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
+"289","Clay Fowlkes","United States Attorney's Office for the Western District of Arkansas",NA,NA,NA
+"290","David C. Joseph","United States Attorney's Office for the Western District of Louisiana",NA,NA,2018
+"291","Andrew B. Birge","United States Attorney's Office for the Western District of Michigan",NA,2007,2017
+"292","Andrew B. Birge","United States Attorney's Office for the Western District of Michigan",NA,2007,2017
+"293","Timothy A. Garrison","United States Attorney's Office for the Western District of Missouri",NA,2007,2018
+"294","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2010,2016
+"295","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2007,2010
+"296","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,2006,2007
+"297","James. P Kennedy","United States Attorney's Office for the Western District of New York",NA,1992,2006
+"298","Thomas T. Cullen","United States Attorney's Office for the Western District of North Carolina",NA,NA,NA
+"299","Gretchen C.F. Shappert","United States Attorney's Office for the Western District of North Carolinia",NA,2004,2009
+"300","Gretchen C.F. Shappert","United States Attorney's Office for the Western District of North Carolinia",NA,1990,2004
+"301","Scott Brady","United States Attorney's Office for the Western District of Pennsylvania",NA,2004,2010
+"302","Timothy J. Downing","United States Attorney's Office for the Western District of Texas",NA,2011,2016
+"303","Thomas T. Cullen","United States Attorney's Office for the Western District of Virginia",NA,NA,NA
+"304","John Bash","United States Court of Appeals for the District of Columbia Circuit",NA,2006,2007
+"305","Ron A. Parsons Jr.","United States Court of Appeals for the Eighth Circuit",NA,NA,NA
+"306","Jessie K. Liu","United States Court of Appeals for the Fifth Circuit",NA,1998,1999
+"307","Erin Nealy Cox","United States Court of Appeals for the Fifth Circuit",NA,NA,NA
+"308","Thomas T. Cullen","United States Court of Appeals for the Fourth Circuit",NA,NA,NA
+"309","Matthew Krueger","United States Court of Appeals for the Fourth Circuit",NA,NA,NA
+"310","David L. Anderson","United States Court of Appeals for the Ninth Circuit",NA,1990,1991
+"311","Robert K. Hur","United States Court of Appeals for the Ninth Circuit",NA,NA,NA
+"312","John R. Lausch Jr.","United States Court of Appeals for the Seventh Circuit",NA,1996,1997
+"313","John C. Anderson","United States Court of Appeals for the Tenth Circuit",NA,2003,2004
+"314","Mark Klassen","United States Court of Appeals for the Tenth Circuit",NA,NA,NA
+"315","William M. McSwain","United States Court of Appeals for the Third Circuit",NA,NA,NA
+"316","Geoffrey Berman","United States Court of Appeals for the Third Circuit",NA,NA,NA
+"317","Mark Klassen","United States Department of Homeland Security",NA,2007,2009
+"318","Maria Chapa Lopez","United States Department of Justice",NA,2016,2018
+"319","Thomas Kirsch","United States Department of Justice",NA,2006,2007
+"320","Marc Krickbaum","United States Department of Justice",NA,NA,2008
+"321","Peter G. Strasser","United States Department of Justice",NA,NA,NA
+"322","Halsey Frank","United States Department of Justice",NA,1987,1990
+"323","Robert K. Hur","United States Department of Justice",NA,2017,2018
+"324","Robert K. Hur","United States Department of Justice",NA,NA,NA
+"325","Nicholas A. Trutanich","United States Department of Justice",NA,NA,NA
+"326","Robert Higdon Jr.","United States Department of Justice",NA,2014,2015
+"327","David M. DeVillers","United States Department of Justice",NA,2010,2018
+"328","R. Trent Shores","United States Department of Justice",NA,NA,NA
+"329","W. Stephen Muldrow","United States Department of Justice",NA,1989,1995
+"330","John Bash","United States Department of Justice",NA,2012,2017
+"331","Matthew Krueger","United States Department of Justice",NA,NA,NA
+"332","Michael Sherwin","United States Department of Justice",NA,NA,NA
+"333","Michael Sherwin","United States Department of Justice",NA,NA,NA
+"334","Jessie K. Liu","United States Department of the Treasury",NA,2017,2017
+"335","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,NA
+"336","Nicholas A. Trutanich","United States District Court for the Central District of California",NA,NA,NA
+"337","B.J. Pak","United States District Court for the Central District of Illinois",NA,1998,2000
+"338","Robert M. Duncan Jr.","United States District Court for the Eastern District of Michigan",NA,NA,NA
+"339","Thomas T. Cullen","United States District Court for the Eastern District of Michigan",NA,NA,NA
+"340","Donald Q. Cochran","United States District Court for the Northern District of Georgia",NA,NA,NA
+"341","Erica MacDonald","United States District Court for the Northern District of Illinois",NA,1997,1999
+"342","Erin Nealy Cox","United States District Court for the Northern District of Texas",NA,NA,NA
+"343","G. Zachary Terwilliger","United States District Court for the Southern District of Florida",NA,NA,2008
+"344","Andrew Lelling","United States District Court for the Southern District of Georgia",NA,1994,1995
+"345","Thomas Kirsch","United States District Court for the Southern District of Indiana",NA,2000,2001
+"346","Christina E. Nolan","United States District Court of Massachusetts",NA,NA,NA
+"347","Russell Coleman","United States Senate",NA,2010,2015
+"348","David L. Anderson","United States Supreme Court",NA,1991,1992
+"349","Stephen McAllister","United States Supreme Court",NA,NA,NA
+"350","Robert K. Hur","United States Supreme Court",NA,NA,NA
+"351","John Bash","United States Supreme Court",NA,NA,NA
+"352","Stephen McAllister","University of Kansas School of Law",NA,NA,NA
+"353","Scott Brady","University of Pittsburgh School of Law",NA,NA,NA
+"354","Duane Kees","US Army Judge Advocate General's Corp",NA,2001,2008
+"355","Maria Chapa Lopez","US Army Judge Advocate General's Corp",NA,NA,2000
+"356","Bobby Christine","US Army Judge Advocate General's Corp",NA,NA,NA
+"357","Timothy J. Downing","US Army Judge Advocate General's Corp",NA,2011,NA
+"358","Richard Donoghue","US Army Judge Advocate General's Corp",NA,1993,2000
+"359","Grant C. Jaquith","US Army Judge Advocate General's Corp",NA,1982,1988
+"360","Grant C. Jaquith","US Attorney's Office for the Northern District of New York",NA,2006,2010
+"361","Mark Klassen","US House of Representatives",NA,2003,2007
+"362","Duane Kees","Wal-Mart Stores Inc",NA,NA,2017
+"363","Brian T. Moran","Washington Office of the Attorney General",NA,2006,2013
+"364","Brian T. Moran","Washington Office of the Attorney General",NA,1998,2006
+"365","Matthew J. Schneider","White House Office of Management and Budget",NA,NA,NA
+"366","Matthew J. Schneider","Wiley Rein",-0.027,NA,NA
+"367","Robert Higdon Jr.","Williams Mullen",0.082,2015,2017
+"368","Ariana Fajardo Orshan","Wilson Elser Moskowitz Edelman & Dicker LLP",-0.406,NA,NA
+"369","Thomas Kirsch","Winston & Strawn LLP",-0.382,2008,2017
+"370","Thomas T. Cullen","Woods Rogers PLC",NA,NA,2018
+"371","Kurt Alme","Yellowstone Boys & Girls Ranch",NA,2013,2017
+"372","Kurt Alme","Yellowstone Boys & Girls Ranch",NA,2010,2013

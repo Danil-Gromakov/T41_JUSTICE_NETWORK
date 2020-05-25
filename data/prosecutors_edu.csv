@@ -1,6 +1,6 @@
 "","item_label","bachelors","masters","law","law_rank","law_conservative_score"
 "1","Aaron L. Weisman","Brandeis University",NA,"Benjamin N. Cardozo School of Law",43,78
-"2","Andrew B. Birge","Carleton College",NA,"Columbia University School of Law",3,NA
+"2","Andrew B. Birge","Carleton College",NA,"Columbia University School of Law",3,48
 "3","Andrew Lelling","Binghamton University",NA,"University of Pennsylvania Law School",6,66
 "4","Ariana Fajardo Orshan","Florida International University",NA,"Nova Southeastern University",157,103
 "5","B. J. Pak","Stetson University",NA,"University of Illinois College of Law",36,29
@@ -16,7 +16,7 @@
 "15","Clay Fowlkes","Arkansas State University",NA,"University of Arkansas School of Law",102,137
 "16","Craig Carpenito","Rider University",NA,"Seton Hall University",64,91
 "17","D. Michael Dunavant","University of Tennessee",NA,"University of Mississippi School of Law",92,143
-"18","D. Michael Hurst Jr.","Millsaps College",NA,"George Washington School of Law",21,NA
+"18","D. Michael Hurst Jr.","Millsaps College",NA,"George Washington University School of Law",21,112
 "19","David Anderson","San Jose State University",NA,"Stanford Law School",4,37
 "20","David C. Joseph","University of Oklahoma",NA,"Paul M. Hebert Law Center",102,171
 "21","David C. Weiss","Washington University in St. Louis",NA,"Widener University School of Law",173,96
@@ -34,7 +34,7 @@
 "33","Gretchen C.F. Shappert","Duke University",NA,"Washington and Lee University School of Law",29,12
 "34","Halsey Frank","Wesleyan University",NA,"Boston University School of Law",19,21
 "35","J. Cody Hiland","University of Central Arkansas",NA,"William H. Bowen School of Law",148,128
-"36","James. P Kennedy","Hamilton College",NA,"State University of New York at Buffalo Law School",115,NA
+"36","James. P Kennedy","Hamilton College",NA,"State University of New York at Buffalo Law School",115,17
 "37","Jason R. Dunn","University of Colorado","University of Colorado","University of Colorado Law School",36,26
 "38","Jay Town","University of Notre Dame",NA,"Seton Hall University",64,91
 "39","Jeffrey Jensen","Indiana University",NA,"Saint Louis University School of Law",92,138
@@ -70,7 +70,7 @@
 "69","Peter M. McCoy Jr.","Hampden-Sydney College",NA,"Regent University School of Law",102,184
 "70","R. Andrew Murray","University of North Carolina at Charlotte",NA,"University of North Carolina School of Law",43,58
 "71","R. Trent Shores","Vanderbilt University",NA,"University of Oklahoma College of Law",77,159
-"72","Richard Donoghue","Hofstra University",NA,"St. John's University School of Law",58,NA
+"72","Richard Donoghue","Hofstra University",NA,"St. John's University School of Law",58,89
 "73","Richard W. Moore","Spring Hill College",NA,"Cumberland School of Law",148,160
 "74","Robert Higdon Jr.","Wake Forest University",NA,"Wake Forest University School of Law",36,51
 "75","Robert Kyoung Hur","Harvard University",NA,"Stanford Law School",4,37
@@ -90,9 +90,8 @@
 "89","Thomas T. Cullen","Furman University",NA,"William & Mary School of Law",36,146
 "90","Timothy A. Garrison","Drury University","University of Missouri","University of Missouri School of Law",77,98
 "91","Timothy J. Downing","University of Oklahoma","Oral Roberts University","Regent University School of Law",102,184
-"92","Tom Leonard","University of Michigan",NA,"Michigan State University College of Law",102,156
-"93","W. Stephen Muldrow","Bucknell University","American University School of International Service","Washington College of Law",64,61
-"94","William C. Lamar","Millsaps College",NA,"University of Mississippi School of Law",92,143
-"95","William D. Hyslop","Washington State University","University of Washington","Gonzaga University School of Law",102,107
-"96","William J. Powell","Salem College",NA,"West Virginia University College of Law",115,134
-"97","William M. McSwain","Yale University",NA,"Harvard Law School",1,25
+"92","W. Stephen Muldrow","Bucknell University","American University School of International Service","Washington College of Law",64,61
+"93","William C. Lamar","Millsaps College",NA,"University of Mississippi School of Law",92,143
+"94","William D. Hyslop","Washington State University","University of Washington","Gonzaga University School of Law",102,107
+"95","William J. Powell","Salem College",NA,"West Virginia University College of Law",115,134
+"96","William M. McSwain","Yale University",NA,"Harvard Law School",1,25

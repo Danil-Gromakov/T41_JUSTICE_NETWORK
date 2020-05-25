@@ -2906,14 +2906,32 @@ div.tocify {
 <h1>Load data</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucHJvc2VjdXRvcnMgPC0gcmVhZC5jc3YoZmlsZSA9IHBhc3RlMChoZXJlOjpoZXJlKCksICcvZGF0YS9wcm9zZWN1dG9yc19maW5hbC5jc3YnKSlcbmp1c3RpY2VkZXB0IDwtIHJlYWQuY3N2KGZpbGUgPSBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAnL2RhdGEvanVzdGljZWRlcHRfZmluYWwuY3N2JykpXG5gYGAifQ== -->
+<pre class="r"><code>prosecutors &lt;- read.csv(file = paste0(here::here(), '/data/prosecutors_final.csv'))
+justicedept &lt;- read.csv(file = paste0(here::here(), '/data/justicedept_final.csv'))</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Combine into a single df</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc29ydChjb2xuYW1lcyhqdXN0aWNlZGVwdCkpXG5cbmBgYCJ9 -->
-<pre class="r"><code>sort(colnames(justicedept))
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBDaGVjayBjb2x1bW4gbmFtZXMgYW5kIGZpeCBmb3IgbWVyZ2luZ1xuc29ydChjb2xuYW1lcyhwcm9zZWN1dG9ycykpXG5gYGAifQ== -->
+<pre class="r"><code># Check column names and fix for merging
+sort(colnames(prosecutors))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcImFnZVwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFtZXJpY2FuX2NlbnRlcl9mb3JfbGF3X2FuZF9qdXN0aWNlX3RpZVwiICAgICBcImJhY2hlbG9yc1wiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFs0XSBcImJhcnJfYXBwb2ludG1lbnRcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImJpcnRocGxhY2VcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImNocmlzdGlhbl9sZWdhbF9zb2NpZXR5X2Jhcl9hc3NvY2lhdGlvbl90aWVcIlxuIFs3XSBcImRhdGVfb2ZfYXBwb2ludG1lbnRcIiAgICAgICAgICAgICAgICAgICAgICAgICBcImRhdGVfb2ZfYmlydGhcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImRpc3RyaWN0XCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzEwXSBcImVtcGxveWVyXCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImVuZF9kYXRlXCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZlZGVyYWxpc3Rfc29jaWV0eV90aWVcIiAgICAgICAgICAgICAgICAgICAgIFxuWzEzXSBcImZpcm1fY29uc2VydmF0aXZlX3Njb3JlXCIgICAgICAgICAgICAgICAgICAgICBcImhlcml0YWdlX2ZvdW5kYXRpb25fdGllXCIgICAgICAgICAgICAgICAgICAgICBcImxhd1wiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzE2XSBcImxhd19jb25zZXJ2YXRpdmVfc2NvcmVcIiAgICAgICAgICAgICAgICAgICAgICBcImxhd19yYW5rXCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIm1hc3RlcnNcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzE5XSBcIm5hdGlvbmFsX3JpZmxlX2Fzc29jaWF0aW9uX3RpZVwiICAgICAgICAgICAgICBcInBlcnNvblwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInBvbGl0aWNhbF9hZmZpbGlhdGlvblwiICAgICAgICAgICAgICAgICAgICAgIFxuWzIyXSBcInJlcHVibGljYW5fbmF0aW9uYWxfbGF3eWVyc19hc3NvY2lhdGlvbl90aWVcIiBcInNleFwiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInN0YXJ0X2RhdGVcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuWzI1XSBcIlhcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIn0= -->
+<pre><code> [1] &quot;age&quot;                                         &quot;american_center_for_law_and_justice_tie&quot;     &quot;bachelors&quot;                                  
+ [4] &quot;barr_appointment&quot;                            &quot;birthplace&quot;                                  &quot;christian_legal_society_bar_association_tie&quot;
+ [7] &quot;date_of_appointment&quot;                         &quot;date_of_birth&quot;                               &quot;district&quot;                                   
+[10] &quot;employer&quot;                                    &quot;end_date&quot;                                    &quot;federalist_society_tie&quot;                     
+[13] &quot;firm_conservative_score&quot;                     &quot;heritage_foundation_tie&quot;                     &quot;law&quot;                                        
+[16] &quot;law_conservative_score&quot;                      &quot;law_rank&quot;                                    &quot;masters&quot;                                    
+[19] &quot;national_rifle_association_tie&quot;              &quot;person&quot;                                      &quot;political_affiliation&quot;                      
+[22] &quot;republican_national_lawyers_association_tie&quot; &quot;sex&quot;                                         &quot;start_date&quot;                                 
+[25] &quot;X&quot;                                          </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc29ydChjb2xuYW1lcyhqdXN0aWNlZGVwdCkpXG5gYGAifQ== -->
+<pre class="r"><code>sort(colnames(justicedept))</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcImFnZW5jeV9uYW1lXCIgICAgICAgICAgICBcImFnZW5jeV90aXRsZVwiICAgICAgICAgICBcImJhY2hlbG9yc1wiICAgICAgICAgICAgICBcImRvY3RvcmF0ZVwiICAgICAgICAgICAgICBcImVtcGxveWVyXCIgICAgICAgICAgICAgIFxuIFs2XSBcImVuZF9kYXRlXCIgICAgICAgICAgICAgICBcImZlZGVyYWxpc3Rfc29jaWV0eVwiICAgICBcImZpcm1fY29uc2VydmF0aXNtXCIgICAgICBcImhlcml0YWdlX2ZvdW5kYXRpb25cIiAgICBcImxhd1wiICAgICAgICAgICAgICAgICAgIFxuWzExXSBcImxhd19jb25zZXJ2YXRpdmVfc2NvcmVcIiBcImxhd19yYW5rXCIgICAgICAgICAgICAgICBcIm1hc3RlcnNcIiAgICAgICAgICAgICAgICBcInBlcnNvblwiICAgICAgICAgICAgICAgICBcInN0YXJ0X2RhdGVcIiAgICAgICAgICAgIFxuWzE2XSBcInRpdGxlXCIgICAgICAgICAgICAgICAgICBcIlhcIiAgICAgICAgICAgICAgICAgICAgIFxuIn0= -->
 <pre><code> [1] &quot;agency_name&quot;            &quot;agency_title&quot;           &quot;bachelors&quot;              &quot;doctorate&quot;              &quot;employer&quot;              
@@ -2921,23 +2939,83 @@ div.tocify {
 [11] &quot;law_conservative_score&quot; &quot;law_rank&quot;               &quot;masters&quot;                &quot;person&quot;                 &quot;start_date&quot;            
 [16] &quot;title&quot;                  &quot;X&quot;                     </code></pre>
 <!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucHJvc2VjdXRvcnMgPC0gcHJvc2VjdXRvcnMgJT4lIGRwbHlyOjpyZW5hbWUoYW1lcmljYW5fY2VudGVyX2Zvcl9sYXdfYW5kX2p1c3RpY2UgPSBhbWVyaWNhbl9jZW50ZXJfZm9yX2xhd19hbmRfanVzdGljZV90aWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb24gPSBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb25fdGllLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb25fY3VycmVudCA9IGRpc3RyaWN0LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW1wbG95ZXJfcGFzdCA9IGVtcGxveWVyLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmVkZXJhbGlzdF9zb2NpZXR5ID0gZmVkZXJhbGlzdF9zb2NpZXR5X3RpZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlcml0YWdlX2ZvdW5kYXRpb24gPSBoZXJpdGFnZV9mb3VuZGF0aW9uX3RpZSkgJT4lXG4gIGRwbHlyOjpzZWxlY3QoLWMoXCJYXCIpKVxucHJvc2VjdXRvcnMkc291cmNlIDwtIFwicHJvc2VjdXRvclwiXG5cbmp1c3RpY2VkZXB0IDwtIGp1c3RpY2VkZXB0ICU+JSBkcGx5cjo6cmVuYW1lKHBvc2l0aW9uX2N1cnJlbnQgPSBhZ2VuY3lfdGl0bGUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbXBsb3llcl9wYXN0ID0gZW1wbG95ZXIpICU+JVxuICBkcGx5cjo6c2VsZWN0KC1jKFwiWFwiLCBcInRpdGxlXCIsIFwiYWdlbmN5X25hbWVcIikpXG5qdXN0aWNlZGVwdCRzb3VyY2UgPC0gXCJqdXN0aWNlZGVwdFwiXG5cbmRmIDwtIGRwbHlyOjpiaW5kX3Jvd3MocHJvc2VjdXRvcnMsIGp1c3RpY2VkZXB0KSAlPiVcbiAgZHBseXI6OnNlbGVjdChcInBlcnNvblwiLCBcInBvc2l0aW9uX2N1cnJlbnRcIiwgXCJzb3VyY2VcIixcbiAgICAgICAgICAgICAgICBcImRhdGVfb2ZfYXBwb2ludG1lbnRcIixcbiAgICAgICAgICAgICAgICBcImRhdGVfb2ZfYmlydGhcIiwgXCJhZ2VcIiwgXCJiaXJ0aHBsYWNlXCIsIFwic2V4XCIsXG4gICAgICAgICAgICAgICAgXCJiYWNoZWxvcnNcIiwgXCJtYXN0ZXJzXCIsIFwiZG9jdG9yYXRlXCIsIFwibGF3XCIsIFwibGF3X2NvbnNlcnZhdGl2ZV9zY29yZVwiLCBcImxhd19yYW5rXCIsXG4gICAgICAgICAgICAgICAgXCJiYXJyX2FwcG9pbnRtZW50XCIsIFwicG9saXRpY2FsX2FmZmlsaWF0aW9uXCIsIFxuICAgICAgICAgICAgICAgIFwiZW1wbG95ZXJfcGFzdFwiLCBcInN0YXJ0X2RhdGVcIiwgXCJlbmRfZGF0ZVwiLFxuICAgICAgICAgICAgICAgIFwiYW1lcmljYW5fY2VudGVyX2Zvcl9sYXdfYW5kX2p1c3RpY2VcIiwgXCJjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb25cIiwgXCJmZWRlcmFsaXN0X3NvY2lldHlcIiwgXCJoZXJpdGFnZV9mb3VuZGF0aW9uXCIsIFwibmF0aW9uYWxfcmlmbGVfYXNzb2NpYXRpb25fdGllXCIsIFwicmVwdWJsaWNhbl9uYXRpb25hbF9sYXd5ZXJzX2Fzc29jaWF0aW9uX3RpZVwiKVxuXG5kZl9ub2VtcGxveSA8LSBkZiAlPiUgZHBseXI6OnNlbGVjdCgtYyhcImVtcGxveWVyX3Bhc3RcIiwgXCJzdGFydF9kYXRlXCIsIFwiZW5kX2RhdGVcIikpICU+JVxuICBkcGx5cjo6ZGlzdGluY3QoKVxuYGBgIn0= -->
+<pre class="r"><code>prosecutors &lt;- prosecutors %&gt;% dplyr::rename(american_center_for_law_and_justice = american_center_for_law_and_justice_tie,
+                                             christian_legal_society_bar_association = christian_legal_society_bar_association_tie,
+                                             position_current = district,
+                                             employer_past = employer,
+                                             federalist_society = federalist_society_tie,
+                                             heritage_foundation = heritage_foundation_tie) %&gt;%
+  dplyr::select(-c(&quot;X&quot;))
+prosecutors$source &lt;- &quot;prosecutor&quot;
+
+justicedept &lt;- justicedept %&gt;% dplyr::rename(position_current = agency_title,
+                                             employer_past = employer) %&gt;%
+  dplyr::select(-c(&quot;X&quot;, &quot;title&quot;, &quot;agency_name&quot;))
+justicedept$source &lt;- &quot;justicedept&quot;
+
+df &lt;- dplyr::bind_rows(prosecutors, justicedept) %&gt;%
+  dplyr::select(&quot;person&quot;, &quot;position_current&quot;, &quot;source&quot;,
+                &quot;date_of_appointment&quot;,
+                &quot;date_of_birth&quot;, &quot;age&quot;, &quot;birthplace&quot;, &quot;sex&quot;,
+                &quot;bachelors&quot;, &quot;masters&quot;, &quot;doctorate&quot;, &quot;law&quot;, &quot;law_conservative_score&quot;, &quot;law_rank&quot;,
+                &quot;barr_appointment&quot;, &quot;political_affiliation&quot;, 
+                &quot;employer_past&quot;, &quot;start_date&quot;, &quot;end_date&quot;,
+                &quot;american_center_for_law_and_justice&quot;, &quot;christian_legal_society_bar_association&quot;, &quot;federalist_society&quot;, &quot;heritage_foundation&quot;, &quot;national_rifle_association_tie&quot;, &quot;republican_national_lawyers_association_tie&quot;)
+
+df_noemploy &lt;- df %&gt;% dplyr::select(-c(&quot;employer_past&quot;, &quot;start_date&quot;, &quot;end_date&quot;)) %&gt;%
+  dplyr::distinct()</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-</div>
-<div id="save-merged-data" class="section level1">
-<h1>Save merged data</h1>
 <p>We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ29vZ2xlc2hlZXRzNDo6d3JpdGVfc2hlZXQoZGYsIHNzID0gXCJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9zcHJlYWRzaGVldHMvZC8xaFBPQk95VHVqVVJlUXpwalo5UHFJaGoyM1Y1Qzc0RXlnTW5tWElpNkJnSS9lZGl0P3VzcD1zaGFyaW5nXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVldCA9IFwiYWxsXCIpXG5cbmBgYCJ9 -->
-<pre class="r"><code>googlesheets4::write_sheet(df, ss = &quot;https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing&quot;,
-                           sheet = &quot;all&quot;)
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KGRmLCBwYXN0ZTAoaGVyZTo6aGVyZSgpLCBcIi9kYXRhL1wiLCBcImFsbF93aXRoZW1wbG95LmNzdlwiKSlcbndyaXRlLmNzdihkZl9ub2VtcGxveSwgcGFzdGUwKGhlcmU6OmhlcmUoKSwgXCIvZGF0YS9cIiwgXCJhbGxfbm9lbXBsb3kuY3N2XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>write.csv(df, paste0(here::here(), &quot;/data/&quot;, &quot;all_withemploy.csv&quot;))
+write.csv(df_noemploy, paste0(here::here(), &quot;/data/&quot;, &quot;all_noemploy.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiV3JpdGluZyB0byBcIlRydW1wUHJvc2VjdXRvcnNcIlxuV3JpdGluZyB0byBzaGVldCBcImFsbFwiXG4ifQ== -->
-<pre><code>Writing to &quot;TrumpProsecutors&quot;
-Writing to sheet &quot;all&quot;</code></pre>
-<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="aggregate" class="section level1">
+<h1>Aggregate</h1>
+<p>Here, we use all the covariates gathered above to identify whether each person has a connection to Trump, Trump’s allies, a conservative agenda, a career professional, or other</p>
+<div id="load" class="section level2">
+<h2>Load</h2>
+<p>This df has the final aggregated list of unique persons from both datasets we have created</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY29yZSA8LSBnb29nbGVzaGVldHM0OjpyZWFkX3NoZWV0KHNzID0gXCJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9zcHJlYWRzaGVldHMvZC8xaFBPQk95VHVqVVJlUXpwalo5UHFJaGoyM1Y1Qzc0RXlnTW5tWElpNkJnSS9lZGl0P3VzcD1zaGFyaW5nXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVldCA9IFwiYWxsXCIpXG5cbmNvcmUgPC0gamFuaXRvcjo6Y2xlYW5fbmFtZXMoY29yZSlcbmBgYCJ9 -->
+<pre class="r"><code>core &lt;- googlesheets4::read_sheet(ss = &quot;https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing&quot;,
+                                    sheet = &quot;all&quot;)
+
+core &lt;- janitor::clean_names(core)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="conservative-agenda" class="section level2">
+<h2>Conservative agenda</h2>
+<p>We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to the federalist society or heritage foundation, or are a conservative/Republican elected politician (state senator or state representative)</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="career-professional" class="section level2">
+<h2>Career professional</h2>
+<p>We code whether someone is a career professional based on whether they worked in the DOJ for at least 4 years</p>
+</div>
+</div>
+<div id="save" class="section level1">
+<h1>Save</h1>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjpbIiMgZ29vZ2xlc2hlZXRzNDo6d3JpdGVfc2hlZXQoYWxsLCBzcyA9IFwiaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMWhQT0JPeVR1alVSZVF6cGpaOVBxSWhqMjNWNUM3NEV5Z01ubVhJaTZCZ0kvZWRpdD91c3A9c2hhcmluZ1wiLCIsIiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVldCA9IFwiYWxsX25vZWRpdFwiKSJdfQ== -->
+<pre class="r"><code># googlesheets4::write_sheet(all, ss = &quot;https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing&quot;,
+#                                    sheet = &quot;all_noedit&quot;)</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -3007,7 +3085,7 @@ visdat::vis_dat(df_noemploy)</code></pre>
 </div>
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiMDMgQ29tYmluYXRpb24iCmF1dGhvcjogIkogQW5kcmVzIEdhbm5vbiwgRGFuaWwgR3JvbWFrb3YsIEthdGVseW4gSGVzcywgYW5kIFl1bGlhIEtyeWxvdmEiCmRhdGU6ICJNYXkgMjAyMCIKb3V0cHV0OgogIGh0bWxfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKICBwZGZfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogIGh0bWxfbm90ZWJvb2s6CiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKZWRpdG9yX29wdGlvbnM6CiAgY2h1bmtfb3V0cHV0X3R5cGU6IGlubGluZQotLS0KCmBgYHtyIHNldHVwLCBpbmNsdWRlID0gRkFMU0V9CmtuaXRyOjpvcHRzX2NodW5rJHNldChlY2hvID0gVFJVRSkKbGlicmFyeShtYWdyaXR0cikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKClRoaXMgZG9jdW1lbnQgcHJvZHVjZXMgc29tZSBkZXNjcmlwdGl2ZSBzdW1tYXJ5IHN0YXRpc3RpY3Mgb2YgdGhlIG5ldyBkYXRhIGNvbGxlY3RlZCByZWdhcmRpbmcgVVMgcHJvc2VjdXRvciBhbmQgRGVwYXJ0bWVudCBvZiBKdXN0aWNlIG9mZmljaWFscyBhcHBvaW50ZWQgZHVyaW5nIHRoZSBUcnVtcCBhZG1pbmlzdHJhdGlvbgoKIyBMb2FkIGRhdGEKYGBge3J9CnByb3NlY3V0b3JzIDwtIHJlYWQuY3N2KGZpbGUgPSBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAnL2RhdGEvcHJvc2VjdXRvcnNfZmluYWwuY3N2JykpCmp1c3RpY2VkZXB0IDwtIHJlYWQuY3N2KGZpbGUgPSBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAnL2RhdGEvanVzdGljZWRlcHRfZmluYWwuY3N2JykpCmBgYAoKQ29tYmluZSBpbnRvIGEgc2luZ2xlIGRmCmBgYHtyfQojIENoZWNrIGNvbHVtbiBuYW1lcyBhbmQgZml4IGZvciBtZXJnaW5nCnNvcnQoY29sbmFtZXMocHJvc2VjdXRvcnMpKQpzb3J0KGNvbG5hbWVzKGp1c3RpY2VkZXB0KSkKCnByb3NlY3V0b3JzIDwtIHByb3NlY3V0b3JzICU+JSBkcGx5cjo6cmVuYW1lKGFtZXJpY2FuX2NlbnRlcl9mb3JfbGF3X2FuZF9qdXN0aWNlID0gYW1lcmljYW5fY2VudGVyX2Zvcl9sYXdfYW5kX2p1c3RpY2VfdGllLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb24gPSBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb25fdGllLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbl9jdXJyZW50ID0gZGlzdHJpY3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtcGxveWVyX3Bhc3QgPSBlbXBsb3llciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmVkZXJhbGlzdF9zb2NpZXR5ID0gZmVkZXJhbGlzdF9zb2NpZXR5X3RpZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVyaXRhZ2VfZm91bmRhdGlvbiA9IGhlcml0YWdlX2ZvdW5kYXRpb25fdGllKSAlPiUKICBkcGx5cjo6c2VsZWN0KC1jKCJYIikpCnByb3NlY3V0b3JzJHNvdXJjZSA8LSAicHJvc2VjdXRvciIKCmp1c3RpY2VkZXB0IDwtIGp1c3RpY2VkZXB0ICU+JSBkcGx5cjo6cmVuYW1lKHBvc2l0aW9uX2N1cnJlbnQgPSBhZ2VuY3lfdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtcGxveWVyX3Bhc3QgPSBlbXBsb3llcikgJT4lCiAgZHBseXI6OnNlbGVjdCgtYygiWCIsICJ0aXRsZSIsICJhZ2VuY3lfbmFtZSIpKQpqdXN0aWNlZGVwdCRzb3VyY2UgPC0gImp1c3RpY2VkZXB0IgoKZGYgPC0gZHBseXI6OmJpbmRfcm93cyhwcm9zZWN1dG9ycywganVzdGljZWRlcHQpICU+JQogIGRwbHlyOjpzZWxlY3QoInBlcnNvbiIsICJwb3NpdGlvbl9jdXJyZW50IiwgInNvdXJjZSIsCiAgICAgICAgICAgICAgICAiZGF0ZV9vZl9hcHBvaW50bWVudCIsCiAgICAgICAgICAgICAgICAiZGF0ZV9vZl9iaXJ0aCIsICJhZ2UiLCAiYmlydGhwbGFjZSIsICJzZXgiLAogICAgICAgICAgICAgICAgImJhY2hlbG9ycyIsICJtYXN0ZXJzIiwgImRvY3RvcmF0ZSIsICJsYXciLCAibGF3X2NvbnNlcnZhdGl2ZV9zY29yZSIsICJsYXdfcmFuayIsCiAgICAgICAgICAgICAgICAiYmFycl9hcHBvaW50bWVudCIsICJwb2xpdGljYWxfYWZmaWxpYXRpb24iLCAKICAgICAgICAgICAgICAgICJlbXBsb3llcl9wYXN0IiwgInN0YXJ0X2RhdGUiLCAiZW5kX2RhdGUiLAogICAgICAgICAgICAgICAgImFtZXJpY2FuX2NlbnRlcl9mb3JfbGF3X2FuZF9qdXN0aWNlIiwgImNocmlzdGlhbl9sZWdhbF9zb2NpZXR5X2Jhcl9hc3NvY2lhdGlvbiIsICJmZWRlcmFsaXN0X3NvY2lldHkiLCAiaGVyaXRhZ2VfZm91bmRhdGlvbiIsICJuYXRpb25hbF9yaWZsZV9hc3NvY2lhdGlvbl90aWUiLCAicmVwdWJsaWNhbl9uYXRpb25hbF9sYXd5ZXJzX2Fzc29jaWF0aW9uX3RpZSIpCgpkZl9ub2VtcGxveSA8LSBkZiAlPiUgZHBseXI6OnNlbGVjdCgtYygiZW1wbG95ZXJfcGFzdCIsICJzdGFydF9kYXRlIiwgImVuZF9kYXRlIikpICU+JQogIGRwbHlyOjpkaXN0aW5jdCgpCmBgYAoKIyBTYXZlIG1lcmdlZCBkYXRhCldlIGhhdmUgMiB2ZXJzaW9ucyBvZiB0aGUgZGF0YS4gT25lIHdoZXJlIHRoZSBhcHBvaW50ZWUgaXMgdGhlIHVuaXQgb2YgYW5hbHlzaXMgYW5kIHRoZSBvdGhlciB3aGVyZSBwcmlvciBlbXBsb3ltZW50IGZvciBlYWNoIGFwcG9pbnR0ZWUgaXMgYWxzbyBsaXN0ZWQsIGNyZWF0aW5nIG11bHRpcGxlIHJvd3MgcGVyIHBlcnNvbi4KYGBge3J9CndyaXRlLmNzdihkZiwgcGFzdGUwKGhlcmU6OmhlcmUoKSwgIi9kYXRhLyIsICJhbGxfd2l0aGVtcGxveS5jc3YiKSkKd3JpdGUuY3N2KGRmX25vZW1wbG95LCBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAiL2RhdGEvIiwgImFsbF9ub2VtcGxveS5jc3YiKSkKYGBgCgojIEFuYWx5emUgZGF0YSBxdWFsaXR5CiMjIERhdGEgRXhwbG9yZXIKYGBge3IsIGZpZy53aWR0aCA9IDE2LCBmaWcuaGVpZ2h0ID0gMTZ9CkRhdGFFeHBsb3Jlcjo6cGxvdF9xcShkZl9ub2VtcGxveSkKYGBgCgojIyBkbG9va3IKYGBge3IsIGZpZy53aWR0aCA9IDEyLCBmaWcuaGVpZ2h0ID0gMTYsIHdhcm5pbmc9RkFMU0UsIGVycm9yPUZBTFNFfQpkbG9va3I6OnBsb3Rfbm9ybWFsaXR5KGRmX25vZW1wbG95KQpEVDo6ZGF0YXRhYmxlKGRsb29rcjo6ZGlhZ25vc2UoZGZfbm9lbXBsb3kpKQpgYGAKCiMjIGZ1bk1vZGVsaW5nCmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDE2fQpEVDo6ZGF0YXRhYmxlKGZ1bk1vZGVsaW5nOjpkZl9zdGF0dXMoZGZfbm9lbXBsb3kpKQpmdW5Nb2RlbGluZzo6cGxvdF9udW0oZGZfbm9lbXBsb3kpCmBgYAoKIyMgbmFuaWFyCmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDh9Cm5hbmlhcjo6Z2dfbWlzc192YXIoZGZfbm9lbXBsb3kpCmBgYAoKIyMgc21hcnRFREEKYGBge3IsIGZpZy53aWR0aCA9IDE2LCBmaWcuaGVpZ2h0ID0gMTZ9ClNtYXJ0RURBOjpFeHBOdW1WaXooZGZfbm9lbXBsb3kpCmBgYAoKIyMgdmlzZGF0CmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDE2fQp2aXNkYXQ6OnZpc19taXNzKGRmX25vZW1wbG95LCBzb3J0X21pc3MgPSBUUlVFKQp2aXNkYXQ6OnZpc19kYXQoZGZfbm9lbXBsb3kpCmBgYA==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiMDMgQ29tYmluYXRpb24iCmF1dGhvcjogIkogQW5kcmVzIEdhbm5vbiwgRGFuaWwgR3JvbWFrb3YsIEthdGVseW4gSGVzcywgYW5kIFl1bGlhIEtyeWxvdmEiCmRhdGU6ICJNYXkgMjAyMCIKb3V0cHV0OgogIGh0bWxfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKICBwZGZfZG9jdW1lbnQ6CiAgICB0b2M6IHllcwogIGh0bWxfbm90ZWJvb2s6CiAgICB0b2M6IHllcwogICAgdG9jX2Zsb2F0OiB5ZXMKZWRpdG9yX29wdGlvbnM6CiAgY2h1bmtfb3V0cHV0X3R5cGU6IGlubGluZQotLS0KCmBgYHtyIHNldHVwLCBpbmNsdWRlID0gRkFMU0V9CmtuaXRyOjpvcHRzX2NodW5rJHNldChlY2hvID0gVFJVRSkKbGlicmFyeShtYWdyaXR0cikKbGlicmFyeShnZ3Bsb3QyKQpgYGAKClRoaXMgZG9jdW1lbnQgcHJvZHVjZXMgc29tZSBkZXNjcmlwdGl2ZSBzdW1tYXJ5IHN0YXRpc3RpY3Mgb2YgdGhlIG5ldyBkYXRhIGNvbGxlY3RlZCByZWdhcmRpbmcgVVMgcHJvc2VjdXRvciBhbmQgRGVwYXJ0bWVudCBvZiBKdXN0aWNlIG9mZmljaWFscyBhcHBvaW50ZWQgZHVyaW5nIHRoZSBUcnVtcCBhZG1pbmlzdHJhdGlvbgoKIyBMb2FkIGRhdGEKYGBge3J9CnByb3NlY3V0b3JzIDwtIHJlYWQuY3N2KGZpbGUgPSBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAnL2RhdGEvcHJvc2VjdXRvcnNfZmluYWwuY3N2JykpCmp1c3RpY2VkZXB0IDwtIHJlYWQuY3N2KGZpbGUgPSBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAnL2RhdGEvanVzdGljZWRlcHRfZmluYWwuY3N2JykpCmBgYAoKQ29tYmluZSBpbnRvIGEgc2luZ2xlIGRmCmBgYHtyfQojIENoZWNrIGNvbHVtbiBuYW1lcyBhbmQgZml4IGZvciBtZXJnaW5nCnNvcnQoY29sbmFtZXMocHJvc2VjdXRvcnMpKQpzb3J0KGNvbG5hbWVzKGp1c3RpY2VkZXB0KSkKCnByb3NlY3V0b3JzIDwtIHByb3NlY3V0b3JzICU+JSBkcGx5cjo6cmVuYW1lKGFtZXJpY2FuX2NlbnRlcl9mb3JfbGF3X2FuZF9qdXN0aWNlID0gYW1lcmljYW5fY2VudGVyX2Zvcl9sYXdfYW5kX2p1c3RpY2VfdGllLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb24gPSBjaHJpc3RpYW5fbGVnYWxfc29jaWV0eV9iYXJfYXNzb2NpYXRpb25fdGllLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbl9jdXJyZW50ID0gZGlzdHJpY3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtcGxveWVyX3Bhc3QgPSBlbXBsb3llciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmVkZXJhbGlzdF9zb2NpZXR5ID0gZmVkZXJhbGlzdF9zb2NpZXR5X3RpZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVyaXRhZ2VfZm91bmRhdGlvbiA9IGhlcml0YWdlX2ZvdW5kYXRpb25fdGllKSAlPiUKICBkcGx5cjo6c2VsZWN0KC1jKCJYIikpCnByb3NlY3V0b3JzJHNvdXJjZSA8LSAicHJvc2VjdXRvciIKCmp1c3RpY2VkZXB0IDwtIGp1c3RpY2VkZXB0ICU+JSBkcGx5cjo6cmVuYW1lKHBvc2l0aW9uX2N1cnJlbnQgPSBhZ2VuY3lfdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtcGxveWVyX3Bhc3QgPSBlbXBsb3llcikgJT4lCiAgZHBseXI6OnNlbGVjdCgtYygiWCIsICJ0aXRsZSIsICJhZ2VuY3lfbmFtZSIpKQpqdXN0aWNlZGVwdCRzb3VyY2UgPC0gImp1c3RpY2VkZXB0IgoKZGYgPC0gZHBseXI6OmJpbmRfcm93cyhwcm9zZWN1dG9ycywganVzdGljZWRlcHQpICU+JQogIGRwbHlyOjpzZWxlY3QoInBlcnNvbiIsICJwb3NpdGlvbl9jdXJyZW50IiwgInNvdXJjZSIsCiAgICAgICAgICAgICAgICAiZGF0ZV9vZl9hcHBvaW50bWVudCIsCiAgICAgICAgICAgICAgICAiZGF0ZV9vZl9iaXJ0aCIsICJhZ2UiLCAiYmlydGhwbGFjZSIsICJzZXgiLAogICAgICAgICAgICAgICAgImJhY2hlbG9ycyIsICJtYXN0ZXJzIiwgImRvY3RvcmF0ZSIsICJsYXciLCAibGF3X2NvbnNlcnZhdGl2ZV9zY29yZSIsICJsYXdfcmFuayIsCiAgICAgICAgICAgICAgICAiYmFycl9hcHBvaW50bWVudCIsICJwb2xpdGljYWxfYWZmaWxpYXRpb24iLCAKICAgICAgICAgICAgICAgICJlbXBsb3llcl9wYXN0IiwgInN0YXJ0X2RhdGUiLCAiZW5kX2RhdGUiLAogICAgICAgICAgICAgICAgImFtZXJpY2FuX2NlbnRlcl9mb3JfbGF3X2FuZF9qdXN0aWNlIiwgImNocmlzdGlhbl9sZWdhbF9zb2NpZXR5X2Jhcl9hc3NvY2lhdGlvbiIsICJmZWRlcmFsaXN0X3NvY2lldHkiLCAiaGVyaXRhZ2VfZm91bmRhdGlvbiIsICJuYXRpb25hbF9yaWZsZV9hc3NvY2lhdGlvbl90aWUiLCAicmVwdWJsaWNhbl9uYXRpb25hbF9sYXd5ZXJzX2Fzc29jaWF0aW9uX3RpZSIpCgpkZl9ub2VtcGxveSA8LSBkZiAlPiUgZHBseXI6OnNlbGVjdCgtYygiZW1wbG95ZXJfcGFzdCIsICJzdGFydF9kYXRlIiwgImVuZF9kYXRlIikpICU+JQogIGRwbHlyOjpkaXN0aW5jdCgpCmBgYAoKV2UgaGF2ZSAyIHZlcnNpb25zIG9mIHRoZSBkYXRhLiBPbmUgd2hlcmUgdGhlIGFwcG9pbnRlZSBpcyB0aGUgdW5pdCBvZiBhbmFseXNpcyBhbmQgdGhlIG90aGVyIHdoZXJlIHByaW9yIGVtcGxveW1lbnQgZm9yIGVhY2ggYXBwb2ludHRlZSBpcyBhbHNvIGxpc3RlZCwgY3JlYXRpbmcgbXVsdGlwbGUgcm93cyBwZXIgcGVyc29uLgpgYGB7cn0Kd3JpdGUuY3N2KGRmLCBwYXN0ZTAoaGVyZTo6aGVyZSgpLCAiL2RhdGEvIiwgImFsbF93aXRoZW1wbG95LmNzdiIpKQp3cml0ZS5jc3YoZGZfbm9lbXBsb3ksIHBhc3RlMChoZXJlOjpoZXJlKCksICIvZGF0YS8iLCAiYWxsX25vZW1wbG95LmNzdiIpKQpgYGAKCiMgQWdncmVnYXRlCkhlcmUsIHdlIHVzZSBhbGwgdGhlIGNvdmFyaWF0ZXMgZ2F0aGVyZWQgYWJvdmUgdG8gaWRlbnRpZnkgd2hldGhlciBlYWNoIHBlcnNvbiBoYXMgYSBjb25uZWN0aW9uIHRvIFRydW1wLCBUcnVtcCdzIGFsbGllcywgYSBjb25zZXJ2YXRpdmUgYWdlbmRhLCBhIGNhcmVlciBwcm9mZXNzaW9uYWwsIG9yIG90aGVyCgojIyBMb2FkClRoaXMgZGYgaGFzIHRoZSBmaW5hbCBhZ2dyZWdhdGVkIGxpc3Qgb2YgdW5pcXVlIHBlcnNvbnMgZnJvbSBib3RoIGRhdGFzZXRzIHdlIGhhdmUgY3JlYXRlZApgYGB7ciwgZXZhbH0KY29yZSA8LSBnb29nbGVzaGVldHM0OjpyZWFkX3NoZWV0KHNzID0gImh0dHBzOi8vZG9jcy5nb29nbGUuY29tL3NwcmVhZHNoZWV0cy9kLzFoUE9CT3lUdWpVUmVRenBqWjlQcUloajIzVjVDNzRFeWdNbm1YSWk2QmdJL2VkaXQ/dXNwPXNoYXJpbmciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVldCA9ICJhbGwiKQoKY29yZSA8LSBqYW5pdG9yOjpjbGVhbl9uYW1lcyhjb3JlKQpgYGAKCiMjIENvbnNlcnZhdGl2ZSBhZ2VuZGEKV2UgY29kZSB3aGV0aGVyIHNvbWVvbmUgaGFzIGEgY29uc2VydmF0aXZlIGFnZW5kYSBiYXNlZCBvbiB3aGV0aGVyIHRoZXkgYXR0ZW5kZWQgYSBjb25zZXJ2YXRpdmUgbGF3IHNjaG9vbCwgd29ya2VkIGF0IGEgY29uc2VydmF0aXZlIGxhdyBmaXJtLCBoYXZlIHRpZWQgdG8gdGhlIGZlZGVyYWxpc3Qgc29jaWV0eSBvciBoZXJpdGFnZSBmb3VuZGF0aW9uLCBvciBhcmUgYSBjb25zZXJ2YXRpdmUvUmVwdWJsaWNhbiBlbGVjdGVkIHBvbGl0aWNpYW4gKHN0YXRlIHNlbmF0b3Igb3Igc3RhdGUgcmVwcmVzZW50YXRpdmUpCmBgYHtyfQoKYGBgCgojIyBDYXJlZXIgcHJvZmVzc2lvbmFsCldlIGNvZGUgd2hldGhlciBzb21lb25lIGlzIGEgY2FyZWVyIHByb2Zlc3Npb25hbCBiYXNlZCBvbiB3aGV0aGVyIHRoZXkgd29ya2VkIGluIHRoZSBET0ogZm9yIGF0IGxlYXN0IDQgeWVhcnMKCiMgU2F2ZQpgYGB7ciwgZXZhbCA9IEZBTFNFfQojIGdvb2dsZXNoZWV0czQ6OndyaXRlX3NoZWV0KGFsbCwgc3MgPSAiaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMWhQT0JPeVR1alVSZVF6cGpaOVBxSWhqMjNWNUM3NEV5Z01ubVhJaTZCZ0kvZWRpdD91c3A9c2hhcmluZyIsCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGVldCA9ICJhbGxfbm9lZGl0IikKYGBgCgojIEFuYWx5emUgZGF0YSBxdWFsaXR5CiMjIERhdGEgRXhwbG9yZXIKYGBge3IsIGZpZy53aWR0aCA9IDE2LCBmaWcuaGVpZ2h0ID0gMTZ9CkRhdGFFeHBsb3Jlcjo6cGxvdF9xcShkZl9ub2VtcGxveSkKYGBgCgojIyBkbG9va3IKYGBge3IsIGZpZy53aWR0aCA9IDEyLCBmaWcuaGVpZ2h0ID0gMTYsIHdhcm5pbmc9RkFMU0UsIGVycm9yPUZBTFNFfQpkbG9va3I6OnBsb3Rfbm9ybWFsaXR5KGRmX25vZW1wbG95KQpEVDo6ZGF0YXRhYmxlKGRsb29rcjo6ZGlhZ25vc2UoZGZfbm9lbXBsb3kpKQpgYGAKCiMjIGZ1bk1vZGVsaW5nCmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDE2fQpEVDo6ZGF0YXRhYmxlKGZ1bk1vZGVsaW5nOjpkZl9zdGF0dXMoZGZfbm9lbXBsb3kpKQpmdW5Nb2RlbGluZzo6cGxvdF9udW0oZGZfbm9lbXBsb3kpCmBgYAoKIyMgbmFuaWFyCmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDh9Cm5hbmlhcjo6Z2dfbWlzc192YXIoZGZfbm9lbXBsb3kpCmBgYAoKIyMgc21hcnRFREEKYGBge3IsIGZpZy53aWR0aCA9IDE2LCBmaWcuaGVpZ2h0ID0gMTZ9ClNtYXJ0RURBOjpFeHBOdW1WaXooZGZfbm9lbXBsb3kpCmBgYAoKIyMgdmlzZGF0CmBgYHtyLCBmaWcud2lkdGggPSAxNiwgZmlnLmhlaWdodCA9IDE2fQp2aXNkYXQ6OnZpc19taXNzKGRmX25vZW1wbG95LCBzb3J0X21pc3MgPSBUUlVFKQp2aXNkYXQ6OnZpc19kYXQoZGZfbm9lbXBsb3kpCmBgYA==</div>
 
 
 </div>

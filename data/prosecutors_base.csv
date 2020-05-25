@@ -38,61 +38,60 @@
 "37","Robert Kyoung Hur","U.S. Attorney for the District of Maryland",2018-04-09,0,"male",NA,"",NA
 "38","Andrew Lelling","U.S. Attorney for the District of Massachusetts",2017-12-21,0,"male",1970-01-01,"",50
 "39","Matthew J. Schneider","U.S. Attorney for the E.D. of Michigan",2018-01-05,0,"male",NA,"",NA
-"40","Tom Leonard","U.S. Attorney for the W.D. of Michigan",2019-08-14,1,"male",1981-04-20,"Flint",39
-"41","Erica MacDonald","U.S. Attorney for the District of Minnesota",2018-06-11,0,"female",NA,"DeSoto",NA
-"42","Jeffrey Jensen","U.S. Attorney for the E.D. of Missouri",2017-10-06,0,"male",NA,"",NA
-"43","Timothy A. Garrison","U.S. Attorney for the W.D. of Missouri",2018-01-05,0,"male",1976-01-01,"Urbana",44
-"44","Kurt Alme","U.S. Attorney for the District of Montana",2017-09-21,0,"male",NA,"Miles City",NA
-"45","Joseph P. Kelly","U.S. Attorney for the District of Nebraska",2018-02-23,0,"male",1956-01-01,"Lexington",64
-"46","Nicholas A. Trutanich","U.S. Attorney for the District of Nevada",2019-01-16,0,"male",NA,"",NA
-"47","Scott W. Murray","U.S. Attorney for the District of New Hampshire",2018-03-05,0,"male",1954-01-01,"Rochester",66
-"48","John C. Anderson","U.S. Attorney for the District of New Mexico",2018-02-23,0,"male",1975-01-01,"Smithtown",45
-"49","Robert Higdon Jr.","U.S. Attorney for the E.D. of North Carolina",2017-10-10,0,"male",NA,"",NA
-"50","Matthew Martin","U.S. Attorney for the M.D. of North Carolina",2017-11-09,0,"male",1979-01-01,"Wright-Patterson Air Force Base",41
-"51","R. Andrew Murray","U.S. Attorney for the W.D. of North Carolina",2017-11-27,0,"male",NA,"",NA
-"52","Drew Wrigley","U.S. Attorney for the District of North Dakota",2019-04-17,1,"male",1965-10-10,"Bismarck",55
-"53","Justin Herdman","U.S. Attorney for the N.D. of Ohio",2017-08-21,0,"male",NA,"",NA
-"54","David M. DeVillers","U.S. Attorney for the S.D. Ohio",2019-10-28,1,"male",NA,"",NA
-"55","Brian Kuester","U.S. Attorney for the E.D. of Oklahoma",2017-10-25,0,"male",NA,"",NA
-"56","R. Trent Shores","U.S. Attorney for the N.D. of Oklahoma",2017-10-21,0,"male",NA,"",NA
-"57","Timothy J. Downing","U.S. Attorney for the W.D. of Oklahoma",2019-06-05,1,"male",NA,"",NA
-"58","Billy J. Williams","U.S. Attorney for the District of Oregon",2018-02-23,0,"male",1956-01-01,"Toppenish",64
-"59","David Freed","U.S. Attorney for the M.D. of Pennsylvania",2017-11-27,0,"male",NA,"",NA
-"60","Scott Brady","U.S. Attorney for the W.D. of Pennsylvania",2017-12-22,0,"male",NA,"",NA
-"61","William M. McSwain","U.S. Attorney for the E.D. of Pennsylvania",2018-04-06,0,"male",1969-01-01,"Philadelphia",51
-"62","W. Stephen Muldrow","U.S. Attorney for the District of Puerto Rico",2019-10-04,1,"male",1964-06-15,"",56
-"63","Aaron L. Weisman","U.S. Attorney for the District of Rhode Island",2019-01-14,0,"male",1965-01-01,"",55
-"64","Sherri Lydon","U.S. Attorney for the District of South Carolina",2018-05-24,0,"female",1962-02-21,"Myrtle Beach Air Force Base",58
-"65","Peter M. McCoy Jr.","U.S. Attorney for the District of South Carolina",2020-03-30,NA,"male",1978-08-20,"Charleston",42
-"66","Ron A. Parsons Jr.","U.S. Attorney for the District of South Dakota",2018-01-05,0,"male",NA,"",NA
-"67","Doug Overbey","U.S. Attorney for the E.D. of Tennessee",2017-11-21,0,"male",1954-12-11,"",65
-"68","Donald Q. Cochran","U.S. Attorney for the M.D. of Tennessee",2017-09-21,0,"male",NA,"",NA
-"69","D. Michael Dunavant","U.S. Attorney for the W.D. of Tennessee",2017-09-21,0,"male",1970-01-01,"Millington",50
-"70","Joseph D. Brown","U.S. Attorney for the E.D. of Texas",2018-02-26,0,"male",1970-01-01,"Sherman",50
-"71","Erin Nealy Cox","U.S. Attorney for the N.D. of Texas",2017-11-17,0,"female",1970-01-01,"Pascagoula",50
-"72","Ryan Patrick","U.S. Attorney for the S.D. of Texas",2018-01-08,0,"male",1979-01-01,"Washington, D.C.",41
-"73","John Bash","U.S. Attorney for the W.D. of Texas",2017-12-11,0,"male",NA,"",NA
-"74","John W. Huber","U.S. Attorney for the District of Utah",2015-06-01,0,"male",1967-01-01,"Salt Lake City",53
-"75","Christina E. Nolan","U.S. Attorney for the District of Vermont",2017-11-27,0,"female",1979-01-01,"Burlington",41
-"76","G. Zachary Terwilliger","U.S. Attorney for the E.D. of Virginia",2018-05-25,0,"male",1985-01-01,"Washington, D.C.",35
-"77","Thomas T. Cullen","U.S. Attorney for the W.D. of Virginia",2018-03-30,0,"male",1977-01-01,"Richmond",43
-"78","William D. Hyslop","U.S. Attorney for the E.D. of Washington",2019-07-18,1,"male",1951-01-01,"Spokane",69
-"79","Brian T. Moran","U.S. Attorney for the W.D. of Washington",2019-01-17,0,"male",NA,"",NA
-"80","William J. Powell","U.S. Attorney for the N.D. of West Virginia",2017-10-13,0,"male",1960-01-01,"Manhasset",60
-"81","Michael B. Stuart","U.S. Attorney for the S.D. of West Virginia",2018-01-09,0,"male",1967-01-06,"Philippi",53
-"82","Matthew Krueger","U.S. Attorney for the E.D. of Wisconsin",2018-02-23,0,"male",1978-01-01,"Milwaukee",42
-"83","Scott Blader","U.S. Attorney for the W.D. of Wisconsin",2017-11-22,0,"male",1974-01-01,"Wild Rose",46
-"84","Mark Klaassen","U.S. Attorney for the District of Wyoming",2017-01-27,0,"male",1973-04-01,"Gillette",47
-"85",NA,"U.S. Attorney for the E.D. of New York",NA,NA,NA,NA,NA,NA
-"86","Grant C. Jaquith","U.S. Attorney for the N.D. of New York",NA,NA,"male",NA,"",NA
-"87","Geoffrey Berman","U.S. Attorney for the S.D. of New York",NA,NA,"male",1959-09-12,"Trenton",61
-"88",NA,"U.S. Attorney for the W.D. of New York",NA,NA,NA,NA,NA,NA
-"89","Craig Carpenito","U.S. Attorney for the District of New Jersey",NA,NA,"male",1973-08-01,"",47
-"90",NA,"U.S. Attorney for the W.D. of Arkansas",NA,NA,NA,NA,NA,NA
-"91",NA,"U.S. Attorney for the District of Columbia",NA,NA,NA,NA,NA,NA
-"92",NA,"U.S. Attorney for the District of Guam & Northern Mariana Islands",NA,NA,NA,NA,NA,NA
-"93",NA,"U.S. Attorney for the S.D. of Illinois",NA,NA,NA,NA,NA,NA
-"94",NA,"U.S. Attorney for the W.D. of Michigan",NA,NA,NA,NA,NA,NA
-"95","William C. Lamar","U.S. Attorney for the N.D. of Mississippi",NA,NA,"male",NA,"",NA
-"96","D. Michael Hurst Jr.","U.S. Attorney for the S.D. of Mississippi",NA,NA,"male",NA,"Hickory",NA
-"97","Gretchen Shappert","U.S. Attorney for the District of Virgin Islands",NA,NA,"female",NA,"",NA
+"40","Erica MacDonald","U.S. Attorney for the District of Minnesota",2018-06-11,0,"female",NA,"DeSoto",NA
+"41","Jeffrey Jensen","U.S. Attorney for the E.D. of Missouri",2017-10-06,0,"male",NA,"",NA
+"42","Timothy A. Garrison","U.S. Attorney for the W.D. of Missouri",2018-01-05,0,"male",1976-01-01,"Urbana",44
+"43","Kurt Alme","U.S. Attorney for the District of Montana",2017-09-21,0,"male",NA,"Miles City",NA
+"44","Joseph P. Kelly","U.S. Attorney for the District of Nebraska",2018-02-23,0,"male",1956-01-01,"Lexington",64
+"45","Nicholas A. Trutanich","U.S. Attorney for the District of Nevada",2019-01-16,0,"male",NA,"",NA
+"46","Scott W. Murray","U.S. Attorney for the District of New Hampshire",2018-03-05,0,"male",1954-01-01,"Rochester",66
+"47","John C. Anderson","U.S. Attorney for the District of New Mexico",2018-02-23,0,"male",1975-01-01,"Smithtown",45
+"48","Robert Higdon Jr.","U.S. Attorney for the E.D. of North Carolina",2017-10-10,0,"male",NA,"",NA
+"49","Matthew Martin","U.S. Attorney for the M.D. of North Carolina",2017-11-09,0,"male",1979-01-01,"Wright-Patterson Air Force Base",41
+"50","R. Andrew Murray","U.S. Attorney for the W.D. of North Carolina",2017-11-27,0,"male",NA,"",NA
+"51","Drew Wrigley","U.S. Attorney for the District of North Dakota",2019-04-17,1,"male",1965-10-10,"Bismarck",55
+"52","Justin Herdman","U.S. Attorney for the N.D. of Ohio",2017-08-21,0,"male",NA,"",NA
+"53","David M. DeVillers","U.S. Attorney for the S.D. Ohio",2019-10-28,1,"male",NA,"",NA
+"54","Brian Kuester","U.S. Attorney for the E.D. of Oklahoma",2017-10-25,0,"male",NA,"",NA
+"55","R. Trent Shores","U.S. Attorney for the N.D. of Oklahoma",2017-10-21,0,"male",NA,"",NA
+"56","Timothy J. Downing","U.S. Attorney for the W.D. of Oklahoma",2019-06-05,1,"male",NA,"",NA
+"57","Billy J. Williams","U.S. Attorney for the District of Oregon",2018-02-23,0,"male",1956-01-01,"Toppenish",64
+"58","David Freed","U.S. Attorney for the M.D. of Pennsylvania",2017-11-27,0,"male",NA,"",NA
+"59","Scott Brady","U.S. Attorney for the W.D. of Pennsylvania",2017-12-22,0,"male",NA,"",NA
+"60","William M. McSwain","U.S. Attorney for the E.D. of Pennsylvania",2018-04-06,0,"male",1969-01-01,"Philadelphia",51
+"61","W. Stephen Muldrow","U.S. Attorney for the District of Puerto Rico",2019-10-04,1,"male",1964-06-15,"",56
+"62","Aaron L. Weisman","U.S. Attorney for the District of Rhode Island",2019-01-14,0,"male",1965-01-01,"",55
+"63","Sherri Lydon","U.S. Attorney for the District of South Carolina",2018-05-24,0,"female",1962-02-21,"Myrtle Beach Air Force Base",58
+"64","Peter M. McCoy Jr.","U.S. Attorney for the District of South Carolina",2020-03-30,NA,"male",1978-08-20,"Charleston",42
+"65","Ron A. Parsons Jr.","U.S. Attorney for the District of South Dakota",2018-01-05,0,"male",NA,"",NA
+"66","Doug Overbey","U.S. Attorney for the E.D. of Tennessee",2017-11-21,0,"male",1954-12-11,"",65
+"67","Donald Q. Cochran","U.S. Attorney for the M.D. of Tennessee",2017-09-21,0,"male",NA,"",NA
+"68","D. Michael Dunavant","U.S. Attorney for the W.D. of Tennessee",2017-09-21,0,"male",1970-01-01,"Millington",50
+"69","Joseph D. Brown","U.S. Attorney for the E.D. of Texas",2018-02-26,0,"male",1970-01-01,"Sherman",50
+"70","Erin Nealy Cox","U.S. Attorney for the N.D. of Texas",2017-11-17,0,"female",1970-01-01,"Pascagoula",50
+"71","Ryan Patrick","U.S. Attorney for the S.D. of Texas",2018-01-08,0,"male",1979-01-01,"Washington, D.C.",41
+"72","John Bash","U.S. Attorney for the W.D. of Texas",2017-12-11,0,"male",NA,"",NA
+"73","John W. Huber","U.S. Attorney for the District of Utah",2015-06-01,0,"male",1967-01-01,"Salt Lake City",53
+"74","Christina E. Nolan","U.S. Attorney for the District of Vermont",2017-11-27,0,"female",1979-01-01,"Burlington",41
+"75","G. Zachary Terwilliger","U.S. Attorney for the E.D. of Virginia",2018-05-25,0,"male",1985-01-01,"Washington, D.C.",35
+"76","Thomas T. Cullen","U.S. Attorney for the W.D. of Virginia",2018-03-30,0,"male",1977-01-01,"Richmond",43
+"77","William D. Hyslop","U.S. Attorney for the E.D. of Washington",2019-07-18,1,"male",1951-01-01,"Spokane",69
+"78","Brian T. Moran","U.S. Attorney for the W.D. of Washington",2019-01-17,0,"male",NA,"",NA
+"79","William J. Powell","U.S. Attorney for the N.D. of West Virginia",2017-10-13,0,"male",1960-01-01,"Manhasset",60
+"80","Michael B. Stuart","U.S. Attorney for the S.D. of West Virginia",2018-01-09,0,"male",1967-01-06,"Philippi",53
+"81","Matthew Krueger","U.S. Attorney for the E.D. of Wisconsin",2018-02-23,0,"male",1978-01-01,"Milwaukee",42
+"82","Scott Blader","U.S. Attorney for the W.D. of Wisconsin",2017-11-22,0,"male",1974-01-01,"Wild Rose",46
+"83","Mark Klaassen","U.S. Attorney for the District of Wyoming",2017-01-27,0,"male",1973-04-01,"Gillette",47
+"84",NA,"U.S. Attorney for the E.D. of New York",NA,NA,NA,NA,NA,NA
+"85","Grant C. Jaquith","U.S. Attorney for the N.D. of New York",NA,NA,"male",NA,"",NA
+"86","Geoffrey Berman","U.S. Attorney for the S.D. of New York",NA,NA,"male",1959-09-12,"Trenton",61
+"87",NA,"U.S. Attorney for the W.D. of New York",NA,NA,NA,NA,NA,NA
+"88","Craig Carpenito","U.S. Attorney for the District of New Jersey",NA,NA,"male",1973-08-01,"",47
+"89",NA,"U.S. Attorney for the W.D. of Arkansas",NA,NA,NA,NA,NA,NA
+"90",NA,"U.S. Attorney for the District of Columbia",NA,NA,NA,NA,NA,NA
+"91",NA,"U.S. Attorney for the District of Guam & Northern Mariana Islands",NA,NA,NA,NA,NA,NA
+"92",NA,"U.S. Attorney for the S.D. of Illinois",NA,NA,NA,NA,NA,NA
+"93",NA,"U.S. Attorney for the W.D. of Michigan",NA,NA,NA,NA,NA,NA
+"94","William C. Lamar","U.S. Attorney for the N.D. of Mississippi",NA,NA,"male",NA,"",NA
+"95","D. Michael Hurst Jr.","U.S. Attorney for the S.D. of Mississippi",NA,NA,"male",NA,"Hickory",NA
+"96","Gretchen Shappert","U.S. Attorney for the District of Virgin Islands",NA,NA,"female",NA,"",NA

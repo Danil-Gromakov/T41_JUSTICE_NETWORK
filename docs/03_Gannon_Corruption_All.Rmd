@@ -62,11 +62,37 @@ df_noemploy <- df %>% dplyr::select(-c("employer_past", "start_date", "end_date"
   dplyr::distinct()
 ```
 
-# Save merged data
 We have 2 versions of the data. One where the appointee is the unit of analysis and the other where prior employment for each appointtee is also listed, creating multiple rows per person.
 ```{r}
 write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
 write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
+```
+
+# Aggregate
+Here, we use all the covariates gathered above to identify whether each person has a connection to Trump, Trump's allies, a conservative agenda, a career professional, or other
+
+## Load
+This df has the final aggregated list of unique persons from both datasets we have created
+```{r, eval}
+core <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+                                    sheet = "all")
+
+core <- janitor::clean_names(core)
+```
+
+## Conservative agenda
+We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to the federalist society or heritage foundation, or are a conservative/Republican elected politician (state senator or state representative)
+```{r}
+
+```
+
+## Career professional
+We code whether someone is a career professional based on whether they worked in the DOJ for at least 4 years
+
+# Save
+```{r, eval = FALSE}
+# googlesheets4::write_sheet(all, ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                    sheet = "all_noedit")
 ```
 
 # Analyze data quality
