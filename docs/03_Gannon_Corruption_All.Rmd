@@ -183,7 +183,7 @@ tomerge <- aggregate(tomerge$connection_conservativeagenda, by = list(tomerge$pe
 final <- dplyr::left_join(core, tomerge)
 
 # Merge everything else into that now
-df_noemploy <- dplyr::left_join(df_noemploy, final)
+df_noemploy <- dplyr::left_join(final, df_noemploy)
 
 # Reorder columns
 df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "source",
