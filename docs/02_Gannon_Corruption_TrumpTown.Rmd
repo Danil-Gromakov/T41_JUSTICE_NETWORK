@@ -246,7 +246,6 @@ work <- write.csv(work, paste0(here::here(), "/data/", "justicedept_employment.c
 # School
 ## Load
 ```{r}
-edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
                                     sheet = "doj_edu",
                                  col_types = "ccccnnnnc")
 

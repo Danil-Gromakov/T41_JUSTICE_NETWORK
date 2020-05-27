@@ -1,0 +1,68 @@
+---
+title: "04 Visualizations"
+author: "J Andres Gannon, Danil Gromakov, Katelyn Hess, and Yulia Krylova"
+date: "May 2020"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+    toc_float: yes
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(ggplot2)
+```
+
+This document produces some descriptive summary statistics of the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
+
+# Load data
+```{r}
+df <- read.csv(file = paste0(here::here(), '/data/all_noemploy.csv'))
+df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
+```
+
+# Law school rankings
+Show difference in conservatism of law schools in the Trump admin vs all of them
+## Load full law school data
+```{r}
+school <- read.csv(file = paste0(here::here(), '/data/ideology_lawschool.csv'))
+school$score_scaled <- scale(school$conservatism)
+
+school <- school %>% dplyr::select(-c("conservatism"))
+
+df_law <- df %>% dplyr::select(person, law) %>%
+  dplyr::distinct() %>%
+  dplyr::rename(school = law) %>%
+  dplyr::group_by(school) %>%
+  dplyr::summarise(count = dplyr::n_distinct(person)) %>%
+  dplyr::rename(persons = count)
+
+df_law$trump <- 1
+
+school_all <- dplyr::left_join(school, df_law)
+school_all$school <- reorder(school_all$school, school_all$rank)
+school_all$trump[is.na(school_all$trump)] <- 0
+school_all$persons[is.na(school_all$persons)] <- 0
+school_all$trump <- as.factor(school_all$trump)
+school_all$labels <- school_all$school
+school_all$labels[school_all$trump == 0] <- NA
+
+ggplot2::ggplot(school_all, aes(x = reorder(school, dplyr::desc(school)) , y = score_scaled, color = trump)) + 
+  geom_point() + 
+  coord_flip() + 
+#  scale_x_discrete(labels = school_all$labels) +
+  scale_color_manual(breaks = c("0", "1"), values = c("black", "red")) +
+  theme_light() +
+  theme(axis.text.y = element_blank(), 
+        text = element_text(size = 14)) + 
+  guides(color = FALSE) +
+  labs(title = "Law School Ideology Bias in Trump Prosecutors", x = "Law Schools in Rank Order", y = "Liberal-Conservative Scale")
+```
