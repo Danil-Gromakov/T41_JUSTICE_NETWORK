@@ -26,7 +26,7 @@ This document produces some descriptive summary statistics of the new data colle
 # Load data
 ```{r}
 df <- read.csv(file = paste0(here::here(), '/data/all_noemploy.csv'))
-df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
+# df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
 ```
 
 # Law school rankings
@@ -65,4 +65,42 @@ ggplot2::ggplot(school_all, aes(x = reorder(school, dplyr::desc(school)) , y = s
         text = element_text(size = 14)) + 
   guides(color = FALSE) +
   labs(title = "Law School Ideology Bias in Trump Prosecutors", x = "Law Schools in Rank Order", y = "Liberal-Conservative Scale")
+```
+
+# Membership overlaps
+```{r}
+# Trump ties
+upset_trump <- df %>% dplyr::select(dplyr::starts_with("connection_trump_")) %>%
+  dplyr::select(-c("connection_trump_all")) %>%
+  dplyr::rename("Trump personal interview" = connection_trump_interviews, "Trump campaign connection" = connection_trump_campaign)
+
+UpSetR::upset(upset_trump,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Officials", order.by = "freq")
+
+# Trump ally ties
+upset_trumpally <- df %>% dplyr::select(dplyr::starts_with("connection_trumpally_")) %>%
+  dplyr::select(-c("connection_trumpally_all")) %>%
+  dplyr::rename("Trump ally inner circle" = connection_trumpally_innercircle, "Trump ally, US Senate" = connection_trumpally_us_senate, "Trump ally, state gov" = connection_trumpally_state_gov, "Trump ally, RNC" = connection_trumpally_rnc)
+
+UpSetR::upset(upset_trumpally,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Officials", order.by = "freq")
+
+# Conservative group ties
+upset_conservative <- df %>% dplyr::select(dplyr::starts_with("connection_conservative_")) %>%
+  dplyr::select(-c("connection_conservative_all")) %>%
+  dplyr::rename("Conservative law school" = connection_conservative_lawschool, "Conservative law firm" = connection_conservative_firm, "Conservative society membership" = connection_conservative_group, "Conservative state official" = connection_conservative_gov)
+
+UpSetR::upset(upset_conservative,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Officials", order.by = "freq")
+
+# All ties
+upset_all <- df %>% dplyr::select(dplyr::ends_with("_all")) %>%
+  dplyr::rename("Trump connections" = connection_trump_all, "Trump allies" = connection_trumpally_all, "Conservative background" = connection_conservative_all, "Carrer Professional" = connection_careerprofessional_all, "Other" = connection_other_all)
+
+UpSetR::upset(upset_all,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Officials", order.by = "freq")
 ```

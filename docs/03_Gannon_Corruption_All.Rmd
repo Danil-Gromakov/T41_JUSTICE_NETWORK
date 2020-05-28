@@ -194,6 +194,14 @@ tomerge$connection_conservative_all[is.na(tomerge$connection_conservative_all)] 
 # Merge into master list
 final <- dplyr::left_join(core, tomerge)
 
+# Replace NAs with 0
+final[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc", "connection_trumpally_administration", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")][is.na(final[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_rnc", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_administration", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")])] <- 0
+
+# Fix edge column NA conversions
+final$connection_trumpally_us_senate[is.na(final$connection_trumpally_us_senate)] <- 1
+final$connection_trumpally_state_gov[is.na(final$connection_trumpally_state_gov)] <- 1
+final$connection_trumpally_rnc[is.na(final$connection_trumpally_rnc)] <- 1
+
 # Merge everything else into that now
 df_noemploy <- dplyr::left_join(final, df_noemploy)
 
@@ -203,15 +211,12 @@ df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "sour
                 "date_of_birth", "age", "birthplace", "sex",
                 "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
                 "barr_appointment", "political_affiliation", 
-                "connection_trump", "connection_trump_interviews", "connection_trump_campaign",
-                "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov",
+                "connection_trump_all", "connection_trump_interviews", "connection_trump_campaign",
+                "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc",
                 "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov",
-                "connection_careerprofessional",
-                "connection_other",
+                "connection_careerprofessional_all",
+                "connection_other_all",
                 "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
-
-# Fix NAs that should be 0's
-df_noemploy[c("connection_trump", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional", "connection_other")][is.na(df_noemploy[c("connection_trump", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional", "connection_other")])] <- 0
 ```
 
 # Save
