@@ -46,7 +46,7 @@ prosecutors$source <- "prosecutor"
 
 justicedept <- justicedept %>% dplyr::rename(position_current = agency_title,
                                              employer_past = employer) %>%
-  dplyr::select(-c("X", "title", "agency_name"))
+                dplyr::select(-c("X", "title", "agency_name"))
 justicedept$source <- "justicedept"
 
 df <- dplyr::bind_rows(prosecutors, justicedept) %>%
@@ -93,7 +93,8 @@ school_temp <- dplyr::left_join(school_temp, school)
 # Create new column for worked at a more conservative than average firm
 school_temp <- school_temp %>% dplyr::mutate(conservative = dplyr::if_else(score_scaled > 0, 1, 0)) %>%
   dplyr::select(person, conservative) %>%
-  dplyr::rename(conservative_lawschool = conservative)
+  dplyr::rename(connection_conservative_lawschool = conservative) %>%
+  dplyr::distinct()
 
 # Merge that into core
 tomerge <- school_temp
@@ -118,7 +119,15 @@ firm_temp <- dplyr::left_join(firm_temp, firm)
 # Create new column for worked at a more conservative than average firm
 firm_temp <- firm_temp %>% dplyr::mutate(conservative = dplyr::if_else(score_scaled > 0, 1, 0)) %>%
   dplyr::select(person, conservative) %>%
-  dplyr::rename(conservative_firm = conservative)
+  dplyr::rename(connection_conservative_firm = conservative)
+
+firm_temp$connection_conservative_firm[is.na(firm_temp$connection_conservative_firm)] <- 0
+
+firm_temp <- firm_temp %>% dplyr::distinct()
+
+firm_temp <- firm_temp %>% dplyr::group_by(person) %>%
+  dplyr::summarize(connection_conservative_firm = sum(connection_conservative_firm)) %>%
+  dplyr::distinct()
 
 # Merge that into core
 tomerge <- dplyr::left_join(tomerge, firm_temp)
@@ -133,51 +142,54 @@ memb_temp <- df_noemploy %>% dplyr::select(person, american_center_for_law_and_j
                                            heritage_foundation, 
                                            national_rifle_association_tie, 
                                            republican_national_lawyers_association_tie) %>%
-                            dplyr::mutate(conservative_group = ifelse(american_center_for_law_and_justice == 1 | 
+                            dplyr::mutate(connection_conservative_group = ifelse(american_center_for_law_and_justice == 1 | 
                                             christian_legal_society_bar_association == 1 |
                                             federalist_society == 1 |
                                             heritage_foundation == 1 |
                                             national_rifle_association_tie == 1 |
                                             republican_national_lawyers_association_tie == 1,
                                             "1", "")) %>%
-                           dplyr::select(person, conservative_group)
+                           dplyr::select(person, connection_conservative_group) %>%
+                           dplyr::distinct()
 
-tomerge <- dplyr::left_join(tomerge, memb_temp) %>%
-  dplyr::distinct()
+memb_temp$connection_conservative_group <- as.numeric(memb_temp$connection_conservative_group)
+
+tomerge <- dplyr::left_join(tomerge, memb_temp)
 ```
 
 ### State senator/representative
 ```{r}
 employ_temp <- df %>% dplyr::select(person, employer_past) %>%
   dplyr::distinct() %>%
-  dplyr::mutate(conservative_gov = ifelse(employer_past == "Idaho State Senate" |
+  dplyr::mutate(connection_conservative_gov = ifelse(employer_past == "Idaho State Senate" |
                                           employer_past == "Tennessee State Senate" |
                                           employer_past == "Georgia House of Representatives" |
                                           employer_past == "Oklahoma House of Representatives",
                                           "1", "")) %>%
-  dplyr::select(person, conservative_gov)
-
-tomerge <- dplyr::left_join(tomerge, employ_temp) %>%
+  dplyr::select(person, connection_conservative_gov) %>%
   dplyr::distinct()
+
+employ_temp$connection_conservative_gov <- as.numeric(employ_temp$connection_conservative_gov)
+
+employ_temp <- employ_temp %>% dplyr::group_by(person) %>%
+  dplyr::summarize(connection_conservative_gov = sum(connection_conservative_gov)) %>%
+  dplyr::distinct()
+
+tomerge <- dplyr::left_join(tomerge, employ_temp)
 ```
 
 ### Merge
 ```{r}
 # Combine tomerge into a single column called conservative_agenda_connections
-tomerge <- tomerge %>% dplyr::mutate(connection_conservativeagenda = ifelse(conservative_lawschool == 1 |
-                                                                                conservative_firm == 1 |
-                                                                                conservative_group == 1 |
-                                                                                conservative_gov == 1,
+tomerge <- tomerge %>% dplyr::mutate(connection_conservative_all = ifelse(connection_conservative_lawschool == 1 |
+                                                                                connection_conservative_firm == 1 |
+                                                                                connection_conservative_group == 1 |
+                                                                                connection_conservative_gov == 1,
                                                                               "1", "0")) %>%
-  dplyr::select(person, connection_conservativeagenda) %>%
-  dplyr::distinct()
+                                                                    dplyr::distinct()
 
-tomerge$connection_conservativeagenda <- as.numeric(tomerge$connection_conservativeagenda)
-tomerge$connection_conservativeagenda[is.na(tomerge$connection_conservativeagenda)] <- 0
-
-# Merge duplicates
-tomerge <- aggregate(tomerge$connection_conservativeagenda, by = list(tomerge$person), sum) %>% 
-  dplyr::rename(person = Group.1, connection_conservativeagenda = x)
+tomerge$connection_conservative_all <- as.numeric(tomerge$connection_conservative_all)
+tomerge$connection_conservative_all[is.na(tomerge$connection_conservative_all)] <- 0
 
 # Merge into master list
 final <- dplyr::left_join(core, tomerge)
@@ -191,15 +203,15 @@ df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "sour
                 "date_of_birth", "age", "birthplace", "sex",
                 "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
                 "barr_appointment", "political_affiliation", 
-                "connection_trump", "connection_trumpally", "connection_conservativeagenda", "connection_careerprofessional", "connection_other",
+                "connection_trump", "connection_trump_interviews", "connection_trump_campaign",
+                "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov",
+                "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov",
+                "connection_careerprofessional",
+                "connection_other",
                 "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
 
 # Fix NAs that should be 0's
-df_noemploy$connection_trump[is.na(df_noemploy$connection_trump)] <- 0
-df_noemploy$connection_trumpally[is.na(df_noemploy$connection_trumpally)] <- 0
-df_noemploy$connection_conservativeagenda[is.na(df_noemploy$connection_conservativeagenda)] <- 0
-df_noemploy$connection_careerprofessional[is.na(df_noemploy$connection_careerprofessional)] <- 0
-df_noemploy$connection_other[is.na(df_noemploy$connection_other)] <- 0
+df_noemploy[c("connection_trump", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional", "connection_other")][is.na(df_noemploy[c("connection_trump", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally", "connection_trumpally_innercircle", "connection_trumpally_wh_counsel", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional", "connection_other")])] <- 0
 ```
 
 # Save
