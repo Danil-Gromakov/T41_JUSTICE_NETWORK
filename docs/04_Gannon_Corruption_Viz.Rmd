@@ -24,9 +24,28 @@ library(ggplot2)
 This document produces some descriptive summary statistics of the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
 
 # Load data
+We use the aggregated and combined data on both DOJ officials and prosecutors here
 ```{r}
 df <- read.csv(file = paste0(here::here(), '/data/all_noemploy.csv'))
 df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
+```
+
+# Analyze data quality
+## Missingness
+We identify which columns are missing data. Much of the missingness is insignificant, since most personnel do not have doctorates or known membership in some of these societies. We do not convert these NAs to 0's because not finding information confirming their membership does not mean they were not members of these organizations
+```{r, fig.width = 16, fig.height = 16}
+visdat::vis_miss(df, sort_miss = TRUE)
+visdat::vis_dat(df)
+naniar::gg_miss_var(df)
+```
+
+## Covariate distributions
+We can examine distributions of the numeric variables to identify outliers or problems in data quality. Everything looks largely correct
+```{r, fig.width = 16, fig.height = 16}
+DataExplorer::plot_qq(df)
+DT::datatable(funModeling::df_status(df))
+funModeling::plot_num(df)
+SmartEDA::ExpNumViz(df)
 ```
 
 # Law school rankings
@@ -78,6 +97,18 @@ UpSetR::upset(upset_trump,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
       mainbar.y.label = "Officials", order.by = "freq")
 
+<<<<<<< HEAD
+=======
+# Trump ally ties
+upset_trumpally <- df %>% dplyr::select(dplyr::starts_with("connection_trumpally_")) %>%
+  dplyr::select(-c("connection_trumpally_all")) %>%
+  dplyr::rename("Trump ally inner circle" = connection_trumpally_innercircle, "Trump ally, US Senate" = connection_trumpally_us_senate, "Trump ally, state gov" = connection_trumpally_state_gov, "Trump ally, RNC" = connection_trumpally_rnc)
+
+UpSetR::upset(upset_trumpally,
+      number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
+      mainbar.y.label = "Officials", order.by = "freq")
+
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
 # Conservative group ties
 upset_conservative <- df %>% dplyr::select(dplyr::starts_with("connection_conservative_")) %>%
   dplyr::select(-c("connection_conservative_all")) %>%
@@ -89,7 +120,11 @@ UpSetR::upset(upset_conservative,
 
 # All ties
 upset_all <- df %>% dplyr::select(dplyr::ends_with("_all")) %>%
+<<<<<<< HEAD
   dplyr::rename("Trump direct" = connection_trump_all, "Trump allies" = connection_trumpally_all, "Conservative background" = connection_conservative_all, "Carrer Professional" = connection_careerprofessional_all, "Other" = connection_other_all)
+=======
+  dplyr::rename("Trump connections" = connection_trump_all, "Trump allies" = connection_trumpally_all, "Conservative background" = connection_conservative_all, "Carrer Professional" = connection_careerprofessional_all, "Other" = connection_other_all)
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
 
 UpSetR::upset(upset_all,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,

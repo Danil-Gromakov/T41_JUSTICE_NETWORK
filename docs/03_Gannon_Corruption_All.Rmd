@@ -21,7 +21,7 @@ library(magrittr)
 library(ggplot2)
 ```
 
-This document produces some descriptive summary statistics of the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
+This document produces combines the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
 
 # Load data
 ```{r}
@@ -66,18 +66,21 @@ df_noemploy <- df %>% dplyr::select(-c("employer_past", "firm_conservative_score
 Here, we use all the covariates gathered above to identify whether each person has a connection to Trump, Trump's allies, a conservative agenda, a career professional, or other
 
 ## Load
-This df has the final aggregated list of unique persons from both datasets we have created
+This df has the final aggregated list of unique persons from both datasets we have created. We aggregate each of the main variables of interest to different levels to help us tell different stories.
 ```{r, eval}
-core <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "all")
+# core <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                    sheet = "all")
+
+core <- read.csv(file = paste0(here::here(), '/data/raw/TrumpProsecutors - all.csv'))
 
 core <- janitor::clean_names(core)
 ```
 
 ## Conservative agenda
-We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to conservative organizations, or are a conservative/Republican elected politician (state senator or state representative)
+We code whether someone has a conservative agenda based on whether they attended a conservative law school, worked at a conservative law firm, have tied to conservative organizations, or are a conservative/Republican elected politician (state senator or state representative). We create a composite index coded as 1 if any of these criteria are met, but also maintain each individual criteria to analyze separately
 
 ### Law school
+Using data on ideological leaning of law schools, we identify what people attended conservative leaning law schools. Since the ideological bias of law school is generally liberal, we scale it account for relative conservatism
 ```{r}
 # Calculate average law school conservatism
 school <- read.csv(file = paste0(here::here(), '/data/ideology_lawschool.csv'))
@@ -101,6 +104,7 @@ tomerge <- school_temp
 ```
 
 ### Law firm
+We repeat the process for law firms, calculating their conservative bias and then identifying people that worked at relatively conservative law firms
 ```{r}
 # Calculate average law firm conservatism
 firm <- read.csv(file = paste0(here::here(), '/data/ideology_lawfirm.csv'))
@@ -134,6 +138,7 @@ tomerge <- dplyr::left_join(tomerge, firm_temp)
 ```
 
 ### Conservative membership
+We create a composite variable identifying whether an individual was a member of any conservative organization
 ```{r}
 # Calculate who has a 1 for either
 memb_temp <- df_noemploy %>% dplyr::select(person, american_center_for_law_and_justice, 
@@ -158,6 +163,7 @@ tomerge <- dplyr::left_join(tomerge, memb_temp)
 ```
 
 ### State senator/representative
+There are 4 state senators/representatives that we code as conservative because they were registered members of the Republican party with well established ties
 ```{r}
 employ_temp <- df %>% dplyr::select(person, employer_past) %>%
   dplyr::distinct() %>%
@@ -194,6 +200,14 @@ tomerge$connection_conservative_all[is.na(tomerge$connection_conservative_all)] 
 # Merge into master list
 final <- dplyr::left_join(core, tomerge)
 
+# Replace NAs with 0
+final[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc", "connection_trumpally_administration", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")][is.na(final[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_rnc", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_administration", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")])] <- 0
+
+# Fix edge column NA conversions
+final$connection_trumpally_us_senate[is.na(final$connection_trumpally_us_senate)] <- 1
+final$connection_trumpally_state_gov[is.na(final$connection_trumpally_state_gov)] <- 1
+final$connection_trumpally_rnc[is.na(final$connection_trumpally_rnc)] <- 1
+
 # Merge everything else into that now
 df_noemploy <- dplyr::left_join(final, df_noemploy)
 
@@ -209,9 +223,12 @@ df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "sour
                 "connection_careerprofessional_all",
                 "connection_other_all",
                 "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
+<<<<<<< HEAD
 
 # Fix NAs that should be 0's
 df_noemploy[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")][is.na(df_noemploy[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_rnc", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")])] <- 0
+=======
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
 ```
 
 # Save
@@ -219,38 +236,4 @@ We have 2 versions of the data. One where the appointee is the unit of analysis 
 ```{r}
 write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
 write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
-```
-
-# Analyze data quality
-## Data Explorer
-```{r, fig.width = 16, fig.height = 16}
-DataExplorer::plot_qq(df_noemploy)
-```
-
-## dlookr
-```{r, fig.width = 12, fig.height = 16, warning=FALSE, error=FALSE}
-dlookr::plot_normality(df_noemploy)
-DT::datatable(dlookr::diagnose(df_noemploy))
-```
-
-## funModeling
-```{r, fig.width = 16, fig.height = 16}
-DT::datatable(funModeling::df_status(df_noemploy))
-funModeling::plot_num(df_noemploy)
-```
-
-## naniar
-```{r, fig.width = 16, fig.height = 8}
-naniar::gg_miss_var(df_noemploy)
-```
-
-## smartEDA
-```{r, fig.width = 16, fig.height = 16}
-SmartEDA::ExpNumViz(df_noemploy)
-```
-
-## visdat
-```{r, fig.width = 16, fig.height = 16}
-visdat::vis_miss(df_noemploy, sort_miss = TRUE)
-visdat::vis_dat(df_noemploy)
 ```

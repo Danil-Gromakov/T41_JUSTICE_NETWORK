@@ -25,9 +25,12 @@ This document loads, cleans, and processes newly collected data on prosecutor's 
 
 # Base data
 ## Load
+We load a list of prosecutors with some initial information like their unique wikidata ID, when they were appointed, and whether they were appointed by Barr
 ```{r message = FALSE}
-df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "prosecutors_list")
+# df <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                  sheet = "prosecutors_list")
+
+df <- read.csv(file = paste0(here::here(), '/data/raw/TrumpProsecutors - prosecutors_list.csv'))
 
 df <- janitor::clean_names(df)
 ```
@@ -180,12 +183,15 @@ df_wiki$age <- round(df_wiki$age)
 df_wiki <- df_wiki %>% dplyr::group_by(id) %>%
        dplyr::mutate(rn = paste0("educated_atLabel", dplyr::row_number())) %>%
        tidyr::spread(rn, educated_atLabel)
+```
 
-# Examine
+We now have a clean dataframe that includes many automatically extracted covariates for each person
+```{r}
 DT::datatable(df_wiki)
 ```
 
 ## Initial stats
+We can produce some basic visualizations for descriptive statistics about demographic information
 ### Sex or gender
 ```{r, fig.width=16, fig.height=10}
 ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) + 
@@ -197,7 +203,7 @@ ggplot(df_wiki, aes(sex_or_genderLabel, ..count..)) +
 ```
 
 ### Age
-```{r}
+```{r, warning = FALSE}
 ggplot(df_wiki, aes(age, ..count..)) + 
   geom_histogram() + 
   labs(title = "Trump Prosecutors", x = "Age", y = "Count", fill = "") + 
@@ -206,6 +212,7 @@ ggplot(df_wiki, aes(age, ..count..)) +
 ```
 
 ## Merge wikidata with base
+We then merge these new covariates with the initial list of prosecutors so all the data is in one place
 ```{r, warning = FALSE}
 df_full <- dplyr::left_join(df, df_wiki, by = c('wikidata_id' = 'id'))
 
@@ -215,17 +222,22 @@ df_full <- df_full %>% dplyr::select(c("itemLabel", "district", "date_of_appoint
 ```
 
 ## Save
-Save this version of the data as a new sheet on the original googledoc
+Save this version of the data
 ```{r, message = FALSE}
 df_full <- write.csv(df_full, paste0(here::here(), "/data/", "prosecutors_base.csv"))
 ```
 
 # Employment
+When then repeat the process for employment data
+
 ## Load
-```{r}
-work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "prosecutors_employ",
-                                  col_types = "cccccnnnc")
+This section loads a spreadsheet where we have collected employment history on each personnel from bloomberg profiles, government webpages on each prosecutor, and their linkedin profiles. For law firms, data on ideology was collected from Bonica, Chilton, and Sen (https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2446&context=law_and_economics).
+```{r, warning = FALSE}
+#work <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                    sheet = "prosecutors_employ",
+#                                  col_types = "cccccnnnc")
+
+work <- read.csv(file = paste0(here::here(), '/data/raw/TrumpProsecutors - prosecutors_employ.csv'))
 
 work <- janitor::clean_names(work)
 ```
@@ -245,6 +257,7 @@ work$end_date[work$end_date == "Unknown"] <- NA
 ```
 
 ## Prep for network
+We are interested in whether any of these people had the same past employers. We look at any employer that more than one prosecutor worked at at any point in time
 ```{r}
 # Places of employment with the most unique attorneys
 work_count <- work %>% dplyr::select(attorney, employer) %>%
@@ -257,6 +270,7 @@ DT::datatable(work_count)
 ```
 
 ## Save
+Since the unit of analysis here is the prosecutor-employment as opposed to prosecutor, we save it as a separate dataset that will be merged in later
 ````{r}
 work <- work %>% dplyr::select(attorney, employer, firm_conservative_score, start_date, end_date)
 
@@ -264,16 +278,20 @@ work <- write.csv(work, paste0(here::here(), "/data/", "prosecutors_employment.c
 ```
 
 # School
+We repeat the process for educational history. The initial list of educational history was extracted from wikidata, but it does not tell us what degree the prosecutors got from each institution. We want to be able to distinguish law school from undergraduate education. We also add information about the ranking of each undergrad and law school and a measure of law school ideology from data collected by Bonica, Chilton, Rozema, and Sen (https://scholar.harvard.edu/files/msen/files/law-prof-ideology.pdf). Data on law school rankings was collected from Public Legal (https://www.ilrg.com/rankings/law/).
 ## Load
 ```{r}
-edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "prosecutors_edu",
-                                    col_types = "cccccnnncc")
+# edu <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                    sheet = "prosecutors_edu",
+#                                    col_types = "cccccnnncc")
+
+edu <- read.csv(file = paste0(here::here(), '/data/raw/TrumpProsecutors - prosecutors_edu.csv'))
 
 edu <- janitor::clean_names(edu)
 ```
 
 ## Clean
+We collapse all degree types to be bachelors, masters, and law degrees. There were no PhDs in the data
 ```{r}
 ## Collapse degrees
 sort(unique(edu$degree))
@@ -300,6 +318,7 @@ edu$undergrad_rank <- stringr::str_replace(edu$undergrad_rank, '\\*', '')
 ```
 
 ## Prep for network
+We want to know what prosecutors attended the same law schools, so we clean the data to allow that comparison
 ```{r}
 # Make wide
 edu_clean <- edu %>% dplyr::select(item_label, educated_at_label, degree) %>%
@@ -324,7 +343,8 @@ sort(unique(edu_all$law))
 ```
 
 ## Results
-```{r}
+From this, we can see the relationship between the ranking of law schools that prosecutors attended and their conservative ideology. We see a strong correlation here, meaning that as the law school ranking for US prosecutors decreases, the ideology of that law school becomes more conservative.
+```{r, warning = FALSE}
 DT::datatable(edu_all)
 
 GGally::ggpairs(edu_all[ , c('law_rank', 'law_conservative_score')], columnLabels = c("Law School Rank", "Law School Conservatism"))
@@ -336,21 +356,26 @@ edu <- write.csv(edu_all, paste0(here::here(), "/data/", "prosecutors_edu.csv"))
 ```
 
 # Memberships
+We then collected data on US prosecutor membership in various conservative organizations. The two primary organizations of interest are the Federalist Society and the Heritage Foundation. Additional information was collected on other organizations where the data was available.
 ## Load
 ```{r}
-memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
-                                    sheet = "prosecutors_memb")
+# memb <- googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hPOBOyTujUReQzpjZ9PqIhj23V5C74EygMnmXIi6BgI/edit?usp=sharing",
+#                                    sheet = "prosecutors_memb")
+
+memb <- read.csv(file = paste0(here::here(), '/data/raw/TrumpProsecutors - prosecutors_memb.csv'))
 
 memb <- janitor::clean_names(memb)
 ```
 
 ## Prep for network
+We organize the data so we can see overlapping memberships
 ```{r}
 # Make wide
 memb_clean <- memb %>% dplyr::select(district, attorney, political_affiliation, dplyr::ends_with("_tie"))
 ```
 
 ## Results
+We see a high amount of membership in conservative organizations. Of the 96 prosecutors in the data, roughly 1/3 have documented membership or affiliations with influential conservative organizations.
 ```{r}
 DT::datatable(memb_clean)
 
@@ -366,6 +391,7 @@ UpSetR::upset(memb_upset,
 ```
 
 # Final
+We load and merge all these portios of the data; demographic, employment, education, and membership, into a single dataset on US prosecutors
 ## Load all cleaned
 ```{r}
 # Load
