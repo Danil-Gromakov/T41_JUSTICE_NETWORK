@@ -26,7 +26,23 @@ This document produces some descriptive summary statistics of the new data colle
 # Load data
 ```{r}
 df <- read.csv(file = paste0(here::here(), '/data/all_noemploy.csv'))
-# df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
+df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
+```
+
+# Analyze data quality
+## Missingness
+```{r, fig.width = 16, fig.height = 16}
+visdat::vis_miss(df, sort_miss = TRUE)
+visdat::vis_dat(df)
+naniar::gg_miss_var(df)
+```
+
+## Covariate distributions
+```{r, fig.width = 16, fig.height = 16}
+DataExplorer::plot_qq(df)
+DT::datatable(funModeling::df_status(df))
+funModeling::plot_num(df)
+SmartEDA::ExpNumViz(df)
 ```
 
 # Law school rankings

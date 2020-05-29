@@ -225,37 +225,3 @@ We have 2 versions of the data. One where the appointee is the unit of analysis 
 write.csv(df, paste0(here::here(), "/data/", "all_withemploy.csv"))
 write.csv(df_noemploy, paste0(here::here(), "/data/", "all_noemploy.csv"))
 ```
-
-# Analyze data quality
-## Data Explorer
-```{r, fig.width = 16, fig.height = 16}
-DataExplorer::plot_qq(df_noemploy)
-```
-
-## dlookr
-```{r, fig.width = 12, fig.height = 16, warning=FALSE, error=FALSE}
-dlookr::plot_normality(df_noemploy)
-DT::datatable(dlookr::diagnose(df_noemploy))
-```
-
-## funModeling
-```{r, fig.width = 16, fig.height = 16}
-DT::datatable(funModeling::df_status(df_noemploy))
-funModeling::plot_num(df_noemploy)
-```
-
-## naniar
-```{r, fig.width = 16, fig.height = 8}
-naniar::gg_miss_var(df_noemploy)
-```
-
-## smartEDA
-```{r, fig.width = 16, fig.height = 16}
-SmartEDA::ExpNumViz(df_noemploy)
-```
-
-## visdat
-```{r, fig.width = 16, fig.height = 16}
-visdat::vis_miss(df_noemploy, sort_miss = TRUE)
-visdat::vis_dat(df_noemploy)
-```
