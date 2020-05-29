@@ -24,6 +24,7 @@ library(ggplot2)
 This document produces some descriptive summary statistics of the new data collected regarding US prosecutor and Department of Justice officials appointed during the Trump administration
 
 # Load data
+We use the aggregated and combined data on both DOJ officials and prosecutors here
 ```{r}
 df <- read.csv(file = paste0(here::here(), '/data/all_noemploy.csv'))
 df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
@@ -31,6 +32,7 @@ df_employ <- read.csv(file = paste0(here::here(), '/data/all_withemploy.csv'))
 
 # Analyze data quality
 ## Missingness
+We identify which columns are missing data. Much of the missingness is insignificant, since most personnel do not have doctorates or known membership in some of these societies. We do not convert these NAs to 0's because not finding information confirming their membership does not mean they were not members of these organizations
 ```{r, fig.width = 16, fig.height = 16}
 visdat::vis_miss(df, sort_miss = TRUE)
 visdat::vis_dat(df)
@@ -38,6 +40,7 @@ naniar::gg_miss_var(df)
 ```
 
 ## Covariate distributions
+We can examine distributions of the numeric variables to identify outliers or problems in data quality. Everything looks largely correct
 ```{r, fig.width = 16, fig.height = 16}
 DataExplorer::plot_qq(df)
 DT::datatable(funModeling::df_status(df))
