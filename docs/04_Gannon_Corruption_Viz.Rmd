@@ -68,21 +68,27 @@ df_law$trump <- 1
 
 school_all <- dplyr::left_join(school, df_law)
 school_all$school <- reorder(school_all$school, school_all$rank)
-school_all$trump[is.na(school_all$trump)] <- 0
 school_all$persons[is.na(school_all$persons)] <- 0
 school_all$trump <- as.factor(school_all$trump)
 school_all$labels <- school_all$school
 school_all$labels[school_all$trump == 0] <- NA
+school_all$rank[school_all$school == "Harvard University"] <- 2
+school_all$trump <- factor(school_all$trump, levels=c(levels(school_all$trump), 0))
+school_all$trump[is.na(school_all$trump)] <- 0
+
+gd <- school_all %>% dplyr::group_by(trump) %>%
+  dplyr::summarise(avg_rank = mean(rank, na.rm = TRUE),
+                   avg_score = mean(score_scaled, na.rm = TRUE))
 
 ggplot2::ggplot(school_all, aes(x = reorder(school, dplyr::desc(school)) , y = score_scaled, color = trump)) + 
   geom_point() + 
   coord_flip() + 
-#  scale_x_discrete(labels = school_all$labels) +
-  scale_color_manual(breaks = c("0", "1"), values = c("black", "red")) +
+  scale_x_discrete(breaks = c("Harvard University", "Whittier College"), labels = c("1", "200")) +
+  scale_y_continuous(breaks = c(-2, 0, 2), labels = c("Liberal", "Neutral", "Conservative")) +
+  scale_color_discrete(limits = c("1", "0"), labels = c("Trump appointee", "Not Trump appointee")) +
   theme_light() +
-  theme(axis.text.y = element_blank(), 
-        text = element_text(size = 14)) + 
-  guides(color = FALSE) +
+  theme(text = element_text(size = 14),
+        legend.position = "bottom", legend.direction = "horizontal", legend.title = element_blank()) + 
   labs(title = "Law School Ideology Bias in Trump Prosecutors", x = "Law Schools in Rank Order", y = "Liberal-Conservative Scale")
 ```
 
@@ -122,4 +128,31 @@ upset_all <- df %>% dplyr::select(dplyr::ends_with("_all")) %>%
 UpSetR::upset(upset_all,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
       mainbar.y.label = "Officials", order.by = "freq")
+```
+
+# Distributions
+We can plot the percent distribution of persons with associations in conservative law schools, firms, and organizations
+```{r}
+# Conservative bias
+conservative <- df %>% dplyr::select(dplyr::starts_with("connection_conservative")) %>%
+  dplyr::select(-c("connection_conservative_all", "connection_conservative_gov"))
+sumdata <- data.frame(value = apply(conservative, 2, sum))
+sumdata$key <- rownames(sumdata)
+
+ggplot(sumdata, aes(x = key, y = value, fill = key)) +
+  geom_bar(stat = "identity") +
+  scale_x_discrete(labels = c("Conservative Law Firm", "Conservative Membership", "Conservative Law School")) +
+  labs(title = "Number of Trump Officials with Questionable Histories", x = "History", y = "Number of Officials") +
+  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
+        text = element_text(size = 14),
+        axis.text.x = element_text(angle = 30, hjust = 1, vjust = 1),
+        legend.position = "none")
+
+# Low ranking law schools
+ggplot2::ggplot(df, aes(x = law_rank, y = ..count..)) +
+  geom_histogram() +
+  labs(title = "Trump Officials and Law School Ranking", x = "Law School Ranking", y = "Number of Officials") +
+  scale_x_continuous(breaks = c(1, 50, 100, 150, 200)) +
+  theme(plot.title = element_text(hjust = 0.5),panel.grid = element_blank(),
+        text = element_text(size = 14))
 ```

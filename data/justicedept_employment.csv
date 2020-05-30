@@ -169,7 +169,7 @@
 "168","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Family Revocable Trust 1",NA,NA,"Trustee",NA
 "169","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Federalist Society",NA,NA,"Chair of Environment and Property Rights Practice Group",NA
 "170","Justice","Assistant Attorney General for the Civil Rights Division","Eric S. Dreiband","Federalist Society",NA,NA,"Chair Regulatory Reform Project",NA
-"171","","","Jeffrey A. Rosen","Georgetown University Law Center",1996,2003,"Adjunct Professor",NA
+"171",NA,NA,"Jeffrey A. Rosen","Georgetown University Law Center",1996,2003,"Adjunct Professor",NA
 "172","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Georgetown University Law Center",NA,NA,"Adjunt Professor",NA
 "173","Justice","Attorney General","William P. Barr","Gte Corp",1997,2000,"Exec VP / General Counsel",NA
 "174","Justice","Attorney General","William P. Barr","Gte Corp",1994,1997,"Senior VP / General Counsel",NA
@@ -184,23 +184,23 @@
 "183","Justice","Deputy Attorney General","Rod J. Rosenstein","King & Spalding LLP",2020,NA,"Partner",-0.097
 "184","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","King & Spalding LLP",NA,1999,"Partner",-0.097
 "185","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2006,2010,"Associate",NA
-"186","","","Jeffrey A. Rosen","Kirkland & Ellis",1982,2003,"Attorney",-0.363
+"186",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",1982,2003,"Attorney",-0.363
 "187","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"I am a law firm partner at Kirkland & Ellis LLP LLP.",-0.363
 "188","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Legal services",-0.363
 "189","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"legal services",-0.363
 "190","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2017,NA,"Partner",-0.363
 "191","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","Kirkland & Ellis",2010,2017,"Partner",-0.363
 "192","Justice","Assistant Attorney General for the Criminal Division","Brian Allen Benczkowski","Kirkland & Ellis",NA,NA,"Partner",-0.363
-"193","","","Jeffrey A. Rosen","Kirkland & Ellis",NA,NA,"Partner",-0.363
+"193",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",NA,NA,"Partner",-0.363
 "194","Justice","Assistant Attorney General for the Environment and Natural Resources Division","Jeffrey Bossert Clark","Kirkland & Ellis",NA,NA,"Partner",-0.363
-"195","","","Jeffrey A. Rosen","Kirkland & Ellis",2009,2017,"Senior Partner",-0.363
+"195",NA,NA,"Jeffrey A. Rosen","Kirkland & Ellis",2009,2017,"Senior Partner",-0.363
 "196","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2017,2019,"Of Counsel",-0.363
 "197","Justice","Attorney General","William P. Barr","Kirkland & Ellis",2009,2009,"Of Counsel",-0.363
 "198","Justice","Attorney General","William P. Barr","Och-Ziff Capital Management Group LLC",2016,2018,"Board Member",NA
 "199","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of Legal Policy",2017,2018,"Senior Advisor",NA
 "200","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Attorney General",2017,2017,"Chief of Staff",NA
 "201","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2002,NA,"Director Federal Programs Branch",NA
-"202","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2001,2002,"",NA
+"202","Justice","Assistant Attorney General for the Civil Division","Joseph H. Hunt","Office of the United States Deputy Attorney General",2001,2002,NA,NA
 "203","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Patton Boggs LLP",1995,1998,"Associate",-0.279
 "204","Justice","Assistant Attorney General for the National Security Division","John C. Demers","Paulding LLC",NA,NA,"Agent",NA
 "205","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","Pepperdine University School of Law",2011,NA,"Adjunct Professor",NA
@@ -211,7 +211,7 @@
 "210","Justice","Attorney General","Jefferson B. Sessions","Stockman & Bedsole",NA,NA,"Attorney",NA
 "211","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2001,"Assistant Counsel to the President",NA
 "212","Justice","Principal Deputy Solicitor General","Noel Francisco","The White House",2001,2003,"Associate Counsel to the President",NA
-"213","","","Jeffrey A. Rosen","The White House",2006,2009,"General Counsel",NA
+"213",NA,NA,"Jeffrey A. Rosen","The White House",2006,2009,"General Counsel",NA
 "214","Justice","Attorney General","William P. Barr","The White House",1982,1983,"Staff",NA
 "215","Justice","Attorney General","William P. Barr","Time Warner Inc",2009,2018,"Board Member",NA
 "216","Justice","Attorney General","Jefferson B. Sessions","United States Army Reserve",1973,1986,"Captain",NA
@@ -224,7 +224,7 @@
 "223","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Court of Appeals for the Second Circuit",2004,2005,"Law Clerk",NA
 "224","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,2017,"Acting / Principal Deputy Solicitor General",NA
 "225","Justice","Attorney General","William P. Barr","United States Department of Justice",1991,1993,"Attorney General",NA
-"226","","","Stephen Boyd","United States Department of Justice",NA,NA,"Chief of Staff",NA
+"226",NA,NA,"Stephen Boyd","United States Department of Justice",NA,NA,"Chief of Staff",NA
 "227","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1993,1994,"Counsel",NA
 "228","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General",NA
 "229","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2003,2005,"Deputy Assistant Attorney General",NA
@@ -234,11 +234,11 @@
 "233","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",2001,2005,"Principal Deputy Assistant Attorney General",NA
 "234","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Department of Justice",2017,NA,"Senior Advisor",NA
 "235","Justice","Deputy Attorney General","Rod J. Rosenstein","United States Department of Justice",1994,1995,"Special Assistant",NA
-"236","","","Jeffrey A. Rosen","United States Department of Transportation",NA,2019,"Deputy Secretary",NA
-"237","","","Jeffrey A. Rosen","United States Department of Transportation",2003,2006,"General Counsel",NA
+"236",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",NA,2019,"Deputy Secretary",NA
+"237",NA,NA,"Jeffrey A. Rosen","United States Department of Transportation",2003,2006,"General Counsel",NA
 "238","Justice","Attorney General","William P. Barr","United States of America",1973,1977,"Assistant Legal Counsel",NA
 "239","Justice","Assistant Attorney General for the Antitrust Division","Makan Delrahim","United States Senate",2000,2003,"Chief of Staff",NA
-"240","","","Stephen Boyd","United States Senate",NA,NA,"Chief of Staff",NA
+"240",NA,NA,"Stephen Boyd","United States Senate",NA,NA,"Chief of Staff",NA
 "241","Justice","Attorney General","Jefferson B. Sessions","United States Senate",1997,2017,"Senator Alabama",NA
 "242","Justice","Assistant Attorney General for the Office of Legal Policy","Beth Ann Williams","United States Senate",2005,2006,"Special Counsel",NA
 "243","Justice","Principal Deputy Solicitor General","Noel Francisco","United States Supreme Court",1997,1998,"Law Clerk",NA

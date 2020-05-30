@@ -215,14 +215,14 @@ df_noemploy <- dplyr::left_join(final, df_noemploy)
 df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "source",
                 "date_of_appointment",
                 "date_of_birth", "age", "birthplace", "sex",
-                "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
                 "barr_appointment", "political_affiliation", 
+                "bachelors", "masters", "doctorate", "law", "law_conservative_score", "law_rank",
                 "connection_trump_all", "connection_trump_interviews", "connection_trump_campaign",
                 "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc",
                 "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov",
+                "federalist_society", "heritage_foundation", "american_center_for_law_and_justice", "christian_legal_society_bar_association",  "national_rifle_association_tie", "republican_national_lawyers_association_tie",
                 "connection_careerprofessional_all",
-                "connection_other_all",
-                "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
+                "connection_other_all")
 ```
 
 # Save

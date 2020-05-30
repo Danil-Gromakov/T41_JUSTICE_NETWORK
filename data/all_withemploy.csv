@@ -400,10 +400,10 @@
 "399","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"Robert F. McDonnell",NA,2017,NA,NA,NA,1,1,NA,NA
 "400","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"Jones Day LLP",NA,2017,NA,NA,NA,1,1,NA,NA
 "401","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"Historical Society of the District of Columbia",NA,2017,NA,NA,NA,1,1,NA,NA
-"402","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
-"403","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
-"404","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
-"405","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Federalist Society",NA,NA,NA,NA,NA,1,1,NA,NA
+"402","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
+"403","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
+"404","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",NA,NA,NA,NA,NA,1,1,NA,NA
+"405","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Federalist Society",NA,NA,NA,NA,NA,1,1,NA,NA
 "406","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",NA,2017,NA,NA,NA,1,1,NA,NA
 "407","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Facebook, Inc.",NA,2017,NA,NA,NA,1,1,NA,NA
 "408","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Avison Young",NA,2017,NA,NA,NA,1,1,NA,NA
@@ -529,9 +529,9 @@
 "528","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dominion Resources Inc",NA,2009,2017,NA,NA,NA,NA,NA,NA
 "529","John C. Demers","Assistant Attorney General for the National Security Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"F. & G. Family Irrevocable Trust",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "530","John C. Demers","Assistant Attorney General for the National Security Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Family Revocable Trust 1",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"531","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Federalist Society",NA,NA,NA,NA,NA,1,1,NA,NA
+"531","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Federalist Society",NA,NA,NA,NA,NA,1,1,NA,NA
 "532","Eric S. Dreiband","Assistant Attorney General for the Civil Rights Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Federalist Society",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"533","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Georgetown University Law Center",NA,1996,2003,NA,NA,NA,NA,NA,NA
+"533","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Georgetown University Law Center",NA,1996,2003,NA,NA,NA,NA,NA,NA
 "534","John C. Demers","Assistant Attorney General for the National Security Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Georgetown University Law Center",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "535","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Gte Corp",NA,1997,2000,NA,NA,NA,NA,NA,NA
 "536","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Gte Corp",NA,1994,1997,NA,NA,NA,NA,NA,NA
@@ -546,16 +546,16 @@
 "545","Rod J. Rosenstein","Deputy Attorney General","justicedept",NA,NA,NA,NA,NA,"University of Pennsylvania",NA,NA,"Harvard University",-0.816,1,NA,NA,"King & Spalding LLP",-0.097,2020,NA,NA,NA,1,1,NA,NA
 "546","Joseph H. Hunt","Assistant Attorney General for the Civil Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"King & Spalding LLP",-0.097,NA,1999,NA,NA,NA,NA,NA,NA
 "547","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",NA,2006,2010,NA,NA,1,1,NA,NA
-"548","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,1982,2003,NA,NA,NA,NA,NA,NA
-"549","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
+"548","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,1982,2003,NA,NA,NA,NA,NA,NA
+"549","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
 "550","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,2017,NA,NA,NA,1,1,NA,NA
-"551","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
+"551","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
 "552","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,2017,NA,NA,NA,1,1,NA,NA
 "553","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,2010,2017,NA,NA,1,1,NA,NA
 "554","Brian Allen Benczkowski","Assistant Attorney General for the Criminal Division","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,NA,NA,NA,NA
-"555","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,NA,NA,NA,NA
-"556","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University ","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
-"557","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,2009,2017,NA,NA,NA,NA,NA,NA
+"555","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,NA,NA,NA,NA
+"556","Jeffrey Bossert Clark","Assistant Attorney General for the Environment and Natural Resources Division","justicedept",NA,NA,NA,NA,NA,"Harvard University","University of Delaware",NA,"Georgetown University",-0.821,15,NA,NA,"Kirkland & Ellis",-0.363,NA,NA,NA,NA,1,1,NA,NA
+"557","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"Kirkland & Ellis",-0.363,2009,2017,NA,NA,NA,NA,NA,NA
 "558","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Kirkland & Ellis",-0.363,2017,2019,NA,NA,NA,NA,NA,NA
 "559","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Kirkland & Ellis",-0.363,2009,2009,NA,NA,NA,NA,NA,NA
 "560","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Och-Ziff Capital Management Group LLC",NA,2016,2018,NA,NA,NA,NA,NA,NA
@@ -573,7 +573,7 @@
 "572","Jefferson B. Sessions","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Stockman & Bedsole",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "573","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"The White House",NA,2001,2001,NA,NA,1,1,NA,NA
 "574","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"The White House",NA,2001,2003,NA,NA,1,1,NA,NA
-"575","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"The White House",NA,2006,2009,NA,NA,NA,NA,NA,NA
+"575","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"The White House",NA,2006,2009,NA,NA,NA,NA,NA,NA
 "576","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"The White House",NA,1982,1983,NA,NA,NA,NA,NA,NA
 "577","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Time Warner Inc",NA,2009,2018,NA,NA,NA,NA,NA,NA
 "578","Jefferson B. Sessions","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"United States Army Reserve",NA,1973,1986,NA,NA,NA,NA,NA,NA
@@ -586,7 +586,7 @@
 "585","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Court of Appeals for the Second Circuit",NA,2004,2005,NA,NA,1,1,NA,NA
 "586","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"United States Department of Justice",NA,2017,2017,NA,NA,1,1,NA,NA
 "587","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"United States Department of Justice",NA,1991,1993,NA,NA,NA,NA,NA,NA
-"588","Stephen Boyd","","justicedept",NA,NA,NA,NA,NA,"University of Alabama",NA,NA,"University of Alabama",0.066,24,NA,NA,"United States Department of Justice",NA,NA,NA,NA,NA,1,NA,NA,NA
+"588","Stephen Boyd",NA,"justicedept",NA,NA,NA,NA,NA,"University of Alabama",NA,NA,"University of Alabama",0.066,24,NA,NA,"United States Department of Justice",NA,NA,NA,NA,NA,1,NA,NA,NA
 "589","Rod J. Rosenstein","Deputy Attorney General","justicedept",NA,NA,NA,NA,NA,"University of Pennsylvania",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Justice",NA,1993,1994,NA,NA,1,1,NA,NA
 "590","Makan Delrahim","Assistant Attorney General for the Antitrust Division","justicedept",NA,NA,NA,NA,NA,"University of California Los Angeles","John Hopkins University",NA,"George Washington University",-0.841,21,NA,NA,"United States Department of Justice",NA,2003,2005,NA,NA,1,NA,NA,NA
 "591","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"United States Department of Justice",NA,2003,2005,NA,NA,1,1,NA,NA
@@ -596,11 +596,11 @@
 "595","Rod J. Rosenstein","Deputy Attorney General","justicedept",NA,NA,NA,NA,NA,"University of Pennsylvania",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Justice",NA,2001,2005,NA,NA,1,1,NA,NA
 "596","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"United States Department of Justice",NA,2017,NA,NA,NA,1,1,NA,NA
 "597","Rod J. Rosenstein","Deputy Attorney General","justicedept",NA,NA,NA,NA,NA,"University of Pennsylvania",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Justice",NA,1994,1995,NA,NA,1,1,NA,NA
-"598","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Transportation",NA,NA,2019,NA,NA,NA,NA,NA,NA
-"599","Jeffrey A. Rosen","","justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Transportation",NA,2003,2006,NA,NA,NA,NA,NA,NA
+"598","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Transportation",NA,NA,2019,NA,NA,NA,NA,NA,NA
+"599","Jeffrey A. Rosen",NA,"justicedept",NA,NA,NA,NA,NA,"Northwestern University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Department of Transportation",NA,2003,2006,NA,NA,NA,NA,NA,NA
 "600","William P. Barr","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"United States of America",NA,1973,1977,NA,NA,NA,NA,NA,NA
 "601","Makan Delrahim","Assistant Attorney General for the Antitrust Division","justicedept",NA,NA,NA,NA,NA,"University of California Los Angeles","John Hopkins University",NA,"George Washington University",-0.841,21,NA,NA,"United States Senate",NA,2000,2003,NA,NA,1,NA,NA,NA
-"602","Stephen Boyd","","justicedept",NA,NA,NA,NA,NA,"University of Alabama",NA,NA,"University of Alabama",0.066,24,NA,NA,"United States Senate",NA,NA,NA,NA,NA,1,NA,NA,NA
+"602","Stephen Boyd",NA,"justicedept",NA,NA,NA,NA,NA,"University of Alabama",NA,NA,"University of Alabama",0.066,24,NA,NA,"United States Senate",NA,NA,NA,NA,NA,1,NA,NA,NA
 "603","Jefferson B. Sessions","Attorney General","justicedept",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"United States Senate",NA,1997,2017,NA,NA,NA,NA,NA,NA
 "604","Beth Ann Williams","Assistant Attorney General for the Office of Legal Policy","justicedept",NA,NA,NA,NA,NA,"Harvard University",NA,NA,"Harvard University",-0.816,1,NA,NA,"United States Senate",NA,2005,2006,NA,NA,1,1,NA,NA
 "605","Noel Francisco","Principal Deputy Solicitor General","justicedept",NA,NA,NA,NA,NA,"University of Chicago",NA,NA,"University of Chicago",-0.833,4,NA,NA,"United States Supreme Court",NA,1997,1998,NA,NA,1,1,NA,NA
