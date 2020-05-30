@@ -222,7 +222,18 @@ df_noemploy <- df_noemploy %>% dplyr::select("person", "position_current", "sour
                 "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov",
                 "federalist_society", "heritage_foundation", "american_center_for_law_and_justice", "christian_legal_society_bar_association",  "national_rifle_association_tie", "republican_national_lawyers_association_tie",
                 "connection_careerprofessional_all",
+<<<<<<< HEAD
                 "connection_other_all")
+=======
+                "connection_other_all",
+                "american_center_for_law_and_justice", "christian_legal_society_bar_association", "federalist_society", "heritage_foundation", "national_rifle_association_tie", "republican_national_lawyers_association_tie")
+<<<<<<< HEAD
+
+# Fix NAs that should be 0's
+df_noemploy[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_trumpally_rnc", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")][is.na(df_noemploy[c("connection_trump_all", "connection_trump_interviews", "connection_trump_campaign", "connection_trumpally_all", "connection_trumpally_innercircle", "connection_trumpally_rnc", "connection_trumpally_us_senate", "connection_trumpally_state_gov", "connection_conservative_all", "connection_conservative_lawschool", "connection_conservative_firm", "connection_conservative_group", "connection_conservative_gov", "connection_careerprofessional_all", "connection_other_all")])] <- 0
+=======
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
+>>>>>>> 14b234190399f01bdd7011f398febe6bc4241f77
 ```
 
 # Save

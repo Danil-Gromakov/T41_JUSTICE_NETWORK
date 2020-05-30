@@ -103,6 +103,8 @@ UpSetR::upset(upset_trump,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
       mainbar.y.label = "Officials", order.by = "freq")
 
+<<<<<<< HEAD
+=======
 # Trump ally ties
 upset_trumpally <- df %>% dplyr::select(dplyr::starts_with("connection_trumpally_")) %>%
   dplyr::select(-c("connection_trumpally_all")) %>%
@@ -112,6 +114,7 @@ UpSetR::upset(upset_trumpally,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
       mainbar.y.label = "Officials", order.by = "freq")
 
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
 # Conservative group ties
 upset_conservative <- df %>% dplyr::select(dplyr::starts_with("connection_conservative_")) %>%
   dplyr::select(-c("connection_conservative_all")) %>%
@@ -123,7 +126,11 @@ UpSetR::upset(upset_conservative,
 
 # All ties
 upset_all <- df %>% dplyr::select(dplyr::ends_with("_all")) %>%
+<<<<<<< HEAD
+  dplyr::rename("Trump direct" = connection_trump_all, "Trump allies" = connection_trumpally_all, "Conservative background" = connection_conservative_all, "Carrer Professional" = connection_careerprofessional_all, "Other" = connection_other_all)
+=======
   dplyr::rename("Trump connections" = connection_trump_all, "Trump allies" = connection_trumpally_all, "Conservative background" = connection_conservative_all, "Carrer Professional" = connection_careerprofessional_all, "Other" = connection_other_all)
+>>>>>>> b30f278ec2d9c801478220f5ab3cb1948a0bc43d
 
 UpSetR::upset(upset_all,
       number.angles = 0, point.size = 3.5, line.size = 2, text.scale = 2,
